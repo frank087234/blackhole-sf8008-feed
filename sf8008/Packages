@@ -63,8 +63,8 @@ Version: 3.0.14-r0
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44a9b3ba697c41f776556314ab242002
-Size: 3808
+MD5Sum: 2b68c274918f85fb143402e74c76fe76
+Size: 3872
 Filename: base-files_3.0.14-r0_sf8008.ipk
 Source: base-files_3.0.14.bb
 Description: Miscellaneous files for the base system
@@ -77,8 +77,8 @@ Version: 1.0-r0
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db99c34c9e6ddad3a17df96e94224087
-Size: 868
+MD5Sum: f36c3827d1aa3e905f63c9dd8cdae762
+Size: 846
 Filename: blackhole-feed-config_1.0-r0_sf8008.ipk
 Source: blackhole-feed-config_1.0.bb
 Description: BlackHole SF8008 opkg feed configuration
@@ -91,7 +91,7 @@ Version: 1.0-r0
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 576f82b92bcdd1ec67f20adffc48dd32
+MD5Sum: e88874bd2bc4c27d3e2c0a3d8e407d8e
 Size: 844
 Filename: distro-feed-configs_1.0-r0_sf8008.ipk
 Source: distro-feed-configs.bb
@@ -101,15 +101,15 @@ License: MIT
 Priority: optional
 
 Package: enigma-info
-Version: GCC-16.1-r0
+Version: 13.2-py314-r0
 Replaces: enigma-kernel-module
 Conflicts: enigma-kernel-module
 Section: base
 Architecture: sf8008
 Maintainer: oe-alliance team
-MD5Sum: 369159d3e922567d9a0d594e202e2c07
-Size: 1296
-Filename: enigma-info_GCC-16.1-r0_sf8008.ipk
+MD5Sum: 42bef7861d79d96f8886b7a86a31b697
+Size: 1302
+Filename: enigma-info_13.2-py314-r0_sf8008.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
 OE: enigma-info
@@ -11561,8 +11561,8 @@ Depends: libc6 (>= 2.43+git0+e9517114ac)
 Section: base
 Architecture: sf8008
 Maintainer: oe-alliance team
-MD5Sum: 7bcc3e2552a5179725203560715ab3cc
-Size: 570678
+MD5Sum: 2ca94888b919844dc5d36195c272ae80
+Size: 570688
 Filename: oe-alliance-branding_git1168+d16feff0+d16feffca1-r0_sf8008.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version git-r0

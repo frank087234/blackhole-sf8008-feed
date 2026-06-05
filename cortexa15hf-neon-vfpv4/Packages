@@ -2716,6 +2716,34 @@ OE: blackhole-base-userland
 License: CLOSED
 Priority: optional
 
+Package: blackhole-bootlogo
+Version: 13.2-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef9cd86d4ec9c4a2693db949bf0de2c6
+Size: 97846
+Filename: blackhole-bootlogo_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-bootlogo_13.2.bb
+Description: BlackHole bootlogo files
+OE: blackhole-bootlogo
+License: CLOSED
+Priority: optional
+
+Package: blackhole-defaultskin
+Version: 13.2-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0da2a0359d17978ac99222eaba422b16
+Size: 17699840
+Filename: blackhole-defaultskin_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-defaultskin_13.2.bb
+Description: BlackHole iFlatFHD default skin
+OE: blackhole-defaultskin
+License: CLOSED
+Priority: optional
+
 Package: blackhole-pyc-userland
 Version: 13.1-r0
 Section: base
