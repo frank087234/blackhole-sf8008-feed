@@ -328,6 +328,21 @@ HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-enigmawelt
+Version: 1.4.5-r0
+Section: base
+Architecture: all
+Maintainer: enigmawelt jbleyel CommanderData2338
+MD5Sum: b79c2baf0e36d3924abd04b7de17500e
+Size: 347454
+Filename: enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all.ipk
+Source: enigma2-plugin-extensions-enigmawelt.bb
+Description: The biggest DreamOS/Enigma2 Video Blog
+OE: enigma2-plugin-extensions-enigmawelt
+HomePage: https://enigmawelt.de
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-epgimport-sources
 Version: git169+be97e010+be97e01a29-r0
 Replaces: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
@@ -371,6 +386,35 @@ Filename: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0
 Source: enigma2-plugin-extensions-lamedbmerger.bb
 Description: enigma2-plugin-extensions-lamedbmerger version 1.0+git-r0
 OE: enigma2-plugin-extensions-lamedbmerger
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-movieorganisor
+Version: V3.99-git15+e24a88c0+e24a88cd25-r0
+Depends: python3-core
+Section: base
+Architecture: all
+Maintainer: TwolDE2
+MD5Sum: 27a977be9ffafd2c4a99a59f856367ad
+Size: 17942
+Filename: enigma2-plugin-extensions-movieorganisor_V3.99-git15+e24a88c0+e24a88cd25-r0_all.ipk
+Source: enigma2-plugin-extensions-movieorganisor.bb
+Description: Movie Organiser plugin by Grog68
+OE: enigma2-plugin-extensions-movieorganisor
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-oscamsmartcard
+Version: 2.4+git113+cb6b4c20+cb6b4c2f78-r0
+Section: base
+Architecture: all
+Maintainer: undertaker
+MD5Sum: db02ef3a0586e8c7df0b17e0ca750e32
+Size: 894276
+Filename: enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4c2f78-r0_all.ipk
+Source: enigma2-plugin-extensions-oscamsmartcard.bb
+Description: OscamSmartcard
+OE: enigma2-plugin-extensions-oscamsmartcard
 License: GPL-2.0-only
 Priority: optional
 
@@ -576,6 +620,35 @@ Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-remotecontrolselection
+Version: 1.0+git22+2bb40440+2bb40447d6-r0
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: efabd9e2d8875ea51d6b1d8384ec1d15
+Size: 9574
+Filename: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all.ipk
+Source: enigma2-plugin-systemplugins-remotecontrolselection.bb
+Description: enigma2-plugin-systemplugins-remotecontrolselection version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-remotecontrolselection
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-terrestrialbouquet
+Version: 1.0+git11+564df070+564df07777-r0
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: 29d7c21e7e2fd56f6e767c559f5d099a
+Size: 11488
+Filename: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all.ipk
+Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
+Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-terrestrialbouquet
+HomePage: https://github.com/Huevos/TerrestrialBouquet
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wanip
