@@ -355,7 +355,7 @@
 1780681783 enigma2-plugin-extensions-youtube-dev_1+git1330+87440b50+87440b5731-r0_cortexa15hf-neon-vfpv4.ipk
 1780681783 enigma2-plugin-extensions-youtube-src_1+git1330+87440b50+87440b5731-r0_cortexa15hf-neon-vfpv4.ipk
 1780682337 enigma2-plugin-extensions-youtube_1+git1330+87440b50+87440b5731-r0_cortexa15hf-neon-vfpv4.ipk
-1780647958 enigma2-plugin-softcams-ncam_git10895+78270c90+78270c9682-r0_cortexa15hf-neon-vfpv4.ipk
+1780726284 enigma2-plugin-softcams-ncam_git10895+78270c90+78270c9682-r0_cortexa15hf-neon-vfpv4.ipk
 1780682368 enigma2-plugin-systemplugins-networkbrowser_git82+bf41daa0+bf41daa472-r0_cortexa15hf-neon-vfpv4.ipk
 1780682367 enigma2-plugin-systemplugins-vps_git82+bf41daa0+bf41daa472-r0_cortexa15hf-neon-vfpv4.ipk
 1780681783 enigma2-remote-dbg_git140+010cb240+010cb248d2-r0_cortexa15hf-neon-vfpv4.ipk
@@ -6231,3 +6231,5 @@
 1780681783 blackhole-defaultskin-dbg_13.2-r0_cortexa15hf-neon-vfpv4.ipk
 1780681783 blackhole-defaultskin-dev_13.2-r0_cortexa15hf-neon-vfpv4.ipk
 1780682378 blackhole-defaultskin_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+1780734766 enigma2-plugin-extensions-e2iplayer-deps_1.0+git9+2adf2670+2adf267a1c-r2_cortexa15hf-neon-vfpv4.ipk
+1780734766 enigma2-plugin-extensions-e2iplayer_2026.06.04.01-git5562+92208fe0+92208fec09-r0_cortexa15hf-neon-vfpv4.ipk
