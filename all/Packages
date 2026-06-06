@@ -444,6 +444,21 @@ OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-vavoo
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer, python3-requests, python3-six
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 3e0a588111850ad20b4a49c996f3491d
+Size: 9518314
+Filename: enigma2-plugin-extensions-vavoo_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
+
 Package: enigma2-plugin-extensions-xklass
 Version: 1.80-20260325-r1
 Depends: python3-pillow, python3-requests, wget
