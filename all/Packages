@@ -58,6 +58,18 @@ HomePage: http://www.gnu.org/software/autoconf-archive/
 License: GPL-3.0-with-autoconf-exception
 Priority: optional
 
+Package: bhweather
+Version: V0.9
+Section: base
+Architecture: all
+Maintainer: Meo <lupomeo@gmail.com>, RAED <rrrr53@hotmail.com>
+MD5Sum: f8b1d95f29d030d6072b29449813268e
+Size: 2531894
+Filename: bhweather_V0.9_all.ipk
+Description: bhweather version 2.0 By meo, Mod By RAED Support FULL HD Skin + Python3
+License: CLOSED
+Priority: optional
+
 Package: ca-certificates-doc
 Version: 20260223-r0
 Section: doc
