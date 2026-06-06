@@ -4400,6 +4400,23 @@ OE: enigma2-binary-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 0.5+git217+95e5a4f0+95e5a4f41d-r1
+Depends: enigma2, exteplayer3, gstplayer, gstplayer2, libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libgcc1 (>= 16.1.0), libssl4 (>= 4.0.0), libstdc++6 (>= 16.1.0), openssl, python3-json, uchardet (>= 0.0.8)
+Replaces: enigma2-plugin-extensions-serviceapp
+Conflicts: enigma2-plugin-extensions-serviceapp
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31c11118876e6fdc43084fa328d6edaf
+Size: 233096
+Filename: enigma2-plugin-systemplugins-serviceapp_0.5+git217+95e5a4f0+95e5a4f41d-r1_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 0.5+git-r1
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-vps
 Version: git82+bf41daa0+bf41daa472-r0
 Depends: enigma2-binary-plugins, libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
@@ -4542,6 +4559,21 @@ Source: exfatprogs_1.2.6.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
+License: GPL-2.0-only
+Priority: optional
+
+Package: exteplayer3
+Version: 181+git146+c2920350+c292035754-r0
+Depends: bzip2, ffmpeg-ext-libs (>= 6.1.1), libbluray, libc6 (>= 2.43+git0+e9517114ac), liblzma, libudfread, libxml2, openssl, zlib
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 216d82de08430c9539eec79bdc37b148
+Size: 155504
+Filename: exteplayer3_181+git146+c2920350+c292035754-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exteplayer3.bb
+Description: exteplayer3 - media player for E2
+OE: exteplayer3
 License: GPL-2.0-only
 Priority: optional
 
@@ -29365,6 +29397,21 @@ Source: gptfdisk_1.0.10.bb
 Description: Utility for modifying GPT disk partitioning
 OE: gptfdisk
 HomePage: https://sourceforge.net/projects/gptfdisk/
+License: GPL-2.0-only
+Priority: optional
+
+Package: gstplayer
+Version: 0.1-r0
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+e9517114ac), libglib-2.0-0 (>= 2.88.0), libgstaudio-1.0-0 (>= 1.28.3), libgstpbutils-1.0-0 (>= 1.28.3), libgstvideo-1.0-0 (>= 1.28.3)
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ee2b82fe14a3cba2bafeab692e247e3
+Size: 16162
+Filename: gstplayer_0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: gstplayer_0.1.bb
+Description: gstplayer version 0.1-r0
+OE: gstplayer
 License: GPL-2.0-only
 Priority: optional
 
