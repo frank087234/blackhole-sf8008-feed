@@ -48,7 +48,7 @@
 1780681783 enigma2-plugin-drivers-network-usb-zd1211rw-dbg_1.0-r0_all.ipk
 1780681783 enigma2-plugin-drivers-network-usb-zd1211rw-dev_1.0-r0_all.ipk
 1780682330 enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all.ipk
-1780682330 enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all.ipk
+1780730121 enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all.ipk
 1780682330 enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all.ipk
 1780681783 enigma2-plugin-skins-pli-hd-dbg_0.1+git67+fc35f170+fc35f1791c-r0_all.ipk
 1780681783 enigma2-plugin-skins-pli-hd-dev_0.1+git67+fc35f170+fc35f1791c-r0_all.ipk
@@ -126,3 +126,11 @@
 1780681783 tuxbox-common-dbg_2+git1421+914552f0+914552f872-3_all.ipk
 1780681783 tuxbox-common-dev_2+git1421+914552f0+914552f872-3_all.ipk
 1780682330 tuxbox-common_2+git1421+914552f0+914552f872-3_all.ipk
+1780730121 enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all.ipk
+1780730121 enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
+1780730121 enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
+1780730121 enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all.ipk
+1780730121 enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all.ipk
+1780730121 enigma2-plugin-extensions-xklass_1.80-20260325-r1_all.ipk
+1780730121 enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all.ipk
+1780730121 enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all.ipk

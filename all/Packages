@@ -299,6 +299,35 @@ OE: enigma2-plugin-drivers-network-usb-zd1211rw
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-bouquetcleanup
+Version: 1.0+git5+aac1ba90+aac1ba982f-r0
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: 4fa34c9c520846f0a9102b7b2cd99f64
+Size: 11016
+Filename: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetcleanup.bb
+Description: enigma2-plugin-extensions-bouquetcleanup version 1.0+git-r0
+OE: enigma2-plugin-extensions-bouquetcleanup
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2piconizer
+Version: 1.28-20250517-git64+50022390+50022393f1-r0
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: b7288a31695dd8a6d7fa0e6de4e6fd61
+Size: 1377376
+Filename: enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
+Source: enigma2-plugin-extensions-e2piconizer.bb
+Description: enigma2-plugin-extensions-e2piconizer version git-r0
+OE: enigma2-plugin-extensions-e2piconizer
+HomePage: https://github.com/kiddac/E2_Piconizer
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-epgimport-sources
 Version: git169+be97e010+be97e01a29-r0
 Replaces: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
@@ -312,6 +341,66 @@ Filename: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29
 Source: enigma2-plugin-extensions-epgimport-sources.bb
 Description: enigma2-plugin-extensions-epgimport-sources version git-r0
 OE: enigma2-plugin-extensions-epgimport-sources
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptv-org-playlists
+Version: 1.0+git10+4d0456a0+4d0456a218-r0
+Depends: python3-requests
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: e575bc9d73ca0fd0edd44e35c5cce18d
+Size: 24310
+Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
+Source: enigma2-plugin-extensions-iptv-org-playlists.bb
+Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0
+OE: enigma2-plugin-extensions-iptv-org-playlists
+HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-lamedbmerger
+Version: 1.0+git7+16be3870+16be387903-r0
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: c7d600754255d49cd93114d12991eee4
+Size: 14696
+Filename: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all.ipk
+Source: enigma2-plugin-extensions-lamedbmerger.bb
+Description: enigma2-plugin-extensions-lamedbmerger version 1.0+git-r0
+OE: enigma2-plugin-extensions-lamedbmerger
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-piconsmissing
+Version: 1.0+git25+d0a984b0+d0a984b6f1-r0
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: 62f1acfa8b8aa305672170b5db0e4caf
+Size: 19846
+Filename: enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all.ipk
+Source: enigma2-plugin-extensions-piconsmissing.bb
+Description: enigma2-plugin-extensions-piconsmissing version 1.0+git-r0
+OE: enigma2-plugin-extensions-piconsmissing
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-xklass
+Version: 1.80-20260325-r1
+Depends: python3-pillow, python3-requests, wget
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: ea4c462cb3b8765c151802dbfa847842
+Size: 6110422
+Filename: enigma2-plugin-extensions-xklass_1.80-20260325-r1_all.ipk
+Source: enigma2-plugin-extensions-xklass.bb
+Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
+OE: enigma2-plugin-extensions-xklass
+HomePage: https://www.linuxsat-support.com
 License: GPL-2.0-only
 Priority: optional
 
@@ -356,6 +445,38 @@ Source: enigma2-plugin-softcams-oscam-whitelist.bb
 Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0
 OE: enigma2-plugin-softcams-oscam-whitelist
 License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-m3uiptv
+Version: 1.0+git490+5bc4edf0+5bc4edf706-r0
+Depends: python3-core, python3-multiprocessing, python3-requests, python3-zoneinfo
+Recommends: enigma2-plugin-extensions-tmbd
+Section: base
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 064236d20d692bd96f5096613b2f1be6
+Size: 298394
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all.ipk
+Source: enigma2-plugin-systemplugins-m3uiptv.bb
+Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-m3uiptv
+HomePage: https://github.com/DimitarCC
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wanip
+Version: 1.0+git4+e4902be0+e4902befe9-r0
+Depends: python3-requests
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: 31aa4ec48e46ac239fec45b33c20e15d
+Size: 3346
+Filename: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-wanip.bb
+Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-wanip
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-timezones
