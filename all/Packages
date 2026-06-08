@@ -517,21 +517,6 @@ OE: enigma2-plugin-skins-aglare
 License: GPL-2.0-only
 Priority: required
 
-Package: enigma2-plugin-skins-brio-std-fhd
-Version: 1.1-r0
-Depends: enigma2
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee1b181cd56fb785cab7a72fe5d22d59
-Size: 1726772
-Filename: enigma2-plugin-skins-brio-std-fhd_1.1-r0_all.ipk
-Source: enigma2-plugin-skins-brio-std-fhd_1.1.bb
-Description: Classic BlackHole Brio STD FHD skin
-OE: enigma2-plugin-skins-brio-std-fhd
-License: CLOSED
-Priority: optional
-
 Package: enigma2-plugin-skins-e2darkos
 Version: 1.1+git294+db1cdec0+db1cdec969-r0
 Recommends: enigma2-boxlogos
