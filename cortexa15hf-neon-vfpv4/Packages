@@ -81970,6 +81970,21 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-uritemplate
+Version: 4.2.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7569a9a2772de7aa702a8880e43c0c1b
+Size: 27036
+Filename: python3-uritemplate_4.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-uritemplate_4.2.0.bb
+Description: Simple python library to deal with URI Templates.
+OE: python3-uritemplate
+License: Apache-2.0 | BSD-3-Clause
+Priority: optional
+
 Package: python3-urllib3-doc
 Version: 2.7.0-r0
 Section: doc
