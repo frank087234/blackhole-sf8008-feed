@@ -2735,6 +2735,23 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-88x2cu-4.4.35
+Version: 1.0-r0
+Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
+Provides: kernel-module-88x2cu
+Section: kernel/modules
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12253a8706af3daf1f9f2563e49c440c
+Size: 1307814
+Filename: kernel-module-88x2cu-4.4.35_1.0-r0_sf8008.ipk
+Source: rt8822cu.bb
+Description: 88x2cu kernel module
+OE: rt8822cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-a8293-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
