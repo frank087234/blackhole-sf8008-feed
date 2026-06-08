@@ -508,8 +508,8 @@ Depends: enigma2
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8bf4228624f9f9fdf1f984902f7f7f7d
-Size: 1726548
+MD5Sum: 8dd3a0dd3c365adcf0331e362209f8e9
+Size: 1726800
 Filename: enigma2-plugin-skins-brio-std-fhd_1.0-r0_all.ipk
 Source: enigma2-plugin-skins-brio-std-fhd_1.0.bb
 Description: Classic BlackHole Brio STD FHD skin

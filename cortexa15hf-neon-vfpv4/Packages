@@ -4308,6 +4308,21 @@ OE: enigma2-binary-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-mytube
+Version: 1.0-r0
+Depends: enigma2, python3-core, python3-google-api-python-client, python3-html, python3-json, python3-misc
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5dbbd9ef44e47e0e554608639657f84
+Size: 612972
+Filename: enigma2-plugin-extensions-mytube_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-mytube.bb
+Description: MyTube - YouTube client for Enigma2
+OE: enigma2-plugin-extensions-mytube
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-oscamstatus
 Version: 1.0+git55+0004ed50+0004ed50f7-r0
 Depends: python3-core
