@@ -6237,3 +6237,7 @@
 1780915196 exteplayer3_181+git146+c2920350+c292035754-r0_cortexa15hf-neon-vfpv4.ipk
 1780915198 gstplayer_0.1-r0_cortexa15hf-neon-vfpv4.ipk
 1780915209 enigma2-plugin-extensions-mytube_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+1780945524 python3-google-api-core_2.19.1-r0_cortexa15hf-neon-vfpv4.ipk
+1780945524 python3-google-api-python-client_2.136.0-r0_cortexa15hf-neon-vfpv4.ipk
+1780945524 python3-googleapis-common-protos_1.63.2-r0_cortexa15hf-neon-vfpv4.ipk
+1780945524 python3-grpcio_1.78.0-r0_cortexa15hf-neon-vfpv4.ipk
