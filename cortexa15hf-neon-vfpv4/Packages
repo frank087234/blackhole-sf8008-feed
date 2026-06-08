@@ -79880,6 +79880,22 @@ HomePage: https://github.com/googleapis/google-api-python-client
 License: Apache-2.0
 Priority: optional
 
+Package: python3-google-auth
+Version: 2.52.0-r0
+Depends: python3-cachetools, python3-core, python3-json, python3-pyasn1-modules, python3-rsa
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 27e1bdf85c85f9d811f7d675bd9b0b30
+Size: 399730
+Filename: python3-google-auth_2.52.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-google-auth_2.52.0.bb
+Description: python3-google-auth version 2.52.0-r0
+OE: python3-google-auth
+HomePage: https://github.com/googleapis/google-auth-library-python
+License: Apache-2.0
+Priority: optional
+
 Package: python3-googleapis-common-protos
 Version: 1.63.2-r0
 Depends: python3-core, python3-grpcio, python3-protobuf
@@ -79926,6 +79942,22 @@ Description: Python HTML processing support
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-httplib2
+Version: 0.18.1-r0
+Depends: ca-certificates, python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ed10a126c969d75b82bf273a938927f
+Size: 49112
+Filename: python3-httplib2_0.18.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-httplib2_0.18.1.bb
+Description: python3-httplib2 version 0.18.1-r0
+OE: python3-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
 Priority: optional
 
 Package: python3-hyperlink-doc
