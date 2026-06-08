@@ -281,6 +281,21 @@ OE: enigma2-plugin-drivers-network-usb-rtl8812au
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-drivers-network-usb-rtl8822cu
+Version: 1.0-r0
+Recommends: rt8822cu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b1db1a581a35e3f84ff9609baa254d48
+Size: 568
+Filename: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822cu.bb
+Description: WiFi devices for Realtek 88x2CU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8822cu
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-drivers-network-usb-rtl8852cu
 Version: 1.0-r0
 Recommends: rtl8852cu
