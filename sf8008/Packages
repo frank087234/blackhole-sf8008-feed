@@ -2483,7 +2483,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.3), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.43+git0+e9517114ac), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.0.0), libcurl4 (>= 8.19.0), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.1.0), libgif7 (>= 6.1.2), libglib-2.0-0 (>= 2.88.0), libgomp1 (>= 16.1.0), libgstpbutils-1.0-0 (>= 1.28.3), libjpeg62 (>= 3.1.4.1), libpng16-16 (>= 1.6.58), libpython3.14-1.0 (>= 3.14.5), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.0.0), libstdc++6 (>= 16.1.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.3), network-usb-drivers-meta, oe-alliance-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
@@ -2491,9 +2491,9 @@ Recommends: enigma2-plugin-skins-pli-hd, glibc-gconv-utf-16, gstreamer1.0-plugin
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 891c38f160c0c31e5b3354bf874506ff
-Size: 6648260
-Filename: enigma2_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: c22d1bc8b251a453a0c0e2fb01df0dc7
+Size: 6648494
+Filename: enigma2_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
