@@ -1,0 +1,277 @@
+Package: blackhole-base-userland-dbg
+Version: 13.1-r0
+Recommends: glibc-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: baecdfabc849057336c690b8d0ac3730
+Size: 634
+Filename: blackhole-base-userland-dbg_13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-base-userland_13.1.bb
+Description: Safe BlackHole base scripts and helper files - Debugging files
+OE: blackhole-base-userland
+License: CLOSED
+Priority: optional
+
+Package: blackhole-base-userland-dev
+Version: 13.1-r0
+Recommends: blackhole-base-userland (= 13.1-r0), glibc-dev, libstdc++-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e67e180a90a1bc0033e4b45d9a14789d
+Size: 658
+Filename: blackhole-base-userland-dev_13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-base-userland_13.1.bb
+Description: Safe BlackHole base scripts and helper files - Development files
+OE: blackhole-base-userland
+License: CLOSED
+Priority: optional
+
+Package: blackhole-base-userland
+Version: 13.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e05b148f4568ad4f4f6d4608db1a91cc
+Size: 27450
+Filename: blackhole-base-userland_13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-base-userland_13.1.bb
+Description: Safe BlackHole base scripts and helper files
+OE: blackhole-base-userland
+License: CLOSED
+Priority: optional
+
+Package: blackhole-bootlogo-dbg
+Version: 13.2-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1540d615fb53b30ca03c376fe3e3a62
+Size: 596
+Filename: blackhole-bootlogo-dbg_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-bootlogo_13.2.bb
+Description: BlackHole bootlogo files - Debugging files
+OE: blackhole-bootlogo
+License: CLOSED
+Priority: optional
+
+Package: blackhole-bootlogo-dev
+Version: 13.2-r0
+Recommends: blackhole-bootlogo (= 13.2-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6857153ae5dbcc9d1d82100f5b97b922
+Size: 628
+Filename: blackhole-bootlogo-dev_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-bootlogo_13.2.bb
+Description: BlackHole bootlogo files - Development files
+OE: blackhole-bootlogo
+License: CLOSED
+Priority: optional
+
+Package: blackhole-bootlogo
+Version: 13.2-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef9cd86d4ec9c4a2693db949bf0de2c6
+Size: 97846
+Filename: blackhole-bootlogo_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-bootlogo_13.2.bb
+Description: BlackHole bootlogo files
+OE: blackhole-bootlogo
+License: CLOSED
+Priority: optional
+
+Package: blackhole-defaultskin-dbg
+Version: 13.2-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e3baa964896dbb2fa2abeb4fc28aa90
+Size: 606
+Filename: blackhole-defaultskin-dbg_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-defaultskin_13.2.bb
+Description: BlackHole iFlatFHD default skin - Debugging files
+OE: blackhole-defaultskin
+License: CLOSED
+Priority: optional
+
+Package: blackhole-defaultskin-dev
+Version: 13.2-r0
+Recommends: blackhole-defaultskin (= 13.2-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b262a9edb3c2b6f50de78ac1f5489ef2
+Size: 638
+Filename: blackhole-defaultskin-dev_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-defaultskin_13.2.bb
+Description: BlackHole iFlatFHD default skin - Development files
+OE: blackhole-defaultskin
+License: CLOSED
+Priority: optional
+
+Package: blackhole-defaultskin
+Version: 13.2-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0da2a0359d17978ac99222eaba422b16
+Size: 17699840
+Filename: blackhole-defaultskin_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-defaultskin_13.2.bb
+Description: BlackHole iFlatFHD default skin
+OE: blackhole-defaultskin
+License: CLOSED
+Priority: optional
+
+Package: blackhole-feed-config-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf4d7079b2314e13de0aca430099dc2b
+Size: 628
+Filename: blackhole-feed-config-dbg_1.0-r0_sf8008.ipk
+Source: blackhole-feed-config_1.0.bb
+Description: BlackHole SF8008 opkg feed configuration - Debugging files
+OE: blackhole-feed-config
+License: MIT
+Priority: optional
+
+Package: blackhole-feed-config-dev
+Version: 1.0-r0
+Recommends: blackhole-feed-config (= 1.0-r0)
+Section: devel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 601ca70d9be8f1b308844ee6f52c4681
+Size: 660
+Filename: blackhole-feed-config-dev_1.0-r0_sf8008.ipk
+Source: blackhole-feed-config_1.0.bb
+Description: BlackHole SF8008 opkg feed configuration - Development files
+OE: blackhole-feed-config
+License: MIT
+Priority: optional
+
+Package: blackhole-feed-config
+Version: 1.0-r0
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b3d8b6bdfb46a4cb0c13832df1db0c4
+Size: 978
+Filename: blackhole-feed-config_1.0-r0_sf8008.ipk
+Source: blackhole-feed-config_1.0.bb
+Description: BlackHole SF8008 opkg feed configuration
+OE: blackhole-feed-config
+License: MIT
+Priority: optional
+
+Package: blackhole-panel-launcher-dbg
+Version: 13.2-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41e0b26cc87016289b0e28ee678b0161
+Size: 604
+Filename: blackhole-panel-launcher-dbg_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-panel-launcher_13.2.bb
+Description: BlackHole Blue Panel launcher - Debugging files
+OE: blackhole-panel-launcher
+License: CLOSED
+Priority: optional
+
+Package: blackhole-panel-launcher-dev
+Version: 13.2-r0
+Recommends: blackhole-panel-launcher (= 13.2-r0), blackhole-pyc-userland-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 642b2ddb8685c8e786dadcbd52422cfb
+Size: 648
+Filename: blackhole-panel-launcher-dev_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-panel-launcher_13.2.bb
+Description: BlackHole Blue Panel launcher - Development files
+OE: blackhole-panel-launcher
+License: CLOSED
+Priority: optional
+
+Package: blackhole-panel-launcher
+Version: 13.2-r0
+Depends: blackhole-pyc-userland
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20b1f36b6b693a6d869cb1cb6b155321
+Size: 1010
+Filename: blackhole-panel-launcher_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-panel-launcher_13.2.bb
+Description: BlackHole Blue Panel launcher
+OE: blackhole-panel-launcher
+License: CLOSED
+Priority: optional
+
+Package: blackhole-pyc-userland-dbg
+Version: 13.1-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21c2d3838b2f851e88957de31cb62fd5
+Size: 610
+Filename: blackhole-pyc-userland-dbg_13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-pyc-userland_13.1.bb
+Description: BlackHole Python 3.14 bytecode userland files - Debugging files
+OE: blackhole-pyc-userland
+License: CLOSED
+Priority: optional
+
+Package: blackhole-pyc-userland-dev
+Version: 13.1-r0
+Recommends: blackhole-pyc-userland (= 13.1-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a3f841bd856e316aca8bac820213b4f1
+Size: 644
+Filename: blackhole-pyc-userland-dev_13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-pyc-userland_13.1.bb
+Description: BlackHole Python 3.14 bytecode userland files - Development files
+OE: blackhole-pyc-userland
+License: CLOSED
+Priority: optional
+
+Package: blackhole-pyc-userland
+Version: 13.1-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b3e4260e0a42af303d3c1742cd693275
+Size: 590866
+Filename: blackhole-pyc-userland_13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-pyc-userland_13.1.bb
+Description: BlackHole Python 3.14 bytecode userland files
+OE: blackhole-pyc-userland
+License: CLOSED
+Priority: optional
+
+Package: enigma-info
+Version: 13.2-py314-test-v0.5-r0
+Replaces: enigma-kernel-module
+Conflicts: enigma-kernel-module
+Section: base
+Architecture: sf8008
+Maintainer: oe-alliance team
+MD5Sum: ac5c6be5092a5e27b0000332630be986
+Size: 1342
+Filename: enigma-info_13.2-py314-test-v0.5-r0_sf8008.ipk
+Source: enigma-info.bb
+Description: enigma.info used by BoxInfo
+OE: enigma-info
+License: GPL-2.0-only
+Priority: required
+

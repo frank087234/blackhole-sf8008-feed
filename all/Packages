@@ -459,6 +459,49 @@ OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-vavoo-dbg
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 6c25cde35c95303a9aeea560ddee5a65
+Size: 564
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Debugging files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
+
+Package: enigma2-plugin-extensions-vavoo-dev
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.0+git867+69984d90+69984d9a57-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, python3-requests-dev, python3-six-dev
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 276641cbed37af5b83eaae2c192117a5
+Size: 660
+Filename: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Development files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
+
+Package: enigma2-plugin-extensions-vavoo-src
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: ff1b83bdce0e9da25b3848d2173e8b7d
+Size: 123780
+Filename: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Source files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
+
 Package: enigma2-plugin-extensions-vavoo
 Version: 1.0+git867+69984d90+69984d9a57-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer, python3-requests, python3-six
@@ -488,6 +531,35 @@ Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
 OE: enigma2-plugin-extensions-xklass
 HomePage: https://www.linuxsat-support.com
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-youtubetv-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a6253e418e7cd3a058016efd062fd26
+Size: 608
+Filename: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-youtubetv.bb
+Description: YouTube TV plugin for Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-youtubetv
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-extensions-youtubetv-dev
+Version: 1.0-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-youtubetv (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf3998313f58fc61c052a284038a1f5a
+Size: 644
+Filename: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-youtubetv.bb
+Description: YouTube TV plugin for Enigma2 - Development files
+OE: enigma2-plugin-extensions-youtubetv
+License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtubetv
@@ -661,6 +733,35 @@ Source: enigma2-plugin-skins-simple-gray.bb
 Description: enigma2-plugin-skins-simple-gray version 1.0+git-r0
 OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-softcams-oscam-whitelist-dbg
+Version: 2.0+git10+b7133b00+b7133b0b49-r0
+Section: devel
+Architecture: all
+Maintainer: AbuBaniaz
+MD5Sum: 2749ac88687d37f5d20bd819fa2f63f9
+Size: 580
+Filename: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
+Source: enigma2-plugin-softcams-oscam-whitelist.bb
+Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0 - Debugging files
+OE: enigma2-plugin-softcams-oscam-whitelist
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-softcams-oscam-whitelist-dev
+Version: 2.0+git10+b7133b00+b7133b0b49-r0
+Recommends: enigma2-plugin-softcams-oscam-whitelist (= 2.0+git10+b7133b00+b7133b0b49-r0)
+Section: devel
+Architecture: all
+Maintainer: AbuBaniaz
+MD5Sum: 92315e3180a989756d2c1ca7bbc5ff65
+Size: 618
+Filename: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
+Source: enigma2-plugin-softcams-oscam-whitelist.bb
+Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0 - Development files
+OE: enigma2-plugin-softcams-oscam-whitelist
+License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-whitelist
