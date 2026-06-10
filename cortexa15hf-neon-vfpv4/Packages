@@ -82697,6 +82697,22 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-yt-dlp
+Version: 0.0-23833-g5faffa9-r0
+Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d2a9e8206d066df8975e261b91b6fd3f
+Size: 4771468
+Filename: python3-yt-dlp_0.0-23833-g5faffa9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-yt-dlp.bb
+Description: A youtube-dl fork with additional features and fixes
+OE: python3-yt-dlp
+HomePage: https://github.com/yt-dlp/yt-dlp
+License: Unlicense
+Priority: optional
+
 Package: python3-zipapp
 Version: 3.14.5-r0
 Depends: python3-compression, python3-core
