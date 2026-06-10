@@ -80310,6 +80310,22 @@ HomePage: https://python-future.org
 License: MIT
 Priority: optional
 
+Package: python3-gdata-python3
+Version: 3.0.1-r0
+Depends: python3-core, python3-json, python3-netserver, python3-xml
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e5825df92fd7a55c371a7ad5e63435f
+Size: 574454
+Filename: python3-gdata-python3_3.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-gdata-python3_3.0.1.bb
+Description: Google Data APIs Python Client Library
+OE: python3-gdata-python3
+HomePage: http://code.google.com/p/gdata-python-client/
+License: Apache-2.0
+Priority: optional
+
 Package: python3-gdbm
 Version: 3.14.5-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libgdbm6 (>= 1.26), python3-core
