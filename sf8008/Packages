@@ -6977,6 +6977,22 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-nandsim-4.4.35
+Version: 4.4.35-r1
+Depends: kernel-4.4.35
+Provides: kernel-module-nandsim
+Section: kernel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fef287752d4158065ba57fcd4f2107ec
+Size: 21190
+Filename: kernel-module-nandsim-4.4.35_4.4.35-r1_sf8008.ipk
+Source: linux-octagon_4.4.35.bb
+Description: nandsim kernel module
+OE: linux-octagon
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-net1080-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
