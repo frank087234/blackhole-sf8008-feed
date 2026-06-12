@@ -605,15 +605,15 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-skins-brio-std-fhd
-Version: 1.2-r0
+Version: 1.3-r0
 Depends: enigma2
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb5007103b7c51f55ffa13dfb29e0515
-Size: 1740994
-Filename: enigma2-plugin-skins-brio-std-fhd_1.2-r0_all.ipk
-Source: enigma2-plugin-skins-brio-std-fhd_1.2.bb
+MD5Sum: 65de71e4e9b9ed77059ed53e7ae26fa9
+Size: 3638696
+Filename: enigma2-plugin-skins-brio-std-fhd_1.3-r0_all.ipk
+Source: enigma2-plugin-skins-brio-std-fhd_1.3.bb
 Description: Classic BlackHole Brio STD FHD skin
 OE: enigma2-plugin-skins-brio-std-fhd
 License: CLOSED
