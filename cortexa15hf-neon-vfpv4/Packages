@@ -6030,6 +6030,23 @@ HomePage: https://github.com/libfuse/libfuse
 License: GPL-2.0-only & LGPL-2.0-only
 Priority: optional
 
+Package: fuse3
+Version: 3.18.2-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Recommends: fuse3-utils, kernel-module-fuse
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80f20d4597e9baf3f81ec62e8a91895f
+Size: 103748
+Filename: fuse3_3.18.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fuse3_3.18.2.bb
+Description: Implementation of a fully functional filesystem in a userspace program
+OE: fuse3
+HomePage: https://github.com/libfuse/libfuse
+License: GPL-2.0-only & LGPL-2.0-only
+Priority: optional
+
 Package: gawk-doc
 Version: 5.4.0-r0
 Section: doc
@@ -86385,6 +86402,22 @@ Description: Extra machine specific configuration files
 OE: udev-extraconf
 HomePage: https://wiki.gentoo.org/wiki/Eudev
 License: MIT
+Priority: optional
+
+Package: unionfs-fuse
+Version: 3.7-r0
+Depends: bash, fuse3 (>= 3.18.2), libc6 (>= 2.43+git0+e9517114ac)
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8464a8ff499adb34af755c6c013bd58
+Size: 41950
+Filename: unionfs-fuse_3.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: unionfs-fuse_3.7.bb
+Description: A FUSE based implemention of unionfs
+OE: unionfs-fuse
+HomePage: https://github.com/rpodgorny/unionfs-fuse
+License: BSD-3-Clause
 Priority: optional
 
 Package: unrar
