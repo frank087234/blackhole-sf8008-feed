@@ -8513,6 +8513,22 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-overlay-4.4.35
+Version: 4.4.35-r1
+Depends: kernel-4.4.35
+Provides: kernel-module-overlay
+Section: kernel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91d3729b3c5f881bf546611c218628b9
+Size: 24934
+Filename: kernel-module-overlay-4.4.35_4.4.35-r1_sf8008.ipk
+Source: linux-octagon_4.4.35.bb
+Description: overlay kernel module
+OE: linux-octagon
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-p54common-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
