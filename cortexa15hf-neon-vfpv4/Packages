@@ -32,6 +32,22 @@ HomePage: http://www.7-zip.org/
 License: LGPL-2.1-or-later & unRAR & PD & BSD-2-Clause & BSD-3-Clause
 Priority: optional
 
+Package: abseil-cpp
+Version: 20260107.1-r0
+Depends: libabsl-base, libabsl-borrowed-fixup-buffer, libabsl-city, libabsl-civil-time, libabsl-cord, libabsl-cord-internal, libabsl-cordz-functions, libabsl-cordz-handle, libabsl-cordz-info, libabsl-cordz-sample-token, libabsl-crc-cord-state, libabsl-crc-cpu-detect, libabsl-crc-internal, libabsl-crc32c, libabsl-debugging-internal, libabsl-decode-rust-punycode, libabsl-demangle-internal, libabsl-demangle-rust, libabsl-die-if-null, libabsl-examine-stack, libabsl-exponential-biased, libabsl-failure-signal-handler, libabsl-flags-commandlineflag, libabsl-flags-commandlineflag-internal, libabsl-flags-config, libabsl-flags-internal, libabsl-flags-marshalling, libabsl-flags-parse, libabsl-flags-private-handle-accessor, libabsl-flags-program-name, libabsl-flags-reflection, libabsl-flags-usage, libabsl-flags-usage-internal, libabsl-generic-printer-internal, libabsl-graphcycles-internal, libabsl-hash, libabsl-hashtable-profiler, libabsl-hashtablez-sampler, libabsl-int128, libabsl-kernel-timeout-internal, libabsl-leak-check, libabsl-log-entry, libabsl-log-flags, libabsl-log-globals, libabsl-log-initialize, libabsl-log-internal-check-op, libabsl-log-internal-conditions, libabsl-log-internal-fnmatch, libabsl-log-internal-format, libabsl-log-internal-globals, libabsl-log-internal-log-sink-set, libabsl-log-internal-message, libabsl-log-internal-nullguard, libabsl-log-internal-proto, libabsl-log-internal-structured-proto, libabsl-log-severity, libabsl-log-sink, libabsl-malloc-internal, libabsl-periodic-sampler, libabsl-poison, libabsl-profile-builder, libabsl-random-distributions, libabsl-random-internal-distribution-test-util, libabsl-random-internal-entropy-pool, libabsl-random-internal-platform, libabsl-random-internal-randen, libabsl-random-internal-randen-hwaes, libabsl-random-internal-randen-hwaes-impl, libabsl-random-internal-randen-slow, libabsl-random-internal-seed-material, libabsl-random-seed-gen-exception, libabsl-random-seed-sequences, libabsl-raw-hash-set, libabsl-raw-logging-internal, libabsl-scoped-set-env, libabsl-spinlock-wait, libabsl-stacktrace, libabsl-status, libabsl-statusor, libabsl-str-format-internal, libabsl-strerror, libabsl-strings, libabsl-strings-internal, libabsl-symbolize, libabsl-synchronization, libabsl-throw-delegate, libabsl-time, libabsl-time-zone, libabsl-tracing-internal, libabsl-utf8-for-code-point, libabsl-vlog-config-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6edf8c4dc9966453d8ec0c3f2cbd49ed
+Size: 1358
+Filename: abseil-cpp_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: Abseil is a cpp library like STL
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
 Package: acl-doc
 Version: 2.3.2-r0
 Section: doc
@@ -2701,6 +2717,49 @@ HomePage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 License: GPL-3.0-or-later
 Priority: optional
 
+Package: bh-compat-components
+Version: 1.0-r0
+Depends: enigma2
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e448d5f0b349efa677b0590ad1081807
+Size: 225326
+Filename: bh-compat-components_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bh-compat-components.bb
+Description: BlackHole missing compatibility components
+OE: bh-compat-components
+License: CLOSED
+Priority: optional
+
+Package: bh-defaultsettings
+Version: 1.0-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d7f94e18577e50d0ff76471243e2756
+Size: 856
+Filename: bh-defaultsettings_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bh-defaultsettings.bb
+Description: BlackHole default Enigma2 settings
+OE: bh-defaultsettings
+License: CLOSED
+Priority: optional
+
+Package: bh-python-components
+Version: 1.0-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0b1e716fca4960d495282b834b73e8e
+Size: 225420
+Filename: bh-python-components_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bh-python-components.bb
+Description: BlackHole Python components compatibility package
+OE: bh-python-components
+License: CLOSED
+Priority: optional
+
 Package: blackhole-base-userland
 Version: 13.1-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
@@ -2744,15 +2803,31 @@ OE: blackhole-defaultskin
 License: CLOSED
 Priority: optional
 
-Package: blackhole-pyc-userland
-Version: 13.1-r0
+Package: blackhole-panel-launcher
+Version: 13.2-r0
+Depends: blackhole-pyc-userland
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3e4260e0a42af303d3c1742cd693275
-Size: 590866
-Filename: blackhole-pyc-userland_13.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: blackhole-pyc-userland_13.1.bb
+MD5Sum: 20b1f36b6b693a6d869cb1cb6b155321
+Size: 1010
+Filename: blackhole-panel-launcher_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-panel-launcher_13.2.bb
+Description: BlackHole Blue Panel launcher
+OE: blackhole-panel-launcher
+License: CLOSED
+Priority: optional
+
+Package: blackhole-pyc-userland
+Version: 13.2-r0
+Depends: blackhole-bootlogo
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b1fd9a6b3592060bf9ba47dbbca349d2
+Size: 1055366
+Filename: blackhole-pyc-userland_13.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: blackhole-pyc-userland_13.2.bb
 Description: BlackHole Python 3.14 bytecode userland files
 OE: blackhole-pyc-userland
 License: CLOSED
@@ -3454,6 +3529,24 @@ Description: A lightweight SSH and SCP implementation
 OE: dropbear
 HomePage: http://matt.ucc.asn.au/dropbear/dropbear.html
 License: MIT & BSD-3-Clause & BSD-2-Clause & PD
+Priority: optional
+
+Package: duktape
+Version: 2.7.0-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Replaces: libduktape207
+Conflicts: libduktape207
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9482f29a7b3739295749d3cc78c6660c
+Size: 196014
+Filename: duktape_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: duktape_2.7.0.bb
+Description: Duktape embeddable Javascript engine
+OE: duktape
+HomePage: https://duktape.org
+License: MIT
 Priority: optional
 
 Package: dvd+rw-tools
@@ -4184,6 +4277,21 @@ OE: enigma2-plugin-drivers-ntfs-3g
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-antilogo
+Version: 2.0+git16+a90e64c0+a90e64cde3-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 10bf34bbe52baeec8e60c6bf589b74ae
+Size: 18652
+Filename: enigma2-plugin-extensions-antilogo_2.0+git16+a90e64c0+a90e64cde3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-antilogo.bb
+Description: enigma2-plugin-extensions-antilogo version 2.0+git-r0
+OE: enigma2-plugin-extensions-antilogo
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-autobackup-dbg
 Version: 2.0+git178+87e43d70+87e43d7e13-r0
 Section: devel
@@ -4276,6 +4384,21 @@ HomePage: https://github.com/LraiZer/AutoBouquets
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-bhtunerserver
+Version: 1.0+git7+90746700+9074670907-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5e50129cd69c7f37652515e9763c21f9
+Size: 8086
+Filename: enigma2-plugin-extensions-bhtunerserver_1.0+git7+90746700+9074670907-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-bhtunerserver.bb
+Description: enigma2-plugin-extensions-bhtunerserver version 1.0+git-r0
+OE: enigma2-plugin-extensions-bhtunerserver
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-bitrate-dbg
 Version: 2.0+git39+d55ee410+d55ee41490-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
@@ -4318,6 +4441,21 @@ Filename: enigma2-plugin-extensions-bitrate_2.0+git39+d55ee410+d55ee41490-r0_cor
 Source: enigma2-plugin-extensions-bitrate.bb
 Description: enigma2-plugin-extensions-bitrate version 2.0+git-r0
 OE: enigma2-plugin-extensions-bitrate
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-blackoutblind
+Version: 1.0+git14+83baad50+83baad5649-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d48a4b07423450c28653c0cf6db2e14d
+Size: 6926
+Filename: enigma2-plugin-extensions-blackoutblind_1.0+git14+83baad50+83baad5649-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-blackoutblind.bb
+Description: enigma2-plugin-extensions-blackoutblind version 1.0+git-r0
+OE: enigma2-plugin-extensions-blackoutblind
 License: GPL-2.0-only
 Priority: optional
 
@@ -4365,6 +4503,36 @@ OE: enigma2-plugin-extensions-cacheflush
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-changerootpassword
+Version: 1.0+git13+589cfda0+589cfda1dd-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb894bc4a10729e8f67c1e5833cd102a
+Size: 154718
+Filename: enigma2-plugin-extensions-changerootpassword_1.0+git13+589cfda0+589cfda1dd-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-changerootpassword.bb
+Description: enigma2-plugin-extensions-changerootpassword version 1.0+git-r0
+OE: enigma2-plugin-extensions-changerootpassword
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dlnaserver
+Version: 0.2-r0
+Depends: minidlna
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenPLi
+MD5Sum: d2f46a4dcaa01fb3b06ae616d815161f
+Size: 16420
+Filename: enigma2-plugin-extensions-dlnaserver_0.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-dlnaserver.bb
+Description: enigma2-plugin-extensions-dlnaserver version 0.2-r0
+OE: enigma2-plugin-extensions-dlnaserver
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-e2iplayer-deps
 Version: 1.0+git9+2adf2670+2adf267a1c-r2
 Depends: libavcodec62 (>= 8.1.1), libavformat62 (>= 8.1.1), libavutil60 (>= 8.1.1), libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libcurl4 (>= 8.19.0), libgcc1 (>= 16.1.0), libpython3.14-1.0 (>= 3.14.5), libssl4 (>= 4.0.0), libstdc++6 (>= 16.1.0), libz1 (>= 1.3.2)
@@ -4382,15 +4550,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.06.04.01-git5562+92208fe0+92208fec09-r0
+Version: 2026.06.13+frank087234-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-e2icjson, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e9def58f020ceead526706c4941d797
-Size: 14765060
-Filename: enigma2-plugin-extensions-e2iplayer_2026.06.04.01-git5562+92208fe0+92208fec09-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c5496dc5c8d44da1570f9eee727e62eb
+Size: 14792644
+Filename: enigma2-plugin-extensions-e2iplayer_2026.06.13+frank087234-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -4833,6 +5001,22 @@ OE: enigma2-plugin-softcams-oscam-emu
 License: GPL-3.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-extrafancontrol
+Version: 1+git22+ed50ac90+ed50ac9c63-r0
+Depends: hddtemp, python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc192f46dd95ce4b7c324ca70c33d8c2
+Size: 35602
+Filename: enigma2-plugin-systemplugins-extrafancontrol_1+git22+ed50ac90+ed50ac9c63-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-extrafancontrol.bb
+Description: enigma2-plugin-systemplugins-extrafancontrol version 1+git-r0
+OE: enigma2-plugin-systemplugins-extrafancontrol
+HomePage: https://github.com/Dima73/enigma2-plugin-systemplugins-extrafancontrol
+License: PD
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-networkbrowser
 Version: git82+bf41daa0+bf41daa472-r0
 Depends: enigma2-binary-plugins, libc6 (>= 2.43+git0+e9517114ac)
@@ -5142,6 +5326,22 @@ Filename: ffmpeg-examples_8.1.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_8.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3-Clause & IJG
+Priority: optional
+
+Package: ffmpeg-ext-libs
+Version: 6.1.1-r0
+Depends: dav1d (>= 1.5.3), libasound2 (>= 1.2.15.3), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libbz2-1 (>= 1.0.8), libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libfreetype6 (>= 2.14.3), liblzma5 (>= 5.8.3), libssl4 (>= 4.0.0), libx264-164 (>= r2970+git0+b093bbe7d9), libxml2 (>= 2.15.3), libz1 (>= 1.3.2), rtmpdump (>= 2.6+git0+6f6bb1353f)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b3e9d3abb2f61d3c2137372dfce9d8d0
+Size: 9038782
+Filename: ffmpeg-ext-libs_6.1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg-ext_6.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg-ext
 HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3-Clause & IJG
 Priority: optional
@@ -6026,6 +6226,37 @@ Filename: fuse-utils_2.9.9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: fuse_2.9.9.bb
 Description: Implementation of a fully functional filesystem in a userspace program
 OE: fuse
+HomePage: https://github.com/libfuse/libfuse
+License: GPL-2.0-only & LGPL-2.0-only
+Priority: optional
+
+Package: fuse3-doc
+Version: 3.18.2-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78fd7e14b64b307bde527ce8e3cdc47a
+Size: 6422
+Filename: fuse3-doc_3.18.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fuse3_3.18.2.bb
+Description: Implementation of a fully functional filesystem in a userspace program - Documentation files
+OE: fuse3
+HomePage: https://github.com/libfuse/libfuse
+License: GPL-2.0-only & LGPL-2.0-only
+Priority: optional
+
+Package: fuse3-utils
+Version: 3.18.2-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6f990f2f8c1088e9f9dc78ed56a33bec
+Size: 16920
+Filename: fuse3-utils_3.18.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fuse3_3.18.2.bb
+Description: Implementation of a fully functional filesystem in a userspace program
+OE: fuse3
 HomePage: https://github.com/libfuse/libfuse
 License: GPL-2.0-only & LGPL-2.0-only
 Priority: optional
@@ -29894,6 +30125,36 @@ HomePage: https://sourceforge.net/projects/gptfdisk/
 License: GPL-2.0-only
 Priority: optional
 
+Package: gst-ifdsrc
+Version: 1.0+git39+e424e9f0+e424e9fd8d-r1
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+e9517114ac), libglib-2.0-0 (>= 2.88.0)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: samsamsam
+MD5Sum: 29a504e54dd9383dbb5c52f8439b260e
+Size: 11286
+Filename: gst-ifdsrc_1.0+git39+e424e9f0+e424e9fd8d-r1_cortexa15hf-neon-vfpv4.ipk
+Source: gst-ifdsrc_git.bb
+Description: gst-ifdsrc version 1.0+git-r1
+OE: gst-ifdsrc
+License: GPL-2.0-only
+Priority: optional
+
+Package: gstplayer2
+Version: 0.1-r0
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+e9517114ac), libglib-2.0-0 (>= 2.88.0), libgstaudio-1.0-0 (>= 1.28.3), libgstpbutils-1.0-0 (>= 1.28.3), libgstvideo-1.0-0 (>= 1.28.3)
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0a46d59e27a23acbecb179cdefcbfdc
+Size: 17972
+Filename: gstplayer2_0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: gstplayer2_0.1.bb
+Description: gstplayer2 version 0.1-r0
+OE: gstplayer2
+License: GPL-2.0-only
+Priority: optional
+
 Package: gstplayer
 Version: 0.1-r0
 Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+e9517114ac), libglib-2.0-0 (>= 2.88.0), libgstaudio-1.0-0 (>= 1.28.3), libgstpbutils-1.0-0 (>= 1.28.3), libgstvideo-1.0-0 (>= 1.28.3)
@@ -33344,6 +33605,116 @@ HomePage: http://gstreamer.freedesktop.org/
 License: LGPL-2.1-or-later
 Priority: optional
 
+Package: hddtemp-doc
+Version: 0.3-beta15-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 74ab24bc3907073ce70b690bc33b12ac
+Size: 3648
+Filename: hddtemp-doc_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - Documentation files
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: hddtemp-locale-de
+Version: 0.3-beta15-r0
+Provides: de-translation, hddtemp-locale
+Recommends: virtual-locale-de
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 862b9bfe9a5a6f5b79345da5ce5de0a3
+Size: 3856
+Filename: hddtemp-locale-de_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - de translations
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: hddtemp-locale-fr
+Version: 0.3-beta15-r0
+Provides: fr-translation, hddtemp-locale
+Recommends: virtual-locale-fr
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6d66ad563c185b56706a56bf0e8fb854
+Size: 3550
+Filename: hddtemp-locale-fr_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - fr translations
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: hddtemp-locale-pt
+Version: 0.3-beta15-r0
+Provides: hddtemp-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 470f5c0116c38321a44880f8b52d4966
+Size: 2280
+Filename: hddtemp-locale-pt_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - pt translations
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: hddtemp-locale-ru
+Version: 0.3-beta15-r0
+Provides: hddtemp-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 02b285ca65bf7fe412f73690566aadb0
+Size: 2226
+Filename: hddtemp-locale-ru_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - ru translations
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: hddtemp-locale-sv
+Version: 0.3-beta15-r0
+Provides: hddtemp-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ec93333c5bfbd36a3946bebc630279e
+Size: 2288
+Filename: hddtemp-locale-sv_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - sv translations
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: hddtemp
+Version: 0.3-beta15-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Recommends: update-rc.d
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afe6597eeaae1e41b627a465a1e0b157
+Size: 28676
+Filename: hddtemp_0.3-beta15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon
+OE: hddtemp
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: hdparm-doc
 Version: 9.65-r0
 Section: doc
@@ -35668,6 +36039,1547 @@ OE: libaacs
 License: LGPL-2.1-or-later
 Priority: optional
 
+Package: libabsl-base2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-base
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7683d12986ad547d654fba4b5652e31f
+Size: 7276
+Filename: libabsl-base2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library base
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-borrowed-fixup-buffer2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-hash2601.0.0 (>= 20260107.1), libabsl-malloc-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-borrowed-fixup-buffer
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21eb18f0e01ecdfba8a94ea704156766
+Size: 3590
+Filename: libabsl-borrowed-fixup-buffer2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library borrowed-fixup-buffer
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-city2601.0.0
+Version: 20260107.1-r0
+Depends: libgcc1 (>= 16.1.0)
+Provides: libabsl-city
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f69ccadf3e9624decd1b74663316361b
+Size: 5762
+Filename: libabsl-city2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library city
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-civil-time2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-civil-time
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cec2251a219c8e84d8bd5f69cab78402
+Size: 5676
+Filename: libabsl-civil-time2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library civil-time
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-cord-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-crc-cord-state2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-cord-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf20ea3c9c3e3fa110329edc0bab250f
+Size: 40150
+Filename: libabsl-cord-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library cord-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-cord2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-cord-internal2601.0.0 (>= 20260107.1), libabsl-cordz-functions2601.0.0 (>= 20260107.1), libabsl-cordz-info2601.0.0 (>= 20260107.1), libabsl-crc-cord-state2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libabsl-throw-delegate2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-cord
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 114f6f01e4bda5b38e008fcae4d2a2d1
+Size: 53464
+Filename: libabsl-cord2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library cord
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-cordz-functions2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-exponential-biased2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-cordz-functions
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb5d963a253659b9830498c6a82b78ce
+Size: 3134
+Filename: libabsl-cordz-functions2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library cordz-functions
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-cordz-handle2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-cordz-handle
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b77a1083af948d2f1338da1d7fa953ba
+Size: 5470
+Filename: libabsl-cordz-handle2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library cordz-handle
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-cordz-info2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-cord-internal2601.0.0 (>= 20260107.1), libabsl-cordz-handle2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-stacktrace2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-cordz-info
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 13706d213195dc78a707a6226c20af9a
+Size: 9666
+Filename: libabsl-cordz-info2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library cordz-info
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-cordz-sample-token2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-cordz-info2601.0.0 (>= 20260107.1), libgcc1 (>= 16.1.0)
+Provides: libabsl-cordz-sample-token
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 73cbbca12fa5f10ccf549581d4cc2983
+Size: 2786
+Filename: libabsl-cordz-sample-token2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library cordz-sample-token
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-crc-cord-state2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-crc32c2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-crc-cord-state
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b420f27ab76cdb8fe6163f80866250d9
+Size: 11954
+Filename: libabsl-crc-cord-state2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library crc-cord-state
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-crc-cpu-detect2601.0.0
+Version: 20260107.1-r0
+Provides: libabsl-crc-cpu-detect
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b105905a3fdf3ee7da987c40d279080c
+Size: 2162
+Filename: libabsl-crc-cpu-detect2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library crc-cpu-detect
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-crc-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-crc-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 18304aed6cb6e954ac6565275a3fd22a
+Size: 8360
+Filename: libabsl-crc-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library crc-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-crc32c2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-crc-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-crc32c
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ae368c10d0510c156eaf7365f6efe6f0
+Size: 5048
+Filename: libabsl-crc32c2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library crc32c
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-debugging-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-debugging-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 71cf497f5186d769634ff3ac115f12ab
+Size: 8850
+Filename: libabsl-debugging-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library debugging-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-decode-rust-punycode2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-utf8-for-code-point2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-decode-rust-punycode
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 019e82cf17205e985d03b1c9a98960bb
+Size: 4172
+Filename: libabsl-decode-rust-punycode2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library decode-rust-punycode
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-demangle-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-demangle-rust2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-demangle-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4efd37614b1deb02671df08e6ba8d659
+Size: 28316
+Filename: libabsl-demangle-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library demangle-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-demangle-rust2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-decode-rust-punycode2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-demangle-rust
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2988fbb8f5c6cdee24392272afe54dd0
+Size: 9272
+Filename: libabsl-demangle-rust2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library demangle-rust
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-die-if-null2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-log-internal-message2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-die-if-null
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 795d7d7f368d671b8d197e4d637de003
+Size: 3146
+Filename: libabsl-die-if-null2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library die-if-null
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-examine-stack2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-stacktrace2601.0.0 (>= 20260107.1), libabsl-symbolize2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-examine-stack
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28f6245e01cd9a8f416bd8d05d108f3e
+Size: 4076
+Filename: libabsl-examine-stack2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library examine-stack
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-exponential-biased2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-exponential-biased
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 24b53a90e783cdbaa6296ab7cc0feb7c
+Size: 2970
+Filename: libabsl-exponential-biased2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library exponential-biased
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-failure-signal-handler2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-examine-stack2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-stacktrace2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-failure-signal-handler
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef05a3da28e721aa89322a38314a688f
+Size: 5644
+Filename: libabsl-failure-signal-handler2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library failure-signal-handler
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-commandlineflag-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-commandlineflag-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e13ccbef9f2135b536a9e8b21ac880b3
+Size: 2550
+Filename: libabsl-flags-commandlineflag-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-commandlineflag-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-commandlineflag2601.0.0
+Version: 20260107.1-r0
+Depends: libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-commandlineflag
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06d1889dd00d86bec3c20b7e7e172971
+Size: 2754
+Filename: libabsl-flags-commandlineflag2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-commandlineflag
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-config2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-flags-program-name2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-config
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 274f9e99b8a737fb33548c4dde5e07d7
+Size: 7234
+Filename: libabsl-flags-config2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-config
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-flags-commandlineflag-internal2601.0.0 (>= 20260107.1), libabsl-flags-commandlineflag2601.0.0 (>= 20260107.1), libabsl-flags-config2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee25608f6fef4b9fa847a9c4af84fa75
+Size: 15146
+Filename: libabsl-flags-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-marshalling2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-int128-2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-marshalling
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a330d6c66f89c5da832339a5ac81732
+Size: 12078
+Filename: libabsl-flags-marshalling2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-marshalling
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-parse2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-flags-config2601.0.0 (>= 20260107.1), libabsl-flags-internal2601.0.0 (>= 20260107.1), libabsl-flags-marshalling2601.0.0 (>= 20260107.1), libabsl-flags-private-handle-accessor2601.0.0 (>= 20260107.1), libabsl-flags-program-name2601.0.0 (>= 20260107.1), libabsl-flags-reflection2601.0.0 (>= 20260107.1), libabsl-flags-usage-internal2601.0.0 (>= 20260107.1), libabsl-flags-usage2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-parse
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd06d4d07cc97b5e9ab521fbf6f77c78
+Size: 31760
+Filename: libabsl-flags-parse2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-parse
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-private-handle-accessor2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-flags-private-handle-accessor
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf381aba562603cdb5e0407d553e3a1c
+Size: 2968
+Filename: libabsl-flags-private-handle-accessor2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-private-handle-accessor
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-program-name2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-program-name
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a408c3d37f7f3000de4c008fb4ba8813
+Size: 4350
+Filename: libabsl-flags-program-name2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-program-name
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-reflection2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-flags-commandlineflag2601.0.0 (>= 20260107.1), libabsl-flags-config2601.0.0 (>= 20260107.1), libabsl-flags-private-handle-accessor2601.0.0 (>= 20260107.1), libabsl-hash2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-reflection
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6816dac4f408e2b83dd459811fc6525c
+Size: 23782
+Filename: libabsl-flags-reflection2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-reflection
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-usage-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-flags-config2601.0.0 (>= 20260107.1), libabsl-flags-internal2601.0.0 (>= 20260107.1), libabsl-flags-program-name2601.0.0 (>= 20260107.1), libabsl-flags-reflection2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-usage-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6904fd9c5c970bd4661d87da37eb6e37
+Size: 19212
+Filename: libabsl-flags-usage-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-usage-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-flags-usage2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-flags-usage
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28d9114636ed71e2463b9defe9dba2f3
+Size: 3960
+Filename: libabsl-flags-usage2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library flags-usage
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-generic-printer-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-generic-printer-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d6e66e0bebe58cb67bf33e6ce17e38c
+Size: 5370
+Filename: libabsl-generic-printer-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library generic-printer-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-graphcycles-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-malloc-internal2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-graphcycles-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d3d6c5d065b4eafa2e54c03b3ce0c4c2
+Size: 12754
+Filename: libabsl-graphcycles-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library graphcycles-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-hash2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-city2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-hash
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d627e1dc4170e990840327e5a695820d
+Size: 3482
+Filename: libabsl-hash2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library hash
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-hashtable-profiler2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-hash2601.0.0 (>= 20260107.1), libabsl-hashtablez-sampler2601.0.0 (>= 20260107.1), libabsl-profile-builder2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-hashtable-profiler
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81327c73937599f5a8236b45fc543bb1
+Size: 16740
+Filename: libabsl-hashtable-profiler2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library hashtable-profiler
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-hashtablez-sampler2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-stacktrace2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-hashtablez-sampler
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3dde7851728874dcfa398aefd94bd4a1
+Size: 5488
+Filename: libabsl-hashtablez-sampler2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library hashtablez-sampler
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-int128-2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-int128
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 13ec4f43b985995a098f9e7851d5e174
+Size: 11508
+Filename: libabsl-int128-2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library int128
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-kernel-timeout-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-kernel-timeout-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0313db9fc670672562544504436b6e1e
+Size: 5046
+Filename: libabsl-kernel-timeout-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library kernel-timeout-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-leak-check2601.0.0
+Version: 20260107.1-r0
+Provides: libabsl-leak-check
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 63a47e6367866e317e0bc8aa3f405937
+Size: 2330
+Filename: libabsl-leak-check2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library leak-check
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-entry2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-log-internal-proto2601.0.0 (>= 20260107.1), libabsl-log-severity2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-entry
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 529f863a8dde83eb17d1959aada79f33
+Size: 6720
+Filename: libabsl-log-entry2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-entry
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-flags2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-flags-internal2601.0.0 (>= 20260107.1), libabsl-flags-marshalling2601.0.0 (>= 20260107.1), libabsl-flags-reflection2601.0.0 (>= 20260107.1), libabsl-log-globals2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-vlog-config-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-flags
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21cfdbaee013210040be1bdd2f27fae0
+Size: 7996
+Filename: libabsl-log-flags2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-flags
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-globals2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-hash2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-globals
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9d101e7a9220e9d56a3286398b401f5b
+Size: 6346
+Filename: libabsl-log-globals2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-globals
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-initialize2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-log-internal-globals2601.0.0 (>= 20260107.1), libabsl-time-zone2601.0.0 (>= 20260107.1), libgcc1 (>= 16.1.0)
+Provides: libabsl-log-initialize
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 016633fb6636f63862ae350bf384490b
+Size: 2436
+Filename: libabsl-log-initialize2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-initialize
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-check-op2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-leak-check2601.0.0 (>= 20260107.1), libabsl-log-internal-nullguard2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-internal-check-op
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1842231c936d5d9374de50be936f19b
+Size: 7820
+Filename: libabsl-log-internal-check-op2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-check-op
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-conditions2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libgcc1 (>= 16.1.0)
+Provides: libabsl-log-internal-conditions
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 538528dcc613f5d33062bf1c143afe54
+Size: 2804
+Filename: libabsl-log-internal-conditions2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-conditions
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-fnmatch2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libabsl-log-internal-fnmatch
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d2abbd6b900ee0e46febf2ae8ec15669
+Size: 3094
+Filename: libabsl-log-internal-fnmatch2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-fnmatch
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-format2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-log-internal-globals2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-log-internal-format
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dbcb691e4d5d393870461289c0e86867
+Size: 5356
+Filename: libabsl-log-internal-format2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-format
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-globals2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-internal-globals
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 73525a0ce1e46acf0832cf1f0b1d88ad
+Size: 3370
+Filename: libabsl-log-internal-globals2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-globals
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-log-sink-set2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-log-globals2601.0.0 (>= 20260107.1), libabsl-log-internal-globals2601.0.0 (>= 20260107.1), libabsl-log-sink2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-internal-log-sink-set
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8962bcb57bffe59029043413a3d22627
+Size: 8240
+Filename: libabsl-log-internal-log-sink-set2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-log-sink-set
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-message2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-examine-stack2601.0.0 (>= 20260107.1), libabsl-log-globals2601.0.0 (>= 20260107.1), libabsl-log-internal-format2601.0.0 (>= 20260107.1), libabsl-log-internal-globals2601.0.0 (>= 20260107.1), libabsl-log-internal-log-sink-set2601.0.0 (>= 20260107.1), libabsl-log-internal-nullguard2601.0.0 (>= 20260107.1), libabsl-log-internal-proto2601.0.0 (>= 20260107.1), libabsl-log-internal-structured-proto2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-strerror2601.0.0 (>= 20260107.1), libabsl-strings-internal2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-internal-message
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43eb76ab9e327ba98a4a7ba2caef0e04
+Size: 16360
+Filename: libabsl-log-internal-message2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-message
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-nullguard2601.0.0
+Version: 20260107.1-r0
+Provides: libabsl-log-internal-nullguard
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0b53ce61cd3460a3f6c2381edf1c721
+Size: 2134
+Filename: libabsl-log-internal-nullguard2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-nullguard
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-proto2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libabsl-log-internal-proto
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d4486d12dd076620a3830e6d5332a2e
+Size: 5578
+Filename: libabsl-log-internal-proto2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-proto
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-internal-structured-proto2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-log-internal-proto2601.0.0 (>= 20260107.1)
+Provides: libabsl-log-internal-structured-proto
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 636b888c9b050591d450c08037db6aff
+Size: 2478
+Filename: libabsl-log-internal-structured-proto2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-internal-structured-proto
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-severity2601.0.0
+Version: 20260107.1-r0
+Depends: libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-severity
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 898a6301b7b5b9d8c0c0cd6b08c619cd
+Size: 2818
+Filename: libabsl-log-severity2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-severity
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-log-sink2601.0.0
+Version: 20260107.1-r0
+Depends: libstdc++6 (>= 16.1.0)
+Provides: libabsl-log-sink
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 54dc716519a3dbd48ca2ddf4f4344c95
+Size: 2408
+Filename: libabsl-log-sink2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library log-sink
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-malloc-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-malloc-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6308842c6018114a52a53f71f67605c9
+Size: 9580
+Filename: libabsl-malloc-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library malloc-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-periodic-sampler2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-exponential-biased2601.0.0 (>= 20260107.1), libstdc++6 (>= 16.1.0)
+Provides: libabsl-periodic-sampler
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b85bbbc5d5e91dc9b8df9d919fa2f9dc
+Size: 2890
+Filename: libabsl-periodic-sampler2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library periodic-sampler
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-poison2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libabsl-poison
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 74dad330ad1568e643a5106f7bec38a9
+Size: 2462
+Filename: libabsl-poison2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library poison
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-profile-builder2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-hash2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-profile-builder
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17bb17a18ba2bded534fe8f3da5151db
+Size: 33832
+Filename: libabsl-profile-builder2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library profile-builder
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-distributions2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-distributions
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2649dece5b37b6e62a8845f2a46cc9d0
+Size: 6598
+Filename: libabsl-random-distributions2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-distributions
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-distribution-test-util2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-internal-distribution-test-util
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf6f6eee1ef90c134a3907be9febd611
+Size: 8718
+Filename: libabsl-random-internal-distribution-test-util2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-distribution-test-util
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-entropy-pool2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-random-internal-randen-slow2601.0.0 (>= 20260107.1), libabsl-random-internal-randen2601.0.0 (>= 20260107.1), libabsl-random-internal-seed-material2601.0.0 (>= 20260107.1), libabsl-random-seed-gen-exception2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-internal-entropy-pool
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8f988bc33ca46faa4109b0135e2aa16
+Size: 4500
+Filename: libabsl-random-internal-entropy-pool2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-entropy-pool
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-platform2601.0.0
+Version: 20260107.1-r0
+Provides: libabsl-random-internal-platform
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8ce6b83e34620bd206b9cf8f55d19afb
+Size: 6674
+Filename: libabsl-random-internal-platform2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-platform
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-randen-hwaes-impl2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-random-internal-randen-hwaes-impl
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2693ad1a90c56cf252b0328cea6c59b
+Size: 2644
+Filename: libabsl-random-internal-randen-hwaes-impl2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-randen-hwaes-impl
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-randen-hwaes2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libabsl-random-internal-randen-hwaes
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc3ba21e3e9bb83b000760a5113b59d9
+Size: 2348
+Filename: libabsl-random-internal-randen-hwaes2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-randen-hwaes
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-randen-slow2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-random-internal-platform2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac)
+Provides: libabsl-random-internal-randen-slow
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07eb9dc771383521ebab70f26df5ede7
+Size: 9086
+Filename: libabsl-random-internal-randen-slow2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-randen-slow
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-randen2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-random-internal-randen-slow2601.0.0 (>= 20260107.1), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-internal-randen
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0b27eaec33c46a3c6bafd278fad11a1
+Size: 2624
+Filename: libabsl-random-internal-randen2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-randen
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-internal-seed-material2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-internal-seed-material
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5331b172fa71999d68c2fdac6af898d
+Size: 3864
+Filename: libabsl-random-internal-seed-material2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-internal-seed-material
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-seed-gen-exception2601.0.0
+Version: 20260107.1-r0
+Depends: libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-seed-gen-exception
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 507473db6673acb07b41ad1a765872dd
+Size: 2946
+Filename: libabsl-random-seed-gen-exception2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-seed-gen-exception
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-random-seed-sequences2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-random-internal-entropy-pool2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-random-seed-sequences
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58aee8d4a5680e46313b0def7608ffb0
+Size: 3282
+Filename: libabsl-random-seed-sequences2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library random-seed-sequences
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-raw-hash-set2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-hash2601.0.0 (>= 20260107.1), libabsl-hashtablez-sampler2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-raw-hash-set
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0311eb052d9db546dcb6588bfb56caa
+Size: 26320
+Filename: libabsl-raw-hash-set2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library raw-hash-set
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-raw-logging-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-raw-logging-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a903c413e47a88686ae8244876eeae05
+Size: 4294
+Filename: libabsl-raw-logging-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library raw-logging-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-scoped-set-env2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-scoped-set-env
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b3188e568a3bd3b71d214ef6307da06
+Size: 3324
+Filename: libabsl-scoped-set-env2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library scoped-set-env
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-spinlock-wait2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0)
+Provides: libabsl-spinlock-wait
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 077d00911fbd382824c77201a65dd395
+Size: 3000
+Filename: libabsl-spinlock-wait2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library spinlock-wait
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-stacktrace2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-borrowed-fixup-buffer2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-stacktrace
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70c07708cd9bd4226295f3e6a6fdc2c9
+Size: 5612
+Filename: libabsl-stacktrace2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library stacktrace
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-status2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-cord2601.0.0 (>= 20260107.1), libabsl-cordz-info2601.0.0 (>= 20260107.1), libabsl-leak-check2601.0.0 (>= 20260107.1), libabsl-strerror2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-status
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bad581b5f00567dc161c206266b8882
+Size: 16062
+Filename: libabsl-status2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library status
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-statusor2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libabsl-status2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-statusor
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 48d1ea768a12d901eac6d96fbdf92cd8
+Size: 6384
+Filename: libabsl-statusor2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library statusor
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-str-format-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-int128-2601.0.0 (>= 20260107.1), libabsl-strings-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-str-format-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 49f35ab01a12c3999da8ef0119e064a6
+Size: 59528
+Filename: libabsl-str-format-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library str-format-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-strerror2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libstdc++6 (>= 16.1.0)
+Provides: libabsl-strerror
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f48965dfdf01ebf6aaf89794da01294
+Size: 3716
+Filename: libabsl-strerror2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library strerror
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-strings-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-strings-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb16467913f7da17c42abaa6164fb133
+Size: 5948
+Filename: libabsl-strings-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library strings-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-strings2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-int128-2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-strings-internal2601.0.0 (>= 20260107.1), libabsl-throw-delegate2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-strings
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6d66fe7d459461f5d8a27b09f189dd3
+Size: 99594
+Filename: libabsl-strings2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library strings
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-symbolize2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-debugging-internal2601.0.0 (>= 20260107.1), libabsl-demangle-internal2601.0.0 (>= 20260107.1), libabsl-malloc-internal2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-symbolize
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0fe400c3a104a63a5a7e5dcad198aeb6
+Size: 13682
+Filename: libabsl-symbolize2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library symbolize
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-synchronization2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-graphcycles-internal2601.0.0 (>= 20260107.1), libabsl-kernel-timeout-internal2601.0.0 (>= 20260107.1), libabsl-malloc-internal2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libabsl-stacktrace2601.0.0 (>= 20260107.1), libabsl-symbolize2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libabsl-tracing-internal2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-synchronization
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc1522b3c2d4670a68aaaa8ecc53a93f
+Size: 30768
+Filename: libabsl-synchronization2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library synchronization
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-throw-delegate2601.0.0
+Version: 20260107.1-r0
+Depends: libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-throw-delegate
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 97238faf174c869c33320cb0bf5cd03d
+Size: 4368
+Filename: libabsl-throw-delegate2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library throw-delegate
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-time-zone2601.0.0
+Version: 20260107.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-time-zone
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0f4f24e07cf7901b19efcee2694c6fdd
+Size: 76822
+Filename: libabsl-time-zone2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library time-zone
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-time2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-int128-2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-time-zone2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-time
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fefccba2c2b5cbb0818c0f1531b53d16
+Size: 46952
+Filename: libabsl-time2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library time
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-tracing-internal2601.0.0
+Version: 20260107.1-r0
+Provides: libabsl-tracing-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5076d52b91b9cdc71b081fe9ac4f9a2
+Size: 2150
+Filename: libabsl-tracing-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library tracing-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-utf8-for-code-point2601.0.0
+Version: 20260107.1-r0
+Provides: libabsl-utf8-for-code-point
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2f8df2215267aa878f950e67ac9f4c8
+Size: 2358
+Filename: libabsl-utf8-for-code-point2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library utf8-for-code-point
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
+Package: libabsl-vlog-config-internal2601.0.0
+Version: 20260107.1-r0
+Depends: libabsl-base2601.0.0 (>= 20260107.1), libabsl-log-internal-fnmatch2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: libabsl-vlog-config-internal
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5cc5f56993607ecdcb7f01c232e20180
+Size: 11084
+Filename: libabsl-vlog-config-internal2601.0.0_20260107.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: abseil-cpp_20260107.1.bb
+Description: abseil shared library vlog-config-internal
+OE: abseil-cpp
+HomePage: https://abseil.io/
+License: Apache-2.0
+Priority: optional
+
 Package: libacl1
 Version: 2.3.2-r0
 Depends: libattr1 (>= 2.5.2), libc6 (>= 2.43+git0+e9517114ac)
@@ -36702,6 +38614,56 @@ HomePage: http://sites.google.com/site/fullycapable/
 License: (BSD-3-Clause | GPL-2.0-only) & (BSD-3-Clause | LGPL-2.0-or-later)
 Priority: optional
 
+Package: libcares-doc
+Version: 1.34.6-r0
+Provides: c-ares-doc
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 248fab024ca726aa01c02cbd3e06694a
+Size: 52518
+Filename: libcares-doc_1.34.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: c-ares_1.34.6.bb
+Description: c-ares is a C library that resolves names asynchronously. - Documentation files
+OE: c-ares
+HomePage: https://c-ares.org/
+License: MIT
+Priority: optional
+
+Package: libcares-utils
+Version: 1.34.6-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libcares2 (>= 1.34.6)
+Provides: c-ares-utils
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e5782c52505549bd8a48dd9451aecfe2
+Size: 16092
+Filename: libcares-utils_1.34.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: c-ares_1.34.6.bb
+Description: c-ares is a C library that resolves names asynchronously.
+OE: c-ares
+HomePage: https://c-ares.org/
+License: MIT
+Priority: optional
+
+Package: libcares2
+Version: 1.34.6-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: c-ares
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9fa3362dd086e8296ac19ce06719a5a3
+Size: 112464
+Filename: libcares2_1.34.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: c-ares_1.34.6.bb
+Description: c-ares is a C library that resolves names asynchronously.
+OE: c-ares
+HomePage: https://c-ares.org/
+License: MIT
+Priority: optional
+
 Package: libcddb
 Version: 1.3.2-r1
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcdio19 (>= 2.3.0)
@@ -36781,6 +38743,56 @@ Description: libcdio cdio library
 OE: libcdio
 HomePage: http://www.gnu.org/software/libcdio/
 License: GPL-3.0-or-later
+Priority: optional
+
+Package: libcec-examples-python
+Version: 7.1.1-r0
+Depends: python3-core, python3-libcec
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 647818df9d8b20b9619daa33cfa618e1
+Size: 3276
+Filename: libcec-examples-python_7.1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_7.1.1.bb
+Description: USB CEC Adaptor communication Library
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec-examples
+Version: 7.1.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libcec, libgcc1 (>= 16.1.0), libncurses5 (>= 6.6), libstdc++6 (>= 16.1.0), libtinfo5 (>= 6.6)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb4c1839954fca7dcb40f3c41e5e33d3
+Size: 55878
+Filename: libcec-examples_7.1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_7.1.1.bb
+Description: USB CEC Adaptor communication Library
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec7
+Version: 7.1.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), libudev1 (>= 3.2.14), python3-core
+Provides: libcec
+Recommends: kernel-module-cdc-acm
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 87f02e2a251c7cbd5b8a71d610bb95b6
+Size: 272460
+Filename: libcec7_7.1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_7.1.1.bb
+Description: USB CEC Adaptor communication Library
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: libcharset3-private-samba
@@ -37740,6 +39752,38 @@ Description: Samba events-private-samba library
 OE: samba
 HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Priority: optional
+
+Package: libexif-doc
+Version: 0.6.26-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5c316f276e88c607e832b6cde1c060f4
+Size: 49372
+Filename: libexif-doc_0.6.26-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libexif_0.6.26.bb
+Description: Library for reading extended image information (EXIF) from JPEG files - Documentation files
+OE: libexif
+HomePage: https://libexif.github.io/
+License: LGPL-2.1-only
+Priority: optional
+
+Package: libexif12
+Version: 0.6.26-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libexif
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be73eef8197be5fac4f1de734c0dd325
+Size: 88304
+Filename: libexif12_0.6.26-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libexif_0.6.26.bb
+Description: Library for reading extended image information (EXIF) from JPEG files
+OE: libexif
+HomePage: https://libexif.github.io/
+License: LGPL-2.1-only
 Priority: optional
 
 Package: libexpat-bin
@@ -44943,6 +46987,23 @@ HomePage: https://github.com/json-c/json-c/wiki
 License: MIT
 Priority: optional
 
+Package: libjsoncpp27
+Version: 1:1.9.7-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: jsoncpp
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f61414f1e03572758c5e9961cbdbb0e
+Size: 107148
+Filename: libjsoncpp27_1.9.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: jsoncpp_1.9.7.bb
+Description: JSON C++ lib used to read and write json file.
+OE: jsoncpp
+HomePage: https://github.com/open-source-parsers/jsoncpp
+License: MIT
+Priority: optional
+
 Package: libk5crypto3
 Version: 1.22.2-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libkrb5support0 (>= 1.22.2)
@@ -48788,6 +50849,40 @@ HomePage: https://gitlab.com/procps-ng/procps
 License: GPL-2.0-or-later & LGPL-2.0-or-later
 Priority: optional
 
+Package: libprotobuf-lite33.6.0
+Version: 6.33.6-r0
+Depends: libabsl-cord-internal2601.0.0 (>= 20260107.1), libabsl-cord2601.0.0 (>= 20260107.1), libabsl-cordz-info2601.0.0 (>= 20260107.1), libabsl-hash2601.0.0 (>= 20260107.1), libabsl-log-internal-check-op2601.0.0 (>= 20260107.1), libabsl-log-internal-message2601.0.0 (>= 20260107.1), libabsl-log-internal-nullguard2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-status2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), protobuf (>= 6.33.6)
+Provides: protobuf-lite
+Section: console/tools
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c90d7c24eadaedc0ae52b471c9e0c69
+Size: 337902
+Filename: libprotobuf-lite33.6.0_6.33.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: protobuf_6.33.6.bb
+Description: Protocol Buffers - structured data serialisation mechanism
+OE: protobuf
+HomePage: https://github.com/google/protobuf
+License: BSD-3-Clause & MIT
+Priority: optional
+
+Package: libprotoc33.6.0
+Version: 6.33.6-r0
+Depends: libabsl-die-if-null2601.0.0 (>= 20260107.1), libabsl-hash2601.0.0 (>= 20260107.1), libabsl-log-internal-check-op2601.0.0 (>= 20260107.1), libabsl-log-internal-conditions2601.0.0 (>= 20260107.1), libabsl-log-internal-message2601.0.0 (>= 20260107.1), libabsl-log-internal-nullguard2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-status2601.0.0 (>= 20260107.1), libabsl-statusor2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libabsl-throw-delegate2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), protobuf (>= 6.33.6)
+Provides: protobuf-compiler
+Section: console/tools
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7617a0a3879b3b9d4bdcb95bc00245bf
+Size: 2130866
+Filename: libprotoc33.6.0_6.33.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: protobuf_6.33.6.bb
+Description: Protocol Buffers - structured data serialisation mechanism
+OE: protobuf
+HomePage: https://github.com/google/protobuf
+License: BSD-3-Clause & MIT
+Priority: optional
+
 Package: libproxy-doc
 Version: 0.5.12-r0
 Section: doc
@@ -48998,6 +51093,23 @@ Description: Samba quic-private-samba library
 OE: samba
 HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Priority: optional
+
+Package: libre2-11
+Version: 2025.11.05-r0
+Depends: libabsl-hash2601.0.0 (>= 20260107.1), libabsl-log-internal-check-op2601.0.0 (>= 20260107.1), libabsl-log-internal-message2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Provides: re2
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cdfa0ccccdaaae12460a9c40fa49b554
+Size: 269094
+Filename: libre2-11_2025.11.05-r0_cortexa15hf-neon-vfpv4.ipk
+Source: re2_2025.11.05.bb
+Description: re2 version 2025.11.05-r0
+OE: re2
+HomePage: https://github.com/google/re2/
+License: BSD-3-Clause
 Priority: optional
 
 Package: libreadline-doc
@@ -50291,6 +52403,21 @@ HomePage: http://www.gnu.org/software/libtasn1/
 License: GPL-3.0-or-later & LGPL-2.1-or-later
 Priority: optional
 
+Package: libtdb-doc
+Version: 1.4.15-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d00db8ec6344aebf2190954cbf349e75
+Size: 3930
+Filename: libtdb-doc_1.4.15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtdb_1.4.15.bb
+Description: The tdb library - Documentation files
+OE: libtdb
+HomePage: https://tdb.samba.org/
+License: LGPL-3.0-or-later & GPL-3.0-or-later
+Priority: optional
+
 Package: libtdb-private-samba
 Version: 4.24.2-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), samba-common
@@ -50321,6 +52448,23 @@ Description: Samba tdb-wrap-private-samba library
 OE: samba
 HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Priority: optional
+
+Package: libtdb1
+Version: 1.4.15-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libtdb
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6d6da00ce9d45954e367720c73177303
+Size: 53726
+Filename: libtdb1_1.4.15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtdb_1.4.15.bb
+Description: The tdb library
+OE: libtdb
+HomePage: https://tdb.samba.org/
+License: LGPL-3.0-or-later & GPL-3.0-or-later
 Priority: optional
 
 Package: libtevent-private-samba
@@ -51151,6 +53295,23 @@ Source: libxslt_1.1.45.bb
 Description: GNOME XSLT library
 OE: libxslt
 HomePage: http://xmlsoft.org/XSLT/
+License: MIT
+Priority: optional
+
+Package: libyaml-0-2
+Version: 0.2.5-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Provides: libyaml
+Section: libs/devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 926f07dd293693d7cd635ea88c834af0
+Size: 54362
+Filename: libyaml-0-2_0.2.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libyaml_0.2.5.bb
+Description: LibYAML is a YAML 1.1 parser and emitter written in C.
+OE: libyaml
+HomePage: https://pyyaml.org/wiki/LibYAML
 License: MIT
 Priority: optional
 
@@ -60833,6 +62994,36 @@ Description: Midnight Commander is an ncurses based file manager
 OE: mc
 HomePage: http://www.midnight-commander.org/
 License: GPL-3.0-only
+Priority: optional
+
+Package: minidlna-locale
+Version: 1.3.3-r0.1
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 863446e28496501b86a980fdb848aae3
+Size: 5714
+Filename: minidlna-locale_1.3.3-r0.1_cortexa15hf-neon-vfpv4.ipk
+Source: minidlna_1.3.3.bb
+Description: minidlna version 1.3.3-r0.1
+OE: minidlna
+License: GPL-2.0-only|BSD-3-Clause
+Priority: optional
+
+Package: minidlna
+Version: 1.3.3-r0.1
+Depends: libavformat62 (>= 8.1.1), libavutil60 (>= 8.1.1), libc6 (>= 2.43+git0+e9517114ac), libexif12 (>= 0.6.26), libflac14 (>= 1.5.0), libid3tag0 (>= 0.15.1b), libjpeg62 (>= 3.1.4.1), libogg0 (>= 1.3.6), libsqlite3-0 (>= 3.53.0), libvorbis (>= 1.3.7)
+Recommends: update-rc.d
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2fbc34ab2ae8aa8a06da31048b6f8d27
+Size: 165152
+Filename: minidlna_1.3.3-r0.1_cortexa15hf-neon-vfpv4.ipk
+Source: minidlna_1.3.3.bb
+Description: minidlna version 1.3.3-r0.1
+OE: minidlna
+License: GPL-2.0-only|BSD-3-Clause
 Priority: optional
 
 Package: minilocale-locale
@@ -77223,6 +79414,22 @@ HomePage: https://gitlab.com/procps-ng/procps
 License: GPL-2.0-or-later & LGPL-2.0-or-later
 Priority: optional
 
+Package: protobuf
+Version: 6.33.6-r0
+Depends: libabsl-cord-internal2601.0.0 (>= 20260107.1), libabsl-cord2601.0.0 (>= 20260107.1), libabsl-cordz-info2601.0.0 (>= 20260107.1), libabsl-die-if-null2601.0.0 (>= 20260107.1), libabsl-hash2601.0.0 (>= 20260107.1), libabsl-int128-2601.0.0 (>= 20260107.1), libabsl-log-internal-check-op2601.0.0 (>= 20260107.1), libabsl-log-internal-conditions2601.0.0 (>= 20260107.1), libabsl-log-internal-message2601.0.0 (>= 20260107.1), libabsl-log-internal-nullguard2601.0.0 (>= 20260107.1), libabsl-raw-hash-set2601.0.0 (>= 20260107.1), libabsl-raw-logging-internal2601.0.0 (>= 20260107.1), libabsl-spinlock-wait2601.0.0 (>= 20260107.1), libabsl-status2601.0.0 (>= 20260107.1), libabsl-statusor2601.0.0 (>= 20260107.1), libabsl-str-format-internal2601.0.0 (>= 20260107.1), libabsl-strings2601.0.0 (>= 20260107.1), libabsl-synchronization2601.0.0 (>= 20260107.1), libabsl-time-zone2601.0.0 (>= 20260107.1), libabsl-time2601.0.0 (>= 20260107.1), libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), libz1 (>= 1.3.2)
+Section: console/tools
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0bf85f938d00cec59bd5e405fc5c07ff
+Size: 1613404
+Filename: protobuf_6.33.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: protobuf_6.33.6.bb
+Description: Protocol Buffers - structured data serialisation mechanism
+OE: protobuf
+HomePage: https://github.com/google/protobuf
+License: BSD-3-Clause & MIT
+Priority: optional
+
 Package: pulseaudio-bash-completion
 Version: 17.0-r0
 Depends: bash-completion
@@ -79481,6 +81688,37 @@ HomePage: https://github.com/ActiveState/appdirs
 License: MIT
 Priority: optional
 
+Package: python3-apprise-doc
+Version: 1.9.9-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41d065e85bb6322e0cb8db0ad26e8a94
+Size: 18582
+Filename: python3-apprise-doc_1.9.9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-apprise_1.9.9.bb
+Description: Push Notifications that work with just about every platform! - Documentation files
+OE: python3-apprise
+HomePage: https://github.com/caronc/apprise
+License: MIT
+Priority: optional
+
+Package: python3-apprise
+Version: 1.9.9-r0
+Depends: python3-click, python3-core, python3-markdown, python3-pyyaml
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8ac0bf81957024e9fdcf2cebaea6a580
+Size: 1388956
+Filename: python3-apprise_1.9.9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-apprise_1.9.9.bb
+Description: Push Notifications that work with just about every platform!
+OE: python3-apprise
+HomePage: https://github.com/caronc/apprise
+License: MIT
+Priority: optional
+
 Package: python3-asyncio
 Version: 3.14.5-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core, python3-io, python3-logging, python3-netclient, python3-numbers, python3-stringold
@@ -79606,6 +81844,69 @@ HomePage: https://github.com/glyph/Automat
 License: MIT
 Priority: optional
 
+Package: python3-aws-iot-device-sdk-python-examples
+Version: 1.5.2-r0
+Depends: python3-aws-iot-device-sdk-python
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 916659310ca03ccbeaf6ddcb95c01c8c
+Size: 6492
+Filename: python3-aws-iot-device-sdk-python-examples_1.5.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-aws-iot-device-sdk-python_1.5.2.bb
+Description: python3-aws-iot-device-sdk-python version 1.5.2-r0
+OE: python3-aws-iot-device-sdk-python
+HomePage: https://github.com/aws/aws-iot-device-sdk-python
+License: Apache-2.0
+Priority: optional
+
+Package: python3-aws-iot-device-sdk-python
+Version: 1.5.2-r0
+Depends: python3-core, python3-crypt, python3-datetime, python3-io, python3-json, python3-logging, python3-math, python3-netclient, python3-numbers, python3-threading
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e223e631ebe2ba7288347d2c3fc6798
+Size: 172094
+Filename: python3-aws-iot-device-sdk-python_1.5.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-aws-iot-device-sdk-python_1.5.2.bb
+Description: python3-aws-iot-device-sdk-python version 1.5.2-r0
+OE: python3-aws-iot-device-sdk-python
+HomePage: https://github.com/aws/aws-iot-device-sdk-python
+License: Apache-2.0 & (EPL-1.0 | EDL-1.0)
+Priority: optional
+
+Package: python3-babelfish-doc
+Version: 0.6.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce63ac8055a90836295ca75ce8342e84
+Size: 2956
+Filename: python3-babelfish-doc_0.6.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-babelfish_0.6.1.bb
+Description: A module to work with countries and languages - Documentation files
+OE: python3-babelfish
+HomePage: https://github.com/Diaoul/babelfish
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-babelfish
+Version: 0.6.1-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c130bc08809c5e131e1344000b139ea
+Size: 102726
+Filename: python3-babelfish_0.6.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-babelfish_0.6.1.bb
+Description: A module to work with countries and languages
+OE: python3-babelfish
+HomePage: https://github.com/Diaoul/babelfish
+License: BSD-3-Clause
+Priority: optional
+
 Package: python3-backports-lzma-doc
 Version: 0.0.14-r0
 Section: doc
@@ -79666,6 +81967,37 @@ Description: Modern password hashing for your software and your servers.
 OE: python3-bcrypt
 HomePage: https://pypi.org/project/bcrypt/
 License: Apache-2.0
+Priority: optional
+
+Package: python3-beautifulsoup4-doc
+Version: 4.14.3-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 36bebe36a2f3759d86cca2b277feb401
+Size: 4652
+Filename: python3-beautifulsoup4-doc_4.14.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-beautifulsoup4_4.14.3.bb
+Description: Screen-scraping library - Documentation files
+OE: python3-beautifulsoup4
+HomePage: https://www.crummy.com/software/BeautifulSoup/bs4
+License: MIT
+Priority: optional
+
+Package: python3-beautifulsoup4
+Version: 4.14.3-r0
+Depends: python3-core, python3-html, python3-html5lib, python3-logging, python3-lxml, python3-soupsieve
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 54d22ddfa99bcbbc3e69e3aba0d07ae1
+Size: 156846
+Filename: python3-beautifulsoup4_4.14.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-beautifulsoup4_4.14.3.bb
+Description: Screen-scraping library
+OE: python3-beautifulsoup4
+HomePage: https://www.crummy.com/software/BeautifulSoup/bs4
+License: MIT
 Priority: optional
 
 Package: python3-cachetools
@@ -79870,6 +82202,22 @@ Description: Python codec
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-colorama
+Version: 0.4.6-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 59ec30b66cf765e21ab724a1a200876b
+Size: 53248
+Filename: python3-colorama_0.4.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-colorama_0.4.6.bb
+Description: Cross-platform colored terminal text.
+OE: python3-colorama
+HomePage: https://github.com/tartley/colorama
+License: BSD-3-Clause
 Priority: optional
 
 Package: python3-compat2
@@ -80248,6 +82596,22 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-e2icjson
+Version: 1.2.1+git86+04cccc70+04cccc7d7c-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e6d17118f85b7d9d7937bd5ce6eddf84
+Size: 11168
+Filename: python3-e2icjson_1.2.1+git86+04cccc70+04cccc7d7c-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-e2icjson.bb
+Description: A very fast JSON encoder/decoder for Python modified for e2iplayer
+OE: python3-e2icjson
+HomePage: https://github.com/e2iplayer/python-cjson
+License: LGPL-2.0-only
+Priority: optional
+
 Package: python3-email
 Version: 3.14.5-r0
 Depends: python3-core, python3-datetime, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
@@ -80278,6 +82642,37 @@ Description: Support for bootstrapping the pip installer
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-exceptiongroup-doc
+Version: 1.3.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1de7f154ad1fc906cb1304605be238fd
+Size: 5376
+Filename: python3-exceptiongroup-doc_1.3.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-exceptiongroup_1.3.1.bb
+Description: Backport of PEP 654 (exception groups) - Documentation files
+OE: python3-exceptiongroup
+HomePage: https://github.com/agronholm/exceptiongroup
+License: MIT
+Priority: optional
+
+Package: python3-exceptiongroup
+Version: 1.3.1-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 988093227bc8333f39d604457bce5dac
+Size: 23422
+Filename: python3-exceptiongroup_1.3.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-exceptiongroup_1.3.1.bb
+Description: Backport of PEP 654 (exception groups)
+OE: python3-exceptiongroup
+HomePage: https://github.com/agronholm/exceptiongroup
+License: MIT
 Priority: optional
 
 Package: python3-fcntl
@@ -80327,6 +82722,53 @@ HomePage: https://python-future.org
 License: MIT
 Priority: optional
 
+Package: python3-futures3-doc
+Version: 1.0.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a60e865c5b907f4f691f1bccca19cc41
+Size: 1746
+Filename: python3-futures3-doc_1.0.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-futures3_1.0.0.bb
+Description: python3-futures3 version 1.0.0-r0 - Documentation files
+OE: python3-futures3
+HomePage: https://github.com/mihaiparvu/futures3
+License: PSF-2.0
+Priority: optional
+
+Package: python3-futures3
+Version: 1.0.0-r0
+Depends: python3-core
+Provides: python3-futures
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 22f713ccbd5fc8d6d02d53190f740588
+Size: 29248
+Filename: python3-futures3_1.0.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-futures3_1.0.0.bb
+Description: python3-futures3 version 1.0.0-r0
+OE: python3-futures3
+HomePage: https://github.com/mihaiparvu/futures3
+License: PSF-2.0
+Priority: optional
+
+Package: python3-gdata-python3-doc
+Version: 3.0.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06dbc1b71304ad6fade2002fee48bf2d
+Size: 40622
+Filename: python3-gdata-python3-doc_3.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-gdata-python3_3.0.1.bb
+Description: Google Data APIs Python Client Library - Documentation files
+OE: python3-gdata-python3
+HomePage: http://code.google.com/p/gdata-python-client/
+License: Apache-2.0
+Priority: optional
+
 Package: python3-gdata-python3
 Version: 3.0.1-r0
 Depends: python3-core, python3-json, python3-netserver, python3-xml
@@ -80372,6 +82814,21 @@ Source: python3-google-api-core_2.19.1.bb
 Description: python3-google-api-core version 2.19.1-r0
 OE: python3-google-api-core
 HomePage: https://github.com/googleapis/python-api-core
+License: Apache-2.0
+Priority: optional
+
+Package: python3-google-api-python-client-doc
+Version: 2.136.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e97a58036b8aef6f50931e8808cadc8a
+Size: 7560
+Filename: python3-google-api-python-client-doc_2.136.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-google-api-python-client_2.136.0.bb
+Description: The Google API Client for Python is a client library for accessing the Plus, Moderator, and many other Google APIs. - Documentation files
+OE: python3-google-api-python-client
+HomePage: https://github.com/googleapis/google-api-python-client
 License: Apache-2.0
 Priority: optional
 
@@ -80423,6 +82880,21 @@ HomePage: https://github.com/googleapis/python-api-common-protos
 License: Apache-2.0
 Priority: optional
 
+Package: python3-grpcio-doc
+Version: 1.78.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3361326d0990497106e743db3b045195
+Size: 12250
+Filename: python3-grpcio-doc_1.78.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-grpcio_1.78.0.bb
+Description: python3-grpcio version 1.78.0-r0 - Documentation files
+OE: python3-grpcio
+HomePage: https://www.grpc.io/
+License: Apache-2.0 & BSD-3-Clause & MPL-2.0 & MIT & BSD-2-Clause
+Priority: optional
+
 Package: python3-grpcio
 Version: 1.78.0-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcares2 (>= 1.34.6), libcrypto4 (>= 4.0.0), libre2-11 (>= 2025.11.05), libssl4 (>= 4.0.0), libstdc++6 (>= 16.1.0), libz1 (>= 1.3.2), python3-core, python3-protobuf, python3-typing-extensions
@@ -80439,6 +82911,35 @@ HomePage: https://www.grpc.io/
 License: Apache-2.0 & BSD-3-Clause & MPL-2.0 & MIT & BSD-2-Clause
 Priority: optional
 
+Package: python3-html5lib-doc
+Version: 1.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a74c317647c6305e6aeb4c1a1aa68d8
+Size: 8712
+Filename: python3-html5lib-doc_1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-html5lib_1.1.bb
+Description: HTML parser based on the WHATWG HTML specifcation - Documentation files
+OE: python3-html5lib
+License: MIT
+Priority: optional
+
+Package: python3-html5lib
+Version: 1.1-r0
+Depends: python3-core, python3-lxml, python3-six, python3-webencodings, python3-xml
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a3b17615933a1db275cbaf76a1035a1
+Size: 210786
+Filename: python3-html5lib_1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-html5lib_1.1.bb
+Description: HTML parser based on the WHATWG HTML specifcation
+OE: python3-html5lib
+License: MIT
+Priority: optional
+
 Package: python3-html
 Version: 3.14.5-r0
 Depends: python3-core
@@ -80453,6 +82954,21 @@ Description: Python HTML processing support
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-httplib2-doc
+Version: 0.18.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0deb2430859888190f6dc79883d3acb2
+Size: 2734
+Filename: python3-httplib2-doc_0.18.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-httplib2_0.18.1.bb
+Description: python3-httplib2 version 0.18.1-r0 - Documentation files
+OE: python3-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
 Priority: optional
 
 Package: python3-httplib2
@@ -80658,6 +83174,22 @@ HomePage: https://github.com/twisted/incremental
 License: MIT
 Priority: optional
 
+Package: python3-iniconfig
+Version: 2.3.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5980d5358bd1db92f73926f6faa39e84
+Size: 16430
+Filename: python3-iniconfig_2.3.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-iniconfig_2.3.0.bb
+Description: A small and simple INI-file parser module
+OE: python3-iniconfig
+HomePage: https://pypi.org/project/iniconfig/
+License: MIT
+Priority: optional
+
 Package: python3-io
 Version: 3.14.5-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libssl4 (>= 4.0.0), python3-core, python3-math, python3-netclient
@@ -80703,6 +83235,37 @@ Description: Python 3.3+'s ipaddress for Python 2.6, 2.7, 3.2.
 OE: python3-ipaddress
 HomePage: https://github.com/phihag/ipaddress
 License: Python-2.0
+Priority: optional
+
+Package: python3-isodate-doc
+Version: 0.7.2-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e8f0edb0fa4402e1e45bc019e91f6189
+Size: 5708
+Filename: python3-isodate-doc_0.7.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-isodate_0.7.2.bb
+Description: ISO 8601 date/time parser - Documentation files
+OE: python3-isodate
+HomePage: https://github.com/gweis/isodate/
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-isodate
+Version: 0.7.2-r0
+Depends: python3-core, python3-numbers, python3-six
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a67f24718e15094b7474903c340069dd
+Size: 23896
+Filename: python3-isodate_0.7.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-isodate_0.7.2.bb
+Description: ISO 8601 date/time parser
+OE: python3-isodate
+HomePage: https://github.com/gweis/isodate/
+License: BSD-3-Clause
 Priority: optional
 
 Package: python3-json
@@ -80767,6 +83330,22 @@ Description: Python mailbox format support
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-markdown
+Version: 3.10.2-r0
+Depends: python3-core, python3-logging, python3-setuptools
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f62453ee2ea8abde10dfc5b6f2247944
+Size: 225402
+Filename: python3-markdown_3.10.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-markdown_3.10.2.bb
+Description: A Python implementation of John Gruber's Markdown.
+OE: python3-markdown
+HomePage: https://python-markdown.github.io/
+License: BSD-3-Clause
 Priority: optional
 
 Package: python3-math
@@ -80988,6 +83567,22 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-oauthlib
+Version: 3.3.1-r0
+Depends: python3-core, python3-crypt, python3-datetime, python3-json, python3-logging, python3-math, python3-netclient, python3-unittest
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5281969df1297321cb4e6c02a76e416
+Size: 240842
+Filename: python3-oauthlib_3.3.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-oauthlib_3.3.1.bb
+Description: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+OE: python3-oauthlib
+HomePage: https://github.com/idan/oauthlib
+License: BSD-3-Clause
+Priority: optional
+
 Package: python3-outcome-doc
 Version: 1.3.0.post0-r0
 Section: doc
@@ -81145,6 +83740,22 @@ HomePage: https://pillow.readthedocs.io
 License: MIT-CMU
 Priority: optional
 
+Package: python3-pip
+Version: 26.1.1-r0
+Depends: python3-compile, python3-core, python3-html, python3-image, python3-io, python3-json, python3-multiprocessing, python3-netserver, python3-pickle, python3-setuptools, python3-tomllib, python3-unixadmin, python3-xmlrpc
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f17fa175c1d51e19bebfc8cfa4e82563
+Size: 3193824
+Filename: python3-pip_26.1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pip_26.1.1.bb
+Description: The PyPA recommended tool for installing Python packages
+OE: python3-pip
+HomePage: https://pypi.org/project/pip
+License: MIT & Apache-2.0 & MPL-2.0 & LGPL-2.1-only & BSD-3-Clause & PSF-2.0 & BSD-2-Clause
+Priority: optional
+
 Package: python3-pkgutil
 Version: 3.14.5-r0
 Depends: python3-core
@@ -81175,6 +83786,22 @@ Description: Generate and parse Mac OS X .plist files
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-pluggy
+Version: 1.6.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6f3cba0dbf7d79b5cc27023acc774a45
+Size: 49966
+Filename: python3-pluggy_1.6.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pluggy_1.6.0.bb
+Description: Plugin and hook calling mechanisms for python
+OE: python3-pluggy
+HomePage: https://github.com/pytest-dev/pluggy
+License: MIT
 Priority: optional
 
 Package: python3-pprint
@@ -81456,6 +84083,66 @@ HomePage: http://pyasn1.sourceforge.net/
 License: BSD-2-Clause
 Priority: optional
 
+Package: python3-pycairo-doc
+Version: 1.29.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1cae00fbb1a2a3e9b7cb782119720807
+Size: 1004
+Filename: python3-pycairo-doc_1.29.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycairo_1.29.0.bb
+Description: Python bindings for the Cairo canvas library - Documentation files
+OE: python3-pycairo
+HomePage: http://cairographics.org/pycairo
+License: LGPL-2.1-only & MPL-1.1
+Priority: optional
+
+Package: python3-pycairo
+Version: 1.29.0-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libcairo2 (>= 1.18.4)
+Section: python-devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 05f2cc711c8874020b7564d7895f69f1
+Size: 112000
+Filename: python3-pycairo_1.29.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycairo_1.29.0.bb
+Description: Python bindings for the Cairo canvas library
+OE: python3-pycairo
+HomePage: http://cairographics.org/pycairo
+License: LGPL-2.1-only & MPL-1.1
+Priority: optional
+
+Package: python3-pycountry-doc
+Version: 26.2.16-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 175beb5f800219c4091b82d1fc7dcc24
+Size: 14822
+Filename: python3-pycountry-doc_26.2.16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycountry_26.2.16.bb
+Description: ISO country, subdivision, language, currency and script definitions and their translations - Documentation files
+OE: python3-pycountry
+License: LGPL-2.1-only
+Priority: optional
+
+Package: python3-pycountry
+Version: 26.2.16-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94da0895b9d69c939dae2d14433352f6
+Size: 5926026
+Filename: python3-pycountry_26.2.16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycountry_26.2.16.bb
+Description: ISO country, subdivision, language, currency and script definitions and their translations
+OE: python3-pycountry
+License: LGPL-2.1-only
+Priority: optional
+
 Package: python3-pycparser-doc
 Version: 3.0-r0
 Section: doc
@@ -81486,6 +84173,56 @@ Description: Parser of the C language, written in pure Python
 OE: python3-pycparser
 HomePage: https://github.com/eliben/pycparser
 License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pycryptodome-doc
+Version: 3.23.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b00200439d008cd684b9e8114543ed8b
+Size: 4494
+Filename: python3-pycryptodome-doc_3.23.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodome_3.23.0.bb
+Description: Cryptographic library for Python - Documentation files
+OE: python3-pycryptodome
+HomePage: http://www.pycryptodome.org
+License: PD & BSD-2-Clause
+Priority: optional
+
+Package: python3-pycryptodome-tests
+Version: 3.23.0-r0
+Depends: python3-unittest
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dcd391ac4f04ded67c0c2bcb7afe0107
+Size: 457586
+Filename: python3-pycryptodome-tests_3.23.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodome_3.23.0.bb
+Description: Cryptographic library for Python
+OE: python3-pycryptodome
+HomePage: http://www.pycryptodome.org
+License: PD & BSD-2-Clause
+Priority: optional
+
+Package: python3-pycryptodome
+Version: 3.23.0-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), python3-cffi, python3-core, python3-ctypes, python3-io, python3-math
+Provides: python3-pycrypto
+Replaces: python3-pycrypto
+Conflicts: python3-pycrypto
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 170a20e4b84951fac83707cf0da26639
+Size: 1150478
+Filename: python3-pycryptodome_3.23.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodome_3.23.0.bb
+Description: Cryptographic library for Python
+OE: python3-pycryptodome
+HomePage: http://www.pycryptodome.org
+License: PD & BSD-2-Clause
 Priority: optional
 
 Package: python3-pycurl-doc
@@ -81533,6 +84270,22 @@ Description: Python interactive help support
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-pygments
+Version: 2.20.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af0290ab34a62c21b6f102b745567b0f
+Size: 2556220
+Filename: python3-pygments_2.20.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pygments_2.20.0.bb
+Description: Pygments is a syntax highlighting package written in Python.
+OE: python3-pygments
+HomePage: http://pygments.org/
+License: BSD-2-Clause
 Priority: optional
 
 Package: python3-pygobject-doc
@@ -81728,6 +84481,35 @@ OE: python3-pysmb
 License: PD
 Priority: optional
 
+Package: python3-pysnmp-doc
+Version: 7.1.22-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1776e43808c3cbf5a3a42c7989263af
+Size: 3846
+Filename: python3-pysnmp-doc_7.1.22-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pysnmp_7.1.22.bb
+Description: Python SNMP Toolkit - Documentation files
+OE: python3-pysnmp
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pysnmp
+Version: 7.1.22-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd93ec098cdaac3040086f96afc46494
+Size: 415156
+Filename: python3-pysnmp_7.1.22-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pysnmp_7.1.22.bb
+Description: Python SNMP Toolkit
+OE: python3-pysnmp
+License: BSD-3-Clause
+Priority: optional
+
 Package: python3-pysocks-doc
 Version: 1.7.1-r0
 Section: doc
@@ -81757,6 +84539,22 @@ Description: A Python SOCKS client module
 OE: python3-pysocks
 HomePage: http://python-requests.org
 License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pytest
+Version: 9.0.3-r0
+Depends: python3-colorama, python3-core, python3-debugger, python3-doctest, python3-iniconfig, python3-json, python3-packaging, python3-pluggy, python3-pygments, python3-tomllib, python3-xml, update-alternatives-opkg
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31b416c622e80004cab37c4127f15ca9
+Size: 986504
+Filename: python3-pytest_9.0.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pytest_9.0.3.bb
+Description: Simple powerful testing with python
+OE: python3-pytest
+HomePage: https://pypi.org/project/pytest/
+License: MIT
 Priority: optional
 
 Package: python3-pytz-doc
@@ -81821,6 +84619,85 @@ HomePage: http://pyusb.sourceforge.net/
 License: BSD-3-Clause
 Priority: optional
 
+Package: python3-pyyaml
+Version: 6.0.3-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libyaml-0-2 (>= 0.2.5), python3-core, python3-datetime, python3-netclient
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6092a296901fafee80b5bfa95e2a5106
+Size: 237946
+Filename: python3-pyyaml_6.0.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pyyaml_6.0.3.bb
+Description: Python support for YAML
+OE: python3-pyyaml
+HomePage: https://pyyaml.org/
+License: MIT
+Priority: optional
+
+Package: python3-rarfile
+Version: 4.2-r0
+Depends: 7zip, python3-core, python3-crypt, python3-datetime, python3-io
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd70e9f9f695f3b2e2caec5b7cffd8a7
+Size: 85830
+Filename: python3-rarfile_4.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-rarfile_4.2.bb
+Description: RAR archive reader for Python
+OE: python3-rarfile
+HomePage: https://github.com/markokr/rarfile
+License: ISC
+Priority: optional
+
+Package: python3-rebulk-doc
+Version: 3.2.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca0656ca57171f8883f639fb71d7e948
+Size: 9136
+Filename: python3-rebulk-doc_3.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-rebulk_3.2.0.bb
+Description: Rebulk - Define simple search patterns in bulk to perform advanced matching on any string. - Documentation files
+OE: python3-rebulk
+HomePage: https://github.com/Toilal/rebulk/
+License: BSD-4-Clause
+Priority: optional
+
+Package: python3-rebulk
+Version: 3.2.0-r0
+Depends: python3-core, python3-regex
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8aad7de9f6eaf4ca9b57fe2c66b69cde
+Size: 100894
+Filename: python3-rebulk_3.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-rebulk_3.2.0.bb
+Description: Rebulk - Define simple search patterns in bulk to perform advanced matching on any string.
+OE: python3-rebulk
+HomePage: https://github.com/Toilal/rebulk/
+License: BSD-4-Clause
+Priority: optional
+
+Package: python3-regex
+Version: 2026.5.9-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core, python3-stringold
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd9803f1d52d06b514f561316fbf2161
+Size: 496626
+Filename: python3-regex_2026.5.9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-regex_2026.5.9.bb
+Description: Alternative regular expression module, to replace re.
+OE: python3-regex
+HomePage: https://bitbucket.org/mrabarnett/mrab-regex/src
+License: Apache-2.0
+Priority: optional
+
 Package: python3-requests-doc
 Version: 2.33.1-r0
 Section: doc
@@ -81834,6 +84711,21 @@ Description: Python HTTP for Humans. - Documentation files
 OE: python3-requests
 HomePage: https://requests.readthedocs.io
 License: Apache-2.0
+Priority: optional
+
+Package: python3-requests-oauthlib
+Version: 2.0.0-r0
+Depends: python3-core, python3-oauthlib, python3-requests
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6500f27920e8d2bcb37aa26bc6ea34c0
+Size: 38606
+Filename: python3-requests-oauthlib_2.0.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-requests-oauthlib_2.0.0.bb
+Description: python3-requests-oauthlib version 2.0.0-r0
+OE: python3-requests-oauthlib
+License: ISC
 Priority: optional
 
 Package: python3-requests
@@ -81881,6 +84773,66 @@ Source: python3-rsa_4.9.1.bb
 Description: Pure-Python RSA implementation
 OE: python3-rsa
 License: Apache-2.0
+Priority: optional
+
+Package: python3-sabctools-doc
+Version: 9.4.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e4e7ab836f7960df58ddd6c8ec52278
+Size: 9484
+Filename: python3-sabctools-doc_9.4.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-sabctools_9.4.0.bb
+Description: C implementations of functions for use within SABnzbd - Documentation files
+OE: python3-sabctools
+License: GPL-2.0-only
+Priority: optional
+
+Package: python3-sabctools
+Version: 9.4.0-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af16311acf2f0bb2827d5e8797856c1f
+Size: 40032
+Filename: python3-sabctools_9.4.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-sabctools_9.4.0.bb
+Description: C implementations of functions for use within SABnzbd
+OE: python3-sabctools
+License: GPL-2.0-only
+Priority: optional
+
+Package: python3-sabyenc3-doc
+Version: 5.4.4-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d62ce2e027b7826b20b9bceca7ed237
+Size: 4790
+Filename: python3-sabyenc3-doc_5.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-sabyenc3_5.4.4.bb
+Description: yEnc Module for Python3 modified for SABnzbd - Documentation files
+OE: python3-sabyenc3
+HomePage: https://github.com/sabnzbd/sabnzbd-yenc
+License: LGPL-3.0-only
+Priority: optional
+
+Package: python3-sabyenc3
+Version: 5.4.4-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b117564b6de895532b925fff44745f8e
+Size: 27930
+Filename: python3-sabyenc3_5.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-sabyenc3_5.4.4.bb
+Description: yEnc Module for Python3 modified for SABnzbd
+OE: python3-sabyenc3
+HomePage: https://github.com/sabnzbd/sabnzbd-yenc
+License: LGPL-3.0-only
 Priority: optional
 
 Package: python3-sendfile-doc
@@ -82024,6 +84976,35 @@ HomePage: https://cheeseshop.python.org/pypi/simplejson
 License: MIT
 Priority: optional
 
+Package: python3-singledispatch-doc
+Version: 4.1.2-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3352ad548498e60de87d5141ae7d923f
+Size: 3214
+Filename: python3-singledispatch-doc_4.1.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-singledispatch_4.1.2.bb
+Description: functools.singledispatch from Python 3.4 - Documentation files
+OE: python3-singledispatch
+License: Apache-2.0
+Priority: optional
+
+Package: python3-singledispatch
+Version: 4.1.2-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f9a67cf54fcb2c2ac61e39744cf152e
+Size: 7892
+Filename: python3-singledispatch_4.1.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-singledispatch_4.1.2.bb
+Description: functools.singledispatch from Python 3.4
+OE: python3-singledispatch
+License: Apache-2.0
+Priority: optional
+
 Package: python3-six-doc
 Version: 1.17.0-r0
 Section: doc
@@ -82115,6 +85096,37 @@ HomePage: http://www.grantjenks.com/docs/sortedcontainers/
 License: Apache-2.0
 Priority: optional
 
+Package: python3-soupsieve-doc
+Version: 2.8.3-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 14b4aa025aae9ed128b732046033227e
+Size: 3460
+Filename: python3-soupsieve-doc_2.8.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-soupsieve_2.8.3.bb
+Description: CSS selector library for python-beautifulsoup4 - Documentation files
+OE: python3-soupsieve
+HomePage: https://github.com/facelessuser/soupsieve
+License: MIT
+Priority: optional
+
+Package: python3-soupsieve
+Version: 2.8.3-r0
+Depends: python3-beautifulsoup4, python3-core, python3-datetime
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e5a9ba23397c2ab969c69a0428cffd76
+Size: 72802
+Filename: python3-soupsieve_2.8.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-soupsieve_2.8.3.bb
+Description: CSS selector library for python-beautifulsoup4
+OE: python3-soupsieve
+HomePage: https://github.com/facelessuser/soupsieve
+License: MIT
+Priority: optional
+
 Package: python3-sqlite3
 Version: 3.14.5-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libsqlite3-0 (>= 3.53.0), python3-core, python3-datetime
@@ -82179,6 +85191,22 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-tdb
+Version: 1.4.15-r0
+Depends: libatomic1 (>= 16.1.0), libc6 (>= 2.43+git0+e9517114ac), libtdb1 (>= 1.4.15), python3
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1cef4048136e50dacf096cf2e0010cf
+Size: 10700
+Filename: python3-tdb_1.4.15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtdb_1.4.15.bb
+Description: The tdb library
+OE: libtdb
+HomePage: https://tdb.samba.org/
+License: LGPL-3.0-or-later & GPL-3.0-or-later
+Priority: optional
+
 Package: python3-terminal
 Version: 3.14.5-r0
 Depends: python3-core, python3-io
@@ -82211,6 +85239,37 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-thefuzz-doc
+Version: 0.22.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d7d4481be98e3ef51ebb29aeed1643a5
+Size: 3074
+Filename: python3-thefuzz-doc_0.22.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-thefuzz_0.22.1.bb
+Description: Fuzzy string matching in python - Documentation files
+OE: python3-thefuzz
+HomePage: https://github.com/seatgeek/thefuzz
+License: GPL-2.0-only
+Priority: optional
+
+Package: python3-thefuzz
+Version: 0.22.1-r0
+Depends: python3-core, rapidfuzz
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f1fb7ccbc2daf32f2b9980fd8441b7a
+Size: 8452
+Filename: python3-thefuzz_0.22.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-thefuzz_0.22.1.bb
+Description: Fuzzy string matching in python
+OE: python3-thefuzz
+HomePage: https://github.com/seatgeek/thefuzz
+License: GPL-2.0-only
+Priority: optional
+
 Package: python3-threading
 Version: 3.14.5-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
@@ -82225,6 +85284,37 @@ Description: Python threading & synchronization support
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-tinytag-doc
+Version: 2.2.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8027172caaf88eac65e68a8135eb8132
+Size: 9076
+Filename: python3-tinytag-doc_2.2.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tinytag_2.2.1.bb
+Description: tinytag is a library for reading music meta data of most common audio files in pure Python - Documentation files
+OE: python3-tinytag
+HomePage: https://github.com/devsnd/tinytag
+License: MIT
+Priority: optional
+
+Package: python3-tinytag
+Version: 2.2.1-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4621afda599822719286ed601203f1d5
+Size: 48424
+Filename: python3-tinytag_2.2.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tinytag_2.2.1.bb
+Description: tinytag is a library for reading music meta data of most common audio files in pure Python
+OE: python3-tinytag
+HomePage: https://github.com/devsnd/tinytag
+License: MIT
 Priority: optional
 
 Package: python3-tkinter
@@ -82243,6 +85333,37 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-tmdbsimple-doc
+Version: 2.9.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e58080a90072d24cbd5188e59e081a2f
+Size: 16488
+Filename: python3-tmdbsimple-doc_2.9.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tmdbsimple_2.9.1.bb
+Description: A Python wrapper for The Movie Database API v3 - Documentation files
+OE: python3-tmdbsimple
+HomePage: https://github.com/celiao/tmdbsimple
+License: GPL-3.0-only
+Priority: optional
+
+Package: python3-tmdbsimple
+Version: 2.9.1-r0
+Depends: python3-core, python3-requests
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d355d96caa9f10d6fc40a1bf3aa0cda
+Size: 26402
+Filename: python3-tmdbsimple_2.9.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tmdbsimple_2.9.1.bb
+Description: A Python wrapper for The Movie Database API v3
+OE: python3-tmdbsimple
+HomePage: https://github.com/celiao/tmdbsimple
+License: GPL-3.0-only
+Priority: optional
+
 Package: python3-tomllib
 Version: 3.14.5-r0
 Depends: python3-core
@@ -82257,6 +85378,37 @@ Description: Provides an interface for parsing TOML
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-transmission-rpc-doc
+Version: 7.0.11-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06e9bead724bacc557424e52be289baf
+Size: 3286
+Filename: python3-transmission-rpc-doc_7.0.11-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-transmission-rpc_7.0.11.bb
+Description: Python module that implements the Transmission bittorent client JSON-RPC protocol - Documentation files
+OE: python3-transmission-rpc
+HomePage: https://github.com/trim21/transmission-rpc
+License: GPL-2.0-only
+Priority: optional
+
+Package: python3-transmission-rpc
+Version: 7.0.11-r0
+Depends: python3-core, python3-requests, python3-typing-extensions
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 071ebd1a6bc5205abdd9a9f4f099db5d
+Size: 54356
+Filename: python3-transmission-rpc_7.0.11-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-transmission-rpc_7.0.11.bb
+Description: Python module that implements the Transmission bittorent client JSON-RPC protocol
+OE: python3-transmission-rpc
+HomePage: https://github.com/trim21/transmission-rpc
+License: GPL-2.0-only
 Priority: optional
 
 Package: python3-treq-doc
@@ -82572,6 +85724,35 @@ HomePage: https://github.com/python/typing_extensions
 License: PSF-2.0
 Priority: optional
 
+Package: python3-ujson-doc
+Version: 5.12.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: faf093eb3ce2d0527217e70cda069cde
+Size: 6476
+Filename: python3-ujson-doc_5.12.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-ujson_5.12.1.bb
+Description: Ultra fast JSON encoder and decoder for Python - Documentation files
+OE: python3-ujson
+License: BSD-3-Clause & TCL
+Priority: optional
+
+Package: python3-ujson
+Version: 5.12.1-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), python3-core, python3-datetime, python3-numbers
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 09784b3b5bcff99c10e9cdead206fffd
+Size: 68474
+Filename: python3-ujson_5.12.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-ujson_5.12.1.bb
+Description: Ultra fast JSON encoder and decoder for Python
+OE: python3-ujson
+License: BSD-3-Clause & TCL
+Priority: optional
+
 Package: python3-unittest
 Version: 3.14.5-r0
 Depends: python3-asyncio, python3-core, python3-difflib, python3-io, python3-logging, python3-netclient, python3-numbers, python3-pprint, python3-stringold
@@ -82667,6 +85848,66 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-webencodings-doc
+Version: 0.5.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc8d9f3f06306534977d0f998d2bef5d
+Size: 1876
+Filename: python3-webencodings-doc_0.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-webencodings_0.5.1.bb
+Description: Character encoding aliases for legacy web content - Documentation files
+OE: python3-webencodings
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-webencodings
+Version: 0.5.1-r0
+Depends: python3-codecs, python3-core, python3-json
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d9da30d416f2630da5b962466aae031
+Size: 15378
+Filename: python3-webencodings_0.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-webencodings_0.5.1.bb
+Description: Character encoding aliases for legacy web content
+OE: python3-webencodings
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-websocket-client-doc
+Version: 1.9.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c98e59ee4bd662357c3a5b24bb088ac4
+Size: 8524
+Filename: python3-websocket-client-doc_1.9.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-websocket-client_1.9.0.bb
+Description: websocket client for python - Documentation files
+OE: python3-websocket-client
+HomePage: https://github.com/websocket-client/websocket-client
+License: Apache-2.0
+Priority: optional
+
+Package: python3-websocket-client
+Version: 1.9.0-r0
+Depends: python3-core, python3-logging, python3-six
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 04448ad482e67853955694dcc9afd5dd
+Size: 120282
+Filename: python3-websocket-client_1.9.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-websocket-client_1.9.0.bb
+Description: websocket client for python
+OE: python3-websocket-client
+HomePage: https://github.com/websocket-client/websocket-client
+License: Apache-2.0
+Priority: optional
+
 Package: python3-wifi-doc
 Version: 0.8.0-r0
 Section: doc
@@ -82728,6 +85969,22 @@ Description: Python XML-RPC support
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-youtube-dl
+Version: 2021.12.17+0.0-18977-g956b8c50+956b8c5855-r0
+Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf1c35576a8ad2d1ba6321555f91723c
+Size: 2851926
+Filename: python3-youtube-dl_2021.12.17+0.0-18977-g956b8c50+956b8c5855-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-youtube-dl.bb
+Description: Download videos from YouTube (and more sites)
+OE: python3-youtube-dl
+HomePage: http://rg3.github.io/youtube-dl/
+License: LGPL-2.1-only
 Priority: optional
 
 Package: python3-yt-dlp
@@ -82882,6 +86139,21 @@ Description: Tools for monitoring & limiting user disk usage per filesystem
 OE: quota
 HomePage: http://sourceforge.net/projects/linuxquota/
 License: GPL-2.0-or-later & LGPL-2.1-or-later
+Priority: optional
+
+Package: rapidfuzz
+Version: 3.15.0+git914+f87a4c60+f87a4c6627-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: abf488b26343a67a7e0173d285704ee6
+Size: 88972
+Filename: rapidfuzz_3.15.0+git914+f87a4c60+f87a4c6627-r0_cortexa15hf-neon-vfpv4.ipk
+Source: rapidfuzz.bb
+Description: rapidfuzz version 3.15.0.+git-r0
+OE: rapidfuzz
+License: MIT
 Priority: optional
 
 Package: registry-tools
@@ -86289,6 +89561,22 @@ HomePage: http://www.gnu.org/software/tar/
 License: GPL-3.0-only
 Priority: optional
 
+Package: tdb-tools
+Version: 1.4.15-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libtdb1 (>= 1.4.15)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0efc3c43a674d54892cfdfde1ce3145
+Size: 17974
+Filename: tdb-tools_1.4.15-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtdb_1.4.15.bb
+Description: The tdb library
+OE: libtdb
+HomePage: https://tdb.samba.org/
+License: LGPL-3.0-or-later & GPL-3.0-or-later
+Priority: optional
+
 Package: transmission-client
 Version: 4.1.0-2
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libcurl4 (>= 8.19.0), libevent-2.1-7 (>= 2.1.12), libgcc1 (>= 16.1.0), libssl4 (>= 4.0.0), libstdc++6 (>= 16.1.0)
@@ -86353,6 +89641,35 @@ HomePage: http://www.gnu.org/software/libc/libc.html
 License: GPL-2.0-only & LGPL-2.1-or-later
 Priority: optional
 
+Package: uchardet-doc
+Version: 0.0.8-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a87f33349ad8d2faf0a41459ee135216
+Size: 1040
+Filename: uchardet-doc_0.0.8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: uchardet_0.0.8.bb
+Description: uchardet is an encoding detector library - Documentation files
+OE: uchardet
+License: MPL-1.1
+Priority: optional
+
+Package: uchardet
+Version: 0.0.8-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf2754b9fcf116f1390bace22904e5b7
+Size: 90306
+Filename: uchardet_0.0.8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: uchardet_0.0.8.bb
+Description: uchardet is an encoding detector library
+OE: uchardet
+License: MPL-1.1
+Priority: optional
+
 Package: udev-extraconf-automount
 Version: 1.1-r0.33
 Depends: udev, util-linux-blkid
@@ -86402,6 +89719,21 @@ Description: Extra machine specific configuration files
 OE: udev-extraconf
 HomePage: https://wiki.gentoo.org/wiki/Eudev
 License: MIT
+Priority: optional
+
+Package: unionfs-fuse-doc
+Version: 3.7-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70a97c58ce11cf25c74d1c8cc5680ce0
+Size: 3416
+Filename: unionfs-fuse-doc_3.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: unionfs-fuse_3.7.bb
+Description: A FUSE based implemention of unionfs - Documentation files
+OE: unionfs-fuse
+HomePage: https://github.com/rpodgorny/unionfs-fuse
+License: BSD-3-Clause
 Priority: optional
 
 Package: unionfs-fuse
