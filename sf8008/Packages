@@ -72,6 +72,21 @@ OE: base-files
 License: GPL-2.0-only
 Priority: optional
 
+Package: blackhole-extra-tools
+Version: 0.8-r0
+Depends: octagon-grab-hisi3798mv200
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a9f6b11568ba80ebe36ea9abfaf71747
+Size: 1074
+Filename: blackhole-extra-tools_0.8-r0_sf8008.ipk
+Source: blackhole-extra-tools_0.8.bb
+Description: BlackHole v0.8 extra tools
+OE: blackhole-extra-tools
+License: CLOSED
+Priority: optional
+
 Package: blackhole-feed-config
 Version: 1.0-r0
 Section: base
@@ -84,6 +99,48 @@ Source: blackhole-feed-config_1.0.bb
 Description: BlackHole SF8008 opkg feed configuration
 OE: blackhole-feed-config
 License: MIT
+Priority: optional
+
+Package: blackhole-radio-logo
+Version: 0.8-r0
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4815d9d25310f781a6830c967f178bf2
+Size: 838696
+Filename: blackhole-radio-logo_0.8-r0_sf8008.ipk
+Source: blackhole-radio-logo_0.8.bb
+Description: BlackHole v0.8 radio logo
+OE: blackhole-radio-logo
+License: CLOSED
+Priority: optional
+
+Package: blackhole-spinner-assets
+Version: 0.8-r1
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c6f1907cb9617d91787fa6882827f14e
+Size: 66572
+Filename: blackhole-spinner-assets_0.8-r1_sf8008.ipk
+Source: blackhole-spinner-assets_0.8.bb
+Description: BlackHole v0.8 default spinner assets
+OE: blackhole-spinner-assets
+License: CLOSED
+Priority: optional
+
+Package: blackhole-startup-logo
+Version: 0.8-r0
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7e19685aa8878642b7511d8cce60201
+Size: 53274
+Filename: blackhole-startup-logo_0.8-r0_sf8008.ipk
+Source: blackhole-startup-logo_0.8.bb
+Description: BlackHole v0.8 startup logo
+OE: blackhole-startup-logo
+License: CLOSED
 Priority: optional
 
 Package: distro-feed-configs
@@ -101,15 +158,15 @@ License: MIT
 Priority: optional
 
 Package: enigma-info
-Version: 13.2-py314-r0
+Version: 13.2-py314-v0.85-r0
 Replaces: enigma-kernel-module
 Conflicts: enigma-kernel-module
 Section: base
 Architecture: sf8008
 Maintainer: oe-alliance team
-MD5Sum: 42bef7861d79d96f8886b7a86a31b697
-Size: 1302
-Filename: enigma-info_13.2-py314-r0_sf8008.ipk
+MD5Sum: ae99a01cdfa2adb8fce52502b45c5a33
+Size: 1334
+Filename: enigma-info_13.2-py314-v0.85-r0_sf8008.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
 OE: enigma-info
@@ -131,14 +188,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dae2989a20f19a74b1c0a4391181f05b
+MD5Sum: 629302cbef60cab5f78986f818ee7209
 Size: 162580
-Filename: enigma2-locale-ar_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-ar_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ar
 OE: enigma2
@@ -146,14 +203,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9bd4f4ab8d967e779e325f0d8eb4bccb
+MD5Sum: ed0436b7b382decff0bfc1bb27848281
 Size: 138630
-Filename: enigma2-locale-bg_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-bg_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: bg
 OE: enigma2
@@ -161,14 +218,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3c59f5d19a7a230cfd928f0dd7a25546
+MD5Sum: 8039a87181b4ede6701f5033ed27fd92
 Size: 122714
-Filename: enigma2-locale-ca_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-ca_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ca
 OE: enigma2
@@ -176,14 +233,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f06fe5f33bb19eba228fd2782f8942c5
+MD5Sum: c36d9c1e7dc3e61b77ec3760f894b70c
 Size: 130710
-Filename: enigma2-locale-cs_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-cs_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: cs
 OE: enigma2
@@ -191,14 +248,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-da
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bf26738dd5b08bf9c81906c7391b880a
+MD5Sum: a4583b66b139bfefbbbe909cef3c0b47
 Size: 76736
-Filename: enigma2-locale-da_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-da_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: da
 OE: enigma2
@@ -206,14 +263,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-de
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c022b64a8f73a2f6fef2e8bceefcdbf3
+MD5Sum: 4155c1e8c4e49348dac4935a274593cf
 Size: 121332
-Filename: enigma2-locale-de_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-de_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: de
 OE: enigma2
@@ -221,14 +278,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-el
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 000336b1dcadb936054a650867b79fe6
+MD5Sum: b3ada6645a05fd39393d50961cdd5a36
 Size: 135820
-Filename: enigma2-locale-el_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-el_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: el
 OE: enigma2
@@ -236,14 +293,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-en
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5323b9391d15fb9dd33162799a5603a3
+MD5Sum: d7a870df4400b05cc0e92d330bdd1076
 Size: 2966
-Filename: enigma2-locale-en_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-en_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: en
 OE: enigma2
@@ -251,14 +308,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-es
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f7cf43ada8f571534e3ed88115182262
+MD5Sum: 38027c4fb28389b59ec9ec47855ac0d9
 Size: 119182
-Filename: enigma2-locale-es_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-es_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: es
 OE: enigma2
@@ -266,14 +323,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-et
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 51c0a0d0f119a28e6e86cc9649d44f7d
+MD5Sum: 5f9f1a8913dd16150f406b5c6b466ca9
 Size: 96914
-Filename: enigma2-locale-et_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-et_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: et
 OE: enigma2
@@ -281,14 +338,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9f05528d0de933512f21cc3f49c1bbc6
+MD5Sum: 106a7da0c9b4aeac63ffd35f6317f65a
 Size: 31824
-Filename: enigma2-locale-fa_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-fa_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fa
 OE: enigma2
@@ -296,14 +353,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bca7e604c6928f00cb64cd9e6a45ebc1
+MD5Sum: fe898167ee5cc8ecd71d97c7dbbb4702
 Size: 92612
-Filename: enigma2-locale-fi_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-fi_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fi
 OE: enigma2
@@ -311,14 +368,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 828bde6f519b40f94c190cc90c106507
+MD5Sum: 3aa2a5481452ffc031cda64556733a3e
 Size: 132828
-Filename: enigma2-locale-fr_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-fr_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fr
 OE: enigma2
@@ -326,14 +383,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9d8e45a734dee1f1523778d878a4cf67
+MD5Sum: a8d7c5634f05257df113bbaede107074
 Size: 21234
-Filename: enigma2-locale-fy_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-fy_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fy
 OE: enigma2
@@ -341,14 +398,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e89acb2f6ce859608a76bc15fca8d205
+MD5Sum: 17a746783d34310e83009d15eabd95db
 Size: 114194
-Filename: enigma2-locale-gl_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-gl_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: gl
 OE: enigma2
@@ -356,14 +413,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-he
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4dc0a626854c7f29144901c79fcb4614
+MD5Sum: 66415a8ffe7b634c8d4e1b6315a78f1a
 Size: 22882
-Filename: enigma2-locale-he_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-he_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: he
 OE: enigma2
@@ -371,14 +428,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9e2ce96a42f411593d3011b2ac263531
+MD5Sum: 55fa10db39262a24f0b5af1c5eb743ef
 Size: 118110
-Filename: enigma2-locale-hr_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-hr_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: hr
 OE: enigma2
@@ -386,14 +443,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2b6cd27ccd33119dfede0904d053c6c6
+MD5Sum: 2d86b2cbeaf73ce6d1f74fc59be74bb7
 Size: 117394
-Filename: enigma2-locale-hu_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-hu_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: hu
 OE: enigma2
@@ -401,14 +458,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-id
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 433166f1444de4c61ba6c3b73ba8d1f1
+MD5Sum: 56b6b5cbe1b0b2ed449558ff8813dd09
 Size: 97630
-Filename: enigma2-locale-id_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-id_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: id
 OE: enigma2
@@ -416,14 +473,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-is
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 67d3d3455155419bbacf44a69d78bf8a
+MD5Sum: cb66dac8594729b49bf0f23a2ee4e8e2
 Size: 30048
-Filename: enigma2-locale-is_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-is_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: is
 OE: enigma2
@@ -431,14 +488,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-it
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 91a7a94a4b5eb9522ba60c2dbff111b5
+MD5Sum: 23f94acadba26693ab47ddf6eeec6700
 Size: 113038
-Filename: enigma2-locale-it_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-it_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: it
 OE: enigma2
@@ -446,14 +503,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3370f80a5b18f437d40d5170cb8aaf08
+MD5Sum: 1de7583d595dae168ee3b9f4bdc2bd16
 Size: 41656
-Filename: enigma2-locale-ku_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-ku_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ku
 OE: enigma2
@@ -461,14 +518,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 96db483a4c841aca0c4e53f7cff64870
+MD5Sum: 98a6be09187b659bb9d0e75f9f9a3d74
 Size: 121922
-Filename: enigma2-locale-lt_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-lt_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: lt
 OE: enigma2
@@ -476,14 +533,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7b6ae537f2501a798e1590ddeb867056
-Size: 127926
-Filename: enigma2-locale-lv_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: 13e0d4ae9312468bf8b07b7220c017c1
+Size: 127924
+Filename: enigma2-locale-lv_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: lv
 OE: enigma2
@@ -506,14 +563,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ab4915fa2fdd24df2ca6b7a326922118
-Size: 126886
-Filename: enigma2-locale-mk_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: eb1ae7de4688db39a233f60537cac564
+Size: 126884
+Filename: enigma2-locale-mk_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: mk
 OE: enigma2
@@ -521,14 +578,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 04431410a3508e2478f521c335f96e6c
+MD5Sum: 2ccb1f6e56fb4afc5cbbd5d7d46ec9f9
 Size: 115268
-Filename: enigma2-locale-nb_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-nb_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: nb
 OE: enigma2
@@ -536,14 +593,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: da1bb71c6c0e3e2a635e80ed49795341
+MD5Sum: d81a67838862826790d73581b875ad8e
 Size: 133444
-Filename: enigma2-locale-nl_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-nl_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: nl
 OE: enigma2
@@ -551,14 +608,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: afcccdab774364334cbcb417258967b2
+MD5Sum: e6c8c5be613bf8c63160ec2d5c8d71c6
 Size: 59166
-Filename: enigma2-locale-nn_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-nn_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: nn
 OE: enigma2
@@ -566,14 +623,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f11c764ae91399ac4bd03d3d33fed2f4
+MD5Sum: 7f166fa3a88551b7f5b2ac73294c71e2
 Size: 116052
-Filename: enigma2-locale-pl_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-pl_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pl
 OE: enigma2
@@ -581,14 +638,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dcc7d5e7de2b86c2b65124152ad2fa99
+MD5Sum: 7e313112bf86741743d047d418f64088
 Size: 58972
-Filename: enigma2-locale-pt-br_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-pt-br_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pt-br
 OE: enigma2
@@ -596,14 +653,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fc94ef90ec19e5b7aad1b0ba342a390f
+MD5Sum: 5145f024ca269569d69f20b2a98bbf8d
 Size: 54950
-Filename: enigma2-locale-pt_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-pt_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pt
 OE: enigma2
@@ -611,14 +668,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c9250ee3f10fd308adb8f28c1fbc837b
+MD5Sum: 3aac8370dbc911ef37658d8f18f089ad
 Size: 23046
-Filename: enigma2-locale-ro_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-ro_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ro
 OE: enigma2
@@ -626,14 +683,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3abbffb8c1a28652284db38710299d03
+MD5Sum: f954729e0928929a5bda6db9eb06a21c
 Size: 141712
-Filename: enigma2-locale-ru_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-ru_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ru
 OE: enigma2
@@ -641,14 +698,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 618aed9a7c507005abc06517fbb7df5b
+MD5Sum: 6733b66d4d345475876330e1aa04d877
 Size: 132550
-Filename: enigma2-locale-sk_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-sk_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sk
 OE: enigma2
@@ -656,14 +713,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e2ace5d29d1b6a60742c2cbc137ae49a
+MD5Sum: f0749daff70316af0705aaf68fd63035
 Size: 67378
-Filename: enigma2-locale-sl_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-sl_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sl
 OE: enigma2
@@ -671,14 +728,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dbf0bbe184422c6ac8d4ac9977aa406c
+MD5Sum: a1bb1b5715ceafdf7b67e1287726b2f9
 Size: 30146
-Filename: enigma2-locale-sr_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-sr_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sr
 OE: enigma2
@@ -686,14 +743,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 924392e21111020df390cbc43ac98929
+MD5Sum: 88434605464c7d3aae94202c222a7144
 Size: 78434
-Filename: enigma2-locale-sv_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-sv_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sv
 OE: enigma2
@@ -701,14 +758,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-th
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 529bbca2977bdd847d3d1615603afb00
+MD5Sum: 21ab19773beef89e40f0bdf7956621c2
 Size: 29340
-Filename: enigma2-locale-th_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-th_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: th
 OE: enigma2
@@ -716,14 +773,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dae58b5f1b7966768097642c338d71da
+MD5Sum: 99bdc2a7c29f57cbe155a3ca17d5c8d4
 Size: 75382
-Filename: enigma2-locale-tr_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-tr_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: tr
 OE: enigma2
@@ -731,14 +788,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 23dff5006791c88bf6783fb8fd9f5ce6
+MD5Sum: d5fe76701ab2b6ba85c2357206cd7a51
 Size: 140580
-Filename: enigma2-locale-uk_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-uk_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: uk
 OE: enigma2
@@ -746,14 +803,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9c0900a386dfd7d6b3d498e5d87414e3
+MD5Sum: b951de98b93dc06a59113876b3acbd13
 Size: 115454
-Filename: enigma2-locale-vi_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-vi_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: vi
 OE: enigma2
@@ -761,14 +818,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0e8fdc3f59528adf1b0fe9c5115bfc33
+MD5Sum: 29eb9e88419582f1a83c739b7c45d5df
 Size: 124564
-Filename: enigma2-locale-zh-cn_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-zh-cn_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: zh-cn
 OE: enigma2
@@ -776,14 +833,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9b652816b34fbbe0bbacdf2e45920070
+MD5Sum: d7761395d3b966cad6c89f9a1993f55e
 Size: 28114
-Filename: enigma2-locale-zh-hk_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-locale-zh-hk_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: zh-hk
 OE: enigma2
@@ -791,13 +848,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-meta
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ebf04bf0843b59572319562a135ac4ed
+MD5Sum: 6a8cdf54026b247b4b3379dc908a2790
 Size: 3830
-Filename: enigma2-meta_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-meta_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -953,14 +1010,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: aio-grab
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d68121346c6dcbfafc89d5ea16350570
+MD5Sum: 27faf4164bc1ff63052e9e0c6309e533
 Size: 20694
-Filename: enigma2-plugin-extensions-cutlisteditor_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -1028,14 +1085,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, replex
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c952fa632aa6a6089497c7c0c04caa61
+MD5Sum: 776968fc40c4e9c035424e2a3f63ac43
 Size: 847978
-Filename: enigma2-plugin-extensions-dvdburn_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-dvdburn_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -1043,13 +1100,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b9061c4e654af43e030f65657dcca3ee
+MD5Sum: b98513ad661c417b511bfe0248427971
 Size: 3838
-Filename: enigma2-plugin-extensions-dvdplayer_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-dvdplayer_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -1156,6 +1213,22 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-exteplayer3-drm
+Version: 1.0-r0
+Depends: enigma2, exteplayer3, python3-core, python3-twisted, sf8008-youtubetv-chromium-runtime
+Provides: exteplayer3-drm
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0c5557479e470e192480e395dcbf7138
+Size: 9574
+Filename: enigma2-plugin-extensions-exteplayer3-drm_1.0-r0_sf8008.ipk
+Source: enigma2-plugin-extensions-exteplayer3-drm_1.0.bb
+Description: Widevine browser companion for exteplayer3
+OE: enigma2-plugin-extensions-exteplayer3-drm
+License: CLOSED
+Priority: optional
+
 Package: enigma2-plugin-extensions-fancontrol2
 Version: y-git5862+2c59c910+2c59c91bad-r0
 Depends: hdparm, smartmontools
@@ -1186,14 +1259,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: python3-puremagic
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4ff1d6a674c0ad2aa94472ed90fc83d8
-Size: 90788
-Filename: enigma2-plugin-extensions-filecommander_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: 16a2b961f116d43bb5b441c42c15ad41
+Size: 90790
+Filename: enigma2-plugin-extensions-filecommander_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-filecommander
 OE: enigma2
@@ -1230,13 +1303,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ffae26b18cea3c01c14c186778593390
+MD5Sum: bb1202371b0ff8b1bb05716181ddb9bd
 Size: 46890
-Filename: enigma2-plugin-extensions-graphmultiepg_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-graphmultiepg_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
@@ -1347,13 +1420,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b3a1b3bbb88980c32a11b898559e85cc
+MD5Sum: bff1650463b995432720000dfa405856
 Size: 38976
-Filename: enigma2-plugin-extensions-mediaplayer_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-mediaplayer_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -1361,13 +1434,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b7fb101e46886f71ae6d90a15697a9c4
+MD5Sum: 5d315ae3500d0f9dc27cdfbbd31e3c81
 Size: 6986
-Filename: enigma2-plugin-extensions-mediascanner_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-mediascanner_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
@@ -1550,15 +1623,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: 0.0-297-g063d469-r0
+Version: 0.0-299-g1437c29-r0
 Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-twisted-web, python3-unixadmin
 Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35c84bbc82509ce0bedd8a003dd48dc8
-Size: 3578096
-Filename: enigma2-plugin-extensions-openwebif_0.0-297-g063d469-r0_sf8008.ipk
+MD5Sum: 9c334fc42557bc05f073f5e5e9ab43a7
+Size: 3578082
+Filename: enigma2-plugin-extensions-openwebif_0.0-299-g1437c29-r0_sf8008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
 OE: enigma2-plugin-extensions-openwebif
@@ -1624,13 +1697,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 448eb93c33dd00e708a13ab7375dfd1c
+MD5Sum: 4e9d858f045fade3fec190c341a0d780
 Size: 32008
-Filename: enigma2-plugin-extensions-pictureplayer_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-pictureplayer_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -1740,14 +1813,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), libstdc++6 (>= 16.1.0), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.15.3)
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ecbe3bca98c31ec2972328f6c09e5277
+MD5Sum: 972d7b9ecff1006b0a0955336df2c28a
 Size: 16464
-Filename: enigma2-plugin-extensions-socketmmi_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-socketmmi_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -1770,14 +1843,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-streamlinkwrapper
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: streamlink
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b5c6f43384a8c856921469a559a971ec
-Size: 2196
-Filename: enigma2-plugin-extensions-streamlinkwrapper_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: 910bf46ea2096d6fb1afc6d654f9971d
+Size: 2200
+Filename: enigma2-plugin-extensions-streamlinkwrapper_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for streamlink url scheme in bouquet list.
 OE: enigma2
@@ -1947,14 +2020,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlpwrapper
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: python3-yt-dlp
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d2aa23cecc5c67e7f7d0b698d32f29be
+MD5Sum: 1ef03b2d73af25ccaa8c48bcf4491a11
 Size: 2328
-Filename: enigma2-plugin-extensions-ytdlpwrapper_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-ytdlpwrapper_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for YT-DLP url scheme in bouquet list.
 OE: enigma2
@@ -1962,14 +2035,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlwrapper
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: python3-youtube-dl
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 676c943f6ba138ec42c0482bc487dcf1
-Size: 2280
-Filename: enigma2-plugin-extensions-ytdlwrapper_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: 3237fed523212f143512596da42aeea2
+Size: 2282
+Filename: enigma2-plugin-extensions-ytdlwrapper_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for Youtube-DL url scheme in bouquet list.
 OE: enigma2
@@ -2067,13 +2140,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0125255b5d623cffbd4bf724578643b7
+MD5Sum: a8cb186f0d3c80f5ba0cf93e71a5bdaf
 Size: 9828
-Filename: enigma2-plugin-systemplugins-cablescan_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-cablescan_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
 OE: enigma2
@@ -2081,13 +2154,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6bd836ad51738adfefb72a4635ca8384
+MD5Sum: 4b1138e2f14d15ae9cfabc703a384c9b
 Size: 18144
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -2095,13 +2168,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 23d6bfa8740ad40fa805806bd3f94da1
+MD5Sum: 3ee1c1c7038ac7ba7dde6f36895ca5fe
 Size: 4944
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -2109,13 +2182,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9fc432eca146919f796d9ca1f17d3c0c
+MD5Sum: cfc9146a338a23050fa8be32044745e9
 Size: 16420
-Filename: enigma2-plugin-systemplugins-diseqctester_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -2123,13 +2196,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastchannelchange
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3ebcca68506421759ab291e9b9f9a4cf
+MD5Sum: 6902d234187865012d2f59cbfaaba95c
 Size: 13274
-Filename: enigma2-plugin-systemplugins-fastchannelchange_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-fastchannelchange_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange
 OE: enigma2
@@ -2137,13 +2210,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 60e8d8344625fe53292af4645c24f370
+MD5Sum: 9c8b3f09b8ce72169f386c1914645a7b
 Size: 13816
-Filename: enigma2-plugin-systemplugins-fastscan_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-fastscan_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -2151,13 +2224,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bacd88ec898fbae609b4e193d0c2eee8
+MD5Sum: de6bcb264519df8305e4f04da4f981f1
 Size: 8374
-Filename: enigma2-plugin-systemplugins-hdmicec_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
 OE: enigma2
@@ -2165,13 +2238,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7548ded594a2e7853067c4b62e4d6990
+MD5Sum: 3bbf1709f3be79374524dd6ef311a8ce
 Size: 11884
-Filename: enigma2-plugin-systemplugins-hotplug_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-hotplug_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -2179,15 +2252,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Replaces: enigma2-plugin-systemplugins-terrestrialscan
 Conflicts: enigma2-plugin-systemplugins-terrestrialscan
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e12325dad1b8529d405d163a1f9cfedd
-Size: 22582
-Filename: enigma2-plugin-systemplugins-lcnscanner_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: 0f8bd10af30017f0af2e48a8e1eec7e2
+Size: 22580
+Filename: enigma2-plugin-systemplugins-lcnscanner_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner
 OE: enigma2
@@ -2210,13 +2283,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8a5ba8177c8152615a1960febd5b0ddb
+MD5Sum: 0c1f23bed22a700834bca683ef044d2c
 Size: 13410
-Filename: enigma2-plugin-systemplugins-networkwizard_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-networkwizard_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
 OE: enigma2
@@ -2224,13 +2297,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7c22bbe76cb018a3238b3f7dce39f802
-Size: 5808
-Filename: enigma2-plugin-systemplugins-osd3dsetup_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: ff525c8ddd6b6bee601220f335b56813
+Size: 5810
+Filename: enigma2-plugin-systemplugins-osd3dsetup_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
 OE: enigma2
@@ -2238,13 +2311,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 74bdf73dcdcf93b3c3c20fd9ee9ea3f7
+MD5Sum: ce367d90333a6f43d92527d085f28a4f
 Size: 9970
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
 OE: enigma2
@@ -2252,13 +2325,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 99f3a705be8354bccb2b3edae81972fe
+MD5Sum: 8a1cb69e083015a70a9d1d86c6549269
 Size: 38290
-Filename: enigma2-plugin-systemplugins-positionersetup_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-positionersetup_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -2281,13 +2354,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f1eacf538d387bf5e1842f9c0d9f18e8
+MD5Sum: 6784e577b9ff5ca355601474c6ce6ea6
 Size: 4046
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -2295,13 +2368,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ee11ede988a2c0d2765403a095cd9ed6
+MD5Sum: 252226b9244c37fba7bf0c1478c732e0
 Size: 17206
-Filename: enigma2-plugin-systemplugins-satfinder_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-satfinder_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -2339,14 +2412,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: python3-twisted
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8b96c4e7e1bfe97a6a0b6db3768f201c
+MD5Sum: d359550cb5a16edb73abf6bc2106d2b2
 Size: 89398
-Filename: enigma2-plugin-systemplugins-softwaremanager_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-softwaremanager_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
 OE: enigma2
@@ -2384,13 +2457,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 275fefd0e21555930b625631da576047
+MD5Sum: 845c93567c0d43b2954b5b6e6234178d
 Size: 4932
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -2398,13 +2471,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2f2346acaed7dae10ade1e81d777a6be
+MD5Sum: 37f4258aebe941c168c3dc87dbcb022d
 Size: 16538
-Filename: enigma2-plugin-systemplugins-videoenhancement_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -2412,13 +2485,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f33fd5ba1904bbad63d9ff555fdf5d84
-Size: 36118
-Filename: enigma2-plugin-systemplugins-videomode_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+MD5Sum: 23ae7bb67f68205c9f286941571e6969
+Size: 36080
+Filename: enigma2-plugin-systemplugins-videomode_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
 OE: enigma2
@@ -2426,13 +2499,13 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: acbd3f7e849774d3c40fff482a7fb16c
+MD5Sum: db63ba44350cc2ccec45694878d77c06
 Size: 71998
-Filename: enigma2-plugin-systemplugins-videotune_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-videotune_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -2440,14 +2513,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 3.14+git23183+fb84f2d0+fb84f2d82b-r0
+Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: python3-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c75c07e026f8edfd903800749149305e
+MD5Sum: 9b69da9daeb4d85d418187d90a2969d0
 Size: 22620
-Filename: enigma2-plugin-systemplugins-wirelesslan_3.14+git23183+fb84f2d0+fb84f2d82b-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-wirelesslan_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
@@ -2714,6 +2787,40 @@ Filename: kernel-module-8812au-4.4.35_4.3.14-r0_sf8008.ipk
 Source: rt8812au_4.3.14.bb
 Description: 8812au kernel module
 OE: rt8812au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8821cu-4.4.35
+Version: 5.8.1-r0
+Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
+Provides: kernel-module-8821cu
+Section: kernel/modules
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94281e235110778a4023b5a1e2b0c322
+Size: 1129186
+Filename: kernel-module-8821cu-4.4.35_5.8.1-r0_sf8008.ipk
+Source: rt8821cu_5.8.1.bb
+Description: 8821cu kernel module
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8822bu-4.4.35
+Version: 5.8.7-r0
+Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
+Provides: kernel-module-8822bu
+Section: kernel/modules
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 581c699c12f6009a2f83659f323cec62
+Size: 1044448
+Filename: kernel-module-8822bu-4.4.35_5.8.7-r0_sf8008.ipk
+Source: rtl88x2bu_5.8.7.bb
+Description: 8822bu kernel module
+OE: rtl88x2bu
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
@@ -12088,6 +12195,22 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
+Package: rt8821cu
+Version: 5.8.1-r0
+Depends: kernel-module-8821cu-4.4.35
+Section: kernel/modules
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 772cd58621d4c0356e191db0f29a46ef
+Size: 576
+Filename: rt8821cu_5.8.1-r0_sf8008.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Ralink 8821CU/8811CU v5.8.1
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
 Package: rt8822cu
 Version: 1.0-r0
 Depends: kernel-module-88x2cu-4.4.35
@@ -12150,6 +12273,37 @@ Description: Realtek rtw8852cu
 OE: rtl8852cu
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
+Priority: optional
+
+Package: rtl88x2bu
+Version: 5.8.7-r0
+Depends: kernel-module-8822bu-4.4.35
+Section: kernel/modules
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11ebabc739b3c84febdb729474082198
+Size: 576
+Filename: rtl88x2bu_5.8.7-r0_sf8008.ipk
+Source: rtl88x2bu_5.8.7.bb
+Description: Ralink 88x2BU v5.8.7
+OE: rtl88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: sf8008-youtubetv-chromium-runtime
+Version: 20250102-r0
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), octagon-opengl-hisi3798mv200
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7f99cc13e5645b034ee2c51dd4de36f
+Size: 82277558
+Filename: sf8008-youtubetv-chromium-runtime_20250102-r0_sf8008.ipk
+Source: sf8008-youtubetv-chromium-runtime_20250102.bb
+Description: Chromium and Widevine runtime for Octagon SF8008
+OE: sf8008-youtubetv-chromium-runtime
+License: CLOSED
 Priority: optional
 
 Package: shadow-securetty
