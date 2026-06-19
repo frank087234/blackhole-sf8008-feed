@@ -59,7 +59,7 @@ Filename: all/bhepgbackup_13.0-r0_all.ipk
 Description: bhepgbackup_13.0-r0_all
 
 Package: bhweather_V0.9_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -71,7 +71,7 @@ Filename: all/bhweather_V0.9_all.ipk
 Description: bhweather_V0.9_all
 
 Package: ca-certificates-doc_20260223-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -83,7 +83,7 @@ Filename: all/ca-certificates-doc_20260223-r0_all.ipk
 Description: ca-certificates-doc_20260223-r0_all
 
 Package: ca-certificates_20260223-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -95,7 +95,7 @@ Filename: all/ca-certificates_20260223-r0_all.ipk
 Description: ca-certificates_20260223-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -107,7 +107,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -119,7 +119,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -131,7 +131,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all.ipk
 Description: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all
 
 Package: enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -143,7 +143,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -155,7 +155,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -167,7 +167,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -179,7 +179,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -191,7 +191,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -203,7 +203,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -215,7 +215,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -227,7 +227,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -239,7 +239,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -251,7 +251,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -263,7 +263,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -275,7 +275,7 @@ Filename: all/enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all.ipk
 Description: enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all
 
 Package: enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -299,7 +299,7 @@ Filename: all/enigma2-plugin-extensions-ajpanel_v10.8.6_all.ipk
 Description: enigma2-plugin-extensions-ajpanel_v10.8.6_all
 
 Package: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -311,7 +311,7 @@ Filename: all/enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba9
 Description: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -347,7 +347,7 @@ Filename: all/enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all.ipk
 Description: enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all
 
 Package: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -359,7 +359,7 @@ Filename: all/enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e0
 Description: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all
 
 Package: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -371,7 +371,7 @@ Filename: all/enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d
 Description: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all
 
 Package: enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -383,7 +383,7 @@ Filename: all/enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-
 Description: enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all
 
 Package: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -395,7 +395,7 @@ Filename: all/enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae
 Description: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all
 
 Package: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -407,7 +407,7 @@ Filename: all/enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be38790
 Description: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all
 
 Package: enigma2-plugin-extensions-movieorganisor_V3.99-git15+e24a88c0+e24a88cd25-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -431,7 +431,7 @@ Filename: all/enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4
 Description: enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4c2f78-r0_all
 
 Package: enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -443,7 +443,7 @@ Filename: all/enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b
 Description: enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all
 
 Package: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -455,7 +455,7 @@ Filename: all/enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57
 Description: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all
 
 Package: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -467,7 +467,7 @@ Filename: all/enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57
 Description: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all
 
 Package: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -479,7 +479,7 @@ Filename: all/enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57
 Description: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all
 
 Package: enigma2-plugin-extensions-vavoo_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -503,7 +503,7 @@ Filename: all/enigma2-plugin-extensions-xklass_1.80-20260325-r1_all.ipk
 Description: enigma2-plugin-extensions-xklass_1.80-20260325-r1_all
 
 Package: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -515,7 +515,7 @@ Filename: all/enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all.ipk
 Description: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all
 
 Package: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -527,7 +527,7 @@ Filename: all/enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all.ipk
 Description: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all
 
 Package: enigma2-plugin-extensions-youtubetv_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -563,7 +563,7 @@ Filename: all/enigma2-plugin-skins-aglare_1.2+git282+20da50f0+20da50f375-r0_all.
 Description: enigma2-plugin-skins-aglare_1.2+git282+20da50f0+20da50f375-r0_all
 
 Package: enigma2-plugin-skins-brio-classic-fhd_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -599,7 +599,7 @@ Filename: all/enigma2-plugin-skins-e2darkos_1.1+git294+db1cdec0+db1cdec969-r0_al
 Description: enigma2-plugin-skins-e2darkos_1.1+git294+db1cdec0+db1cdec969-r0_all
 
 Package: enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170be-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -611,7 +611,7 @@ Filename: all/enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170b
 Description: enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170be-r0_all
 
 Package: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -623,7 +623,7 @@ Filename: all/enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all.i
 Description: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all
 
 Package: enigma2-plugin-skins-octetfhd_git690+725677d0+725677d88a-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -671,7 +671,7 @@ Filename: all/enigma2-plugin-skins-pli-hd_0.1+git67+fc35f170+fc35f1791c-r0_all.i
 Description: enigma2-plugin-skins-pli-hd_0.1+git67+fc35f170+fc35f1791c-r0_all
 
 Package: enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -683,7 +683,7 @@ Filename: all/enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0
 Description: enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all
 
 Package: enigma2-plugin-softcams-ncam_V15.8-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -731,7 +731,7 @@ Filename: all/enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0
 Description: enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0b49-r0_all
 
 Package: enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -743,7 +743,7 @@ Filename: all/enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf70
 Description: enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all
 
 Package: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -755,7 +755,7 @@ Filename: all/enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb4
 Description: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all
 
 Package: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -767,7 +767,7 @@ Filename: all/enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070
 Description: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all
 
 Package: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -779,7 +779,7 @@ Filename: all/enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0
 Description: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all
 
 Package: enigma2-timezones_git1019+c5cd5660+c5cd566848-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -803,7 +803,7 @@ Filename: all/firmware-carl9170_1.9.5-r0_all.ipk
 Description: firmware-carl9170_1.9.5-r0_all
 
 Package: firmware-htc7010_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -815,7 +815,7 @@ Filename: all/firmware-htc7010_1.0-r0_all.ipk
 Description: firmware-htc7010_1.0-r0_all
 
 Package: firmware-htc9271_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -827,7 +827,7 @@ Filename: all/firmware-htc9271_1.0-r0_all.ipk
 Description: firmware-htc9271_1.0-r0_all
 
 Package: firmware-mt7601u_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -839,7 +839,7 @@ Filename: all/firmware-mt7601u_1.0-r0_all.ipk
 Description: firmware-mt7601u_1.0-r0_all
 
 Package: firmware-rt2870_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -851,7 +851,7 @@ Filename: all/firmware-rt2870_1.0-r0_all.ipk
 Description: firmware-rt2870_1.0-r0_all
 
 Package: firmware-rt73_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -863,7 +863,7 @@ Filename: all/firmware-rt73_1.0-r0_all.ipk
 Description: firmware-rt73_1.0-r0_all
 
 Package: firmware-rtl8188eu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -875,7 +875,7 @@ Filename: all/firmware-rtl8188eu_1.0-r0_all.ipk
 Description: firmware-rtl8188eu_1.0-r0_all
 
 Package: firmware-rtl8192cu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -887,7 +887,7 @@ Filename: all/firmware-rtl8192cu_1.0-r0_all.ipk
 Description: firmware-rtl8192cu_1.0-r0_all
 
 Package: firmware-rtl8192cufw_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -899,7 +899,7 @@ Filename: all/firmware-rtl8192cufw_1.0-r0_all.ipk
 Description: firmware-rtl8192cufw_1.0-r0_all
 
 Package: firmware-rtl8192eu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -911,7 +911,7 @@ Filename: all/firmware-rtl8192eu_1.0-r0_all.ipk
 Description: firmware-rtl8192eu_1.0-r0_all
 
 Package: firmware-rtl8712u_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -923,7 +923,7 @@ Filename: all/firmware-rtl8712u_1.0-r0_all.ipk
 Description: firmware-rtl8712u_1.0-r0_all
 
 Package: firmware-rtl8xxxu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -935,7 +935,7 @@ Filename: all/firmware-rtl8xxxu_1.0-r0_all.ipk
 Description: firmware-rtl8xxxu_1.0-r0_all
 
 Package: firmware-zd1211_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -947,7 +947,7 @@ Filename: all/firmware-zd1211_1.0-r0_all.ipk
 Description: firmware-zd1211_1.0-r0_all
 
 Package: font-valis-enigma_1.0+git331+8b5fb84-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -959,7 +959,7 @@ Filename: all/font-valis-enigma_1.0+git331+8b5fb84-r0_all.ipk
 Description: font-valis-enigma_1.0+git331+8b5fb84-r0_all
 
 Package: fstrim-cron_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -995,7 +995,7 @@ Filename: all/iso-codes_4.20.1-r0_all.ipk
 Description: iso-codes_4.20.1-r0_all
 
 Package: kernel-module-88x2cu_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1007,7 +1007,7 @@ Filename: all/kernel-module-88x2cu_1.0-r0_all.ipk
 Description: kernel-module-88x2cu_1.0-r0_all
 
 Package: linux-firmware-8821cu_1.0-r0.1_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1043,7 +1043,7 @@ Filename: all/netbase_6.5-r0.2_all.ipk
 Description: netbase_6.5-r0.2_all
 
 Package: network-usb-drivers-meta_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1055,7 +1055,7 @@ Filename: all/network-usb-drivers-meta_1.0-r0_all.ipk
 Description: network-usb-drivers-meta_1.0-r0_all
 
 Package: p7zip_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1067,7 +1067,7 @@ Filename: all/p7zip_1.0-r0_all.ipk
 Description: p7zip_1.0-r0_all
 
 Package: packagegroup-bh-sf8008-python-feed_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1079,7 +1079,7 @@ Filename: all/packagegroup-bh-sf8008-python-feed_1.0-r0_all.ipk
 Description: packagegroup-bh-sf8008-python-feed_1.0-r0_all
 
 Package: python3-imaging_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1091,7 +1091,7 @@ Filename: all/python3-imaging_1.0-r0_all.ipk
 Description: python3-imaging_1.0-r0_all
 
 Package: python3-pkg-resources_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1103,7 +1103,7 @@ Filename: all/python3-pkg-resources_1.0-r0_all.ipk
 Description: python3-pkg-resources_1.0-r0_all
 
 Package: python3-pycrypto_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1115,7 +1115,7 @@ Filename: all/python3-pycrypto_1.0-r0_all.ipk
 Description: python3-pycrypto_1.0-r0_all
 
 Package: python3-subprocess_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1127,7 +1127,7 @@ Filename: all/python3-subprocess_1.0-r0_all.ipk
 Description: python3-subprocess_1.0-r0_all
 
 Package: python3-zlib_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1139,7 +1139,7 @@ Filename: all/python3-zlib_1.0-r0_all.ipk
 Description: python3-zlib_1.0-r0_all
 
 Package: run-postinsts_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1151,7 +1151,7 @@ Filename: all/run-postinsts_1.0-r0_all.ipk
 Description: run-postinsts_1.0-r0_all
 
 Package: settings-autorestore_2021081701-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1163,7 +1163,7 @@ Filename: all/settings-autorestore_2021081701-r0_all.ipk
 Description: settings-autorestore_2021081701-r0_all
 
 Package: sf8008-wifi-dummies_1.0-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1175,7 +1175,7 @@ Filename: all/sf8008-wifi-dummies_1.0-r0_all.ipk
 Description: sf8008-wifi-dummies_1.0-r0_all
 
 Package: softcam-support_2-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1187,7 +1187,7 @@ Filename: all/softcam-support_2-r0_all.ipk
 Description: softcam-support_2-r0_all
 
 Package: tuxbox-common_2+git1421+914552f0+914552f872-3_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1199,7 +1199,7 @@ Filename: all/tuxbox-common_2+git1421+914552f0+914552f872-3_all.ipk
 Description: tuxbox-common_2+git1421+914552f0+914552f872-3_all
 
 Package: tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1211,7 +1211,7 @@ Filename: all/tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all.ipk
 Description: tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all
 
 Package: tzdata-africa_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1223,7 +1223,7 @@ Filename: all/tzdata-africa_2026b-r0_all.ipk
 Description: tzdata-africa_2026b-r0_all
 
 Package: tzdata-americas_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1235,7 +1235,7 @@ Filename: all/tzdata-americas_2026b-r0_all.ipk
 Description: tzdata-americas_2026b-r0_all
 
 Package: tzdata-antarctica_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1247,7 +1247,7 @@ Filename: all/tzdata-antarctica_2026b-r0_all.ipk
 Description: tzdata-antarctica_2026b-r0_all
 
 Package: tzdata-arctic_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1259,7 +1259,7 @@ Filename: all/tzdata-arctic_2026b-r0_all.ipk
 Description: tzdata-arctic_2026b-r0_all
 
 Package: tzdata-asia_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1271,7 +1271,7 @@ Filename: all/tzdata-asia_2026b-r0_all.ipk
 Description: tzdata-asia_2026b-r0_all
 
 Package: tzdata-atlantic_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1283,7 +1283,7 @@ Filename: all/tzdata-atlantic_2026b-r0_all.ipk
 Description: tzdata-atlantic_2026b-r0_all
 
 Package: tzdata-australia_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1295,7 +1295,7 @@ Filename: all/tzdata-australia_2026b-r0_all.ipk
 Description: tzdata-australia_2026b-r0_all
 
 Package: tzdata-core_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1307,7 +1307,7 @@ Filename: all/tzdata-core_2026b-r0_all.ipk
 Description: tzdata-core_2026b-r0_all
 
 Package: tzdata-europe_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1319,7 +1319,7 @@ Filename: all/tzdata-europe_2026b-r0_all.ipk
 Description: tzdata-europe_2026b-r0_all
 
 Package: tzdata-misc_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1331,7 +1331,7 @@ Filename: all/tzdata-misc_2026b-r0_all.ipk
 Description: tzdata-misc_2026b-r0_all
 
 Package: tzdata-pacific_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1343,7 +1343,7 @@ Filename: all/tzdata-pacific_2026b-r0_all.ipk
 Description: tzdata-pacific_2026b-r0_all
 
 Package: tzdata-posix_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1355,7 +1355,7 @@ Filename: all/tzdata-posix_2026b-r0_all.ipk
 Description: tzdata-posix_2026b-r0_all
 
 Package: tzdata-right_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1367,7 +1367,7 @@ Filename: all/tzdata-right_2026b-r0_all.ipk
 Description: tzdata-right_2026b-r0_all
 
 Package: tzdata_2026b-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
@@ -1391,7 +1391,7 @@ Filename: all/update-rc.d_0.8+git0+b8f9501050-r0_all.ipk
 Description: update-rc.d_0.8+git0+b8f9501050-r0_all
 
 Package: volatile-media_3-r0_all
-Version: 1.0
+Version: 15.8
 Depends: 
 Provides: 
 Section: base
