@@ -413,17 +413,18 @@ HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-extensions-dreamosat-cammanager
-Version: 20230801-r9.3
-Section: extra
+Package: enigma2-plugin-extensions-e2iplayer
+Version: 2026.06.18.01-r0
+Depends: python3-core, python3-requests, python3-pillow, python3-websocket-client, ffmpeg, rtmpdump, wget, exteplayer3, gstplayer
+Recommends: python3-pycurl, duktape, uchardet
+Section: base
 Architecture: all
-Maintainer: audi06_19  <audi06_19@hotmail.com>
-MD5Sum: 077c6e9355989314a74dbbcef2dc2208
-Size: 71642
-Filename: enigma2-plugin-extensions-dreamosat-cammanager_20230801-r9.3_all.ipk
-Source: https://dreamosat-forum.com
-Description: (BTKcam, GCam, NCam, OSCam, OSCamYmod, CCcam, MgCamd, WiCardd)
-OE: DreamOSat camManager
+Maintainer: oe-mirrors
+MD5Sum: d06b258ae00e8f30613a85a05ff1e7aa
+Size: 12903096
+Filename: enigma2-plugin-extensions-e2iplayer_2026.06.18.01-r0_all.ipk
+Description: E2iPlayer / IPTVPlayer plugin for Enigma2
+HomePage: https://github.com/oe-mirrors/e2iplayer
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer
