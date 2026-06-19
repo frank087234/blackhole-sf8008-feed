@@ -4715,6 +4715,22 @@ OE: enigma2-binary-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-myhybridiptv
+Version: 3.0-r1
+Depends: libc6 (>= 2.43+git0+856c426a75), python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: openATV
+MD5Sum: fca3a975112c9a06a7fbcd7c29b96e8c
+Size: 20083188
+Filename: enigma2-plugin-extensions-myhybridiptv_3.0-r1_cortexa15hf-neon-vfpv4_py3.14.ipk
+Source: enigma2-plugin-extensions-myhybridiptv_2.0.bb
+Description: MyHybridIPTV Player plugin for Enigma2
+OE: enigma2-plugin-extensions-myhybridiptv
+HomePage: https://github.com/opendreambox/opendreambox
+License: CLOSED
+Priority: optional
+
 Package: enigma2-plugin-extensions-mytube-dbg
 Version: 1.0-r0
 Section: devel
