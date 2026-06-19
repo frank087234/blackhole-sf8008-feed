@@ -1,1428 +1,1951 @@
-Package: alsa-topology-conf_1.2.5.1-r0_all
-Version: 1.2.5
-Depends: 
-Provides: 
+Package: alsa-topology-conf
+Version: 1.2.5.1-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: bfedac195c749d26093bc59185c5ea2c
 Size: 15224
-Filename: all/alsa-topology-conf_1.2.5.1-r0_all.ipk
-Description: alsa-topology-conf_1.2.5.1-r0_all
+Filename: alsa-topology-conf_1.2.5.1-r0_all.ipk
+Source: alsa-topology-conf_1.2.5.1.bb
+Description: ALSA topology configuration files
+OE: alsa-topology-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
 
-Package: alsa-ucm-conf_1.2.15.3-r0_all
-Version: 1.2.15
-Depends: 
-Provides: 
+Package: alsa-ucm-conf
+Version: 1.2.15.3-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 7f9f63b664fd0b5ed5126d8c8a469f4a
 Size: 114668
-Filename: all/alsa-ucm-conf_1.2.15.3-r0_all.ipk
-Description: alsa-ucm-conf_1.2.15.3-r0_all
+Filename: alsa-ucm-conf_1.2.15.3-r0_all.ipk
+Source: alsa-ucm-conf_1.2.15.3.bb
+Description: ALSA Use Case Manager configuration
+OE: alsa-ucm-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
 
-Package: autoconf-archive-doc_2024.10.16-r0_all
-Version: 2024.10.16
-Depends: 
-Provides: 
-Section: base
+Package: autoconf-archive-doc
+Version: 2024.10.16-r0
+Section: doc
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: d2aa47bf544da663ff7a746d393649ee
 Size: 182546
-Filename: all/autoconf-archive-doc_2024.10.16-r0_all.ipk
-Description: autoconf-archive-doc_2024.10.16-r0_all
+Filename: autoconf-archive-doc_2024.10.16-r0_all.ipk
+Source: autoconf-archive_2024.10.16.bb
+Description: a collection of freely re-usable Autoconf macros - Documentation files
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
 
-Package: autoconf-archive_2024.10.16-r0_all
-Version: 2024.10.16
-Depends: 
-Provides: 
-Section: base
+Package: autoconf-archive
+Version: 2024.10.16-r0
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 292ddc19563d583692fef9e43d866d2c
 Size: 406986
-Filename: all/autoconf-archive_2024.10.16-r0_all.ipk
-Description: autoconf-archive_2024.10.16-r0_all
+Filename: autoconf-archive_2024.10.16-r0_all.ipk
+Source: autoconf-archive_2024.10.16.bb
+Description: a collection of freely re-usable Autoconf macros
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
 
-Package: bhepgbackup_13.0-r0_all
-Version: 13.0
-Depends: 
-Provides: 
+Package: bhepgbackup
+Version: 13.0-r0
+Depends: blackhole-pyc-userland, enigma2, python3-core
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: e5063bc9988379b5046d5deec8da8c3b
 Size: 6476
-Filename: all/bhepgbackup_13.0-r0_all.ipk
-Description: bhepgbackup_13.0-r0_all
+Filename: bhepgbackup_13.0-r0_all.ipk
+Source: bhepgbackup_13.0.bb
+Description: BlackHole EPG Backup
+OE: bhepgbackup
+License: GPL-2.0-only
+Priority: optional
 
-Package: bhweather_V0.9_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: bhweather
+Version: V0.9
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Meo <lupomeo@gmail.com>, RAED <rrrr53@hotmail.com>
 MD5Sum: f8b1d95f29d030d6072b29449813268e
 Size: 2531894
-Filename: all/bhweather_V0.9_all.ipk
-Description: bhweather_V0.9_all
+Filename: bhweather_V0.9_all.ipk
+Description: bhweather version 2.0 By meo, Mod By RAED Support FULL HD Skin + Python3
+License: CLOSED
+Priority: optional
 
-Package: ca-certificates-doc_20260223-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: ca-certificates-doc
+Version: 20260223-r0
+Section: doc
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 26d02ebd98e8361dcb0f31fd0703efb3
 Size: 2334
-Filename: all/ca-certificates-doc_20260223-r0_all.ipk
-Description: ca-certificates-doc_20260223-r0_all
+Filename: ca-certificates-doc_20260223-r0_all.ipk
+Source: ca-certificates_20260223.bb
+Description: Common CA certificates - Documentation files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
 
-Package: ca-certificates_20260223-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: ca-certificates
+Version: 20260223-r0
+Depends: openssl, openssl-bin
+Section: misc
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 14e6423668d7afbe0f117ddbb7087de6
 Size: 132396
-Filename: all/ca-certificates_20260223-r0_all.ipk
-Description: ca-certificates_20260223-r0_all
+Filename: ca-certificates_20260223-r0_all.ipk
+Source: ca-certificates_20260223.bb
+Description: Common CA certificates
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-carl9170
+Version: 1.0-r0
+Recommends: firmware-carl9170, kernel-module-carl9170
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 8ea8a261ae867ca717c78afceafa68f0
 Size: 578
-Filename: all/enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-carl9170.bb
+Description: WiFi devices for Atheros AR9170 devices.
+OE: enigma2-plugin-drivers-network-usb-carl9170
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-lan78xx
+Version: 1.0-r0
+Recommends: kernel-module-lan78xx, kernel-module-usbnet
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 7364f862ada5ea4eb961ead93317ad3c
 Size: 596
-Filename: all/enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-lan78xx.bb
+Description: Microchip LAN78XX based USB 2/3 10/100/1000 Ethernet adapters
+OE: enigma2-plugin-drivers-network-usb-lan78xx
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-mt7601u
+Version: 1.0-r2
+Recommends: firmware-mt7601u, mt7601u
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 67feb12cfe98cc3a56496dc71ba32565
 Size: 546
-Filename: all/enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all.ipk
-Description: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all
+Filename: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-mt7601u.bb
+Description: mediatek 7601u
+OE: enigma2-plugin-drivers-network-usb-mt7601u
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-r8188eu
+Version: 1.0-r0
+Recommends: firmware-rtl8188eu, kernel-module-r8188eu
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 15fdc5c413d9aebf61fc4775b4d507d4
 Size: 610
-Filename: all/enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-r8188eu.bb
+Description: Single-Chip IEEE 802.11b/g/n 2T2R WLAN Controller with USB 2.0 Interface
+OE: enigma2-plugin-drivers-network-usb-r8188eu
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-r8712u
+Version: 1.0-r0
+Recommends: firmware-rtl8712u, kernel-module-r8712u
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 96a039b2a9a1c1639264b96109b43207
 Size: 580
-Filename: all/enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-r8712u.bb
+Description: Driver for Ralink USB devices R8712U
+OE: enigma2-plugin-drivers-network-usb-r8712u
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rt2500
+Version: 1.0-r0
+Recommends: kernel-module-rt2500usb
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2fdb0b3d8a02cfceb5585cb2fdfcedfd
 Size: 578
-Filename: all/enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt2500.bb
+Description: WiFi devices for Ralink RT2500USB/RT2571 devices.
+OE: enigma2-plugin-drivers-network-usb-rt2500
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rt2800
+Version: 1.0-r0
+Recommends: firmware-rt2870, kernel-module-rt2800usb
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 14068402018e88e0431df835a750d558
 Size: 592
-Filename: all/enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt2800.bb
+Description: WiFi devices based on Ralink 802.11n USB chipsets.
+OE: enigma2-plugin-drivers-network-usb-rt2800
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rt73
+Version: 1.0-r0
+Recommends: firmware-rt73, kernel-module-rt73usb
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 9d1a620ed50b686dc667d2324f1425ee
 Size: 590
-Filename: all/enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt73.bb
+Description: Driver for Ralink USB devices RT2571W, RT2573 & RT2671
+OE: enigma2-plugin-drivers-network-usb-rt73
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8152
+Version: 1.0-r0
+Recommends: kernel-module-r8152, kernel-module-usbnet
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: fc3a5761bb8430ce89375b69cf4dca20
 Size: 596
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8152.bb
+Description: Realtek RTL8152/RTL8153 USB 3.0/2.0 Gigabit Ethernet Network Adapter
+OE: enigma2-plugin-drivers-network-usb-rtl8152
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8187
+Version: 1.0-r0
+Recommends: kernel-module-rtl8187
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 0481727240d9ced4eaeb9e20e9282614
 Size: 574
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8187.bb
+Description: WiFi devices for Realtek 802.11a/bg chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8187
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
+Version: 1.0-r0
+Recommends: firmware-rtl8192cu, firmware-rtl8192cufw, rtl8192cu
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: f6224ca6b8497eda73d1b6c8afad3138
 Size: 580
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2.bb
+Description: rt8192cu Proprietary alternative kernel driver
+OE: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8812au
+Version: 1.0-r0
+Recommends: rt8812au
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 4437de708a9a017ae83550dbf6c5e4f3
 Size: 572
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8812au.bb
+Description: WiFi devices for Realtek 8812AU/8821AU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8812au
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8821cu
+Version: 1.0-r2
+Recommends: linux-firmware-8821cu, rt8821cu
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 48cdadf36fcab94da113f8b7ed7687ad
 Size: 582
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8821cu.bb
+Description: WiFi devices for Realtek 88x1CU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8821cu
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8822cu
+Version: 1.0-r0
+Recommends: rt8822cu
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: b1db1a581a35e3f84ff9609baa254d48
 Size: 568
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822cu.bb
+Description: WiFi devices for Realtek 88x2CU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8822cu
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-rtl8852cu
+Version: 1.0-r0
+Recommends: rtl8852cu
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: b26e2cc8fb4695309af8acfcc3b451ad
 Size: 560
-Filename: all/enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-rtl8852cu_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8852cu.bb
+Description: WiFi devices for Realtek 8852CU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8852cu
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-drivers-network-usb-zd1211rw
+Version: 1.0-r0
+Recommends: firmware-zd1211, kernel-module-zd1211rw
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: ac65bcadab09159707dfa97c50a2cc73
 Size: 590
-Filename: all/enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all.ipk
-Description: enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all
+Filename: enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-zd1211rw.bb
+Description: Driver for ZyDAS ZD1211, ZyDAS ZD1211B, Atheros AR5007UG
+OE: enigma2-plugin-drivers-network-usb-zd1211rw
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-ajpanel_v10.8.6_all
-Version: 10.8.6
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-accuweather
+Version: 1.3
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Vasiliks
+MD5Sum: 6f9f85af608886eff8410fc5bc74e2f3
+Size: 98228
+Filename: enigma2-plugin-extensions-accuweather_1.3_all.ipk
+Description: Enigma2 Weather Forecast
+OE: enigma2-plugin-extensions-accuweather
+HomePage: https://tvfaq.net
+License: PD
+Priority: required
+
+Package: enigma2-plugin-extensions-ajpanel
+Version: v10.8.6
+Recommends: xz (>= 5), zip, p7zip, unrar, bzip2, ffmpeg, python-requests | python3-requests, python-imaging | python3-pillow, ar (>= 2) | enigma2-plugin-extensions-opkg-tools | binutils
+Section: base
+Architecture: all
+Maintainer: AMAJamry - https://github.com/AMAJamry/AJPanel
 MD5Sum: 791373d8c09ac1aa0735475e717e24b8
 Size: 541714
-Filename: all/enigma2-plugin-extensions-ajpanel_v10.8.6_all.ipk
-Description: enigma2-plugin-extensions-ajpanel_v10.8.6_all
+Filename: enigma2-plugin-extensions-ajpanel_v10.8.6_all.ipk
+Description: Enigma2 Tools
+HomePage: https://github.com/AMAJamry/AJPanel
+Priority: optional
 
-Package: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-bouquetcleanup
+Version: 1.0+git5+aac1ba90+aac1ba982f-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Huevos
 MD5Sum: 4fa34c9c520846f0a9102b7b2cd99f64
 Size: 11016
-Filename: all/enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all.ipk
-Description: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all
+Filename: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetcleanup.bb
+Description: enigma2-plugin-extensions-bouquetcleanup version 1.0+git-r0
+OE: enigma2-plugin-extensions-bouquetcleanup
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-bouquetmakerxtream
+Version: 227+d193ac80+d193ac8bb8-r0
+Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: kiddac
 MD5Sum: 8dda2caea6b749d024a4337c5182f478
 Size: 4109580
-Filename: all/enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all.ipk
-Description: enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all
-Version: 1.28
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-dreamosat-cammanager
+Version: 20230801-r9.3
+Section: extra
+Architecture: all
+Maintainer: audi06_19  <audi06_19@hotmail.com>
+MD5Sum: 077c6e9355989314a74dbbcef2dc2208
+Size: 71642
+Filename: enigma2-plugin-extensions-dreamosat-cammanager_20230801-r9.3_all.ipk
+Source: https://dreamosat-forum.com
+Description: (BTKcam, GCam, NCam, OSCam, OSCamYmod, CCcam, MgCamd, WiCardd)
+OE: DreamOSat camManager
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2piconizer
+Version: 1.28-20250517-git64+50022390+50022393f1-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: kiddac
 MD5Sum: b7288a31695dd8a6d7fa0e6de4e6fd61
 Size: 1377376
-Filename: all/enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
-Description: enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all
+Filename: enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
+Source: enigma2-plugin-extensions-e2piconizer.bb
+Description: enigma2-plugin-extensions-e2piconizer version git-r0
+OE: enigma2-plugin-extensions-e2piconizer
+HomePage: https://github.com/kiddac/E2_Piconizer
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all
-Version: 1.4.5
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-enigmawelt
+Version: 1.4.5-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: enigmawelt jbleyel CommanderData2338
 MD5Sum: b79c2baf0e36d3924abd04b7de17500e
 Size: 347454
-Filename: all/enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all.ipk
-Description: enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all
+Filename: enigma2-plugin-extensions-enigmawelt_1.4.5-r0_all.ipk
+Source: enigma2-plugin-extensions-enigmawelt.bb
+Description: The biggest DreamOS/Enigma2 Video Blog
+OE: enigma2-plugin-extensions-enigmawelt
+HomePage: https://enigmawelt.de
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-epgimport-sources
+Version: git169+be97e010+be97e01a29-r0
+Replaces: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
+Conflicts: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Doglover @ https://forums.openpli.org/forum/52-en-rytec-xmltv-and-epg-support/
 MD5Sum: c34ea18ce79439b9e979235e7381a04c
 Size: 3808
-Filename: all/enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all.ipk
-Description: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all
+Filename: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all.ipk
+Source: enigma2-plugin-extensions-epgimport-sources.bb
+Description: enigma2-plugin-extensions-epgimport-sources version git-r0
+OE: enigma2-plugin-extensions-epgimport-sources
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-estalker
+Version: 1.38.20260429
+Section: misc
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 77203ebd5df53f9723279b9d569ef2af
+Size: 3255560
+Filename: enigma2-plugin-extensions-estalker_1.38_all.ipk
+Description: IPTV Ministra stalker player by KiddaC
+Priority: optional
+
+Package: enigma2-plugin-extensions-evgquicksignal
+Version: 1.2
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Evg77734
+MD5Sum: 257baca507d4ce44c6bdf8671dbd9567
+Size: 3665204
+Filename: enigma2-plugin-extensions-evgquicksignal_1.2_all.ipk
+Description: EvgQuickSignal from Evg77734
+OE: enigma2-plugin-extensions-evgquicksignal
+HomePage: gisclub.tv
+Priority: optional
+
+Package: enigma2-plugin-extensions-footonsat
+Version: 1.9-r0
+Section: base
+Architecture: all
+Maintainer: ziko & redouane
+MD5Sum: c5ae8790b0fd80684f1ebc86f2b8af1a
+Size: 15342996
+Filename: enigma2-plugin-extensions-footonsat_1.9-r0_all.ipk
+Source: https://github.com/ziko-ZR1/FootOnsat
+Description: enigma2 plugin OE2.0 OE2.5
+Priority: optional
+
+Package: enigma2-plugin-extensions-gioppygio
+Version: 10.3
+Section: enigma2
+Architecture: all
+Maintainer: madhouse <anonm4d@gmail.com>
+MD5Sum: 2427f2a70df3cc197554a5da522719a7
+Size: 1687116
+Filename: enigma2-plugin-extensions-gioppygio_10.3_all.ipk
+Source: www.gioppygio.it
+Description: GioppyGio Setting and Picons
+OE: Enigma2 Plugin
+HomePage: www.gioppygio.it
+Priority: optional
+
+Package: enigma2-plugin-extensions-historyzap
+Version: 1.0.46
+Section: base
+Architecture: all
+Maintainer: Dorik1972
+MD5Sum: 400746f9c8daf5a06566898ad21ed4e4
+Size: 1932940
+Filename: enigma2-plugin-extensions-historyzap_1.0.46_all.ipk
+Description: History Zap Selector for fast channel switching
+OE: 2.0 - 2.2 - 2.5 -2.6
+HomePage: https://github.com/pepsik-kiev
+License: proprietary software
+Priority: optional
+
+Package: enigma2-plugin-extensions-infobarweather
+Version: 0.17
+Architecture: all
+Maintainer: scriptmelvin
+MD5Sum: 8d9f387636b89bda3af67201d04f22fa
+Size: 35710
+Filename: enigma2-plugin-extensions-infobarweather_0.17_all.ipk
+Description: Show current weather in infobar
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptosat
+Version: 1.8
+Depends: exteplayer3 , gstplayer
+Section: base
+Architecture: all
+Maintainer: ziko-ZR1
+MD5Sum: 425bfdd1daef7a70687df6824663c9b7
+Size: 13638
+Filename: enigma2-plugin-extensions-iptosat_1.8_all.ipk
+Source: https://github.com/ziko-ZR1/IPtoSAT
+Description: enigma2 plugin OE2.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptv-org-playlists
+Version: 1.0+git10+4d0456a0+4d0456a218-r0
+Depends: python3-requests
+Section: base
+Architecture: all
+Maintainer: Huevos
 MD5Sum: e575bc9d73ca0fd0edd44e35c5cce18d
 Size: 24310
-Filename: all/enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
-Description: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all
+Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
+Source: enigma2-plugin-extensions-iptv-org-playlists.bb
+Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0
+OE: enigma2-plugin-extensions-iptv-org-playlists
+HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-jediepgxtream
+Version: git25+7cf0d7d0+7cf0d7db6c-r0
+Depends: python3-difflib, python3-requests, python3-thefuzz
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: kiddac
 MD5Sum: e91ed9146259ee9a78ae0984dd4fca87
 Size: 270514
-Filename: all/enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
-Description: enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all
+Filename: enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
+Source: enigma2-plugin-extensions-jediepgxtream.bb
+Description: enigma2-plugin-extensions-jediepgxtream version git-r0
+OE: enigma2-plugin-extensions-jediepgxtream
+HomePage: https://github.com/kiddac/Jedi-EPG-XStream
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-jedimakerxtream
+Version: git173+5d2218a0+5d2218ae6f-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: kiddac
 MD5Sum: 197e611c8b5e803a0727a2a8101969e5
 Size: 2983426
-Filename: all/enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all.ipk
-Description: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all
+Filename: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all.ipk
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: enigma2-plugin-extensions-jedimakerxtream version git-r0
+OE: enigma2-plugin-extensions-jedimakerxtream
+HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-kiddac-skin-e2sentials
+Version: 1.00.20250126
+Section: misc
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 546abd795acebd66e16b01d04f52a4d8
+Size: 1241450
+Filename: enigma2-plugin-extensions-kiddac-skin-e2sentials_1.00_all.ipk
+Description: Skin additions - Top Picks, Movie Planner Mods, Screen Names
+Priority: optional
+
+Package: enigma2-plugin-extensions-lamedbmerger
+Version: 1.0+git7+16be3870+16be387903-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Huevos
 MD5Sum: c7d600754255d49cd93114d12991eee4
 Size: 14696
-Filename: all/enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all.ipk
-Description: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all
+Filename: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all.ipk
+Source: enigma2-plugin-extensions-lamedbmerger.bb
+Description: enigma2-plugin-extensions-lamedbmerger version 1.0+git-r0
+OE: enigma2-plugin-extensions-lamedbmerger
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-movieorganisor_V3.99-git15+e24a88c0+e24a88cd25-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-levi45-freeserver
+Version: 2.4
+Depends: enigma2
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: levi45
+MD5Sum: 5d398613de53574b275a00287eb17740
+Size: 26774
+Filename: enigma2-plugin-extensions-levi45-freeserver_2.4_all.ipk
+Source: https://satellite-forum.com
+Description: Levi45 freeserver
+HomePage: https://satellite-forum.com
+Priority: optional
+
+Package: enigma2-plugin-extensions-merlinmusicplayer
+Version: 7.4
+Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
+Section: base
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: 31a663ffeed39052b3c23903142bbee1
+Size: 1034680
+Filename: enigma2-plugin-extensions-merlinmusicplayer_7.4_all.ipk
+Source: enigma2-plugins.bb
+Description: extensions-merlinmusicplayer
+OE: enigma2-plugins
+HomePage: https:\\www.opena.tv
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-mmpicons
+Version: 1.2
+Section: base
+Architecture: all
+Maintainer: lululla
+MD5Sum: d920d9a26d95c946cf8138e011cd1a06
+Size: 1727510
+Filename: enigma2-plugin-extensions-mmpicons_1.2_all.ipk
+Source: /
+Description: mmPicons & Skins Version by Lululla & MMark
+OE: 2.0 - 2.2 - 2.5 -2.6
+HomePage: https://e2skin.blogspot.com/
+License: *
+Priority: optional
+
+Package: enigma2-plugin-extensions-movieorganisor
+Version: V3.99-git15+e24a88c0+e24a88cd25-r0
+Depends: python3-core
+Section: base
+Architecture: all
+Maintainer: TwolDE2
 MD5Sum: 27a977be9ffafd2c4a99a59f856367ad
 Size: 17942
-Filename: all/enigma2-plugin-extensions-movieorganisor_V3.99-git15+e24a88c0+e24a88cd25-r0_all.ipk
-Description: enigma2-plugin-extensions-movieorganisor_V3.99-git15+e24a88c0+e24a88cd25-r0_all
+Filename: enigma2-plugin-extensions-movieorganisor_V3.99-git15+e24a88c0+e24a88cd25-r0_all.ipk
+Source: enigma2-plugin-extensions-movieorganisor.bb
+Description: Movie Organiser plugin by Grog68
+OE: enigma2-plugin-extensions-movieorganisor
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4c2f78-r0_all
-Version: 2.4
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-multiboot-flashonline
+Version: 6.4
+Section: enigma2
+Architecture: all
+Maintainer: madhouse
+MD5Sum: c9785c527d99c99d6a8d58734f7b044d
+Size: 305278
+Filename: enigma2-plugin-extensions-multiboot-flashonline_6.4_all.ipk
+Source: https://github.com/m4dhouse
+Description: Multiboot FlashOnline by Madhouse
+OE: Enigma2 Plugin
+Priority: optional
+
+Package: enigma2-plugin-extensions-oscamsmartcard
+Version: 2.4+git113+cb6b4c20+cb6b4c2f78-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: undertaker
 MD5Sum: db02ef3a0586e8c7df0b17e0ca750e32
 Size: 894276
-Filename: all/enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4c2f78-r0_all.ipk
-Description: enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4c2f78-r0_all
+Filename: enigma2-plugin-extensions-oscamsmartcard_2.4+git113+cb6b4c20+cb6b4c2f78-r0_all.ipk
+Source: enigma2-plugin-extensions-oscamsmartcard.bb
+Description: OscamSmartcard
+OE: enigma2-plugin-extensions-oscamsmartcard
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-piconsmissing
+Version: 1.0+git25+d0a984b0+d0a984b6f1-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Huevos
 MD5Sum: 62f1acfa8b8aa305672170b5db0e4caf
 Size: 19846
-Filename: all/enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all.ipk
-Description: enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all
+Filename: enigma2-plugin-extensions-piconsmissing_1.0+git25+d0a984b0+d0a984b6f1-r0_all.ipk
+Source: enigma2-plugin-extensions-piconsmissing.bb
+Description: enigma2-plugin-extensions-piconsmissing version 1.0+git-r0
+OE: enigma2-plugin-extensions-piconsmissing
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-extensions-plutotv
+Version: 20220409
+Recommends: enigma2-plugin-systemplugins-serviceapp
+Section: extensions
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Billy2011
+MD5Sum: f871696f831b661e3e029e0eed850423
+Size: 501504
+Filename: enigma2-plugin-extensions-plutotv_20220409_all.ipk
+Description: pluto.tv for VTI
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-vavoo-dbg
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
 MD5Sum: 6c25cde35c95303a9aeea560ddee5a65
 Size: 564
-Filename: all/enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Description: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Debugging files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
 
-Package: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-extensions-vavoo-dev
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.0+git867+69984d90+69984d9a57-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, python3-requests-dev, python3-six-dev
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Lululla
 MD5Sum: 276641cbed37af5b83eaae2c192117a5
 Size: 660
-Filename: all/enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Description: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all
+Filename: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Development files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
 
-Package: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-extensions-vavoo-src
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Lululla
 MD5Sum: ff1b83bdce0e9da25b3848d2173e8b7d
 Size: 123780
-Filename: all/enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Description: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all
+Filename: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Source files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
 
-Package: enigma2-plugin-extensions-vavoo_1.0+git867+69984d90+69984d9a57-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-vavoo
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer, python3-requests, python3-six
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Lululla
 MD5Sum: 3e0a588111850ad20b4a49c996f3491d
 Size: 9518314
-Filename: all/enigma2-plugin-extensions-vavoo_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Description: enigma2-plugin-extensions-vavoo_1.0+git867+69984d90+69984d9a57-r0_all
+Filename: enigma2-plugin-extensions-vavoo_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
 
-Package: enigma2-plugin-extensions-xklass_1.80-20260325-r1_all
-Version: 1.80
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-weather_msn
+Version: 1.3-r3
+Recommends: python-urllib3
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Sirius
+MD5Sum: 7d529d41b88d25f09697f5dd85952dbb
+Size: 745966
+Filename: enigma2-plugin-extensions-weather_msn_1.3-r3_all.ipk
+Description: Weather forecast, astronomical calculations
+HomePage: https://github.com/Sirius0103/enigma2-plugins/tree/master/python/Plugins/Extensions/WeatherMSN
+Priority: optional
+
+Package: enigma2-plugin-extensions-xklass
+Version: 1.80-20260325-r1
+Depends: python3-pillow, python3-requests, wget
+Section: base
+Architecture: all
+Maintainer: kiddac
 MD5Sum: ea4c462cb3b8765c151802dbfa847842
 Size: 6110422
-Filename: all/enigma2-plugin-extensions-xklass_1.80-20260325-r1_all.ipk
-Description: enigma2-plugin-extensions-xklass_1.80-20260325-r1_all
+Filename: enigma2-plugin-extensions-xklass_1.80-20260325-r1_all.ipk
+Source: enigma2-plugin-extensions-xklass.bb
+Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
+OE: enigma2-plugin-extensions-xklass
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-extensions-youtubetv-dbg
+Version: 1.0-r0
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 4a6253e418e7cd3a058016efd062fd26
 Size: 608
-Filename: all/enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all.ipk
-Description: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all
+Filename: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-youtubetv.bb
+Description: YouTube TV plugin for Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-youtubetv
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-extensions-youtubetv-dev
+Version: 1.0-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-youtubetv (= 1.0-r0)
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: cf3998313f58fc61c052a284038a1f5a
 Size: 644
-Filename: all/enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all.ipk
-Description: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all
+Filename: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-youtubetv.bb
+Description: YouTube TV plugin for Enigma2 - Development files
+OE: enigma2-plugin-extensions-youtubetv
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-extensions-youtubetv_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-extensions-youtubetv
+Version: 1.0-r0
+Depends: enigma2
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 8ec82167df1f9ffe00ecef838e9bf25f
 Size: 11468
-Filename: all/enigma2-plugin-extensions-youtubetv_1.0-r0_all.ipk
-Description: enigma2-plugin-extensions-youtubetv_1.0-r0_all
+Filename: enigma2-plugin-extensions-youtubetv_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-youtubetv.bb
+Description: YouTube TV plugin for Enigma2
+OE: enigma2-plugin-extensions-youtubetv
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-skincomponents-extcomponents_1.1_all
+Package: enigma2-plugin-skincomponents-extcomponents
 Version: 1.1
-Depends: 
-Provides: 
-Section: base
+Section: plugin-skincomponents
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: RAED
 MD5Sum: 9278af8934056bd10ad393d417528f90
 Size: 95506
-Filename: all/enigma2-plugin-skincomponents-extcomponents_1.1_all.ipk
-Description: enigma2-plugin-skincomponents-extcomponents_1.1_all
+Filename: enigma2-plugin-skincomponents-extcomponents_1.1_all.ipk
+Description: extendedSkinComponents
+OE: oe2.0
+License: GPL
+Priority: optional
 
-Package: enigma2-plugin-skins-aglare_1.2+git282+20da50f0+20da50f375-r0_all
-Version: 1.2
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-aglare
+Version: 1.2+git282+20da50f0+20da50f375-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: lululla
 MD5Sum: 9d4dc4653f0b27a11d4158633a11eee7
 Size: 25600226
-Filename: all/enigma2-plugin-skins-aglare_1.2+git282+20da50f0+20da50f375-r0_all.ipk
-Description: enigma2-plugin-skins-aglare_1.2+git282+20da50f0+20da50f375-r0_all
+Filename: enigma2-plugin-skins-aglare_1.2+git282+20da50f0+20da50f375-r0_all.ipk
+Source: enigma2-plugin-skins-aglare.bb
+Description: enigma2-plugin-skins-aglare version 1.2+git-r0
+OE: enigma2-plugin-skins-aglare
+License: GPL-2.0-only
+Priority: required
 
-Package: enigma2-plugin-skins-brio-classic-fhd_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-skins-brio-classic-fhd
+Version: 1.0-r0
+Depends: enigma2
+Section: skins
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 6b19759472529e6a90f23fa79a5720c3
 Size: 2187060
-Filename: all/enigma2-plugin-skins-brio-classic-fhd_1.0-r0_all.ipk
-Description: enigma2-plugin-skins-brio-classic-fhd_1.0-r0_all
+Filename: enigma2-plugin-skins-brio-classic-fhd_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-brio-classic-fhd_1.0.bb
+Description: Brio STD Classic FHD skin for BlackHole
+OE: enigma2-plugin-skins-brio-classic-fhd
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-skins-brio-std-fhd_1.4-r0_all
-Version: 1.4
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-brio-std-fhd
+Version: 1.4-r0
+Depends: enigma2
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 58fbce83ffbe863b5edd4480e28ad0f6
 Size: 2144144
-Filename: all/enigma2-plugin-skins-brio-std-fhd_1.4-r0_all.ipk
-Description: enigma2-plugin-skins-brio-std-fhd_1.4-r0_all
+Filename: enigma2-plugin-skins-brio-std-fhd_1.4-r0_all.ipk
+Source: enigma2-plugin-skins-brio-std-fhd_1.4.bb
+Description: Classic BlackHole Brio STD FHD skin
+OE: enigma2-plugin-skins-brio-std-fhd
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-skins-e2darkos_1.1+git294+db1cdec0+db1cdec969-r0_all
-Version: 1.1
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-e2darkos
+Version: 1.1+git294+db1cdec0+db1cdec969-r0
+Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: DimitarCC
 MD5Sum: 1f62829e444c286dfe43e946ae00f692
 Size: 3312358
-Filename: all/enigma2-plugin-skins-e2darkos_1.1+git294+db1cdec0+db1cdec969-r0_all.ipk
-Description: enigma2-plugin-skins-e2darkos_1.1+git294+db1cdec0+db1cdec969-r0_all
+Filename: enigma2-plugin-skins-e2darkos_1.1+git294+db1cdec0+db1cdec969-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.1+git-r0
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
 
-Package: enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170be-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-glamouraurafhd
+Version: 14.x+git616+f3275170+f3275170be-r0
+Recommends: enigma2-plugin-extensions-bitrate, enigma2-plugin-extensions-weathermsn
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: MCelliotG
 MD5Sum: 66ad99b6d1b30ab6ccd02fd78c1514d7
 Size: 13936998
-Filename: all/enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170be-r0_all.ipk
-Description: enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170be-r0_all
+Filename: enigma2-plugin-skins-glamouraurafhd_14.x+git616+f3275170+f3275170be-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: Glamour Aura FHD skin for new generation STBs
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-magic
+Version: 1.0+git331+8b5fb840+8b5fb84750-r0
+Depends: font-valis-enigma
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Mike Looijmans
 MD5Sum: a7caf8998b8d028e3d3d0c1f19229dff
 Size: 123218
-Filename: all/enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all.ipk
-Description: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all
+Filename: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.0+git-r0
+OE: enigma2-plugin-skins-magic
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-skins-octetfhd_git690+725677d0+725677d88a-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-octetfhd
+Version: git690+725677d0+725677d88a-r0
+Recommends: enigma2-plugin-extensions-weatherplugin
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Open Vision Developers
 MD5Sum: 4441217e5cfcec7da0c6ff4368a46b8a
 Size: 1840832
-Filename: all/enigma2-plugin-skins-octetfhd_git690+725677d0+725677d88a-r0_all.ipk
-Description: enigma2-plugin-skins-octetfhd_git690+725677d0+725677d88a-r0_all
+Filename: enigma2-plugin-skins-octetfhd_git690+725677d0+725677d88a-r0_all.ipk
+Source: enigma2-plugin-skins-octetfhd.bb
+Description: Enigma2 Skin OctEtFHD
+OE: enigma2-plugin-skins-octetfhd
+License: GPL-2.0-only
+Priority: required
 
-Package: enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git616+02dec4f0+02dec4f9ae-r0_all
-Version: 2.6.1
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-pd1loi-hd-night
+Version: 2.6.1+git616+02dec4f0+02dec4f9ae-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: pd1loi1
 MD5Sum: d1dc99df9358a35a3961d680a1c343dd
 Size: 5192410
-Filename: all/enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git616+02dec4f0+02dec4f9ae-r0_all.ipk
-Description: enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git616+02dec4f0+02dec4f9ae-r0_all
+Filename: enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git616+02dec4f0+02dec4f9ae-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+git-r0
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPL-3.0-only
+Priority: optional
 
-Package: enigma2-plugin-skins-pli-hd-fullnight_0.1+git109+99adc650+99adc658e4-r0_all
-Version: 0.1
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-pli-hd-fullnight
+Version: 0.1+git109+99adc650+99adc658e4-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: littlesat
 MD5Sum: e747c931c02c4704e01b2654888e2829
 Size: 145946
-Filename: all/enigma2-plugin-skins-pli-hd-fullnight_0.1+git109+99adc650+99adc658e4-r0_all.ipk
-Description: enigma2-plugin-skins-pli-hd-fullnight_0.1+git109+99adc650+99adc658e4-r0_all
+Filename: enigma2-plugin-skins-pli-hd-fullnight_0.1+git109+99adc650+99adc658e4-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+git-r0
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
 
-Package: enigma2-plugin-skins-pli-hd_0.1+git67+fc35f170+fc35f1791c-r0_all
-Version: 0.1
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git67+fc35f170+fc35f1791c-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: littlesat
 MD5Sum: 77d00374e9d871a3be9d60e4161e32e8
 Size: 2626220
-Filename: all/enigma2-plugin-skins-pli-hd_0.1+git67+fc35f170+fc35f1791c-r0_all.ipk
-Description: enigma2-plugin-skins-pli-hd_0.1+git67+fc35f170+fc35f1791c-r0_all
+Filename: enigma2-plugin-skins-pli-hd_0.1+git67+fc35f170+fc35f1791c-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
 
-Package: enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-skins-simple-gray
+Version: 1.0+git289+80b15880+80b158870a-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Taapat
 MD5Sum: 608ba4c04149472c84efd15b53fbd150
 Size: 409542
-Filename: all/enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all.ipk
-Description: enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all
+Filename: enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all.ipk
+Source: enigma2-plugin-skins-simple-gray.bb
+Description: enigma2-plugin-skins-simple-gray version 1.0+git-r0
+OE: enigma2-plugin-skins-simple-gray
+License: GPL-3.0-only
+Priority: optional
 
-Package: enigma2-plugin-softcams-ncam_V15.8-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-softcams-ncam
+Version: V15.8-r0
+Depends: libcurl4
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: RAED (rrrr53@hotmail.com)
 MD5Sum: c6a84a3945c77259815db3cb310e0e51
 Size: 5070764
-Filename: all/enigma2-plugin-softcams-ncam_V15.8-r0_all.ipk
-Description: enigma2-plugin-softcams-ncam_V15.8-r0_all
+Filename: enigma2-plugin-softcams-ncam_V15.8-r0_all.ipk
+Description: ncam to all images OE2.0 (Patched and Build by RAED)
+HomePage: www.tunisia-sat.com
+License: Proprietary
+Priority: optional
 
-Package: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git10+b7133b00+b7133b0b49-r0_all
-Version: 2.0
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-softcams-oscam-whitelist-dbg
+Version: 2.0+git10+b7133b00+b7133b0b49-r0
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: AbuBaniaz
 MD5Sum: 2749ac88687d37f5d20bd819fa2f63f9
 Size: 580
-Filename: all/enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
-Description: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git10+b7133b00+b7133b0b49-r0_all
+Filename: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
+Source: enigma2-plugin-softcams-oscam-whitelist.bb
+Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0 - Debugging files
+OE: enigma2-plugin-softcams-oscam-whitelist
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git10+b7133b00+b7133b0b49-r0_all
-Version: 2.0
-Depends: 
-Provides: 
-Section: base
+Package: enigma2-plugin-softcams-oscam-whitelist-dev
+Version: 2.0+git10+b7133b00+b7133b0b49-r0
+Recommends: enigma2-plugin-softcams-oscam-whitelist (= 2.0+git10+b7133b00+b7133b0b49-r0)
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: AbuBaniaz
 MD5Sum: 92315e3180a989756d2c1ca7bbc5ff65
 Size: 618
-Filename: all/enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
-Description: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git10+b7133b00+b7133b0b49-r0_all
+Filename: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
+Source: enigma2-plugin-softcams-oscam-whitelist.bb
+Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0 - Development files
+OE: enigma2-plugin-softcams-oscam-whitelist
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0b49-r0_all
-Version: 2.0
-Depends: 
-Provides: 
+Package: enigma2-plugin-softcams-oscam-whitelist
+Version: 2.0+git10+b7133b00+b7133b0b49-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: AbuBaniaz
 MD5Sum: 0b9a8664396399dda627e7d8f7319ee8
 Size: 930
-Filename: all/enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
-Description: enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0b49-r0_all
+Filename: enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
+Source: enigma2-plugin-softcams-oscam-whitelist.bb
+Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0
+OE: enigma2-plugin-softcams-oscam-whitelist
+License: CLOSED
+Priority: optional
 
-Package: enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-systemplugins-m3uiptv
+Version: 1.0+git490+5bc4edf0+5bc4edf706-r0
+Depends: python3-core, python3-multiprocessing, python3-requests, python3-zoneinfo
+Recommends: enigma2-plugin-extensions-tmbd
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: DimitarCC
 MD5Sum: 064236d20d692bd96f5096613b2f1be6
 Size: 298394
-Filename: all/enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all.ipk
-Description: enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git490+5bc4edf0+5bc4edf706-r0_all.ipk
+Source: enigma2-plugin-systemplugins-m3uiptv.bb
+Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-m3uiptv
+HomePage: https://github.com/DimitarCC
+License: GPL-3.0-only
+Priority: optional
 
-Package: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-systemplugins-remotecontrolselection
+Version: 1.0+git22+2bb40440+2bb40447d6-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Huevos
 MD5Sum: efabd9e2d8875ea51d6b1d8384ec1d15
 Size: 9574
-Filename: all/enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all.ipk
-Description: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all
+Filename: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all.ipk
+Source: enigma2-plugin-systemplugins-remotecontrolselection.bb
+Description: enigma2-plugin-systemplugins-remotecontrolselection version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-remotecontrolselection
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-systemplugins-terrestrialbouquet
+Version: 1.0+git11+564df070+564df07777-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Huevos
 MD5Sum: 29d7c21e7e2fd56f6e767c559f5d099a
 Size: 11488
-Filename: all/enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all.ipk
-Description: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all
+Filename: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all.ipk
+Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
+Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-terrestrialbouquet
+HomePage: https://github.com/Huevos/TerrestrialBouquet
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-plugin-systemplugins-wanip
+Version: 1.0+git4+e4902be0+e4902befe9-r0
+Depends: python3-requests
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Huevos
 MD5Sum: 31aa4ec48e46ac239fec45b33c20e15d
 Size: 3346
-Filename: all/enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
-Description: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all
+Filename: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-wanip.bb
+Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-wanip
+License: GPL-2.0-only
+Priority: optional
 
-Package: enigma2-timezones_git1019+c5cd5660+c5cd566848-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: enigma2-timezones
+Version: git1019+c5cd5660+c5cd566848-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: fbce979775264955fe5a2035f70e9b14
 Size: 7344
-Filename: all/enigma2-timezones_git1019+c5cd5660+c5cd566848-r0_all.ipk
-Description: enigma2-timezones_git1019+c5cd5660+c5cd566848-r0_all
+Filename: enigma2-timezones_git1019+c5cd5660+c5cd566848-r0_all.ipk
+Source: enigma2-timezones.bb
+Description: timezone.xml for enigma2
+OE: enigma2-timezones
+License: Proprietary
+Priority: optional
 
-Package: firmware-carl9170_1.9.5-r0_all
-Version: 1.9.5
-Depends: 
-Provides: 
+Package: firmware-carl9170
+Version: 1.9.5-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 501c0afafae3ff4e2cd72255c5d6e73e
 Size: 10490
-Filename: all/firmware-carl9170_1.9.5-r0_all.ipk
-Description: firmware-carl9170_1.9.5-r0_all
+Filename: firmware-carl9170_1.9.5-r0_all.ipk
+Source: firmware-carl9170_1.9.5.bb
+Description: Firmware for CARL9170
+OE: firmware-carl9170
+License: Proprietary
+Priority: optional
 
-Package: firmware-htc7010_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-htc7010
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: e70dc869887a913f25eb7317263b0b97
 Size: 35280
-Filename: all/firmware-htc7010_1.0-r0_all.ipk
-Description: firmware-htc7010_1.0-r0_all
+Filename: firmware-htc7010_1.0-r0_all.ipk
+Source: firmware-htc7010.bb
+Description: Firmware for HTC7010
+OE: firmware-htc7010
+License: Proprietary
+Priority: optional
 
-Package: firmware-htc9271_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-htc9271
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: cff3c0d1e3fde01fffb7035002fe9c54
 Size: 30260
-Filename: all/firmware-htc9271_1.0-r0_all.ipk
-Description: firmware-htc9271_1.0-r0_all
+Filename: firmware-htc9271_1.0-r0_all.ipk
+Source: firmware-htc9271.bb
+Description: Firmware for HTC9271
+OE: firmware-htc9271
+License: Proprietary
+Priority: optional
 
-Package: firmware-mt7601u_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-mt7601u
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2b1ce974c5575bd104dd4921ebbd81d9
 Size: 28058
-Filename: all/firmware-mt7601u_1.0-r0_all.ipk
-Description: firmware-mt7601u_1.0-r0_all
+Filename: firmware-mt7601u_1.0-r0_all.ipk
+Source: firmware-mt7601u.bb
+Description: Firmware for mt7601u
+OE: firmware-mt7601u
+License: Proprietary
+Priority: optional
 
-Package: firmware-rt2870_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rt2870
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 0bb4418bc741384e902a055774c5e355
 Size: 3462
-Filename: all/firmware-rt2870_1.0-r0_all.ipk
-Description: firmware-rt2870_1.0-r0_all
+Filename: firmware-rt2870_1.0-r0_all.ipk
+Source: firmware-rt2870.bb
+Description: Firmware for Ralink RT2870
+OE: firmware-rt2870
+License: Proprietary
+Priority: optional
 
-Package: firmware-rt73_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rt73
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 88306b080d71e7f2cf2331e9e4342181
 Size: 1834
-Filename: all/firmware-rt73_1.0-r0_all.ipk
-Description: firmware-rt73_1.0-r0_all
+Filename: firmware-rt73_1.0-r0_all.ipk
+Source: firmware-rt73.bb
+Description: Firmware for RT73
+OE: firmware-rt73
+License: Proprietary
+Priority: optional
 
-Package: firmware-rtl8188eu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rtl8188eu
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: eccae16e25d5050b948f6f09e2de395f
 Size: 9276
-Filename: all/firmware-rtl8188eu_1.0-r0_all.ipk
-Description: firmware-rtl8188eu_1.0-r0_all
+Filename: firmware-rtl8188eu_1.0-r0_all.ipk
+Source: firmware-rtl8188eu.bb
+Description: Firmware for RTL8188EU
+OE: firmware-rtl8188eu
+License: Proprietary
+Priority: optional
 
-Package: firmware-rtl8192cu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rtl8192cu
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 9893b2e432da352a666ad44ffc1dfb15
 Size: 8978
-Filename: all/firmware-rtl8192cu_1.0-r0_all.ipk
-Description: firmware-rtl8192cu_1.0-r0_all
+Filename: firmware-rtl8192cu_1.0-r0_all.ipk
+Source: firmware-rtl8192cu.bb
+Description: Firmware for RTL8192CU
+OE: firmware-rtl8192cu
+License: Proprietary
+Priority: optional
 
-Package: firmware-rtl8192cufw_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rtl8192cufw
+Version: 1.0-r0
+Provides: firmware-rtl8192cufw
+Replaces: firmware-rtl8192cufw
+Conflicts: firmware-rtl8192cufw
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 6eec8bb94432296c89dbc983e747be38
 Size: 554
-Filename: all/firmware-rtl8192cufw_1.0-r0_all.ipk
-Description: firmware-rtl8192cufw_1.0-r0_all
+Filename: firmware-rtl8192cufw_1.0-r0_all.ipk
+Source: firmware-rtl8192cufw_1.0.bb
+Description: Dummy firmware-rtl8192cufw package; firmware-rtl8xxxu provides the file
+OE: firmware-rtl8192cufw
+License: CLOSED
+Priority: optional
 
-Package: firmware-rtl8192eu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rtl8192eu
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: d1545a1a84e5a0ea8956d91fda722f91
 Size: 19498
-Filename: all/firmware-rtl8192eu_1.0-r0_all.ipk
-Description: firmware-rtl8192eu_1.0-r0_all
+Filename: firmware-rtl8192eu_1.0-r0_all.ipk
+Source: firmware-rtl8192eu.bb
+Description: firmware-rtl8192eu version 1.0-r0
+OE: firmware-rtl8192eu
+License: Proprietary
+Priority: optional
 
-Package: firmware-rtl8712u_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rtl8712u
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 4fb6730f99a08b143312833ca2fab320
 Size: 66224
-Filename: all/firmware-rtl8712u_1.0-r0_all.ipk
-Description: firmware-rtl8712u_1.0-r0_all
+Filename: firmware-rtl8712u_1.0-r0_all.ipk
+Source: firmware-rtl8712u.bb
+Description: Firmware for RTL8712U
+OE: firmware-rtl8712u
+License: Proprietary
+Priority: optional
 
-Package: firmware-rtl8xxxu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-rtl8xxxu
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 519295b33e82349b2e1e47796eaa2c74
 Size: 10012
-Filename: all/firmware-rtl8xxxu_1.0-r0_all.ipk
-Description: firmware-rtl8xxxu_1.0-r0_all
+Filename: firmware-rtl8xxxu_1.0-r0_all.ipk
+Source: firmware-rtl8xxxu.bb
+Description: firmware-rtl8xxxu version 1.0-r0
+OE: firmware-rtl8xxxu
+License: Proprietary
+Priority: optional
 
-Package: firmware-zd1211_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: firmware-zd1211
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: d1f8431c7ffc7cd6e86ffb7c8fc929b5
 Size: 49856
-Filename: all/firmware-zd1211_1.0-r0_all.ipk
-Description: firmware-zd1211_1.0-r0_all
+Filename: firmware-zd1211_1.0-r0_all.ipk
+Source: firmware-zd1211.bb
+Description: Firmware for ZD1211
+OE: firmware-zd1211
+License: Proprietary
+Priority: optional
 
-Package: font-valis-enigma_1.0+git331+8b5fb84-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: font-valis-enigma
+Version: 1.0+git331+8b5fb84-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: Mike Looijmans
 MD5Sum: 7483cf8dbc9cb154b853c1bb3bc9a36c
 Size: 37390
-Filename: all/font-valis-enigma_1.0+git331+8b5fb84-r0_all.ipk
-Description: font-valis-enigma_1.0+git331+8b5fb84-r0_all
+Filename: font-valis-enigma_1.0+git331+8b5fb84-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.0+git-r0
+OE: enigma2-plugin-skins-magic
+License: GPL-2.0-only
+Priority: optional
 
-Package: fstrim-cron_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: fstrim-cron
+Version: 1.0-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OpenATV Team
 MD5Sum: ebbf4f58966051d1d39f5ff0eb1ebdc0
 Size: 1496
-Filename: all/fstrim-cron_1.0-r0_all.ipk
-Description: fstrim-cron_1.0-r0_all
+Filename: fstrim-cron_1.0-r0_all.ipk
+Source: fstrim-cron.bb
+Description: fstrim cron job
+OE: fstrim-cron
+License: GPL-2.0-only
+Priority: optional
 
-Package: iso-codes-locale_4.20.1-r0_all
-Version: 4.20.1
-Depends: 
-Provides: 
+Package: iso-codes-locale
+Version: 4.20.1-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2e2124990a9495ec9c28ab62bb397ba1
 Size: 6073654
-Filename: all/iso-codes-locale_4.20.1-r0_all.ipk
-Description: iso-codes-locale_4.20.1-r0_all
+Filename: iso-codes-locale_4.20.1-r0_all.ipk
+Source: iso-codes_4.20.1.bb
+Description: ISO language, territory, currency, script codes and their translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-or-later
+Priority: optional
 
-Package: iso-codes_4.20.1-r0_all
-Version: 4.20.1
-Depends: 
-Provides: 
+Package: iso-codes
+Version: 4.20.1-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 4e29ddd2034c67a690897b15751188bb
 Size: 368480
-Filename: all/iso-codes_4.20.1-r0_all.ipk
-Description: iso-codes_4.20.1-r0_all
+Filename: iso-codes_4.20.1-r0_all.ipk
+Source: iso-codes_4.20.1.bb
+Description: ISO language, territory, currency, script codes and their translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-or-later
+Priority: optional
 
-Package: kernel-module-88x2cu_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: kernel-module-88x2cu
+Version: 1.0-r0
+Provides: kernel-module-88x2cu
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 582e323bd51fb660a4b3938ecd8c3e41
 Size: 566
-Filename: all/kernel-module-88x2cu_1.0-r0_all.ipk
-Description: kernel-module-88x2cu_1.0-r0_all
+Filename: kernel-module-88x2cu_1.0-r0_all.ipk
+Source: sf8008-wifi-dummies_1.0.bb
+Description: Temporary empty providers for optional SF8008 USB Wi-Fi drivers
+OE: sf8008-wifi-dummies
+License: CLOSED
+Priority: optional
 
-Package: linux-firmware-8821cu_1.0-r0.1_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: linux-firmware-8821cu
+Version: 1.0-r0.1
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 25755146c5bc67c2cbfbe091e66e3673
 Size: 19718
-Filename: all/linux-firmware-8821cu_1.0-r0.1_all.ipk
-Description: linux-firmware-8821cu_1.0-r0.1_all
+Filename: linux-firmware-8821cu_1.0-r0.1_all.ipk
+Source: linux-firmware-8821cu.bb
+Description: Realtek 8821CU firmware
+OE: linux-firmware-8821cu
+HomePage: https://www.realtek.com/
+License: Proprietary
+Priority: optional
 
-Package: mm-common-doc_1.0.7-r0_all
-Version: 1.0.7
-Depends: 
-Provides: 
-Section: base
+Package: mm-common-doc
+Version: 1.0.7-r0
+Section: doc
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 3480eb9757a297a82687815648b56e58
 Size: 32886
-Filename: all/mm-common-doc_1.0.7-r0_all.ipk
-Description: mm-common-doc_1.0.7-r0_all
+Filename: mm-common-doc_1.0.7-r0_all.ipk
+Source: mm-common_1.0.7.bb
+Description: Common GNOME build files for C++ bindings - Documentation files
+OE: mm-common
+License: GPL-2.0-only
+Priority: optional
 
-Package: netbase_6.5-r0.2_all
-Version: 6.5
-Depends: 
-Provides: 
+Package: netbase
+Version: 1:6.5-r0.2
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: fd3de96cb70fef4968d390e39ac8d89b
 Size: 9980
-Filename: all/netbase_6.5-r0.2_all.ipk
-Description: netbase_6.5-r0.2_all
+Filename: netbase_6.5-r0.2_all.ipk
+Source: netbase_6.5.bb
+Description: Basic TCP/IP networking support
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
 
-Package: network-usb-drivers-meta_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: network-usb-drivers-meta
+Version: 1.0-r0
+Depends: enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-rtl8852cu, enigma2-plugin-drivers-network-usb-rtl88xxau, enigma2-plugin-drivers-network-usb-zd1211rw
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: e0f24853c98d2ffe8b635708323b1f78
 Size: 634
-Filename: all/network-usb-drivers-meta_1.0-r0_all.ipk
-Description: network-usb-drivers-meta_1.0-r0_all
+Filename: network-usb-drivers-meta_1.0-r0_all.ipk
+Source: network-usb-drivers-meta.bb
+Description: meta file for USB Network drivers
+OE: network-usb-drivers-meta
+License: GPL-2.0-only
+Priority: optional
 
-Package: p7zip_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: p7zip
+Version: 1.0-r0
+Depends: 7zip
+Section: utils
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: BlackHole SF8008 Feed
 MD5Sum: fde99bebe4882a8e24786e6340e440d5
 Size: 512
-Filename: all/p7zip_1.0-r0_all.ipk
-Description: p7zip_1.0-r0_all
+Filename: p7zip_1.0-r0_all.ipk
+Description: Compatibility package for p7zip recommendation; provided by 7zip.
+Priority: optional
 
-Package: packagegroup-bh-sf8008-python-feed_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: packagegroup-bh-sf8008-python-feed
+Version: 1.0-r0
+Depends: python3-apprise, python3-aws-iot-device-sdk-python, python3-babelfish, python3-beautifulsoup4, python3-exceptiongroup, python3-futures3, python3-html5lib, python3-imaging, python3-incremental-scripts, python3-iniconfig, python3-isodate, python3-libcec, python3-markdown, python3-pip, python3-pluggy, python3-pycairo, python3-pycountry, python3-pycrypto, python3-pycryptodome, python3-pysnmp, python3-pytest, python3-pyyaml, python3-rarfile, python3-rebulk, python3-regex, python3-sabctools, python3-sabyenc3, python3-singledispatch, python3-soupsieve, python3-tdb, python3-thefuzz, python3-tinytag, python3-tmdbsimple, python3-transmission-rpc, python3-ujson, python3-webencodings, python3-websocket-client, python3-youtube-dl
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2015c6b0f3a45ee4d69e3b87b8912a8a
 Size: 822
-Filename: all/packagegroup-bh-sf8008-python-feed_1.0-r0_all.ipk
-Description: packagegroup-bh-sf8008-python-feed_1.0-r0_all
+Filename: packagegroup-bh-sf8008-python-feed_1.0-r0_all.ipk
+Source: packagegroup-bh-sf8008-python-feed.bb
+Description: Temporary SF8008 Python runtime feed population packagegroup
+OE: packagegroup-bh-sf8008-python-feed
+License: MIT
+Priority: optional
 
-Package: python3-imaging_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: python3-imaging
+Version: 1.0-r0
+Depends: python3-pillow
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 9deed54c1e7f0c1d8b7432494c7fd696
 Size: 554
-Filename: all/python3-imaging_1.0-r0_all.ipk
-Description: python3-imaging_1.0-r0_all
+Filename: python3-imaging_1.0-r0_all.ipk
+Source: packagegroup-bh-python-compat-aliases.bb
+Description: Compatibility aliases for old Python package names
+OE: packagegroup-bh-python-compat-aliases
+License: MIT
+Priority: optional
 
-Package: python3-pkg-resources_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: python3-pkg-resources
+Version: 1.0-r0
+Depends: python3-setuptools
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 8ca93236c851bec930c5cb670d726b5e
 Size: 558
-Filename: all/python3-pkg-resources_1.0-r0_all.ipk
-Description: python3-pkg-resources_1.0-r0_all
+Filename: python3-pkg-resources_1.0-r0_all.ipk
+Source: packagegroup-bh-python-compat-aliases.bb
+Description: Compatibility aliases for old Python package names
+OE: packagegroup-bh-python-compat-aliases
+License: MIT
+Priority: optional
 
-Package: python3-pycrypto_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: python3-pycrypto
+Version: 1.0-r0
+Depends: python3-pycryptodome
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 55f8091d7149bc5bbd1f43698df59c2c
 Size: 552
-Filename: all/python3-pycrypto_1.0-r0_all.ipk
-Description: python3-pycrypto_1.0-r0_all
+Filename: python3-pycrypto_1.0-r0_all.ipk
+Source: packagegroup-bh-python-compat-aliases.bb
+Description: Compatibility aliases for old Python package names
+OE: packagegroup-bh-python-compat-aliases
+License: MIT
+Priority: optional
 
-Package: python3-subprocess_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: python3-subprocess
+Version: 1.0-r0
+Depends: python3-core
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 964f05617cdfa3be79bd082d0f2336e3
 Size: 554
-Filename: all/python3-subprocess_1.0-r0_all.ipk
-Description: python3-subprocess_1.0-r0_all
+Filename: python3-subprocess_1.0-r0_all.ipk
+Source: packagegroup-bh-python-compat-aliases.bb
+Description: Compatibility aliases for old Python package names
+OE: packagegroup-bh-python-compat-aliases
+License: MIT
+Priority: optional
 
-Package: python3-zlib_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: python3-zlib
+Version: 1.0-r0
+Depends: python3-compression
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 4dc7418bf6bd169a851bd3fb8b7c4199
 Size: 556
-Filename: all/python3-zlib_1.0-r0_all.ipk
-Description: python3-zlib_1.0-r0_all
+Filename: python3-zlib_1.0-r0_all.ipk
+Source: packagegroup-bh-python-compat-aliases.bb
+Description: Compatibility aliases for old Python package names
+OE: packagegroup-bh-python-compat-aliases
+License: MIT
+Priority: optional
 
-Package: run-postinsts_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
+Package: run-postinsts
+Version: 1.0-r0
+Depends: util-linux-flock
+Recommends: update-rc.d
+Section: devel
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 321dc141901f29c07511d2d09ff48c87
 Size: 1980
-Filename: all/run-postinsts_1.0-r0_all.ipk
-Description: run-postinsts_1.0-r0_all
+Filename: run-postinsts_1.0-r0_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+License: MIT
+Priority: optional
 
-Package: settings-autorestore_2021081701-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: settings-autorestore
+Version: 2021081701-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OpenPLi team
 MD5Sum: 38bef90fcd95dadbe5d555e906b5cb29
 Size: 6738
-Filename: all/settings-autorestore_2021081701-r0_all.ipk
-Description: settings-autorestore_2021081701-r0_all
+Filename: settings-autorestore_2021081701-r0_all.ipk
+Source: settings-autorestore.bb
+Description: settings-autorestore version 2021081701-r0
+OE: settings-autorestore
+License: GPL-2.0-only
+Priority: optional
 
-Package: sf8008-wifi-dummies_1.0-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: sf8008-wifi-dummies
+Version: 1.0-r0
+Provides: enigma2-plugin-drivers-network-usb-rtl88xxau
+Replaces: enigma2-plugin-drivers-network-usb-rtl88xxau
+Conflicts: enigma2-plugin-drivers-network-usb-rtl88xxau
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: b4d6f5692b54dd521c8d2e54a75aba62
 Size: 600
-Filename: all/sf8008-wifi-dummies_1.0-r0_all.ipk
-Description: sf8008-wifi-dummies_1.0-r0_all
+Filename: sf8008-wifi-dummies_1.0-r0_all.ipk
+Source: sf8008-wifi-dummies_1.0.bb
+Description: Temporary empty providers for optional SF8008 USB Wi-Fi drivers
+OE: sf8008-wifi-dummies
+License: CLOSED
+Priority: optional
 
-Package: softcam-support_2-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: softcam-support
+Version: 2-r0
+Recommends: update-rc.d
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: PLi team
 MD5Sum: 86781e325fe9ddaea63d40cf64faf0b5
 Size: 888
-Filename: all/softcam-support_2-r0_all.ipk
-Description: softcam-support_2-r0_all
+Filename: softcam-support_2-r0_all.ipk
+Source: softcam-support.bb
+Description: Start, stop and select softcams.
+OE: softcam-support
+License: GPL-2.0-only
+Priority: optional
 
-Package: tuxbox-common_2+git1421+914552f0+914552f872-3_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tuxbox-common
+Version: 2+git1424+3acdd7e0+3acdd7e54b-3
+Depends: xz
 Section: base
 Architecture: all
-Maintainer: Custom Feed
-MD5Sum: a2889a054d647c8239e5c6e25332114c
-Size: 70382
-Filename: all/tuxbox-common_2+git1421+914552f0+914552f872-3_all.ipk
-Description: tuxbox-common_2+git1421+914552f0+914552f872-3_all
-
-Package: tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all
-Version: 15.8
-Depends: 
-Provides: 
-Section: base
-Architecture: all
-Maintainer: Custom Feed
+Maintainer: PLi team
 MD5Sum: bd2b62d6087b87124d8360114e20e1e0
 Size: 70424
-Filename: all/tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all.ipk
-Description: tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all
+Filename: tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+git-3
+OE: tuxbox-common
+License: GPL-2.0-only
+Priority: optional
 
-Package: tzdata-africa_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-africa
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 961e9c3c1abedf3e492ce367c3aeeb51
 Size: 4466
-Filename: all/tzdata-africa_2026b-r0_all.ipk
-Description: tzdata-africa_2026b-r0_all
+Filename: tzdata-africa_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-americas_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-americas
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: b74e17dd5ed268c8d2cd37569e9d0b3a
 Size: 21860
-Filename: all/tzdata-americas_2026b-r0_all.ipk
-Description: tzdata-americas_2026b-r0_all
+Filename: tzdata-americas_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-antarctica_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-antarctica
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: a322f4ac10593c7e042ae3b21ced8345
 Size: 2834
-Filename: all/tzdata-antarctica_2026b-r0_all.ipk
-Description: tzdata-antarctica_2026b-r0_all
+Filename: tzdata-antarctica_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-arctic_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-arctic
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: d8a9dcd693ad1221d760e31081f0fbd0
 Size: 1144
-Filename: all/tzdata-arctic_2026b-r0_all.ipk
-Description: tzdata-arctic_2026b-r0_all
+Filename: tzdata-arctic_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-asia_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-asia
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: d1aa1e2cd60a78f3b604e50242b6249c
 Size: 14044
-Filename: all/tzdata-asia_2026b-r0_all.ipk
-Description: tzdata-asia_2026b-r0_all
+Filename: tzdata-asia_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-atlantic_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-atlantic
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 09a8293b6559c4e8ee9c211afe6ebff9
 Size: 3558
-Filename: all/tzdata-atlantic_2026b-r0_all.ipk
-Description: tzdata-atlantic_2026b-r0_all
+Filename: tzdata-atlantic_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-australia_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-australia
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: b022d8bd3394021daa4f4812f1d55dc3
 Size: 2702
-Filename: all/tzdata-australia_2026b-r0_all.ipk
-Description: tzdata-australia_2026b-r0_all
+Filename: tzdata-australia_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-core_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-core
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: b5f82f7aef97a628b4a5facd21854b2a
 Size: 58034
-Filename: all/tzdata-core_2026b-r0_all.ipk
-Description: tzdata-core_2026b-r0_all
+Filename: tzdata-core_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-europe_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-europe
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2996f9dab21a84070697e91aa1db8873
 Size: 8552
-Filename: all/tzdata-europe_2026b-r0_all.ipk
-Description: tzdata-europe_2026b-r0_all
+Filename: tzdata-europe_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-misc_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-misc
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 6ad8d621082e681ea1be046e416c168c
 Size: 6882
-Filename: all/tzdata-misc_2026b-r0_all.ipk
-Description: tzdata-misc_2026b-r0_all
+Filename: tzdata-misc_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-pacific_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-pacific
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 522b830134f3b27d5813e9e390c400f7
 Size: 4670
-Filename: all/tzdata-pacific_2026b-r0_all.ipk
-Description: tzdata-pacific_2026b-r0_all
+Filename: tzdata-pacific_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-posix_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-posix
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 05a9c444a81061a85ae1bc581cc86b6b
 Size: 57094
-Filename: all/tzdata-posix_2026b-r0_all.ipk
-Description: tzdata-posix_2026b-r0_all
+Filename: tzdata-posix_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata-right_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata-right
+Version: 2026b-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 97fc60931f0524dfbc3fd4d05cf95b5a
 Size: 58536
-Filename: all/tzdata-right_2026b-r0_all.ipk
-Description: tzdata-right_2026b-r0_all
+Filename: tzdata-right_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: tzdata_2026b-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: tzdata
+Version: 2026b-r0
+Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific, tzdata-posix, tzdata-right
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 55bfcba587331179f0056d2c8821c9bc
 Size: 976
-Filename: all/tzdata_2026b-r0_all.ipk
-Description: tzdata_2026b-r0_all
+Filename: tzdata_2026b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
 
-Package: update-rc.d_0.8+git0+b8f9501050-r0_all
-Version: 0.8
-Depends: 
-Provides: 
+Package: update-rc.d
+Version: 0.8+git0+b8f9501050-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 69ba4e7ca080c8fa2d60aad984b987f2
 Size: 3178
-Filename: all/update-rc.d_0.8+git0+b8f9501050-r0_all.ipk
-Description: update-rc.d_0.8+git0+b8f9501050-r0_all
+Filename: update-rc.d_0.8+git0+b8f9501050-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
 
-Package: volatile-media_3-r0_all
-Version: 15.8
-Depends: 
-Provides: 
+Package: volatile-media
+Version: 3-r0
 Section: base
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: PLi team
 MD5Sum: 0eb825f47a9cc211fbf56c55014b41a9
 Size: 972
-Filename: all/volatile-media_3-r0_all.ipk
-Description: volatile-media_3-r0_all
+Filename: volatile-media_3-r0_all.ipk
+Source: volatile-media.bb
+Description: volatile-media version 3-r0
+OE: volatile-media
+License: GPL-2.0-only
+Priority: optional
 
-Package: wireless-regdb-static_2018.10.24-r0_all
-Version: 2018.10.24
-Depends: 
-Provides: 
-Section: base
+Package: wireless-regdb-static
+Version: 2018.10.24-r0
+Section: net
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 66fd031e9e62b767c8b4a108bff76ea2
 Size: 3748
-Filename: all/wireless-regdb-static_2018.10.24-r0_all.ipk
-Description: wireless-regdb-static_2018.10.24-r0_all
+Filename: wireless-regdb-static_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
 
-Package: wireless-regdb_2018.10.24-r0_all
-Version: 2018.10.24
-Depends: 
-Provides: 
-Section: base
+Package: wireless-regdb
+Version: 2018.10.24-r0
+Conflicts: wireless-regdb-static
+Suggests: crda
+Section: net
 Architecture: all
-Maintainer: Custom Feed
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 949e010b52e917aa6081df20e0912ad8
 Size: 3736
-Filename: all/wireless-regdb_2018.10.24-r0_all.ipk
-Description: wireless-regdb_2018.10.24-r0_all
+Filename: wireless-regdb_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
 
