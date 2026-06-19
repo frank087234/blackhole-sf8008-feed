@@ -370,6 +370,22 @@ OE: enigma2-plugin-extensions-bouquetcleanup
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-bouquetmakerxtream
+Version: 227+d193ac80+d193ac8bb8-r0
+Depends: python3, python3-pillow, python3-requests
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 8dda2caea6b749d024a4337c5182f478
+Size: 4109580
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-e2piconizer
 Version: 1.28-20250517-git64+50022390+50022393f1-r0
 Section: base
@@ -429,6 +445,37 @@ Source: enigma2-plugin-extensions-iptv-org-playlists.bb
 Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0
 OE: enigma2-plugin-extensions-iptv-org-playlists
 HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-jediepgxtream
+Version: git25+7cf0d7d0+7cf0d7db6c-r0
+Depends: python3-difflib, python3-requests, python3-thefuzz
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: e91ed9146259ee9a78ae0984dd4fca87
+Size: 270514
+Filename: enigma2-plugin-extensions-jediepgxtream_git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
+Source: enigma2-plugin-extensions-jediepgxtream.bb
+Description: enigma2-plugin-extensions-jediepgxtream version git-r0
+OE: enigma2-plugin-extensions-jediepgxtream
+HomePage: https://github.com/kiddac/Jedi-EPG-XStream
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-jedimakerxtream
+Version: git173+5d2218a0+5d2218ae6f-r0
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 197e611c8b5e803a0727a2a8101969e5
+Size: 2983426
+Filename: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all.ipk
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: enigma2-plugin-extensions-jedimakerxtream version git-r0
+OE: enigma2-plugin-extensions-jedimakerxtream
+HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-only
 Priority: optional
 

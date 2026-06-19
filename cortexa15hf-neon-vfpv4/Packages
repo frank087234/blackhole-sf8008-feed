@@ -4277,6 +4277,21 @@ OE: enigma2-plugin-drivers-ntfs-3g
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-addstreamurl
+Version: 2.0+git9+c94fb2b0+c94fb2b9e8-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19bb85ab9913e346194651ef86d2750e
+Size: 6416
+Filename: enigma2-plugin-extensions-addstreamurl_2.0+git9+c94fb2b0+c94fb2b9e8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-addstreamurl.bb
+Description: enigma2-plugin-extensions-addstreamurl version 2.0+git-r0
+OE: enigma2-plugin-extensions-addstreamurl
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-antilogo
 Version: 2.0+git16+a90e64c0+a90e64cde3-r0
 Depends: python3-core
@@ -4611,6 +4626,21 @@ OE: enigma2-plugin-extensions-epgimport
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-epgimportfilter
+Version: 1.0+git30+b20621e0+b20621edac-r0
+Depends: python3-core, python3-difflib, python3-shell
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 52ecc94c6eb5608dec9863cf176c40e2
+Size: 56546
+Filename: enigma2-plugin-extensions-epgimportfilter_1.0+git30+b20621e0+b20621edac-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-epgimportfilter.bb
+Description: enigma2-plugin-extensions-epgimportfilter version 1.0+git-r0
+OE: enigma2-plugin-extensions-epgimportfilter
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-internetspeedtest-dbg
 Version: git40+46493890+4649389083-r0
 Section: devel
@@ -4788,6 +4818,37 @@ OE: enigma2-plugin-extensions-oscamstatus
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-piconmanager
+Version: V2.6.0-git75+149009a0+149009a0f7-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b3e184ec0309015072e3a007c7a7fbf
+Size: 158422
+Filename: enigma2-plugin-extensions-piconmanager_V2.6.0-git75+149009a0+149009a0f7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-piconmanager.bb
+Description: enigma2-plugin-extensions-piconmanager version git-r0
+OE: enigma2-plugin-extensions-piconmanager
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-subssupport
+Version: 1.7.0-r17
+Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-json, python3-requests, python3-xmlrpc, unrar
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2d32f584af05d9ba725ea94def0153b5
+Size: 684882
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r17_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-subssupport_1.7.0.bb
+Description: Collection of enigma2 subtitles plugins
+OE: enigma2-plugin-extensions-subssupport
+HomePage: https://github.com/mx3L/subssupport
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-systemtools-dbg
 Version: 2.0+git28+88dbcac0+88dbcac492-r0
 Section: devel
@@ -4892,6 +4953,22 @@ Description: enigma2-plugin-extensions-tmbd version 1+git-r1
 OE: enigma2-plugin-extensions-tmbd
 HomePage: https://github.com/Dima73/enigma2-plugin-extensions-tmbd
 License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-xstreamity
+Version: 5.49-20260523-r1
+Depends: python3, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: kiddac
+MD5Sum: 606d2856e61ce235855fb546b8facccd
+Size: 8756010
+Filename: enigma2-plugin-extensions-xstreamity_5.49-20260523-r1_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-xstreamity.bb
+Description: IPTV Xtream Codes playlists player by KiddaC
+OE: enigma2-plugin-extensions-xstreamity
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dbg
