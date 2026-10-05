@@ -54343,16 +54343,16 @@ Priority: optional
 
 
 Package: libpython3.14-1.0
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc
 Provides: libpython3
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae5d9bf680222d5fdcbaf52cab49fc29
-Size: 2197992
-Filename: libpython3.14-1.0_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: af1bbde732f284e4ae077ff398922808
+Size: 2199880
+Filename: libpython3.14-1.0_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: The Python Programming Language
 OE: python3
 HomePage: http://www.python.org
@@ -86869,15 +86869,15 @@ Priority: optional
 
 
 Package: python3-asyncio
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core, python3-io, python3-logging, python3-netclient, python3-numbers, python3-stringold
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core, python3-io, python3-logging, python3-netclient, python3-numbers, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 034f078d4fae88aca889dff983cc331a
-Size: 283534
-Filename: python3-asyncio_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 92d1bb2ae1e5ac79c5deb4e8cb160ac8
+Size: 285676
+Filename: python3-asyncio_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Asynchronous I/O
 OE: python3
 HomePage: http://www.python.org
@@ -86952,15 +86952,15 @@ Priority: optional
 
 
 Package: python3-audio
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b958d2fe9441f9a39d8d61acd354f2f
-Size: 17092
-Filename: python3-audio_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: c6bad4066ca5c283f86f11c37e85c22f
+Size: 17094
+Filename: python3-audio_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Audio Handling
 OE: python3
 HomePage: http://www.python.org
@@ -87368,15 +87368,15 @@ Priority: optional
 
 
 Package: python3-codecs
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a25332a4172e40229747ce1a250d7922
-Size: 15664
-Filename: python3-codecs_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: f85011f8f17836f5bdbcc71855d0b082
+Size: 15668
+Filename: python3-codecs_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python codec
 OE: python3
 HomePage: http://www.python.org
@@ -87418,15 +87418,15 @@ Priority: optional
 
 
 Package: python3-compile
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 053f98a18e1bee1ecf456af920b24250
+MD5Sum: 140912ded881dd4741720d0445c42caf
 Size: 15766
-Filename: python3-compile_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+Filename: python3-compile_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python bytecode compilation support
 OE: python3
 HomePage: http://www.python.org
@@ -87435,15 +87435,15 @@ Priority: optional
 
 
 Package: python3-compression
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libzstd1 (>= 1.5.7), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libzstd1 (>= 1.5.7), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04f34c03570bca9b09ae229e945342be
-Size: 122668
-Filename: python3-compression_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 8eab636888f80c516701572bb00d80e9
+Size: 123560
+Filename: python3-compression_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python high-level compression support
 OE: python3
 HomePage: http://www.python.org
@@ -87485,15 +87485,15 @@ Priority: optional
 
 
 Package: python3-core
-Version: 3.14.5-r0
-Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.43+git0+e9517114ac), liblzma5 (>= 5.8.3), libpython3.14-1.0 (>= 3.14.5), libreadline8 (>= 8.3), libz1 (>= 1.3.2), python3-compression
+Version: 3.14.7-r0
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+5c479454d1), liblzma5 (>= 5.8.3), libpython3.14-1.0 (>= 3.14.7), libreadline8 (>= 8.3), libz1 (>= 1.3.2), python3-compression
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 93afec5248061a9060b3fb553c165ca4
-Size: 1621130
-Filename: python3-core_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 815acd6ea44e7d2c975928695ad0e41d
+Size: 1626164
+Filename: python3-core_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python interpreter and core modules
 OE: python3
 HomePage: http://www.python.org
@@ -87502,16 +87502,16 @@ Priority: optional
 
 
 Package: python3-crypt
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libcrypto4 (>= 4.0.2), python3-core
 Recommends: ca-certificates, openssl
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf499d1f06d5a532fc63a2400172fc2f
-Size: 118170
-Filename: python3-crypt_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: fa9d74fb833945c3047510c5b2891016
+Size: 118342
+Filename: python3-crypt_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python basic cryptographic and hashing support
 OE: python3
 HomePage: http://www.python.org
@@ -87569,16 +87569,16 @@ Priority: optional
 
 
 Package: python3-ctypes
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libffi8 (>= 3.5.2), python3-core, python3-io, python3-math
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libffi8 (>= 3.8.0), python3-core, python3-io, python3-math
 Recommends: ldconfig
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8340ee2bd6888b8c858bead0069d4938
-Size: 131966
-Filename: python3-ctypes_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: e53855b8d4de081b14707132b5ea0332
+Size: 131382
+Filename: python3-ctypes_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python C types support
 OE: python3
 HomePage: http://www.python.org
@@ -87587,15 +87587,15 @@ Priority: optional
 
 
 Package: python3-curses
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libncursesw5 (>= 6.6), libpanelw5 (>= 6.6), libtinfo5 (>= 6.6), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libncursesw5 (>= 6.6), libpanelw5 (>= 6.6), libtinfo5 (>= 6.6), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7c2a5ae389dd29f64386aaa047b1776
-Size: 61942
-Filename: python3-curses_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 461ff84f57721c167356926af8be63bb
+Size: 64356
+Filename: python3-curses_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python curses support
 OE: python3
 HomePage: http://www.python.org
@@ -87635,15 +87635,15 @@ Priority: optional
 
 
 Package: python3-datetime
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a4ef7471c1c96818a98fd1ecc6df43ef
-Size: 18604
-Filename: python3-datetime_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 204e23990feabacf9cf209773f5c4155
+Size: 18606
+Filename: python3-datetime_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python calendar and time support
 OE: python3
 HomePage: http://www.python.org
@@ -87701,15 +87701,15 @@ Priority: optional
 
 
 Package: python3-db
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libgdbm-compat4 (>= 1.26), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgdbm-compat4 (>= 1.26), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8728432a7b3212a196909b270ce89957
-Size: 18558
-Filename: python3-db_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 8076f6b495cf8e8ff8647f93a64ac481
+Size: 18566
+Filename: python3-db_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python file-based database support
 OE: python3
 HomePage: http://www.python.org
@@ -87735,15 +87735,15 @@ Priority: optional
 
 
 Package: python3-debugger
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-pprint, python3-shell, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 444a7c725750197f57c8421652fd1b3a
-Size: 106744
-Filename: python3-debugger_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 897daaf9a22bfaf0d3b794c82bcf0122
+Size: 106748
+Filename: python3-debugger_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python debugger
 OE: python3
 HomePage: http://www.python.org
@@ -87752,15 +87752,15 @@ Priority: optional
 
 
 Package: python3-difflib
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bee089cfca5eb806c7bc9828afb27327
-Size: 46712
-Filename: python3-difflib_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 9cdad6333a6338c6d12164a2d298ab5c
+Size: 46764
+Filename: python3-difflib_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python helpers for computing deltas between objects
 OE: python3
 HomePage: http://www.python.org
@@ -87769,14 +87769,14 @@ Priority: optional
 
 
 Package: python3-doc
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72233d1e666b9320320e50f524a5b04f
-Size: 10012
-Filename: python3-doc_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: d6e2085879ad16488c19c1b0cd936e19
+Size: 10014
+Filename: python3-doc_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: The Python Programming Language - Documentation files
 OE: python3
 HomePage: http://www.python.org
@@ -87785,15 +87785,15 @@ Priority: optional
 
 
 Package: python3-doctest
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-debugger, python3-difflib, python3-pprint, python3-shell, python3-stringold, python3-unittest
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0a1633af550052567cdc8ba8a1cb2b1
-Size: 64552
-Filename: python3-doctest_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 85946cdf012306d5569a2aa0e5549e84
+Size: 64556
+Filename: python3-doctest_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python framework for running examples in docstrings
 OE: python3
 HomePage: http://www.python.org
@@ -87819,15 +87819,15 @@ Priority: optional
 
 
 Package: python3-email
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-datetime, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea6dfff0f4f1b80bca940d6e78ca9235
-Size: 184186
-Filename: python3-email_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: e343515c58f7e6f8c1f30f540833f999
+Size: 187652
+Filename: python3-email_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python email support
 OE: python3
 HomePage: http://www.python.org
@@ -87836,15 +87836,15 @@ Priority: optional
 
 
 Package: python3-ensurepip
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c923e78ee08d1109ee5871e3494df882
-Size: 1746266
-Filename: python3-ensurepip_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: bb7880466cf2304a9a5d551c41ae0d65
+Size: 1743966
+Filename: python3-ensurepip_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Support for bootstrapping the pip installer
 OE: python3
 HomePage: http://www.python.org
@@ -87886,15 +87886,15 @@ Priority: optional
 
 
 Package: python3-fcntl
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6d84ea5cff6707984ef5ceb020a9a9d
-Size: 630
-Filename: python3-fcntl_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: c4d9dff24ee51e03d6c6c5dcab2d679e
+Size: 632
+Filename: python3-fcntl_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python's fcntl interface
 OE: python3
 HomePage: http://www.python.org
@@ -88003,15 +88003,15 @@ Priority: optional
 
 
 Package: python3-gdbm
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libgdbm6 (>= 1.26), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgdbm6 (>= 1.26), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 825a6e805c5b3e2e458a42c7722a2bc0
-Size: 10054
-Filename: python3-gdbm_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: b8264bbbb94c8066fcd9bd635baac01c
+Size: 10056
+Filename: python3-gdbm_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python GNU database support
 OE: python3
 HomePage: http://www.python.org
@@ -88168,15 +88168,15 @@ Priority: optional
 
 
 Package: python3-html
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ac086df09a37cfdf647fbff47d345d9
-Size: 54938
-Filename: python3-html_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 8af7af87fa84b76d8ea98233d84cc080
+Size: 55476
+Filename: python3-html_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python HTML processing support
 OE: python3
 HomePage: http://www.python.org
@@ -88300,15 +88300,15 @@ Priority: optional
 
 
 Package: python3-idle
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee8b301ad36d398734cd3c05f61935bd
-Size: 517620
-Filename: python3-idle_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: a4ab9c361cf11228aed8a371b5f94023
+Size: 522462
+Filename: python3-idle_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Integrated Development Environment
 OE: python3
 HomePage: http://www.python.org
@@ -88350,15 +88350,15 @@ Priority: optional
 
 
 Package: python3-image
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2d73146869c4afb5de6b549e204ae47
-Size: 4502
-Filename: python3-image_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 04908fa61903a2da38ad4c2f58dbf3a3
+Size: 4504
+Filename: python3-image_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python graphical image handling
 OE: python3
 HomePage: http://www.python.org
@@ -88434,15 +88434,15 @@ Priority: optional
 
 
 Package: python3-io
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libssl4 (>= 4.0.0), python3-core, python3-math, python3-netclient
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libcrypto4 (>= 4.0.2), libssl4 (>= 4.0.2), python3-core, python3-math, python3-netclient
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1485ffd6abf597f5e2e9baf61c3a188a
-Size: 190090
-Filename: python3-io_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 7b7a3b2752db0a0c3600c69fe00c2b78
+Size: 190274
+Filename: python3-io_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python low-level I/O
 OE: python3
 HomePage: http://www.python.org
@@ -88517,15 +88517,15 @@ Priority: optional
 
 
 Package: python3-json
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 391b51b170dee40070e11f22c6d8bf41
-Size: 43694
-Filename: python3-json_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 831b6bd27e794c8f824382040f779368
+Size: 43874
+Filename: python3-json_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python JSON support
 OE: python3
 HomePage: http://www.python.org
@@ -88534,15 +88534,15 @@ Priority: optional
 
 
 Package: python3-logging
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-io, python3-netserver, python3-pickle, python3-stringold, python3-threading
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5b108bec3e316c07a33576383ec49657
-Size: 67226
-Filename: python3-logging_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: c19ed9577c8f8f3e56749e15988beca0
+Size: 67718
+Filename: python3-logging_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python logging support
 OE: python3
 HomePage: http://www.python.org
@@ -88568,15 +88568,15 @@ Priority: optional
 
 
 Package: python3-mailbox
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 200ff2763fa0dff0bf7379f2a09c13ff
+MD5Sum: 79969101b73ab2fed8ced96f7de47d1f
 Size: 56638
-Filename: python3-mailbox_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+Filename: python3-mailbox_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python mailbox format support
 OE: python3
 HomePage: http://www.python.org
@@ -88602,15 +88602,15 @@ Priority: optional
 
 
 Package: python3-math
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9de5eadc22246b0ff568f2e25bee5012
-Size: 45050
-Filename: python3-math_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: cff50e47daaa69a5ae0169258bfb261b
+Size: 45252
+Filename: python3-math_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python math support
 OE: python3
 HomePage: http://www.python.org
@@ -88619,15 +88619,15 @@ Priority: optional
 
 
 Package: python3-mime
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73b5f68d33a58c5a1ce697bee3acd5be
-Size: 7816
-Filename: python3-mime_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: eb0865d5a4fd68e3dcba434a51f599fd
+Size: 7818
+Filename: python3-mime_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python MIME handling APIs
 OE: python3
 HomePage: http://www.python.org
@@ -88636,15 +88636,15 @@ Priority: optional
 
 
 Package: python3-misc
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-audio, python3-codecs, python3-core, python3-email, python3-numbers, python3-pickle, python3-pydoc
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-audio, python3-codecs, python3-core, python3-email, python3-numbers, python3-pickle, python3-pydoc
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55e9991ef69d704f4100607ac96d17c5
-Size: 2454326
-Filename: python3-misc_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 7e2f6ceef0b4c46383e6a48ae4168d4c
+Size: 2462342
+Filename: python3-misc_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: The Python Programming Language
 OE: python3
 HomePage: http://www.python.org
@@ -88653,15 +88653,15 @@ Priority: optional
 
 
 Package: python3-mmap
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ddbf96bec333c84e745aba9765a0ed2
-Size: 14964
-Filename: python3-mmap_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 2997bc4e263a18cfc23744bb58e77a1e
+Size: 14954
+Filename: python3-mmap_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python memory-mapped file support
 OE: python3
 HomePage: http://www.python.org
@@ -88670,16 +88670,16 @@ Priority: optional
 
 
 Package: python3-modules
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-asyncio, python3-audio, python3-codecs, python3-compile, python3-compression, python3-core, python3-crypt, python3-ctypes, python3-curses, python3-datetime, python3-db, python3-debugger, python3-difflib, python3-doctest, python3-email, python3-ensurepip, python3-fcntl, python3-gdbm, python3-html, python3-idle, python3-image, python3-io, python3-json, python3-logging, python3-mailbox, python3-math, python3-mime, python3-misc, python3-mmap, python3-multiprocessing, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-pkgutil, python3-plistlib, python3-pprint, python3-profile, python3-pydoc, python3-resource, python3-shell, python3-sqlite3, python3-statistics, python3-stringold, python3-syslog, python3-terminal, python3-threading, python3-tkinter, python3-tomllib, python3-unittest, python3-unixadmin, python3-venv, python3-xml, python3-xmlrpc, python3-zoneinfo
 Provides: python3
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43776ca09ca4e1d06828cf19844ad734
-Size: 916
-Filename: python3-modules_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 31d20efb7fadcd771727f8930c33a036
+Size: 918
+Filename: python3-modules_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: All Python modules
 OE: python3
 HomePage: http://www.python.org
@@ -88705,15 +88705,15 @@ Priority: optional
 
 
 Package: python3-multiprocessing
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core, python3-crypt, python3-ctypes, python3-io, python3-math, python3-mmap, python3-netclient, python3-pickle, python3-threading
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core, python3-crypt, python3-ctypes, python3-io, python3-math, python3-mmap, python3-netclient, python3-pickle, python3-threading
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f393ed5773483cc5aebddf210fe7d0b
-Size: 165518
-Filename: python3-multiprocessing_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 7cf637e5f9d60b3c2980df8ed0efb9c3
+Size: 165534
+Filename: python3-multiprocessing_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python multiprocessing support
 OE: python3
 HomePage: http://www.python.org
@@ -88753,15 +88753,15 @@ Priority: optional
 
 
 Package: python3-netclient
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libuuid1 (>= 2.41.3), python3-core, python3-crypt, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-stringold
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libuuid1 (>= 2.42.3), python3-core, python3-crypt, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 602b36b8235db7072f208c26946a1679
-Size: 157408
-Filename: python3-netclient_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 708c647c8f3ff0d6570e16a96b6f2145
+Size: 157970
+Filename: python3-netclient_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Internet Protocol clients
 OE: python3
 HomePage: http://www.python.org
@@ -88801,15 +88801,15 @@ Priority: optional
 
 
 Package: python3-netserver
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c3e7b20e1efdb51b6d6069adb644fb85
-Size: 19364
-Filename: python3-netserver_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 5fd4c22dea503c34449dd571da354a47
+Size: 19366
+Filename: python3-netserver_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Internet Protocol servers
 OE: python3
 HomePage: http://www.python.org
@@ -88818,15 +88818,15 @@ Priority: optional
 
 
 Package: python3-numbers
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c13d9f5257725024e45ccb0df0f53ede
-Size: 214818
-Filename: python3-numbers_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: b1e93e5b645ce6945f6b645e0ce36b5f
+Size: 214316
+Filename: python3-numbers_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python number APIs
 OE: python3
 HomePage: http://www.python.org
@@ -88968,15 +88968,15 @@ Priority: optional
 
 
 Package: python3-pickle
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ad07eb717821c84c7d0a97519b89582
-Size: 98290
-Filename: python3-pickle_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: f616bb2fc3d8c09f698eb30f8163f0de
+Size: 98646
+Filename: python3-pickle_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python serialisation/persistence support
 OE: python3
 HomePage: http://www.python.org
@@ -89036,15 +89036,15 @@ Priority: optional
 
 
 Package: python3-pkgutil
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: acc09bf242e0543efaa483a9f0dbf502
-Size: 640
-Filename: python3-pkgutil_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: daa5dd368cb8086f6835213854d8bfc9
+Size: 642
+Filename: python3-pkgutil_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python package extension utility support
 OE: python3
 HomePage: http://www.python.org
@@ -89053,15 +89053,15 @@ Priority: optional
 
 
 Package: python3-plistlib
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-datetime, python3-xml
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e45701c10aa26a7f7cd09b324a81bf41
-Size: 26060
-Filename: python3-plistlib_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 8f122800b7b66a274067f6d1166b1da3
+Size: 26064
+Filename: python3-plistlib_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Generate and parse Mac OS X .plist files
 OE: python3
 HomePage: http://www.python.org
@@ -89087,15 +89087,15 @@ Priority: optional
 
 
 Package: python3-pprint
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 34109da6e04bee06bbaef4b4b29ae429
-Size: 18332
-Filename: python3-pprint_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: f0b6d27882002e6e1e86d7080ee6619b
+Size: 18334
+Filename: python3-pprint_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python pretty-print support
 OE: python3
 HomePage: http://www.python.org
@@ -89120,15 +89120,15 @@ Priority: optional
 
 
 Package: python3-profile
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 655fc40ed30720f9382812c305ec47a5
-Size: 45810
-Filename: python3-profile_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: bf0c56cd7eee0772ad2101397dc609a4
+Size: 45750
+Filename: python3-profile_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python basic performance profiling support
 OE: python3
 HomePage: http://www.python.org
@@ -89568,15 +89568,15 @@ Priority: optional
 
 
 Package: python3-pydoc
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6df0f24b8bbdb8e742d34d87f61939d0
-Size: 180402
-Filename: python3-pydoc_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 57f15487e609248ea3581a319d3082ee
+Size: 181482
+Filename: python3-pydoc_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python interactive help support
 OE: python3
 HomePage: http://www.python.org
@@ -90088,15 +90088,15 @@ Priority: optional
 
 
 Package: python3-resource
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9646915c5d4aade26a276a60892562c3
-Size: 7400
-Filename: python3-resource_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 2213e62f6f38abcaa25b920033a9d4c7
+Size: 7402
+Filename: python3-resource_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python resource control interface
 OE: python3
 HomePage: http://www.python.org
@@ -90268,15 +90268,15 @@ Priority: optional
 
 
 Package: python3-shell
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d997becae23d2b9aa721feb2e45a63fc
+MD5Sum: 7c536ee89293876d985bf005b56c85d3
 Size: 15862
-Filename: python3-shell_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+Filename: python3-shell_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python shell-like functionality
 OE: python3
 HomePage: http://www.python.org
@@ -90496,15 +90496,15 @@ Priority: optional
 
 
 Package: python3-sqlite3
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libsqlite3-0 (>= 3.53.0), python3-core, python3-datetime
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libsqlite3-0 (>= 3.53.4), python3-core, python3-datetime
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 40bc7248c7d73362ed9e0007f370ced3
-Size: 57564
-Filename: python3-sqlite3_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 7ef240780252c7cf57d63f1cd276ad13
+Size: 57830
+Filename: python3-sqlite3_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Sqlite3 database support
 OE: python3
 HomePage: http://www.python.org
@@ -90513,15 +90513,15 @@ Priority: optional
 
 
 Package: python3-statistics
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core, python3-math, python3-numbers
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core, python3-math, python3-numbers
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82b6962b8de96c6003e384a1c5e222af
+MD5Sum: 50c25cc06f1d6c9c01a1277c344ff9f5
 Size: 46694
-Filename: python3-statistics_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+Filename: python3-statistics_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Basic statistics module
 OE: python3
 HomePage: http://www.python.org
@@ -90530,15 +90530,15 @@ Priority: optional
 
 
 Package: python3-stringold
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d70278565e10034d699bd75083a832c9
-Size: 1648
-Filename: python3-stringold_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: bdbc66543420047aedee11c18ed1b633
+Size: 7220
+Filename: python3-stringold_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Common string operations
 OE: python3
 HomePage: http://www.python.org
@@ -90547,15 +90547,15 @@ Priority: optional
 
 
 Package: python3-syslog
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bde9c7c55934ff4bcbe7e7b33bef3dd7
-Size: 6064
-Filename: python3-syslog_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 10a7775637640c44e961bb5c6f5a9ebb
+Size: 6066
+Filename: python3-syslog_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python syslog interface
 OE: python3
 HomePage: http://www.python.org
@@ -90581,15 +90581,15 @@ Priority: optional
 
 
 Package: python3-terminal
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: baaf0da3723ea51bc5687b71b78fd29c
-Size: 4738
-Filename: python3-terminal_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 0178b021141b5267dc66904ea6a78dd0
+Size: 4742
+Filename: python3-terminal_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python terminal controlling support
 OE: python3
 HomePage: http://www.python.org
@@ -90598,15 +90598,15 @@ Priority: optional
 
 
 Package: python3-tests
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: bash, python3-core, python3-modules
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 08cadcbd8aee83df771fb8c4c8a7f043
-Size: 232186
-Filename: python3-tests_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: ab924057591e32650e8e76d74b257fb1
+Size: 239134
+Filename: python3-tests_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python test suite
 OE: python3
 HomePage: http://www.python.org
@@ -90648,15 +90648,15 @@ Priority: optional
 
 
 Package: python3-threading
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f0d410fff65cf2668cfbf8cec8ace81
-Size: 17014
-Filename: python3-threading_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 9bb8149b535b090e29c4243a3b6720bf
+Size: 17036
+Filename: python3-threading_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python threading & synchronization support
 OE: python3
 HomePage: http://www.python.org
@@ -90698,15 +90698,15 @@ Priority: optional
 
 
 Package: python3-tkinter
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ad0c1cad847df147c7dce6cb6bb66d1
-Size: 107494
-Filename: python3-tkinter_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 661364c29693fca8b8db57530c703041
+Size: 107826
+Filename: python3-tkinter_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Tcl/Tk bindings
 OE: python3
 HomePage: http://www.python.org
@@ -90748,15 +90748,15 @@ Priority: optional
 
 
 Package: python3-tomllib
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81ddef28d75628e9868a14fb523e9013
-Size: 18260
-Filename: python3-tomllib_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 730d11419b9f4631af192197af29fd99
+Size: 18516
+Filename: python3-tomllib_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Provides an interface for parsing TOML
 OE: python3
 HomePage: http://www.python.org
@@ -91162,15 +91162,15 @@ Priority: optional
 
 
 Package: python3-unittest
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-asyncio, python3-core, python3-difflib, python3-io, python3-logging, python3-netclient, python3-numbers, python3-pprint, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ee177a5dec482d44552df301d145c38
-Size: 113732
-Filename: python3-unittest_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 89c23cf1b3beeddfdc20e0b809faf9d6
+Size: 113934
+Filename: python3-unittest_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python unit testing framework
 OE: python3
 HomePage: http://www.python.org
@@ -91179,15 +91179,15 @@ Priority: optional
 
 
 Package: python3-unixadmin
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce480e48e708000b03767f11d957969b
+MD5Sum: 08e1d4e90441efee6ccae8a2acf9d6a0
 Size: 8222
-Filename: python3-unixadmin_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+Filename: python3-unixadmin_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python Unix administration support
 OE: python3
 HomePage: http://www.python.org
@@ -91245,16 +91245,16 @@ Priority: optional
 
 
 Package: python3-venv
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-core, python3-logging, python3-stringold
 Provides: python3-pyvenv
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 473d35c04578eac896683779193e5290
-Size: 20372
-Filename: python3-venv_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 37d6ba0f7084bd54e0752cf0d4cd6fad
+Size: 20394
+Filename: python3-venv_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Provides support for creating lightweight virtual environments with their own site directories, optionally isolated from system site directories.
 OE: python3
 HomePage: http://www.python.org
@@ -91360,15 +91360,15 @@ Priority: optional
 
 
 Package: python3-xml
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), libexpat1 (>= 2.8.1), python3-core
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), libexpat1 (>= 2.8.4), python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7e0cd0143ebab0f93b566e646e66424f
-Size: 174474
-Filename: python3-xml_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 46f659cf8ff7dfd6d2b8acbfff8cb616
+Size: 175452
+Filename: python3-xml_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python basic XML support
 OE: python3
 HomePage: http://www.python.org
@@ -91377,15 +91377,15 @@ Priority: optional
 
 
 Package: python3-xmlrpc
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-compression, python3-core, python3-datetime, python3-email, python3-html, python3-io, python3-mime, python3-netclient, python3-netserver, python3-numbers, python3-pydoc, python3-stringold, python3-xml
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 517ef5d8a47f753b3d497c1d53eaf125
-Size: 35200
-Filename: python3-xmlrpc_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: d0767105d062c20a364b9f17001d4340
+Size: 35210
+Filename: python3-xmlrpc_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Python XML-RPC support
 OE: python3
 HomePage: http://www.python.org
@@ -91428,15 +91428,15 @@ Priority: optional
 
 
 Package: python3-zipapp
-Version: 3.14.5-r0
+Version: 3.14.7-r0
 Depends: python3-compression, python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf31d02976b24188c2c5eeec04357f74
-Size: 8920
-Filename: python3-zipapp_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 26468192258ed7510696022b7e4bc71e
+Size: 8922
+Filename: python3-zipapp_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: Tools to manage the creation of zip files containing Python code
 OE: python3
 HomePage: http://www.python.org
@@ -91445,15 +91445,15 @@ Priority: optional
 
 
 Package: python3-zoneinfo
-Version: 3.14.5-r0
-Depends: libc6 (>= 2.43+git0+e9517114ac), python3-core, python3-datetime
+Version: 3.14.7-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1), python3-core, python3-datetime
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1fc3f453802c3d2b22d7fff8f59b259
-Size: 37504
-Filename: python3-zoneinfo_3.14.5-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3_3.14.5.bb
+MD5Sum: 5633deda3d665062a6eb1b492f61890b
+Size: 37556
+Filename: python3-zoneinfo_3.14.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3_3.14.7.bb
 Description: IANA time zone support
 OE: python3
 HomePage: http://www.python.org
