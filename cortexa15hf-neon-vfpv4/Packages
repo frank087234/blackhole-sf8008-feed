@@ -3555,6 +3555,24 @@ License: curl
 Priority: optional
 
 
+Package: curl-impersonate
+Version: 2.2.2-r0
+Depends: bash, libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
+Recommends: ca-certificates
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: openATV
+MD5Sum: 54c703e099436b43a90993767b3ecd9d
+Size: 2975958
+Filename: curl-impersonate_2.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: curl-impersonate_2.2.2.bb
+Description: libcurl with browser TLS and HTTP fingerprint impersonation
+OE: curl-impersonate
+HomePage: https://github.com/lexiforest/curl-impersonate
+License: Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND Zlib AND curl
+Priority: optional
+
+
 Package: curl
 Version: 8.19.0-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcurl4 (>= 8.19.0)
