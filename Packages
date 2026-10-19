@@ -80902,3 +80902,51 @@ Size: 1412
 Filename: sf8008/shadow-securetty_4.6-r0_sf8008.ipk
 Description: shadow-securetty_4.6-r0_sf8008
 
+Package: curl-impersonate
+Version: 2.2.2-r0
+Depends: bash, libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
+Recommends: ca-certificates
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0f2f1837301992e772cc560590a613c
+Size: 4306482
+Filename: cortexa15hf-neon-vfpv4/curl-impersonate_2.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Description: libcurl with browser TLS and HTTP fingerprint impersonation
+
+Package: enigma2-plugin-extensions-e2iplayer-deps_1.0+git35+da95c670+da95c67266-r2_cortexa15hf-neon-vfpv4
+Version: 1.0
+Depends: libavcodec63 (>= 9.0.1), libavformat63 (>= 9.0.1), libavutil61 (>= 9.0.1), libc6 (>= 2.44+git0+5c479454d1), libcrypto4 (>= 4.0.2), libcurl4 (>= 8.22.0), libgcc1 (>= 16.2.0), libpython3.14-1.0 (>= 3.14.7), libssl4 (>= 4.0.2), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+Provides:
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Custom Feed
+MD5Sum: fc33c4ad0a73c4d93b0782ab3d5fd1c5
+Size: 233452
+Filename: cortexa15hf-neon-vfpv4/enigma2-plugin-extensions-e2iplayer-deps_1.0+git35+da95c670+da95c67266-r2_cortexa15hf-neon-vfpv4.ipk
+Description: enigma2-plugin-extensions-e2iplayer-deps_1.0+git35+da95c670+da95c67266-r2_cortexa15hf-neon-vfpv4
+
+Package: enigma2-plugin-extensions-bouquetmakerxtream
+Version: 230+6fff9400+6fff9406bc-r0
+Depends: python3, python3-pillow, python3-requests
+Provides:
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: e49b7045b021a61e0a0d03c906e20697
+Size: 4111418
+Filename: all/enigma2-plugin-extensions-bouquetmakerxtream_230+6fff9400+6fff9406bc-r0_all.ipk
+Description: IPTV bouquet maker
+ Bouquet Maker Xtream
+
+Package: python3-pillow
+Version: 12.3.0-r0.2
+Depends: lcms (>= 2.19.1), libc6 (>= 2.44+git0+5c479454d1), libfreetype6 (>= 2.14.3), libjpeg62 (>= 3.2.0), libtiff6 (>= 4.7.2), libwebp (>= 1.6.0), libz1 (>= 1.3.2), openjpeg (>= 2.5.4), python3-core, python3-logging, python3-misc, python3-numbers
+Provides: python3-imaging
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7fccced6ec16402bfd97fdb85dcbad66
+Size: 962056
+Filename: cortexa15hf-neon-vfpv4/python3-pillow_12.3.0-r0.2_cortexa15hf-neon-vfpv4.ipk
+Description: Python Imaging Library (Fork). Pillow is the friendly PIL fork by Alex Clark and Contributors.
