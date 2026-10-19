@@ -80950,3 +80950,15 @@ MD5Sum: 7fccced6ec16402bfd97fdb85dcbad66
 Size: 962056
 Filename: cortexa15hf-neon-vfpv4/python3-pillow_12.3.0-r0.2_cortexa15hf-neon-vfpv4.ipk
 Description: Python Imaging Library (Fork). Pillow is the friendly PIL fork by Alex Clark and Contributors.
+Package: enigma2-plugin-extensions-ultrastalker
+Version: 9.2.2
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Ahmed L-HadarY
+MD5Sum: 62a3ba1d38d1461ecf7eb553380effd2
+Size: 9264724
+Filename: all/enigma2-plugin-extensions-ultrastalker_9.2.2_all.ipk
+Description: Ultra Stalker Final V9.2.2 - Player New / New 2, Next Episode card, episode names, folder export to Bouquet, premium web cards, Arabic-first description
+Python-Support: 3.12, 3.13, 3.14, 3.15
+
