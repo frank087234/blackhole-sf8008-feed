@@ -80962,3 +80962,38 @@ Filename: all/enigma2-plugin-extensions-ultrastalker_9.2.2_all.ipk
 Description: Ultra Stalker Final V9.2.2 - Player New / New 2, Next Episode card, episode names, folder export to Bouquet, premium web cards, Arabic-first description
 Python-Support: 3.12, 3.13, 3.14, 3.15
 
+
+
+Package: astra-sm
+Version: 0.2-r0
+Depends: libaio1 (>= 0.3.113), libc6 (>= 2.44+git0+5c479454d1)
+Recommends: update-rc.d
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef7d3bf78bca489e34576f4a8f28ccf8
+Size: 282128
+Filename: cortexa15hf-neon-vfpv4/astra-sm_0.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: astra-sm_0.2.bb
+Description: Astra (Advanced Streamer) SlonikMod
+OE: astra-sm
+License: GPL-3.0-only
+Priority: optional
+
+
+Package: libaio1
+Version: 0.3.113-r0
+Depends: libc6 (>= 2.44+git0+5c479454d1)
+Provides: libaio
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccb2ca3fed23c75e593aa0a01234efe2
+Size: 3650
+Filename: cortexa15hf-neon-vfpv4/libaio1_0.3.113-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libaio_0.3.113.bb
+Description: Asynchronous I/O library
+OE: libaio
+HomePage: http://lse.sourceforge.net/io/aio.html
+License: LGPL-2.1-or-later
+Priority: optional
