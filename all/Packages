@@ -1,3 +1,4 @@
+Lost field Python-Support, 3.12, 3.13, 3.14, 3.15
 Package: alsa-topology-conf
 Version: 1.2.5.1-r0
 Section: base
@@ -13,50 +14,54 @@ HomePage: https://alsa-project.org
 License: BSD-3-Clause
 Priority: optional
 
+
 Package: alsa-ucm-conf
-Version: 1.2.15.3-r0
+Version: 1.2.16.1-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f9f63b664fd0b5ed5126d8c8a469f4a
-Size: 114668
-Filename: alsa-ucm-conf_1.2.15.3-r0_all.ipk
-Source: alsa-ucm-conf_1.2.15.3.bb
+MD5Sum: 712a906856c510d0b080f434f7f863f6
+Size: 123224
+Filename: alsa-ucm-conf_1.2.16.1-r0_all.ipk
+Source: alsa-ucm-conf_1.2.16.1.bb
 Description: ALSA Use Case Manager configuration
 OE: alsa-ucm-conf
 HomePage: https://alsa-project.org
 License: BSD-3-Clause
 Priority: optional
 
+
 Package: autoconf-archive-doc
 Version: 2024.10.16-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2aa47bf544da663ff7a746d393649ee
-Size: 182546
+MD5Sum: 59e91e3fa3f9d38f1f31ce6a0b45f7b3
+Size: 182556
 Filename: autoconf-archive-doc_2024.10.16-r0_all.ipk
 Source: autoconf-archive_2024.10.16.bb
 Description: a collection of freely re-usable Autoconf macros - Documentation files
 OE: autoconf-archive
 HomePage: http://www.gnu.org/software/autoconf-archive/
-License: GPL-3.0-with-autoconf-exception
+License: GPL-3.0-or-later WITH Autoconf-exception-3.0
 Priority: optional
+
 
 Package: autoconf-archive
 Version: 2024.10.16-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 292ddc19563d583692fef9e43d866d2c
-Size: 406986
+MD5Sum: aeb2606b5eb2781ed1a4aa52852b71cf
+Size: 406994
 Filename: autoconf-archive_2024.10.16-r0_all.ipk
 Source: autoconf-archive_2024.10.16.bb
 Description: a collection of freely re-usable Autoconf macros
 OE: autoconf-archive
 HomePage: http://www.gnu.org/software/autoconf-archive/
-License: GPL-3.0-with-autoconf-exception
+License: GPL-3.0-or-later WITH Autoconf-exception-3.0
 Priority: optional
+
 
 Package: bhepgbackup
 Version: 13.0-r0
@@ -73,6 +78,7 @@ OE: bhepgbackup
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: bhweather
 Version: V0.9
 Section: base
@@ -85,36 +91,39 @@ Description: bhweather version 2.0 By meo, Mod By RAED Support FULL HD Skin + Py
 License: CLOSED
 Priority: optional
 
+
 Package: ca-certificates-doc
-Version: 20260223-r0
+Version: 20260816-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 26d02ebd98e8361dcb0f31fd0703efb3
-Size: 2334
-Filename: ca-certificates-doc_20260223-r0_all.ipk
-Source: ca-certificates_20260223.bb
+MD5Sum: 6df499f27e5311a457650a5ecb8caf5a
+Size: 2338
+Filename: ca-certificates-doc_20260816-r0_all.ipk
+Source: ca-certificates_20260816.bb
 Description: Common CA certificates - Documentation files
 OE: ca-certificates
 HomePage: http://packages.debian.org/sid/ca-certificates
-License: GPL-2.0-or-later & MPL-2.0
+License: GPL-2.0-or-later AND MPL-2.0
 Priority: optional
 
+
 Package: ca-certificates
-Version: 20260223-r0
+Version: 20260816-r0
 Depends: openssl, openssl-bin
 Section: misc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14e6423668d7afbe0f117ddbb7087de6
-Size: 132396
-Filename: ca-certificates_20260223-r0_all.ipk
-Source: ca-certificates_20260223.bb
+MD5Sum: 513abe3dda82757a704db6f5ae446fff
+Size: 112704
+Filename: ca-certificates_20260816-r0_all.ipk
+Source: ca-certificates_20260816.bb
 Description: Common CA certificates
 OE: ca-certificates
 HomePage: http://packages.debian.org/sid/ca-certificates
-License: GPL-2.0-or-later & MPL-2.0
+License: GPL-2.0-or-later AND MPL-2.0
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-carl9170
 Version: 1.0-r0
@@ -122,14 +131,15 @@ Recommends: firmware-carl9170, kernel-module-carl9170
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ea8a261ae867ca717c78afceafa68f0
-Size: 578
+MD5Sum: a7d7f94412945f8594a387c54c92d40b
+Size: 580
 Filename: enigma2-plugin-drivers-network-usb-carl9170_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-carl9170.bb
 Description: WiFi devices for Atheros AR9170 devices.
 OE: enigma2-plugin-drivers-network-usb-carl9170
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-lan78xx
 Version: 1.0-r0
@@ -137,29 +147,31 @@ Recommends: kernel-module-lan78xx, kernel-module-usbnet
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7364f862ada5ea4eb961ead93317ad3c
-Size: 596
+MD5Sum: 7052df7417c35e0c6cef2fc839780ee5
+Size: 598
 Filename: enigma2-plugin-drivers-network-usb-lan78xx_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-lan78xx.bb
 Description: Microchip LAN78XX based USB 2/3 10/100/1000 Ethernet adapters
 OE: enigma2-plugin-drivers-network-usb-lan78xx
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-mt7601u
-Version: 1.0-r2
-Recommends: firmware-mt7601u, mt7601u
+Version: 1.0-r3
+Recommends: firmware-mt7601u, kernel-module-mt7601u
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 67feb12cfe98cc3a56496dc71ba32565
-Size: 546
-Filename: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r2_all.ipk
+MD5Sum: 60c786b15c6f10925353cf87d8261018
+Size: 556
+Filename: enigma2-plugin-drivers-network-usb-mt7601u_1.0-r3_all.ipk
 Source: enigma2-plugin-drivers-network-usb-mt7601u.bb
 Description: mediatek 7601u
 OE: enigma2-plugin-drivers-network-usb-mt7601u
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-r8188eu
 Version: 1.0-r0
@@ -167,29 +179,31 @@ Recommends: firmware-rtl8188eu, kernel-module-r8188eu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15fdc5c413d9aebf61fc4775b4d507d4
-Size: 610
+MD5Sum: cbca5bbb1ccd2bd9fd27c9b0b8e95379
+Size: 614
 Filename: enigma2-plugin-drivers-network-usb-r8188eu_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-r8188eu.bb
 Description: Single-Chip IEEE 802.11b/g/n 2T2R WLAN Controller with USB 2.0 Interface
 OE: enigma2-plugin-drivers-network-usb-r8188eu
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-r8712u
-Version: 1.0-r0
+Version: 1.0-r1
 Recommends: firmware-rtl8712u, kernel-module-r8712u
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96a039b2a9a1c1639264b96109b43207
-Size: 580
-Filename: enigma2-plugin-drivers-network-usb-r8712u_1.0-r0_all.ipk
+MD5Sum: ff90d846784ebc49b8967a169f891e7a
+Size: 578
+Filename: enigma2-plugin-drivers-network-usb-r8712u_1.0-r1_all.ipk
 Source: enigma2-plugin-drivers-network-usb-r8712u.bb
 Description: Driver for Ralink USB devices R8712U
 OE: enigma2-plugin-drivers-network-usb-r8712u
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rt2500
 Version: 1.0-r0
@@ -197,14 +211,15 @@ Recommends: kernel-module-rt2500usb
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2fdb0b3d8a02cfceb5585cb2fdfcedfd
+MD5Sum: db6adb60438500913b75466abd062ed3
 Size: 578
 Filename: enigma2-plugin-drivers-network-usb-rt2500_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt2500.bb
 Description: WiFi devices for Ralink RT2500USB/RT2571 devices.
 OE: enigma2-plugin-drivers-network-usb-rt2500
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rt2800
 Version: 1.0-r0
@@ -212,14 +227,15 @@ Recommends: firmware-rt2870, kernel-module-rt2800usb
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14068402018e88e0431df835a750d558
-Size: 592
+MD5Sum: 66fc4b0a89fef0fe4d4baa6932129fb2
+Size: 594
 Filename: enigma2-plugin-drivers-network-usb-rt2800_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt2800.bb
 Description: WiFi devices based on Ralink 802.11n USB chipsets.
 OE: enigma2-plugin-drivers-network-usb-rt2800
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rt73
 Version: 1.0-r0
@@ -227,14 +243,15 @@ Recommends: firmware-rt73, kernel-module-rt73usb
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d1a620ed50b686dc667d2324f1425ee
-Size: 590
+MD5Sum: 6ea4680438311507003ed6e6e3c84a1d
+Size: 592
 Filename: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt73.bb
 Description: Driver for Ralink USB devices RT2571W, RT2573 & RT2671
 OE: enigma2-plugin-drivers-network-usb-rt73
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8152
 Version: 1.0-r0
@@ -242,14 +259,15 @@ Recommends: kernel-module-r8152, kernel-module-usbnet
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc3a5761bb8430ce89375b69cf4dca20
-Size: 596
+MD5Sum: c3c2e99684e98d4da784425c50ea648e
+Size: 598
 Filename: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8152.bb
 Description: Realtek RTL8152/RTL8153 USB 3.0/2.0 Gigabit Ethernet Network Adapter
 OE: enigma2-plugin-drivers-network-usb-rtl8152
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8187
 Version: 1.0-r0
@@ -257,14 +275,15 @@ Recommends: kernel-module-rtl8187
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0481727240d9ced4eaeb9e20e9282614
-Size: 574
+MD5Sum: cd48ae95a511c20924647624cf015bfb
+Size: 576
 Filename: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8187.bb
 Description: WiFi devices for Realtek 802.11a/bg chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8187
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
 Version: 1.0-r0
@@ -281,20 +300,22 @@ OE: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rtl8812au
-Version: 1.0-r0
-Recommends: rt8812au
+Version: 1.0-r1
+Recommends: rtl8821au, rtl88xxau
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4437de708a9a017ae83550dbf6c5e4f3
-Size: 572
-Filename: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all.ipk
+MD5Sum: 51ce4cb631362e1765815dda693a1181
+Size: 584
+Filename: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r1_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8812au.bb
 Description: WiFi devices for Realtek 8812AU/8821AU chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8812au
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8821cu
 Version: 1.0-r2
@@ -311,20 +332,22 @@ OE: enigma2-plugin-drivers-network-usb-rtl8821cu
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rtl8822cu
-Version: 1.0-r0
-Recommends: rt8822cu
+Version: 1.0-r1
+Recommends: firmware-rtk8822cbtusb, rt8822cu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1db1a581a35e3f84ff9609baa254d48
-Size: 568
-Filename: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r0_all.ipk
+MD5Sum: 453525ee6e5ca92b7d5aa1725b2f14c1
+Size: 586
+Filename: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r1_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8822cu.bb
 Description: WiFi devices for Realtek 88x2CU chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8822cu
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8852cu
 Version: 1.0-r0
@@ -341,20 +364,22 @@ OE: enigma2-plugin-drivers-network-usb-rtl8852cu
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-zd1211rw
 Version: 1.0-r0
 Recommends: firmware-zd1211, kernel-module-zd1211rw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac65bcadab09159707dfa97c50a2cc73
-Size: 590
+MD5Sum: 1a747b076521121991fc4e762b31d0b0
+Size: 592
 Filename: enigma2-plugin-drivers-network-usb-zd1211rw_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-zd1211rw.bb
 Description: Driver for ZyDAS ZD1211, ZyDAS ZD1211B, Atheros AR5007UG
 OE: enigma2-plugin-drivers-network-usb-zd1211rw
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-accuweather
 Version: 1.3
@@ -370,6 +395,7 @@ HomePage: https://tvfaq.net
 License: PD
 Priority: required
 
+
 Package: enigma2-plugin-extensions-ajpanel
 Version: v10.8.6
 Recommends: xz (>= 5), zip, p7zip, unrar, bzip2, ffmpeg, python-requests | python3-requests, python-imaging | python3-pillow, ar (>= 2) | enigma2-plugin-extensions-opkg-tools | binutils
@@ -382,6 +408,7 @@ Filename: enigma2-plugin-extensions-ajpanel_v10.8.6_all.ipk
 Description: Enigma2 Tools
 HomePage: https://github.com/AMAJamry/AJPanel
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-bouquetcleanup
 Version: 1.0+git5+aac1ba90+aac1ba982f-r0
@@ -397,21 +424,23 @@ OE: enigma2-plugin-extensions-bouquetcleanup
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 227+d193ac80+d193ac8bb8-r0
+Version: 230+6fff9400+6fff9406bc-r0
 Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8dda2caea6b749d024a4337c5182f478
-Size: 4109580
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_227+d193ac80+d193ac8bb8-r0_all.ipk
+MD5Sum: e49b7045b021a61e0a0d03c906e20697
+Size: 4111418
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_230+6fff9400+6fff9406bc-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
 HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-e2iplayer
 Version: 2026.06.18.01-r0
@@ -426,6 +455,7 @@ Filename: enigma2-plugin-extensions-e2iplayer_2026.06.18.01-r0_all.ipk
 Description: E2iPlayer / IPTVPlayer plugin for Enigma2
 HomePage: https://github.com/oe-mirrors/e2iplayer
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-e2piconizer
 Version: 1.28-20250517-git64+50022390+50022393f1-r0
@@ -442,6 +472,7 @@ HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-enigmawelt
 Version: 1.4.5-r0
 Section: base
@@ -457,21 +488,23 @@ HomePage: https://enigmawelt.de
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-epgimport-sources
-Version: git169+be97e010+be97e01a29-r0
+Version: git173+19debe50+19debe56f4-r0
 Replaces: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
 Conflicts: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
 Section: base
 Architecture: all
 Maintainer: Doglover @ https://forums.openpli.org/forum/52-en-rytec-xmltv-and-epg-support/
-MD5Sum: c34ea18ce79439b9e979235e7381a04c
-Size: 3808
-Filename: enigma2-plugin-extensions-epgimport-sources_git169+be97e010+be97e01a29-r0_all.ipk
+MD5Sum: 627130feed835fc1e2e1664292dab8d6
+Size: 3810
+Filename: enigma2-plugin-extensions-epgimport-sources_git173+19debe50+19debe56f4-r0_all.ipk
 Source: enigma2-plugin-extensions-epgimport-sources.bb
 Description: enigma2-plugin-extensions-epgimport-sources version git-r0
 OE: enigma2-plugin-extensions-epgimport-sources
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-estalker
 Version: 1.38.20260429
@@ -483,6 +516,7 @@ Size: 3255560
 Filename: enigma2-plugin-extensions-estalker_1.38_all.ipk
 Description: IPTV Ministra stalker player by KiddaC
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-evgquicksignal
 Version: 1.2
@@ -497,6 +531,7 @@ OE: enigma2-plugin-extensions-evgquicksignal
 HomePage: gisclub.tv
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-footonsat
 Version: 1.9-r0
 Section: base
@@ -508,6 +543,7 @@ Filename: enigma2-plugin-extensions-footonsat_1.9-r0_all.ipk
 Source: https://github.com/ziko-ZR1/FootOnsat
 Description: enigma2 plugin OE2.0 OE2.5
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-gioppygio
 Version: 10.3
@@ -523,6 +559,7 @@ OE: Enigma2 Plugin
 HomePage: www.gioppygio.it
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-historyzap
 Version: 1.0.46
 Section: base
@@ -537,6 +574,7 @@ HomePage: https://github.com/pepsik-kiev
 License: proprietary software
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-infobarweather
 Version: 0.17
 Architecture: all
@@ -547,6 +585,7 @@ Filename: enigma2-plugin-extensions-infobarweather_0.17_all.ipk
 Description: Show current weather in infobar
 License: GPLv2
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-iptosat
 Version: 1.8
@@ -560,6 +599,7 @@ Filename: enigma2-plugin-extensions-iptosat_1.8_all.ipk
 Source: https://github.com/ziko-ZR1/IPtoSAT
 Description: enigma2 plugin OE2.0
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-iptv-org-playlists
 Version: 1.0+git10+4d0456a0+4d0456a218-r0
@@ -577,6 +617,7 @@ HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-jediepgxtream
 Version: git25+7cf0d7d0+7cf0d7db6c-r0
 Depends: python3-difflib, python3-requests, python3-thefuzz
@@ -593,6 +634,7 @@ HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-jedimakerxtream
 Version: git173+5d2218a0+5d2218ae6f-r0
 Section: base
@@ -608,6 +650,7 @@ HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-kiddac-skin-e2sentials
 Version: 1.00.20250126
 Section: misc
@@ -618,6 +661,7 @@ Size: 1241450
 Filename: enigma2-plugin-extensions-kiddac-skin-e2sentials_1.00_all.ipk
 Description: Skin additions - Top Picks, Movie Planner Mods, Screen Names
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-lamedbmerger
 Version: 1.0+git7+16be3870+16be387903-r0
@@ -633,6 +677,7 @@ OE: enigma2-plugin-extensions-lamedbmerger
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-levi45-freeserver
 Version: 2.4
 Depends: enigma2
@@ -646,6 +691,7 @@ Source: https://satellite-forum.com
 Description: Levi45 freeserver
 HomePage: https://satellite-forum.com
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-merlinmusicplayer
 Version: 7.4
@@ -663,6 +709,7 @@ HomePage: https:\\www.opena.tv
 License: Proprietary
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-mmpicons
 Version: 1.2
 Section: base
@@ -677,6 +724,7 @@ OE: 2.0 - 2.2 - 2.5 -2.6
 HomePage: https://e2skin.blogspot.com/
 License: *
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-movieorganisor
 Version: V3.99-git15+e24a88c0+e24a88cd25-r0
@@ -693,6 +741,7 @@ OE: enigma2-plugin-extensions-movieorganisor
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-multiboot-flashonline
 Version: 6.4
 Section: enigma2
@@ -705,6 +754,7 @@ Source: https://github.com/m4dhouse
 Description: Multiboot FlashOnline by Madhouse
 OE: Enigma2 Plugin
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-oscamsmartcard
 Version: 2.4+git113+cb6b4c20+cb6b4c2f78-r0
@@ -720,6 +770,7 @@ OE: enigma2-plugin-extensions-oscamsmartcard
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-piconsmissing
 Version: 1.0+git25+d0a984b0+d0a984b6f1-r0
 Section: base
@@ -734,6 +785,7 @@ OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-plutotv
 Version: 20220409
 Recommends: enigma2-plugin-systemplugins-serviceapp
@@ -747,34 +799,18 @@ Description: pluto.tv for VTI
 License: GPLv2+
 Priority: optional
 
-Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.0+git867+69984d90+69984d9a57-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 6c25cde35c95303a9aeea560ddee5a65
-Size: 564
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla - Debugging files
-OE: enigma2-plugin-extensions-vavoo
-License: GPL-2.0-only
-Priority: required
 
-Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.0+git867+69984d90+69984d9a57-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.0+git867+69984d90+69984d9a57-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, python3-requests-dev, python3-six-dev
-Section: devel
+Package: enigma2-plugin-extensions-ultrastalker
+Version: 9.2.2
+Section: extra
 Architecture: all
-Maintainer: Lululla
-MD5Sum: 276641cbed37af5b83eaae2c192117a5
-Size: 660
-Filename: enigma2-plugin-extensions-vavoo-dev_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla - Development files
-OE: enigma2-plugin-extensions-vavoo
-License: GPL-2.0-only
-Priority: required
+Maintainer: Ahmed L-HadarY
+MD5Sum: 62a3ba1d38d1461ecf7eb553380effd2
+Size: 9264724
+Filename: enigma2-plugin-extensions-ultrastalker_9.2.2_all.ipk
+Description: Ultra Stalker Final V9.2.2 - Player New / New 2, Next Episode card, episode names, folder export to Bouquet, premium web cards, Arabic-first description
+Priority: optional
+
 
 Package: enigma2-plugin-extensions-vavoo-src
 Version: 1.0+git867+69984d90+69984d9a57-r0
@@ -789,6 +825,7 @@ Description: Lululla - Source files
 OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-only
 Priority: required
+
 
 Package: enigma2-plugin-extensions-vavoo
 Version: 1.0+git867+69984d90+69984d9a57-r0
@@ -805,6 +842,7 @@ OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-only
 Priority: required
 
+
 Package: enigma2-plugin-extensions-weather_msn
 Version: 1.3-r3
 Recommends: python-urllib3
@@ -817,6 +855,7 @@ Filename: enigma2-plugin-extensions-weather_msn_1.3-r3_all.ipk
 Description: Weather forecast, astronomical calculations
 HomePage: https://github.com/Sirius0103/enigma2-plugins/tree/master/python/Plugins/Extensions/WeatherMSN
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-xklass
 Version: 1.80-20260325-r1
@@ -834,34 +873,6 @@ HomePage: https://www.linuxsat-support.com
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-extensions-youtubetv-dbg
-Version: 1.0-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a6253e418e7cd3a058016efd062fd26
-Size: 608
-Filename: enigma2-plugin-extensions-youtubetv-dbg_1.0-r0_all.ipk
-Source: enigma2-plugin-extensions-youtubetv.bb
-Description: YouTube TV plugin for Enigma2 - Debugging files
-OE: enigma2-plugin-extensions-youtubetv
-License: CLOSED
-Priority: optional
-
-Package: enigma2-plugin-extensions-youtubetv-dev
-Version: 1.0-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-youtubetv (= 1.0-r0)
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf3998313f58fc61c052a284038a1f5a
-Size: 644
-Filename: enigma2-plugin-extensions-youtubetv-dev_1.0-r0_all.ipk
-Source: enigma2-plugin-extensions-youtubetv.bb
-Description: YouTube TV plugin for Enigma2 - Development files
-OE: enigma2-plugin-extensions-youtubetv
-License: CLOSED
-Priority: optional
 
 Package: enigma2-plugin-extensions-youtubetv
 Version: 1.0-r0
@@ -878,6 +889,7 @@ OE: enigma2-plugin-extensions-youtubetv
 License: CLOSED
 Priority: optional
 
+
 Package: enigma2-plugin-skincomponents-extcomponents
 Version: 1.1
 Section: plugin-skincomponents
@@ -890,6 +902,22 @@ Description: extendedSkinComponents
 OE: oe2.0
 License: GPL
 Priority: optional
+
+
+Package: enigma2-plugin-skincomponents-weathercomponent
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 55827f9cb2e0d7756ce2e96065f1810d
+Size: 582
+Filename: enigma2-plugin-skincomponents-weathercomponent_1.0-r0_all.ipk
+Source: enigma2-plugin-skincomponents-weathercomponent.bb
+Description: Plugin to handle the MSNWeather Converter and Renderer for displaying MSN-Weather in Skin
+OE: enigma2-plugin-skincomponents-weathercomponent
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: enigma2-plugin-skins-aglare
 Version: 1.2+git282+20da50f0+20da50f375-r0
@@ -904,6 +932,7 @@ Description: enigma2-plugin-skins-aglare version 1.2+git-r0
 OE: enigma2-plugin-skins-aglare
 License: GPL-2.0-only
 Priority: required
+
 
 Package: enigma2-plugin-skins-brio-classic-fhd
 Version: 1.0-r0
@@ -920,6 +949,7 @@ OE: enigma2-plugin-skins-brio-classic-fhd
 License: CLOSED
 Priority: optional
 
+
 Package: enigma2-plugin-skins-brio-std-fhd
 Version: 1.4-r0
 Depends: enigma2
@@ -934,6 +964,7 @@ Description: Classic BlackHole Brio STD FHD skin
 OE: enigma2-plugin-skins-brio-std-fhd
 License: CLOSED
 Priority: optional
+
 
 Package: enigma2-plugin-skins-e2darkos
 Version: 1.1+git294+db1cdec0+db1cdec969-r0
@@ -950,6 +981,7 @@ OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-skins-glamouraurafhd
 Version: 14.x+git616+f3275170+f3275170be-r0
 Recommends: enigma2-plugin-extensions-bitrate, enigma2-plugin-extensions-weathermsn
@@ -964,6 +996,7 @@ Description: Glamour Aura FHD skin for new generation STBs
 OE: enigma2-plugin-skins-glamouraurafhd
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: enigma2-plugin-skins-magic
 Version: 1.0+git331+8b5fb840+8b5fb84750-r0
@@ -980,6 +1013,7 @@ OE: enigma2-plugin-skins-magic
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-skins-octetfhd
 Version: git690+725677d0+725677d88a-r0
 Recommends: enigma2-plugin-extensions-weatherplugin
@@ -995,6 +1029,7 @@ OE: enigma2-plugin-skins-octetfhd
 License: GPL-2.0-only
 Priority: required
 
+
 Package: enigma2-plugin-skins-pd1loi-hd-night
 Version: 2.6.1+git616+02dec4f0+02dec4f9ae-r0
 Section: base
@@ -1008,6 +1043,7 @@ Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+git-r0
 OE: enigma2-plugin-skins-pd1loi-hd-night
 License: GPL-3.0-only
 Priority: optional
+
 
 Package: enigma2-plugin-skins-pli-hd-fullnight
 Version: 0.1+git109+99adc650+99adc658e4-r0
@@ -1023,6 +1059,7 @@ OE: enigma2-plugin-skins-pli-hd-fullnight
 License: Proprietary
 Priority: optional
 
+
 Package: enigma2-plugin-skins-pli-hd
 Version: 0.1+git67+fc35f170+fc35f1791c-r0
 Section: base
@@ -1036,6 +1073,7 @@ Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
 OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
 Priority: optional
+
 
 Package: enigma2-plugin-skins-simple-gray
 Version: 1.0+git289+80b15880+80b158870a-r0
@@ -1051,6 +1089,7 @@ OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-softcams-ncam
 Version: V15.8-r0
 Depends: libcurl4
@@ -1064,48 +1103,21 @@ HomePage: www.tunisia-sat.com
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-softcams-oscam-whitelist-dbg
-Version: 2.0+git10+b7133b00+b7133b0b49-r0
-Section: devel
-Architecture: all
-Maintainer: AbuBaniaz
-MD5Sum: 2749ac88687d37f5d20bd819fa2f63f9
-Size: 580
-Filename: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
-Source: enigma2-plugin-softcams-oscam-whitelist.bb
-Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0 - Debugging files
-OE: enigma2-plugin-softcams-oscam-whitelist
-License: CLOSED
-Priority: optional
-
-Package: enigma2-plugin-softcams-oscam-whitelist-dev
-Version: 2.0+git10+b7133b00+b7133b0b49-r0
-Recommends: enigma2-plugin-softcams-oscam-whitelist (= 2.0+git10+b7133b00+b7133b0b49-r0)
-Section: devel
-Architecture: all
-Maintainer: AbuBaniaz
-MD5Sum: 92315e3180a989756d2c1ca7bbc5ff65
-Size: 618
-Filename: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
-Source: enigma2-plugin-softcams-oscam-whitelist.bb
-Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0 - Development files
-OE: enigma2-plugin-softcams-oscam-whitelist
-License: CLOSED
-Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-whitelist
-Version: 2.0+git10+b7133b00+b7133b0b49-r0
+Version: 2.0+git17+2ebb8b30+2ebb8b3589-r0
 Section: base
 Architecture: all
 Maintainer: AbuBaniaz
-MD5Sum: 0b9a8664396399dda627e7d8f7319ee8
-Size: 930
-Filename: enigma2-plugin-softcams-oscam-whitelist_2.0+git10+b7133b00+b7133b0b49-r0_all.ipk
+MD5Sum: c169b9ec36217195bd166c1b06fe6d27
+Size: 964
+Filename: enigma2-plugin-softcams-oscam-whitelist_2.0+git17+2ebb8b30+2ebb8b3589-r0_all.ipk
 Source: enigma2-plugin-softcams-oscam-whitelist.bb
 Description: enigma2-plugin-softcams-oscam-whitelist version 2.0+git-r0
 OE: enigma2-plugin-softcams-oscam-whitelist
-License: CLOSED
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: enigma2-plugin-systemplugins-m3uiptv
 Version: 1.0+git490+5bc4edf0+5bc4edf706-r0
@@ -1124,6 +1136,7 @@ HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-systemplugins-remotecontrolselection
 Version: 1.0+git22+2bb40440+2bb40447d6-r0
 Section: base
@@ -1137,6 +1150,7 @@ Description: enigma2-plugin-systemplugins-remotecontrolselection version 1.0+git
 OE: enigma2-plugin-systemplugins-remotecontrolselection
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: enigma2-plugin-systemplugins-terrestrialbouquet
 Version: 1.0+git11+564df070+564df07777-r0
@@ -1153,6 +1167,7 @@ HomePage: https://github.com/Huevos/TerrestrialBouquet
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-systemplugins-wanip
 Version: 1.0+git4+e4902be0+e4902befe9-r0
 Depends: python3-requests
@@ -1168,131 +1183,141 @@ OE: enigma2-plugin-systemplugins-wanip
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-timezones
-Version: git1019+c5cd5660+c5cd566848-r0
+Version: git1029+a7a04f60+a7a04f6a41-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbce979775264955fe5a2035f70e9b14
-Size: 7344
-Filename: enigma2-timezones_git1019+c5cd5660+c5cd566848-r0_all.ipk
+MD5Sum: 6330153417c3b3c13e5cbab88861ac95
+Size: 7350
+Filename: enigma2-timezones_git1029+a7a04f60+a7a04f6a41-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-carl9170
 Version: 1.9.5-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 501c0afafae3ff4e2cd72255c5d6e73e
-Size: 10490
+MD5Sum: a75496b80c55593529aeb5819884d2ea
+Size: 10496
 Filename: firmware-carl9170_1.9.5-r0_all.ipk
 Source: firmware-carl9170_1.9.5.bb
 Description: Firmware for CARL9170
 OE: firmware-carl9170
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-htc7010
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e70dc869887a913f25eb7317263b0b97
-Size: 35280
+MD5Sum: 5cf24ce5fba6067139a28795b75e2c01
+Size: 35286
 Filename: firmware-htc7010_1.0-r0_all.ipk
 Source: firmware-htc7010.bb
 Description: Firmware for HTC7010
 OE: firmware-htc7010
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-htc9271
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cff3c0d1e3fde01fffb7035002fe9c54
-Size: 30260
+MD5Sum: 525aaf5800b3b03c106d80a2f9d4d28b
+Size: 30266
 Filename: firmware-htc9271_1.0-r0_all.ipk
 Source: firmware-htc9271.bb
 Description: Firmware for HTC9271
 OE: firmware-htc9271
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-mt7601u
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b1ce974c5575bd104dd4921ebbd81d9
-Size: 28058
+MD5Sum: b04d514f5e60ebce9b982f7324f9604a
+Size: 28064
 Filename: firmware-mt7601u_1.0-r0_all.ipk
 Source: firmware-mt7601u.bb
 Description: Firmware for mt7601u
 OE: firmware-mt7601u
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rt2870
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0bb4418bc741384e902a055774c5e355
-Size: 3462
+MD5Sum: 6c1f7fde9cf34451077d8d34da4f574f
+Size: 3468
 Filename: firmware-rt2870_1.0-r0_all.ipk
 Source: firmware-rt2870.bb
 Description: Firmware for Ralink RT2870
 OE: firmware-rt2870
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rt73
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 88306b080d71e7f2cf2331e9e4342181
-Size: 1834
+MD5Sum: d3c1161656f17dc7d9785641ec62559b
+Size: 1840
 Filename: firmware-rt73_1.0-r0_all.ipk
 Source: firmware-rt73.bb
 Description: Firmware for RT73
 OE: firmware-rt73
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8188eu
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eccae16e25d5050b948f6f09e2de395f
-Size: 9276
+MD5Sum: 437fb742e65bb4f5ddf477424de8c042
+Size: 9282
 Filename: firmware-rtl8188eu_1.0-r0_all.ipk
 Source: firmware-rtl8188eu.bb
 Description: Firmware for RTL8188EU
 OE: firmware-rtl8188eu
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8192cu
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9893b2e432da352a666ad44ffc1dfb15
-Size: 8978
+MD5Sum: e45cc4aebf70a4fa07d255772d6989d2
+Size: 8984
 Filename: firmware-rtl8192cu_1.0-r0_all.ipk
 Source: firmware-rtl8192cu.bb
 Description: Firmware for RTL8192CU
 OE: firmware-rtl8192cu
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8192cufw
 Version: 1.0-r0
@@ -1311,61 +1336,66 @@ OE: firmware-rtl8192cufw
 License: CLOSED
 Priority: optional
 
+
 Package: firmware-rtl8192eu
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1545a1a84e5a0ea8956d91fda722f91
-Size: 19498
+MD5Sum: 71287eab28c06d638ea1dcb3c0f58795
+Size: 19504
 Filename: firmware-rtl8192eu_1.0-r0_all.ipk
 Source: firmware-rtl8192eu.bb
 Description: firmware-rtl8192eu version 1.0-r0
 OE: firmware-rtl8192eu
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8712u
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4fb6730f99a08b143312833ca2fab320
-Size: 66224
+MD5Sum: f72d2261e5052efaa318aaf865f7e276
+Size: 66230
 Filename: firmware-rtl8712u_1.0-r0_all.ipk
 Source: firmware-rtl8712u.bb
 Description: Firmware for RTL8712U
 OE: firmware-rtl8712u
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8xxxu
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 519295b33e82349b2e1e47796eaa2c74
-Size: 10012
+MD5Sum: ae787bb5e1093c9886e2497b1879960d
+Size: 10016
 Filename: firmware-rtl8xxxu_1.0-r0_all.ipk
 Source: firmware-rtl8xxxu.bb
 Description: firmware-rtl8xxxu version 1.0-r0
 OE: firmware-rtl8xxxu
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-zd1211
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1f8431c7ffc7cd6e86ffb7c8fc929b5
-Size: 49856
+MD5Sum: 5133f6d5dae281586b796c282361998d
+Size: 49862
 Filename: firmware-zd1211_1.0-r0_all.ipk
 Source: firmware-zd1211.bb
 Description: Firmware for ZD1211
 OE: firmware-zd1211
-License: Proprietary
+License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: font-valis-enigma
 Version: 1.0+git331+8b5fb84-r0
@@ -1381,19 +1411,21 @@ OE: enigma2-plugin-skins-magic
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: fstrim-cron
 Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OpenATV Team
-MD5Sum: ebbf4f58966051d1d39f5ff0eb1ebdc0
-Size: 1496
+MD5Sum: dd42ce77433c0ef4617b6c38a81906b5
+Size: 1498
 Filename: fstrim-cron_1.0-r0_all.ipk
 Source: fstrim-cron.bb
 Description: fstrim cron job
 OE: fstrim-cron
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: iso-codes-locale
 Version: 4.20.1-r0
@@ -1410,6 +1442,7 @@ HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-or-later
 Priority: optional
 
+
 Package: iso-codes
 Version: 4.20.1-r0
 Section: base
@@ -1424,6 +1457,7 @@ OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-or-later
 Priority: optional
+
 
 Package: kernel-module-88x2cu
 Version: 1.0-r0
@@ -1440,6 +1474,7 @@ OE: sf8008-wifi-dummies
 License: CLOSED
 Priority: optional
 
+
 Package: linux-firmware-8821cu
 Version: 1.0-r0.1
 Section: base
@@ -1455,34 +1490,37 @@ HomePage: https://www.realtek.com/
 License: Proprietary
 Priority: optional
 
+
 Package: mm-common-doc
-Version: 1.0.7-r0
+Version: 1.0.8-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3480eb9757a297a82687815648b56e58
-Size: 32886
-Filename: mm-common-doc_1.0.7-r0_all.ipk
-Source: mm-common_1.0.7.bb
+MD5Sum: 0ed9151d73ed08daf27a9ae28ca58392
+Size: 33176
+Filename: mm-common-doc_1.0.8-r0_all.ipk
+Source: mm-common_1.0.8.bb
 Description: Common GNOME build files for C++ bindings - Documentation files
 OE: mm-common
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: netbase
-Version: 1:6.5-r0.2
+Version: 1:6.6-r0.3
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd3de96cb70fef4968d390e39ac8d89b
-Size: 9980
-Filename: netbase_6.5-r0.2_all.ipk
-Source: netbase_6.5.bb
+MD5Sum: 20aa7d983dddc2348d22b6338cc8a836
+Size: 10134
+Filename: netbase_6.6-r0.3_all.ipk
+Source: netbase_6.6.bb
 Description: Basic TCP/IP networking support
 OE: netbase
 HomePage: http://packages.debian.org/netbase
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: network-usb-drivers-meta
 Version: 1.0-r0
@@ -1499,6 +1537,7 @@ OE: network-usb-drivers-meta
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: p7zip
 Version: 1.0-r0
 Depends: 7zip
@@ -1510,6 +1549,7 @@ Size: 512
 Filename: p7zip_1.0-r0_all.ipk
 Description: Compatibility package for p7zip recommendation; provided by 7zip.
 Priority: optional
+
 
 Package: packagegroup-bh-sf8008-python-feed
 Version: 1.0-r0
@@ -1526,6 +1566,7 @@ OE: packagegroup-bh-sf8008-python-feed
 License: MIT
 Priority: optional
 
+
 Package: python3-imaging
 Version: 1.0-r0
 Depends: python3-pillow
@@ -1540,6 +1581,7 @@ Description: Compatibility aliases for old Python package names
 OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
+
 
 Package: python3-pkg-resources
 Version: 1.0-r0
@@ -1556,6 +1598,7 @@ OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
 
+
 Package: python3-pycrypto
 Version: 1.0-r0
 Depends: python3-pycryptodome
@@ -1570,6 +1613,7 @@ Description: Compatibility aliases for old Python package names
 OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
+
 
 Package: python3-subprocess
 Version: 1.0-r0
@@ -1586,6 +1630,7 @@ OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
 
+
 Package: python3-zlib
 Version: 1.0-r0
 Depends: python3-compression
@@ -1600,6 +1645,7 @@ Description: Compatibility aliases for old Python package names
 OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
+
 
 Package: run-postinsts
 Version: 1.0-r0
@@ -1617,19 +1663,21 @@ OE: run-postinsts
 License: MIT
 Priority: optional
 
+
 Package: settings-autorestore
 Version: 2021081701-r0
 Section: base
 Architecture: all
 Maintainer: OpenPLi team
-MD5Sum: 38bef90fcd95dadbe5d555e906b5cb29
-Size: 6738
+MD5Sum: e8703a08e9ca59380f3e1e7fb23b58e4
+Size: 6740
 Filename: settings-autorestore_2021081701-r0_all.ipk
 Source: settings-autorestore.bb
 Description: settings-autorestore version 2021081701-r0
 OE: settings-autorestore
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: sf8008-wifi-dummies
 Version: 1.0-r0
@@ -1648,246 +1696,263 @@ OE: sf8008-wifi-dummies
 License: CLOSED
 Priority: optional
 
+
 Package: softcam-support
 Version: 2-r0
 Recommends: update-rc.d
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 86781e325fe9ddaea63d40cf64faf0b5
-Size: 888
+MD5Sum: 439aa016268952a1b166f1d4ae964250
+Size: 890
 Filename: softcam-support_2-r0_all.ipk
 Source: softcam-support.bb
 Description: Start, stop and select softcams.
 OE: softcam-support
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: tuxbox-common
-Version: 2+git1424+3acdd7e0+3acdd7e54b-3
+Version: 2+git1557+9b7ad0b0+9b7ad0bd6f-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: bd2b62d6087b87124d8360114e20e1e0
-Size: 70424
-Filename: tuxbox-common_2+git1424+3acdd7e0+3acdd7e54b-3_all.ipk
+MD5Sum: 06ca53756b18098ef5434573b135140d
+Size: 69488
+Filename: tuxbox-common_2+git1557+9b7ad0b0+9b7ad0bd6f-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: tzdata-africa
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 961e9c3c1abedf3e492ce367c3aeeb51
-Size: 4466
-Filename: tzdata-africa_2026b-r0_all.ipk
+MD5Sum: 96af62de6ce1e79ccf5b1daa7a177862
+Size: 3962
+Filename: tzdata-africa_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-americas
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b74e17dd5ed268c8d2cd37569e9d0b3a
-Size: 21860
-Filename: tzdata-americas_2026b-r0_all.ipk
+MD5Sum: 5d08c05840bb6b07c18c8b5cd99d7f58
+Size: 21884
+Filename: tzdata-americas_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-antarctica
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a322f4ac10593c7e042ae3b21ced8345
-Size: 2834
-Filename: tzdata-antarctica_2026b-r0_all.ipk
+MD5Sum: 9cdd1a68bb4fafd666ebc66997864a55
+Size: 2836
+Filename: tzdata-antarctica_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-arctic
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8a9dcd693ad1221d760e31081f0fbd0
-Size: 1144
-Filename: tzdata-arctic_2026b-r0_all.ipk
+MD5Sum: 3455766630de37536c9058264b2404bd
+Size: 1152
+Filename: tzdata-arctic_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-asia
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1aa1e2cd60a78f3b604e50242b6249c
-Size: 14044
-Filename: tzdata-asia_2026b-r0_all.ipk
+MD5Sum: ac032eb5cdf3ef4e1faebbe748ed895d
+Size: 14050
+Filename: tzdata-asia_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-atlantic
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 09a8293b6559c4e8ee9c211afe6ebff9
-Size: 3558
-Filename: tzdata-atlantic_2026b-r0_all.ipk
+MD5Sum: 4a71471e2241612644ee3958e8631630
+Size: 3564
+Filename: tzdata-atlantic_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-australia
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b022d8bd3394021daa4f4812f1d55dc3
-Size: 2702
-Filename: tzdata-australia_2026b-r0_all.ipk
+MD5Sum: 4dd1ce6dd0574ea291b8bb70bbaf66c3
+Size: 2710
+Filename: tzdata-australia_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-core
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5f82f7aef97a628b4a5facd21854b2a
-Size: 58034
-Filename: tzdata-core_2026b-r0_all.ipk
+MD5Sum: 15019cf5ec26ad61991bce5178595e7a
+Size: 57362
+Filename: tzdata-core_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-europe
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2996f9dab21a84070697e91aa1db8873
-Size: 8552
-Filename: tzdata-europe_2026b-r0_all.ipk
+MD5Sum: f7036f18d649c46930108782e89e48c2
+Size: 8560
+Filename: tzdata-europe_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-misc
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ad8d621082e681ea1be046e416c168c
-Size: 6882
-Filename: tzdata-misc_2026b-r0_all.ipk
+MD5Sum: c9caccb125fd5a452239594db9101350
+Size: 6894
+Filename: tzdata-misc_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-pacific
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 522b830134f3b27d5813e9e390c400f7
-Size: 4670
-Filename: tzdata-pacific_2026b-r0_all.ipk
+MD5Sum: d4f9c77f42b7a0819f77e961850130a5
+Size: 4682
+Filename: tzdata-pacific_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-posix
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 05a9c444a81061a85ae1bc581cc86b6b
-Size: 57094
-Filename: tzdata-posix_2026b-r0_all.ipk
+MD5Sum: 70276c8fd97dfceb3106b176300c0a9c
+Size: 56628
+Filename: tzdata-posix_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: tzdata-right
-Version: 2026b-r0
+Version: 2026c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97fc60931f0524dfbc3fd4d05cf95b5a
-Size: 58536
-Filename: tzdata-right_2026b-r0_all.ipk
+MD5Sum: ad5ef05ef2b64128ca3c0c7e5b0b25e1
+Size: 58048
+Filename: tzdata-right_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
 
+
 Package: tzdata
-Version: 2026b-r0
+Version: 2026c-r0
 Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific, tzdata-posix, tzdata-right
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55bfcba587331179f0056d2c8821c9bc
-Size: 976
-Filename: tzdata_2026b-r0_all.ipk
+MD5Sum: e9592b8ca000e3dca0761607cc0530cc
+Size: 980
+Filename: tzdata_2026c-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
 HomePage: http://www.iana.org/time-zones
-License: PD & BSD-3-Clause
+License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
+
 
 Package: update-rc.d
 Version: 0.8+git0+b8f9501050-r0
@@ -1904,49 +1969,53 @@ HomePage: http://github.com/philb/update-rc.d/
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: volatile-media
 Version: 3-r0
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 0eb825f47a9cc211fbf56c55014b41a9
-Size: 972
+MD5Sum: bdc42c45985cc21025b1fa5115271cdc
+Size: 974
 Filename: volatile-media_3-r0_all.ipk
 Source: volatile-media.bb
 Description: volatile-media version 3-r0
 OE: volatile-media
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: wireless-regdb-static
-Version: 2018.10.24-r0
+Version: 2026.09.03-r0
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66fd031e9e62b767c8b4a108bff76ea2
-Size: 3748
-Filename: wireless-regdb-static_2018.10.24-r0_all.ipk
-Source: wireless-regdb_2018.10.24.bb
+MD5Sum: 1946bdfdb84f6806ffe8e90fd52b83bf
+Size: 4474
+Filename: wireless-regdb-static_2026.09.03-r0_all.ipk
+Source: wireless-regdb_2026.09.03.bb
 Description: Wireless Central Regulatory Domain Database
 OE: wireless-regdb
-HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
 License: ISC
 Priority: optional
 
+
 Package: wireless-regdb
-Version: 2018.10.24-r0
+Version: 2026.09.03-r0
 Conflicts: wireless-regdb-static
 Suggests: crda
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 949e010b52e917aa6081df20e0912ad8
-Size: 3736
-Filename: wireless-regdb_2018.10.24-r0_all.ipk
-Source: wireless-regdb_2018.10.24.bb
+MD5Sum: 15b0a0f293e7657f4fd8bc9bf681d20d
+Size: 4700
+Filename: wireless-regdb_2026.09.03-r0_all.ipk
+Source: wireless-regdb_2026.09.03.bb
 Description: Wireless Central Regulatory Domain Database
 OE: wireless-regdb
-HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
 License: ISC
 Priority: optional
+
 
