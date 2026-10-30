@@ -1185,13 +1185,13 @@ Priority: optional
 
 
 Package: enigma2-timezones
-Version: git1029+a7a04f60+a7a04f6a41-r0
+Version: git1034+8153ef90+8153ef9c8d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6330153417c3b3c13e5cbab88861ac95
-Size: 7350
-Filename: enigma2-timezones_git1029+a7a04f60+a7a04f6a41-r0_all.ipk
+MD5Sum: bea2bc39e7c7de20f264abf1315208dc
+Size: 7348
+Filename: enigma2-timezones_git1034+8153ef90+8153ef9c8d-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
@@ -1714,14 +1714,14 @@ Priority: optional
 
 
 Package: tuxbox-common
-Version: 2+git1557+9b7ad0b0+9b7ad0bd6f-3
+Version: 2+git1570+b73e0780+b73e078b95-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 06ca53756b18098ef5434573b135140d
-Size: 69488
-Filename: tuxbox-common_2+git1557+9b7ad0b0+9b7ad0bd6f-3_all.ipk
+MD5Sum: 5a7455656990ecc02f958628968ba7cd
+Size: 69406
+Filename: tuxbox-common_2+git1570+b73e0780+b73e078b95-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common

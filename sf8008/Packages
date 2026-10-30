@@ -178,8 +178,8 @@ Version: 1.0-r0
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bac65ed332f3ece94e11d51ca4e5d72c
-Size: 874
+MD5Sum: a9ec58df031886ccc86ed9b0eddd0fbb
+Size: 910
 Filename: distro-feed-configs_1.0-r0_sf8008.ipk
 Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds
@@ -210,8 +210,8 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d4923e8a5085d42e66f431198d4ad710
-Size: 3532060
+MD5Sum: 7b37721914aa2bfbc27a7dafdc486440
+Size: 3532982
 Filename: enigma2-fonts_2020.10.17-r0_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -221,14 +221,14 @@ Priority: optional
 
 
 Package: enigma2-locale-ar
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fb154452d96d4684dfeb578bc1ebc440
+MD5Sum: 75e0570aba94550978ef57f3f8bba67f
 Size: 163242
-Filename: enigma2-locale-ar_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-ar_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ar
 OE: enigma2
@@ -237,14 +237,14 @@ Priority: optional
 
 
 Package: enigma2-locale-bg
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a5fe6a57b2b00f5333638c515f003870
+MD5Sum: 4881ad5dd7c6ec7e757eddb07ef7d424
 Size: 137828
-Filename: enigma2-locale-bg_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-bg_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: bg
 OE: enigma2
@@ -253,14 +253,14 @@ Priority: optional
 
 
 Package: enigma2-locale-ca
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3286c2ac862339a19f322782b203aa64
-Size: 120664
-Filename: enigma2-locale-ca_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 86dd88c084dad5a9d5437bba818f5a55
+Size: 120662
+Filename: enigma2-locale-ca_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ca
 OE: enigma2
@@ -269,14 +269,14 @@ Priority: optional
 
 
 Package: enigma2-locale-cs
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7b03a873598073373add3f76c14f60a4
-Size: 131604
-Filename: enigma2-locale-cs_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: d544fb4fd133d3b807a355210d5e1ce3
+Size: 131602
+Filename: enigma2-locale-cs_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: cs
 OE: enigma2
@@ -285,14 +285,14 @@ Priority: optional
 
 
 Package: enigma2-locale-da
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: cd8793d863c4372e0ade449dc479e465
-Size: 74988
-Filename: enigma2-locale-da_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 5d6d120ffa7f3ab8b6930263f70337a2
+Size: 74986
+Filename: enigma2-locale-da_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: da
 OE: enigma2
@@ -301,14 +301,14 @@ Priority: optional
 
 
 Package: enigma2-locale-de
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4697bd3a8f28f643bd81487180ec4094
-Size: 120556
-Filename: enigma2-locale-de_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 7ee26aaa000b7c4f6a50763b598cb43c
+Size: 120554
+Filename: enigma2-locale-de_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: de
 OE: enigma2
@@ -317,14 +317,14 @@ Priority: optional
 
 
 Package: enigma2-locale-el
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c4a77cfecce0e1612d0618599eff3c6b
+MD5Sum: 6645c0fd4c59ef4b5604c00e75e35a45
 Size: 133674
-Filename: enigma2-locale-el_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-el_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: el
 OE: enigma2
@@ -333,14 +333,14 @@ Priority: optional
 
 
 Package: enigma2-locale-en
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 329ba37ac5db0d3b5a65cfbe68191cf4
-Size: 2968
-Filename: enigma2-locale-en_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: a17fe7971f9de1b6ac34817159229c05
+Size: 2966
+Filename: enigma2-locale-en_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: en
 OE: enigma2
@@ -349,14 +349,14 @@ Priority: optional
 
 
 Package: enigma2-locale-es
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bc559fbd035ce496bb66834ea45b18e8
-Size: 116982
-Filename: enigma2-locale-es_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 77fa50f86f128734d2ef0a326d847b8d
+Size: 116980
+Filename: enigma2-locale-es_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: es
 OE: enigma2
@@ -365,14 +365,14 @@ Priority: optional
 
 
 Package: enigma2-locale-et
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1c8fa18b365236ce3c2aca0558118c37
-Size: 95098
-Filename: enigma2-locale-et_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 1d6f886d368664b88ee51cf9d4a52bd5
+Size: 95096
+Filename: enigma2-locale-et_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: et
 OE: enigma2
@@ -381,14 +381,14 @@ Priority: optional
 
 
 Package: enigma2-locale-fa
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f5975ad719aeaf22e74f6ae556968450
-Size: 30648
-Filename: enigma2-locale-fa_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: f3b0ea239d81ac6e2b3d825d2bd016fb
+Size: 30646
+Filename: enigma2-locale-fa_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fa
 OE: enigma2
@@ -397,14 +397,14 @@ Priority: optional
 
 
 Package: enigma2-locale-fi
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1fb93ca7c00a07f48d0bbc007899b11f
-Size: 90638
-Filename: enigma2-locale-fi_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 90e40c39259e9eadc4d163e45bec9630
+Size: 90636
+Filename: enigma2-locale-fi_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fi
 OE: enigma2
@@ -413,14 +413,14 @@ Priority: optional
 
 
 Package: enigma2-locale-fr
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2fdd58790e6c04d5fc2bf0697e0f3cd2
-Size: 133144
-Filename: enigma2-locale-fr_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: f9849ba520e00a9407ad739e7e92589f
+Size: 133142
+Filename: enigma2-locale-fr_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fr
 OE: enigma2
@@ -429,14 +429,14 @@ Priority: optional
 
 
 Package: enigma2-locale-fy
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 42ea3c0d210cc4a109075ebba50f5a41
-Size: 21202
-Filename: enigma2-locale-fy_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 408968aebe2589fd09e8f73a6bcb29d4
+Size: 21200
+Filename: enigma2-locale-fy_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: fy
 OE: enigma2
@@ -445,14 +445,14 @@ Priority: optional
 
 
 Package: enigma2-locale-gl
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4fe9ae219f86ba7b3f33fe25ec8e9966
-Size: 112144
-Filename: enigma2-locale-gl_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: e5e7d751d4212a05becefea0ec8b4e90
+Size: 112146
+Filename: enigma2-locale-gl_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: gl
 OE: enigma2
@@ -461,14 +461,14 @@ Priority: optional
 
 
 Package: enigma2-locale-he
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2583d65fc889ffeba70b1c732e04195f
-Size: 22050
-Filename: enigma2-locale-he_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: d2a9dd26aca50f568a261b428a42df87
+Size: 22048
+Filename: enigma2-locale-he_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: he
 OE: enigma2
@@ -477,14 +477,14 @@ Priority: optional
 
 
 Package: enigma2-locale-hr
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 696a0682accd22afcab2096544f2f564
-Size: 116046
-Filename: enigma2-locale-hr_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 0745823b9f5297d4c62c587e9b796c2c
+Size: 116044
+Filename: enigma2-locale-hr_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: hr
 OE: enigma2
@@ -493,14 +493,14 @@ Priority: optional
 
 
 Package: enigma2-locale-hu
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 95cd5bef74d362cdd3c3186be09ea336
-Size: 115262
-Filename: enigma2-locale-hu_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 86c7902d462c013c2f8f9e06d10c1ecc
+Size: 115260
+Filename: enigma2-locale-hu_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: hu
 OE: enigma2
@@ -509,14 +509,14 @@ Priority: optional
 
 
 Package: enigma2-locale-id
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ca85a1722ff84292fe7b41eb30f3b7c7
-Size: 95656
-Filename: enigma2-locale-id_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: d1a89714d2f153f6bed0982abf3597ba
+Size: 95654
+Filename: enigma2-locale-id_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: id
 OE: enigma2
@@ -525,14 +525,14 @@ Priority: optional
 
 
 Package: enigma2-locale-is
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1913f05a2a9178f18fe8119ba5f7064e
-Size: 28862
-Filename: enigma2-locale-is_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 5372cfc39c5c977d00d738ad582199f1
+Size: 28860
+Filename: enigma2-locale-is_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: is
 OE: enigma2
@@ -541,14 +541,14 @@ Priority: optional
 
 
 Package: enigma2-locale-it
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8095ebc9438341fcc63bc1e51fad2e1e
-Size: 110998
-Filename: enigma2-locale-it_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 1c35c73833c89098f77a023c6eef82b9
+Size: 110996
+Filename: enigma2-locale-it_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: it
 OE: enigma2
@@ -557,14 +557,14 @@ Priority: optional
 
 
 Package: enigma2-locale-ku
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7944ac883fd3c2a7e4261ad6fbf0188e
-Size: 40166
-Filename: enigma2-locale-ku_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: a9659b754fe251e8c5a32e5e68869d4c
+Size: 40164
+Filename: enigma2-locale-ku_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ku
 OE: enigma2
@@ -573,14 +573,14 @@ Priority: optional
 
 
 Package: enigma2-locale-lt
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0126fbdd05805fedd1c348665a06faa8
+MD5Sum: dade7126fa145b31b1dfe16a8ae86195
 Size: 119754
-Filename: enigma2-locale-lt_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-lt_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: lt
 OE: enigma2
@@ -589,14 +589,14 @@ Priority: optional
 
 
 Package: enigma2-locale-lv
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5d349c5d6be9d77adac2935bda81efb9
-Size: 125938
-Filename: enigma2-locale-lv_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 54447e4b83f4db0fc0827630a7e71a0d
+Size: 125936
+Filename: enigma2-locale-lv_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: lv
 OE: enigma2
@@ -621,14 +621,14 @@ Priority: optional
 
 
 Package: enigma2-locale-mk
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bd256d82ae1f2e285c1d731e87453fdb
-Size: 124348
-Filename: enigma2-locale-mk_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: a87c637abbdda4c723cbee3a0aee99c9
+Size: 124346
+Filename: enigma2-locale-mk_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: mk
 OE: enigma2
@@ -637,14 +637,14 @@ Priority: optional
 
 
 Package: enigma2-locale-nb
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d877d9cd4487b03c9ebedc19d96517f0
-Size: 124512
-Filename: enigma2-locale-nb_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: f60cbab572ca4f585abd0dfad43be24c
+Size: 124510
+Filename: enigma2-locale-nb_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: nb
 OE: enigma2
@@ -653,14 +653,14 @@ Priority: optional
 
 
 Package: enigma2-locale-nl
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5714629592adb0d82c4b8b5cb968e811
+MD5Sum: ddb21d2ac39ef197ae0492fdac123954
 Size: 131220
-Filename: enigma2-locale-nl_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-nl_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: nl
 OE: enigma2
@@ -669,14 +669,14 @@ Priority: optional
 
 
 Package: enigma2-locale-nn
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 436ab41433a6ece5e6fcb5f120d562ea
-Size: 57438
-Filename: enigma2-locale-nn_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 7f2ca8e4611f3a30000355d764645546
+Size: 57436
+Filename: enigma2-locale-nn_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: nn
 OE: enigma2
@@ -685,14 +685,14 @@ Priority: optional
 
 
 Package: enigma2-locale-pl
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9a5ae45f2e5bdfab5c961b019f3be268
-Size: 114100
-Filename: enigma2-locale-pl_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 678693c9975a4d30d206ec1c7bbd926b
+Size: 114098
+Filename: enigma2-locale-pl_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pl
 OE: enigma2
@@ -701,14 +701,14 @@ Priority: optional
 
 
 Package: enigma2-locale-pt-br
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 981fd3e012e30156723cfdbf8c7e7a9f
-Size: 57340
-Filename: enigma2-locale-pt-br_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: ce8a86b7e12db908b2b9995e37a652ec
+Size: 57338
+Filename: enigma2-locale-pt-br_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pt-br
 OE: enigma2
@@ -717,14 +717,14 @@ Priority: optional
 
 
 Package: enigma2-locale-pt
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 90e860dca2bf4c8b0d337d4c0810f256
-Size: 53504
-Filename: enigma2-locale-pt_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 5edd863ad3774fd24c84e1e2c7c687bf
+Size: 53502
+Filename: enigma2-locale-pt_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pt
 OE: enigma2
@@ -733,14 +733,14 @@ Priority: optional
 
 
 Package: enigma2-locale-ro
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ab74988771b084f6711c3086d9af30ba
-Size: 22446
-Filename: enigma2-locale-ro_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 7fd8c68cdabe453937cc52295b4ab2ba
+Size: 22444
+Filename: enigma2-locale-ro_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ro
 OE: enigma2
@@ -749,14 +749,14 @@ Priority: optional
 
 
 Package: enigma2-locale-ru
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1f5a63f86af96ff1a13c251905257dff
-Size: 139364
-Filename: enigma2-locale-ru_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: db11ed960f3964f098604b04a850f882
+Size: 139362
+Filename: enigma2-locale-ru_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: ru
 OE: enigma2
@@ -765,14 +765,14 @@ Priority: optional
 
 
 Package: enigma2-locale-sk
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c9a1ae85cc6fcd1a89ee064d82e40b99
-Size: 132140
-Filename: enigma2-locale-sk_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 74a43b70a2a87e207e8398472f2d318f
+Size: 132138
+Filename: enigma2-locale-sk_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sk
 OE: enigma2
@@ -781,14 +781,14 @@ Priority: optional
 
 
 Package: enigma2-locale-sl
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 72e667983c5ad1767056a31d6242f0c9
+MD5Sum: de0889988278266527ddf4ef0e48b6f6
 Size: 65520
-Filename: enigma2-locale-sl_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-sl_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sl
 OE: enigma2
@@ -797,14 +797,14 @@ Priority: optional
 
 
 Package: enigma2-locale-sr
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: efa243232ca96c1cbd8991ca4acb7d12
+MD5Sum: 2b89865120f7e9ab7c59206841648964
 Size: 28938
-Filename: enigma2-locale-sr_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-sr_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sr
 OE: enigma2
@@ -813,14 +813,14 @@ Priority: optional
 
 
 Package: enigma2-locale-sv
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ec3f3922b9cfa7ea6dc8e369fe0fd073
-Size: 76560
-Filename: enigma2-locale-sv_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 533b9717f07d8b848ff67ca9e29b5467
+Size: 76558
+Filename: enigma2-locale-sv_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: sv
 OE: enigma2
@@ -829,14 +829,14 @@ Priority: optional
 
 
 Package: enigma2-locale-th
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: aefdf50de67b495e97389eb33f1b5c70
-Size: 28502
-Filename: enigma2-locale-th_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 9d012c13f949110d0845b042adb95bbb
+Size: 28500
+Filename: enigma2-locale-th_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: th
 OE: enigma2
@@ -845,14 +845,14 @@ Priority: optional
 
 
 Package: enigma2-locale-tr
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7ff6f48599e80cdff6209f323cf1a008
+MD5Sum: dc2a953110672810283631f965138f6e
 Size: 73426
-Filename: enigma2-locale-tr_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-locale-tr_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: tr
 OE: enigma2
@@ -861,14 +861,14 @@ Priority: optional
 
 
 Package: enigma2-locale-uk
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e98627a69d736eaf803f515a284e681f
-Size: 138378
-Filename: enigma2-locale-uk_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: b4a79273b170e866de80a884ec1427e3
+Size: 138376
+Filename: enigma2-locale-uk_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: uk
 OE: enigma2
@@ -877,14 +877,14 @@ Priority: optional
 
 
 Package: enigma2-locale-vi
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 53736d9bc923dccce496c8e239d1b3d2
-Size: 113460
-Filename: enigma2-locale-vi_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 736e695d16936ea9605f22255d606f77
+Size: 113458
+Filename: enigma2-locale-vi_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: vi
 OE: enigma2
@@ -893,14 +893,14 @@ Priority: optional
 
 
 Package: enigma2-locale-zh-cn
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c413c05752b237d13eec1c6b5d3a37b3
-Size: 123006
-Filename: enigma2-locale-zh-cn_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 6898c4afdaee5bf52becf27994b3d509
+Size: 123004
+Filename: enigma2-locale-zh-cn_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: zh-cn
 OE: enigma2
@@ -909,14 +909,14 @@ Priority: optional
 
 
 Package: enigma2-locale-zh-hk
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dedea8c105594fd96b52f66a4461e0e6
-Size: 27356
-Filename: enigma2-locale-zh-hk_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 32581f081b41c43085fb51f939e9c72b
+Size: 27354
+Filename: enigma2-locale-zh-hk_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: zh-hk
 OE: enigma2
@@ -925,13 +925,13 @@ Priority: optional
 
 
 Package: enigma2-meta
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ba43f9ec27f1b2eb67e90b1e001a5db7
-Size: 3336
-Filename: enigma2-meta_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 9ce4ba6e7afdcba983be472bd38bda57
+Size: 3222
+Filename: enigma2-meta_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -940,13 +940,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-aihdcontroler
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bb5eb8384956c3a39a3974e0f3db4b52
-Size: 436666
-Filename: enigma2-plugin-extensions-aihdcontroler_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 7862c91d50eb41c5290f6c51d05ab586
+Size: 436662
+Filename: enigma2-plugin-extensions-aihdcontroler_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-aihdcontroler
 OE: enigma2-plugins
@@ -955,13 +955,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-antiscrollbar
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 44015464249448caf70078ed0891c568
-Size: 15554
-Filename: enigma2-plugin-extensions-antiscrollbar_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 168bdbc8f0216c81ec117f12fa6d8339
+Size: 15552
+Filename: enigma2-plugin-extensions-antiscrollbar_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-antiscrollbar
 OE: enigma2-plugins
@@ -970,14 +970,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-ardmediathek
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-requests, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2d500789193dcd568a6f4c41757497ff
+MD5Sum: 261b81cf59761858681c65579593ffea
 Size: 74602
-Filename: enigma2-plugin-extensions-ardmediathek_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-ardmediathek_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ardmediathek
 OE: enigma2-plugins
@@ -986,15 +986,15 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-audiosync
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Replaces: enigma2-plugin-extensions-ac3lipsync
 Conflicts: enigma2-plugin-extensions-ac3lipsync
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 22e99efe6f1a8cef01f9c4c8caa222d8
-Size: 70190
-Filename: enigma2-plugin-extensions-audiosync_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 35aef4bd0abea99b96f0768135a5ac64
+Size: 70894
+Filename: enigma2-plugin-extensions-audiosync_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-audiosync
 OE: enigma2-plugins
@@ -1003,14 +1003,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-autotimer
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-systemplugins-mphelp, python3-codecs, python3-difflib, python3-xml
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2ad308cd01fcb0e70de8fbb9945323df
-Size: 442792
-Filename: enigma2-plugin-extensions-autotimer_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 9c79b8eaba27f5c310853b007bcc2c85
+Size: 448928
+Filename: enigma2-plugin-extensions-autotimer_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-autotimer
 OE: enigma2-plugins
@@ -1019,13 +1019,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-babelzapper
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ac81d732da561499e39669be90b32cc8
-Size: 26036
-Filename: enigma2-plugin-extensions-babelzapper_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: fd6eac83cb2d445a9cfdfd1c8ff9a688
+Size: 26034
+Filename: enigma2-plugin-extensions-babelzapper_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-babelzapper
 OE: enigma2-plugins
@@ -1034,14 +1034,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-birthdayreminder
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 73b026714ec4ffb5a59ff1c4010fc572
+MD5Sum: 4a36880ccd79bc9bf202a66b8e7b1d0e
 Size: 40182
-Filename: enigma2-plugin-extensions-birthdayreminder_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-birthdayreminder_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-birthdayreminder
 OE: enigma2-plugins
@@ -1050,14 +1050,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-bonjour
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: avahi-daemon
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b0a8134a3b48a7bad5e897f1d7726631
-Size: 10488
-Filename: enigma2-plugin-extensions-bonjour_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: f47dad94ffd4c3ece1b243d994bee57b
+Size: 10486
+Filename: enigma2-plugin-extensions-bonjour_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-bonjour
 OE: enigma2-plugins
@@ -1066,14 +1066,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-btdevicesmanager
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b9d4605799712d5efe74ea98fe83c82f
-Size: 35604
-Filename: enigma2-plugin-extensions-btdevicesmanager_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 675ef5844c928b5e0e02d9c6c471b922
+Size: 35598
+Filename: enigma2-plugin-extensions-btdevicesmanager_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-btdevicesmanager
 OE: enigma2-plugins
@@ -1082,14 +1082,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-cdinfo
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: libcddb (>= 1.3.0), libcdio21 (>= 0.80)
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 95215839cb01cacb4b8ef0e9dc17b960
-Size: 15410
-Filename: enigma2-plugin-extensions-cdinfo_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 289fe1d4f1f44da91d55ec5236ce21f9
+Size: 15408
+Filename: enigma2-plugin-extensions-cdinfo_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-cdinfo
 OE: enigma2-plugins
@@ -1114,14 +1114,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: aio-grab
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 11020a6005f7b44cd4f8cc42146539a1
-Size: 20836
-Filename: enigma2-plugin-extensions-cutlisteditor_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 3180f04cadf9826e8bdab952182116b9
+Size: 20834
+Filename: enigma2-plugin-extensions-cutlisteditor_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -1130,15 +1130,15 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dreamexplorer
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Recommends: gstreamer1.0-plugins-good-flv
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7efced48a4dec6ab67eec0fb1d2d4248
-Size: 96364
-Filename: enigma2-plugin-extensions-dreamexplorer_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 1fe98df3dfafd47eec056aea382e1ba8
+Size: 96352
+Filename: enigma2-plugin-extensions-dreamexplorer_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreamexplorer
 OE: enigma2-plugins
@@ -1147,13 +1147,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dreamirc
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 345e99b71ab0fbc2f10f3db734a7dbf7
-Size: 107160
-Filename: enigma2-plugin-extensions-dreamirc_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 03771e03b6470afb8e2e5c825b7ffd3e
+Size: 107158
+Filename: enigma2-plugin-extensions-dreamirc_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreamirc
 OE: enigma2-plugins
@@ -1162,14 +1162,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dreammediathek
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 99307da94303815fad2e0b81dc13e51f
-Size: 18250
-Filename: enigma2-plugin-extensions-dreammediathek_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 4f3a5e1d9dc7640554275f2f58d5535a
+Size: 18246
+Filename: enigma2-plugin-extensions-dreammediathek_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreammediathek
 OE: enigma2-plugins
@@ -1178,14 +1178,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dvdbackup
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: dvdbackup, libdvdread
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 507c321d6daa38ea86afbcae99e60100
-Size: 34992
-Filename: enigma2-plugin-extensions-dvdbackup_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 88a17410a955c3554c084ee6d0268f2e
+Size: 34996
+Filename: enigma2-plugin-extensions-dvdbackup_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dvdbackup
 OE: enigma2-plugins
@@ -1210,14 +1210,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, replex
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a1b19c014519fd2e79ce12f79150bfe6
-Size: 847980
-Filename: enigma2-plugin-extensions-dvdburn_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 4098e0ad4ab85893525a9d74235a83a9
+Size: 847984
+Filename: enigma2-plugin-extensions-dvdburn_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -1242,13 +1242,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dee548c5f083a6408177e7e8d3f1353a
-Size: 3848
-Filename: enigma2-plugin-extensions-dvdplayer_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 0569e62d359bc95a9bd14d68a8525ddd
+Size: 3846
+Filename: enigma2-plugin-extensions-dvdplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -1257,13 +1257,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-dyndns
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6c8596c638aaafd7c95ebb563c4566b7
-Size: 11882
-Filename: enigma2-plugin-extensions-dyndns_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 3ea126ac388538e3e1c9790e51217e70
+Size: 11880
+Filename: enigma2-plugin-extensions-dyndns_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dyndns
 OE: enigma2-plugins
@@ -1272,13 +1272,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-easyinfo
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7810cc1e77dc9478019d67331ee5c7d9
-Size: 54964
-Filename: enigma2-plugin-extensions-easyinfo_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 825b1e317fbdbf5e6ee61baf74be0baf
+Size: 54962
+Filename: enigma2-plugin-extensions-easyinfo_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-easyinfo
 OE: enigma2-plugins
@@ -1287,13 +1287,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-easymedia
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9e28e5fbb1d78739d18730a4d8a4ec98
-Size: 97194
-Filename: enigma2-plugin-extensions-easymedia_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: d7bffdbc3a0ba6973db066542e194565
+Size: 97192
+Filename: enigma2-plugin-extensions-easymedia_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-easymedia
 OE: enigma2-plugins
@@ -1302,13 +1302,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-eibox
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ee88a5ef2412cf9d462460088dd40660
-Size: 79050
-Filename: enigma2-plugin-extensions-eibox_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 81e54aa0fa36762bd7f0c27e5b5c4b73
+Size: 79044
+Filename: enigma2-plugin-extensions-eibox_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-eibox
 OE: enigma2-plugins
@@ -1317,14 +1317,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-emailclient
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-email, python3-pyopenssl, python3-shell, python3-twisted-mail, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: de3cd127b6df6b73b04b5664b9500e9c
-Size: 71650
-Filename: enigma2-plugin-extensions-emailclient_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: e2b2c99b6a7a4387daf677739ad288a4
+Size: 71632
+Filename: enigma2-plugin-extensions-emailclient_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-emailclient
 OE: enigma2-plugins
@@ -1333,14 +1333,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-epgrefresh
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-systemplugins-mphelp, python3-codecs, python3-difflib, python3-xml
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7ea35e39aac0a6310244f903f6e28150
-Size: 143690
-Filename: enigma2-plugin-extensions-epgrefresh_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 4db8f3d895c66f5f61909f587e48ea62
+Size: 146782
+Filename: enigma2-plugin-extensions-epgrefresh_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgrefresh
 OE: enigma2-plugins
@@ -1349,13 +1349,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-epgsearch
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 32374c5d0b4270bc078c0acdc24abfc4
-Size: 99658
-Filename: enigma2-plugin-extensions-epgsearch_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: ac984bb296772a9aacc4a94308e2d578
+Size: 101464
+Filename: enigma2-plugin-extensions-epgsearch_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgsearch
 OE: enigma2-plugins
@@ -1381,14 +1381,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-fancontrol2
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: hdparm, smartmontools
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2e9cbb1d4b244660ef58b898b0ca6cd7
-Size: 141952
-Filename: enigma2-plugin-extensions-fancontrol2_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: d4179766de49e1ee045a08a384043eec
+Size: 141954
+Filename: enigma2-plugin-extensions-fancontrol2_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fancontrol2
 OE: enigma2-plugins
@@ -1397,13 +1397,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-filebrowser
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 502e18cb3fe4a66455a8a22007fc9fb6
-Size: 24566
-Filename: enigma2-plugin-extensions-filebrowser_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: eb109841aefe4976736523bdd7add5a5
+Size: 24564
+Filename: enigma2-plugin-extensions-filebrowser_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-filebrowser
 OE: enigma2-plugins
@@ -1428,14 +1428,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-filecommander
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-puremagic
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9e29dd7e5ba91291b017befb7c3272b0
-Size: 91252
-Filename: enigma2-plugin-extensions-filecommander_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: c7c0b6e3c79545ede2a7aa023dcaa19d
+Size: 91250
+Filename: enigma2-plugin-extensions-filecommander_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-filecommander
 OE: enigma2
@@ -1444,13 +1444,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-fstabeditor
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 28d0cd49772767efb9ba7455d90eec10
-Size: 24050
-Filename: enigma2-plugin-extensions-fstabeditor_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: db7cb7c655fc6776c047144517e905de
+Size: 24048
+Filename: enigma2-plugin-extensions-fstabeditor_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fstabeditor
 OE: enigma2-plugins
@@ -1459,14 +1459,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-ftpbrowser
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-shell, python3-twisted-protocols
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a01b615da796f46c4513cbe1a7d404a6
-Size: 56190
-Filename: enigma2-plugin-extensions-ftpbrowser_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 43460957ceffb52444c82608c44cc897
+Size: 56196
+Filename: enigma2-plugin-extensions-ftpbrowser_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ftpbrowser
 OE: enigma2-plugins
@@ -1491,13 +1491,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3387ac86930a4af15ae61f60d73948c7
-Size: 46892
-Filename: enigma2-plugin-extensions-graphmultiepg_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: a9dbb3114cc1fa9152f2445da0be0865
+Size: 46888
+Filename: enigma2-plugin-extensions-graphmultiepg_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
@@ -1506,14 +1506,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-growlee
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-protocols
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 65b07dd2e822eb2c6f236d8de05afdfe
-Size: 27268
-Filename: enigma2-plugin-extensions-growlee_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: b5aedba41c34d79094debe436e016e48
+Size: 27266
+Filename: enigma2-plugin-extensions-growlee_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-growlee
 OE: enigma2-plugins
@@ -1522,14 +1522,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-httpproxy
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ebbd023e4922c865eb90472064773719
+MD5Sum: c3288a8e8c0240c26fa2e4038dfe6a80
 Size: 7800
-Filename: enigma2-plugin-extensions-httpproxy_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-httpproxy_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-httpproxy
 OE: enigma2-plugins
@@ -1538,14 +1538,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-imdb
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-requests, python3-six, python3-twisted-core
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e406753b1463e306cd8180a030a66234
-Size: 91830
-Filename: enigma2-plugin-extensions-imdb_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: f1fb78e945e62911ff445b47aa8b9f99
+Size: 93428
+Filename: enigma2-plugin-extensions-imdb_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-imdb
 OE: enigma2-plugins
@@ -1554,13 +1554,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-kiddytimer
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5a767d9857438315cb1506dde597a3ce
-Size: 117986
-Filename: enigma2-plugin-extensions-kiddytimer_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: d53c30582c38e20c588273606d919cf1
+Size: 118490
+Filename: enigma2-plugin-extensions-kiddytimer_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-kiddytimer
 OE: enigma2-plugins
@@ -1569,13 +1569,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-letterbox
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e6f376518a8ffdb13d643a030718e383
-Size: 3326
-Filename: enigma2-plugin-extensions-letterbox_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: b54e042d6fb9480863e87fd63cd6c353
+Size: 3320
+Filename: enigma2-plugin-extensions-letterbox_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-letterbox
 OE: enigma2-plugins
@@ -1584,14 +1584,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-logomanager
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4c6ccb1a7519d0939296ce228b0e88f0
-Size: 22378
-Filename: enigma2-plugin-extensions-logomanager_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 87e5d813e486dc8bd7b42247d3ece41b
+Size: 22382
+Filename: enigma2-plugin-extensions-logomanager_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-logomanager
 OE: enigma2-plugins
@@ -1600,14 +1600,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-mediadownloader
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-netclient, python3-shell, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f036eda26ef4a265087c1089e0a4b16a
-Size: 23320
-Filename: enigma2-plugin-extensions-mediadownloader_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: b775212418f14735f86e7d312c7cbd45
+Size: 23334
+Filename: enigma2-plugin-extensions-mediadownloader_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mediadownloader
 OE: enigma2-plugins
@@ -1632,13 +1632,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 28f348d944357e40599647c367720f78
+MD5Sum: 26394c2bb43f1ede935a8097fc337fc7
 Size: 39112
-Filename: enigma2-plugin-extensions-mediaplayer_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-mediaplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -1663,13 +1663,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3d1f083da6eee873c7d397b3460d9f52
+MD5Sum: 84862ea3e63503414a75536d2e42ecab
 Size: 6122
-Filename: enigma2-plugin-extensions-mediascanner_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-mediascanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
@@ -1678,14 +1678,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-mediathekviewweb
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-requests, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e9c9b60a881a74ba8c70a1b5f1dfe6a8
+MD5Sum: 468239edc549147cce8efecaec975941
 Size: 69790
-Filename: enigma2-plugin-extensions-mediathekviewweb_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-mediathekviewweb_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mediathekviewweb
 OE: enigma2-plugins
@@ -1694,13 +1694,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-merlinepg
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: cef8866a038ff7319ff16100f3512028
-Size: 153750
-Filename: enigma2-plugin-extensions-merlinepg_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: d8a82a452f52143b33044047f34a5500
+Size: 153746
+Filename: enigma2-plugin-extensions-merlinepg_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinepg
 OE: enigma2-plugins
@@ -1709,14 +1709,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-merlinepgcenter
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c5083dc82677e90a4e3e713da8f36379
-Size: 134768
-Filename: enigma2-plugin-extensions-merlinepgcenter_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 4634239d61024e4b2d61a99168140671
+Size: 134784
+Filename: enigma2-plugin-extensions-merlinepgcenter_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinepgcenter
 OE: enigma2-plugins
@@ -1725,14 +1725,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-merlinmusicplayer
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7d0bbc3dfcca45fc048b81eca63cac0b
+MD5Sum: cfac42207a13bd6ccb2311d215ed1cd1
 Size: 1045794
-Filename: enigma2-plugin-extensions-merlinmusicplayer_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-merlinmusicplayer_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinmusicplayer
 OE: enigma2-plugins
@@ -1741,14 +1741,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-mosaic
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: aio-grab (>= 0.8cvs20081209)
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 86e3c092dccc6f3f2013f9ca009bc199
+MD5Sum: e1c87f05934b564ca79d9fa4c06ec91c
 Size: 18138
-Filename: enigma2-plugin-extensions-mosaic_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-mosaic_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mosaic
 OE: enigma2-plugins
@@ -1757,13 +1757,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-movieretitle
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: addd67b426efcd84242c4beb521027b7
-Size: 19780
-Filename: enigma2-plugin-extensions-movieretitle_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 3e50a8963c60298624430e60b071b974
+Size: 19776
+Filename: enigma2-plugin-extensions-movieretitle_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-movieretitle
 OE: enigma2-plugins
@@ -1772,13 +1772,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-movietagger
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b821706d50af074f1a5de09c1cbc9049
-Size: 16362
-Filename: enigma2-plugin-extensions-movietagger_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 7c7e1efd8cb50f5ec5e06fb18cb8eb5f
+Size: 16366
+Filename: enigma2-plugin-extensions-movietagger_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-movietagger
 OE: enigma2-plugins
@@ -1787,13 +1787,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-multirc
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6113508ef32e3685f2dc9dd04f1dc0c5
-Size: 6248
-Filename: enigma2-plugin-extensions-multirc_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 9d5d8c2153cffe1e95769f03d5e3f0df
+Size: 6246
+Filename: enigma2-plugin-extensions-multirc_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-multirc
 OE: enigma2-plugins
@@ -1802,14 +1802,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-ncidclient
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 39a97fa22efe88b6fd537996ad282eb6
-Size: 154258
-Filename: enigma2-plugin-extensions-ncidclient_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 43d57ca3832f6502906c4d8161b9d6b5
+Size: 154260
+Filename: enigma2-plugin-extensions-ncidclient_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ncidclient
 OE: enigma2-plugins
@@ -1818,13 +1818,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-netcaster
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dd08f1fc62556706665d58df807eb0f2
+MD5Sum: 509f8b1eff9566bd7b57be967c594e4a
 Size: 34094
-Filename: enigma2-plugin-extensions-netcaster_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-netcaster_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-netcaster
 OE: enigma2-plugins
@@ -1833,14 +1833,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-netzkino
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-requests
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 71bf694e65357cd62ab05f527b342dea
-Size: 14028
-Filename: enigma2-plugin-extensions-netzkino_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 344435e4e90e4c591bab5761c7c79154
+Size: 14026
+Filename: enigma2-plugin-extensions-netzkino_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-netzkino
 OE: enigma2-plugins
@@ -1849,14 +1849,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-ofdb
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c9bbffa056adf398beaeea985faa7f5b
-Size: 37442
-Filename: enigma2-plugin-extensions-ofdb_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 98e529168fed3ca6ccc42b0e950ea6e9
+Size: 37422
+Filename: enigma2-plugin-extensions-ofdb_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ofdb
 OE: enigma2-plugins
@@ -1880,15 +1880,15 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-openwebif
-Version: 0.0-364-g49eb4aa-r0
+Version: 0.0-371-gdf3b348-r0
 Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-twisted-web, python3-unixadmin
 Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72588bcd95bbff87aa8b48d2d099255f
-Size: 2331774
-Filename: enigma2-plugin-extensions-openwebif_0.0-364-g49eb4aa-r0_sf8008.ipk
+MD5Sum: ab52aa4e29d5a4bfa57d3c954b16f9f9
+Size: 2335506
+Filename: enigma2-plugin-extensions-openwebif_0.0-371-gdf3b348-r0_sf8008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
 OE: enigma2-plugin-extensions-openwebif
@@ -1897,14 +1897,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-orfat
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-extensions-vlcplayer, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 85a5236821bc6ecf184d16f66900f7e4
-Size: 25160
-Filename: enigma2-plugin-extensions-orfat_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: e6664ec76e3e31633c95bd057b19ed1b
+Size: 25152
+Filename: enigma2-plugin-extensions-orfat_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfat
 OE: enigma2-plugins
@@ -1913,13 +1913,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-orfteletext
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 581d3712e0f81225795bea6827adc571
+MD5Sum: 9be6c3c6cff7c89d759df989fc9d5c18
 Size: 9218
-Filename: enigma2-plugin-extensions-orfteletext_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-orfteletext_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfteletext
 OE: enigma2-plugins
@@ -1928,14 +1928,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-partnerbox
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c566bf0f92076fd3077fbb39619fa644
-Size: 210766
-Filename: enigma2-plugin-extensions-partnerbox_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 709ad79a7a149a4c45edebbcb89b6f0a
+Size: 223168
+Filename: enigma2-plugin-extensions-partnerbox_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-partnerbox
 OE: enigma2-plugins
@@ -1944,13 +1944,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-permanentclock
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: cc8d5c12ac5ab6c6003e76703001b4fd
-Size: 44490
-Filename: enigma2-plugin-extensions-permanentclock_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 4ca6093beb79405544c2a2c7d0f705fa
+Size: 44794
+Filename: enigma2-plugin-extensions-permanentclock_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-permanentclock
 OE: enigma2-plugins
@@ -1975,13 +1975,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 22e4bf4a36da95d2cfcea08ee643a7f4
+MD5Sum: e4f872ce487bb6df84b92b6503c8b9de
 Size: 32018
-Filename: enigma2-plugin-extensions-pictureplayer_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-pictureplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -1990,14 +1990,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-porncenter
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0090a064422350d62e7be817cf10e6dc
+MD5Sum: b39424bc25b682a8fdf838044ec55c08
 Size: 110490
-Filename: enigma2-plugin-extensions-porncenter_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-porncenter_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-porncenter
 OE: enigma2-plugins
@@ -2006,14 +2006,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-primetimemanager
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f2981c8c7c9961080ed60e9034945a20
-Size: 135584
-Filename: enigma2-plugin-extensions-primetimemanager_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 9f2b1138f3fc8604139f1be9c88dc8fc
+Size: 135588
+Filename: enigma2-plugin-extensions-primetimemanager_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-primetimemanager
 OE: enigma2-plugins
@@ -2022,13 +2022,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-reconstructapsc
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b7169e9f3f28f023b00b1dcbb5323631
-Size: 8260
-Filename: enigma2-plugin-extensions-reconstructapsc_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: afbb5d9e380d48d2b10f260f5867608b
+Size: 8248
+Filename: enigma2-plugin-extensions-reconstructapsc_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-reconstructapsc
 OE: enigma2-plugins
@@ -2037,13 +2037,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-seekbar
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4ed9f3f14a9f88b9c0001e94187185ac
-Size: 15474
-Filename: enigma2-plugin-extensions-seekbar_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 8149ffe9f7ad188765731da77661bb19
+Size: 15470
+Filename: enigma2-plugin-extensions-seekbar_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-seekbar
 OE: enigma2-plugins
@@ -2052,14 +2052,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-shoutcast
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-requests, python3-treq, streamripper
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 61a2f4341f0c5d953cd7b25c638320b6
-Size: 67260
-Filename: enigma2-plugin-extensions-shoutcast_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: bc2e404b4c000dbc2e29d2adf8d8d4b9
+Size: 67258
+Filename: enigma2-plugin-extensions-shoutcast_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-shoutcast
 OE: enigma2-plugins
@@ -2068,13 +2068,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-showclock
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 748bad163cbfd31875aeda6c47c9a8e4
+MD5Sum: 80b02e23608664550b0a9acbd9340ad1
 Size: 21998
-Filename: enigma2-plugin-extensions-showclock_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-showclock_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-showclock
 OE: enigma2-plugins
@@ -2083,14 +2083,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-simplerss
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-extensions-mediadownloader, python3-codecs, python3-html, python3-requests, python3-twisted-web, python3-xml
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 390a108d50ea250aac2cac4ae09f1aa9
-Size: 69204
-Filename: enigma2-plugin-extensions-simplerss_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 2886f1574a42517ed0f190bd47ee14cd
+Size: 69424
+Filename: enigma2-plugin-extensions-simplerss_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-simplerss
 OE: enigma2-plugins
@@ -2115,14 +2115,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), libxml2 (>= 2.15.4)
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9f9cfd7c99c8676832ebb6e88b8334e3
+MD5Sum: 8c5b38c1a44a66376659d0ae45420efe
 Size: 17054
-Filename: enigma2-plugin-extensions-socketmmi_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-socketmmi_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -2131,14 +2131,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-srfmediathek
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-requests, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ecc2288a82746b228aa09bd76f87e680
+MD5Sum: 0bb37400a143e3739150ee8a29170279
 Size: 61032
-Filename: enigma2-plugin-extensions-srfmediathek_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-srfmediathek_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-srfmediathek
 OE: enigma2-plugins
@@ -2163,14 +2163,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-streamlinkwrapper
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: streamlink
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fbb2f37caa65f53cca968c6f7cd297a5
-Size: 2200
-Filename: enigma2-plugin-extensions-streamlinkwrapper_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: b39b0ba730c29955bbff4d63a2e517fb
+Size: 2194
+Filename: enigma2-plugin-extensions-streamlinkwrapper_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for streamlink url scheme in bouquet list.
 OE: enigma2
@@ -2179,14 +2179,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-svdrp
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-protocols
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a644d9bd653fbb224782abd33cc6cfc0
-Size: 20724
-Filename: enigma2-plugin-extensions-svdrp_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: b2c9d4d490b94bdd3e7d4e6178db3a2f
+Size: 20722
+Filename: enigma2-plugin-extensions-svdrp_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-svdrp
 OE: enigma2-plugins
@@ -2195,13 +2195,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-tageditor
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d29ad93931d0e17f67a1904592695652
-Size: 19186
-Filename: enigma2-plugin-extensions-tageditor_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 8cccda77dc6cd8df4e45d498a55321be
+Size: 19152
+Filename: enigma2-plugin-extensions-tageditor_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-tageditor
 OE: enigma2-plugins
@@ -2210,14 +2210,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-trafficinfo
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0755333a4aae8bd192e8630fbfd8ac00
-Size: 14186
-Filename: enigma2-plugin-extensions-trafficinfo_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: b7c113b5f4e669e047ccae5cb41ec164
+Size: 14184
+Filename: enigma2-plugin-extensions-trafficinfo_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-trafficinfo
 OE: enigma2-plugins
@@ -2226,15 +2226,15 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-transmission
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: transmission, transmission-client
 Recommends: transmission, transmission-client
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3be8f9ed424fe67409799b7a03a4a819
-Size: 15970
-Filename: enigma2-plugin-extensions-transmission_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 87b7d22572b12d98db413019d62e8710
+Size: 15966
+Filename: enigma2-plugin-extensions-transmission_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-transmission
 OE: enigma2-plugins
@@ -2243,14 +2243,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-tvcharts
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6dd3bbf44300e952b3795dba06965477
-Size: 20844
-Filename: enigma2-plugin-extensions-tvcharts_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 4736dbd92d6fe1f54b2f7f7718905a4c
+Size: 20842
+Filename: enigma2-plugin-extensions-tvcharts_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-tvcharts
 OE: enigma2-plugins
@@ -2259,14 +2259,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-unwetterinfo
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a63cdf979c48915794734a905faa71a1
-Size: 59438
-Filename: enigma2-plugin-extensions-unwetterinfo_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 6a15a02f746d62c9bb5f9ff37059edd6
+Size: 59436
+Filename: enigma2-plugin-extensions-unwetterinfo_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-unwetterinfo
 OE: enigma2-plugins
@@ -2275,13 +2275,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-valixdcontrol
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 54ce141acda9350a4105f7b7341a5440
-Size: 82036
-Filename: enigma2-plugin-extensions-valixdcontrol_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 1662a3014816de42b40f48a729fe3e58
+Size: 82028
+Filename: enigma2-plugin-extensions-valixdcontrol_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-valixdcontrol
 OE: enigma2-plugins
@@ -2290,14 +2290,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-virtualzap
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d9159515114925eca75a711dcffe81af
-Size: 71124
-Filename: enigma2-plugin-extensions-virtualzap_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: e6609ca1f75126ae5c78966c7996d971
+Size: 71122
+Filename: enigma2-plugin-extensions-virtualzap_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-virtualzap
 OE: enigma2-plugins
@@ -2306,13 +2306,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-vlcplayer
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b99af49b62438914936b242a79c5b2b6
-Size: 83142
-Filename: enigma2-plugin-extensions-vlcplayer_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 82a4e0b11aba06c373edd78b2e16782a
+Size: 83814
+Filename: enigma2-plugin-extensions-vlcplayer_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-vlcplayer
 OE: enigma2-plugins
@@ -2321,14 +2321,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-webcamviewer
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-shell, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8b12fff751ca0c6a358d18f6b0b2920c
-Size: 59396
-Filename: enigma2-plugin-extensions-webcamviewer_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 870a405a82e2ccfacfb6f9d833be89c3
+Size: 59394
+Filename: enigma2-plugin-extensions-webcamviewer_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-webcamviewer
 OE: enigma2-plugins
@@ -2337,13 +2337,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-werbezapper
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 138ea88a17ce894ab34b3b37cce8be21
-Size: 44426
-Filename: enigma2-plugin-extensions-werbezapper_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: d849ca85df63f4aeb5fc90e95bddfdbd
+Size: 45318
+Filename: enigma2-plugin-extensions-werbezapper_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-werbezapper
 OE: enigma2-plugins
@@ -2368,14 +2368,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-ytdlpwrapper
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-yt-dlp
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ea4dfb94677f74aa67520b215327656c
+MD5Sum: bea222b5cfc181e8a8f730f8a5ef9b6a
 Size: 2562
-Filename: enigma2-plugin-extensions-ytdlpwrapper_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-ytdlpwrapper_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for YT-DLP url scheme in bouquet list.
 OE: enigma2
@@ -2400,14 +2400,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-ytdlwrapper
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-youtube-dl
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 28a132eb0df19d9c86501f3911ea6287
-Size: 2282
-Filename: enigma2-plugin-extensions-ytdlwrapper_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 68e72790b918ebddd315a78b68b51786
+Size: 2280
+Filename: enigma2-plugin-extensions-ytdlwrapper_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for Youtube-DL url scheme in bouquet list.
 OE: enigma2
@@ -2416,13 +2416,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-zapstatistic
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 87836bc3af7c3e0ee9c80aa83a7806f2
+MD5Sum: c85913be7cc86656b3b51889bc2ea720
 Size: 19380
-Filename: enigma2-plugin-extensions-zapstatistic_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-extensions-zapstatistic_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zapstatistic
 OE: enigma2-plugins
@@ -2431,14 +2431,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-zdfmediathek
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-requests, python3-twisted-web
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4ef3b17ae8314d2a86c2b0c0e23bdf1d
-Size: 62170
-Filename: enigma2-plugin-extensions-zdfmediathek_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 090a35168dd9a5983f70109e8c19fdbc
+Size: 62164
+Filename: enigma2-plugin-extensions-zdfmediathek_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zdfmediathek
 OE: enigma2-plugins
@@ -2447,14 +2447,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-automaticcleanup
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d6424f2fbfc9e8fba0ec568bbdc9fd02
+MD5Sum: 6aa57e8b688e68dc9c5caad50a41bb8f
 Size: 24418
-Filename: enigma2-plugin-systemplugins-automaticcleanup_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-automaticcleanup_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-automaticcleanup
 OE: enigma2-plugins
@@ -2463,14 +2463,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-automaticvolumeadjustment
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: cdcd6c5e61dec5ebc9827dc64355be3d
-Size: 34352
-Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 3c97ea4a290d4a0a7c0062d12a746e5a
+Size: 34354
+Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-automaticvolumeadjustment
 OE: enigma2-plugins
@@ -2479,14 +2479,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-autoresolution
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 015da4c1b86472544c85e436be306ca8
-Size: 47124
-Filename: enigma2-plugin-systemplugins-autoresolution_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 240de77bbf35373eb2003642eb2170e1
+Size: 47122
+Filename: enigma2-plugin-systemplugins-autoresolution_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-autoresolution
 OE: enigma2-plugins
@@ -2495,15 +2495,15 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-blindscan
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Recommends: virtual/blindscan-dvbs
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d2a11618c82efb03352069ea77185787
-Size: 144878
-Filename: enigma2-plugin-systemplugins-blindscan_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: e92ab2c9247ccba532e8431c4fe2006e
+Size: 147578
+Filename: enigma2-plugin-systemplugins-blindscan_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-blindscan
 OE: enigma2-plugins
@@ -2528,13 +2528,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 82c5bc74387deb791ac02ed015f8473d
+MD5Sum: 347a7dc51178dac8a2291d5fbe1f93bc
 Size: 9828
-Filename: enigma2-plugin-systemplugins-cablescan_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-cablescan_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
 OE: enigma2
@@ -2559,13 +2559,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9e6142e67b9324faa696eaa3715eab01
-Size: 18146
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 480c6810edea7f94baaf4f17354f2702
+Size: 18142
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -2596,8 +2596,8 @@ Depends: enigma2, libc6 (>= 2.44+git0+5c479454d1), libcurl4 (>= 8.22.0), libxml2
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b11807a42b8dbb45bda3e68435922622
-Size: 437992
+MD5Sum: bda309a2eeded1453785c4480b51f025
+Size: 437990
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.1+gitr563+bf4e3330+bf4e333af0-r4_sf8008.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2624,13 +2624,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 943dd1af1322f5361586a96e821dcff1
+MD5Sum: 3b2127d0433c27c03045ab903cc7eb4d
 Size: 4944
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -2655,13 +2655,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 807f0aa85c9aef858d6c49053102d20b
+MD5Sum: e9893af92958b7879e8bc6e81e732715
 Size: 16420
-Filename: enigma2-plugin-systemplugins-diseqctester_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -2686,13 +2686,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-fastchannelchange
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1a0e338a2f9998740fb52ef279bdd142
-Size: 13276
-Filename: enigma2-plugin-systemplugins-fastchannelchange_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 5ef5e6efaff233adb8b31c1771ef2b88
+Size: 13110
+Filename: enigma2-plugin-systemplugins-fastchannelchange_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange
 OE: enigma2
@@ -2717,13 +2717,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0fd8fa1cc9495ef759b609c79501845b
-Size: 13818
-Filename: enigma2-plugin-systemplugins-fastscan_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 0005cf3c09f244e762b639a598f8a7be
+Size: 13820
+Filename: enigma2-plugin-systemplugins-fastscan_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -2763,13 +2763,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1e77230caad67ca2392c9a395d3141f1
+MD5Sum: 1774a569955274d16a1b7ac8fcc0be14
 Size: 9478
-Filename: enigma2-plugin-systemplugins-hotplug_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-hotplug_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -2794,15 +2794,15 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-lcnscanner
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Replaces: enigma2-plugin-systemplugins-terrestrialscan
 Conflicts: enigma2-plugin-systemplugins-terrestrialscan
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4b634ae278d0e5e63a064a454fe7f616
-Size: 22578
-Filename: enigma2-plugin-systemplugins-lcnscanner_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: d2d2e74f98532aadb6c75384ba1aef52
+Size: 22576
+Filename: enigma2-plugin-systemplugins-lcnscanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner
 OE: enigma2
@@ -2811,14 +2811,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-mphelp
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d0f15c81b5564554bec1f6d7eac04616
-Size: 8850
-Filename: enigma2-plugin-systemplugins-mphelp_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: fc48f876593b46444d1e7cd1e29d961a
+Size: 8848
+Filename: enigma2-plugin-systemplugins-mphelp_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-mphelp
 OE: enigma2-plugins
@@ -2858,13 +2858,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: aab03164b8494925d186a10794148c9b
-Size: 5810
-Filename: enigma2-plugin-systemplugins-osd3dsetup_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 6a6b69e1303c89bbb29723d33c6aeef6
+Size: 5808
+Filename: enigma2-plugin-systemplugins-osd3dsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
 OE: enigma2
@@ -2889,13 +2889,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: efb2dfe15ef192963a6e6427db242507
-Size: 10012
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 786c1e21895d7f28d868feaca298cf0e
+Size: 11590
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
 OE: enigma2
@@ -2920,13 +2920,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c3f7f5f80b602569a78601c1e1ddfa7c
-Size: 38318
-Filename: enigma2-plugin-systemplugins-positionersetup_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 97f6a2c3bfa07641e9e93444dfa66c44
+Size: 38320
+Filename: enigma2-plugin-systemplugins-positionersetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -2935,14 +2935,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-recinfobar
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b22ffe9813171514cf664f0ee17746a8
+MD5Sum: bb4d93d9557f4e68a094fcbe0ea9eba7
 Size: 48622
-Filename: enigma2-plugin-systemplugins-recinfobar_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-recinfobar_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-recinfobar
 OE: enigma2-plugins
@@ -2967,13 +2967,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fc383cc54789320b65f4e6da642c83cc
+MD5Sum: 6418129a953a9d6b10a204ab837586e6
 Size: 2950
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -2998,13 +2998,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 85fca17d01d756637586d02f77034236
-Size: 17112
-Filename: enigma2-plugin-systemplugins-satfinder_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 67eb5ed98c45c879e785c53536612006
+Size: 17558
+Filename: enigma2-plugin-systemplugins-satfinder_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -3013,14 +3013,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-satipclient
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 22afd018ccdef8c717afdd9b511aa336
-Size: 35216
-Filename: enigma2-plugin-systemplugins-satipclient_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: e5b787574d768e085b282d93a55071ad
+Size: 35210
+Filename: enigma2-plugin-systemplugins-satipclient_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-satipclient
 OE: enigma2-plugins
@@ -3029,14 +3029,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-setpasswd
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3c2d5cfa22c792d7a7f1c8b97c5705d6
-Size: 11964
-Filename: enigma2-plugin-systemplugins-setpasswd_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 51cebd55423e7f293c2bad529adb7b6a
+Size: 12010
+Filename: enigma2-plugin-systemplugins-setpasswd_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-setpasswd
 OE: enigma2-plugins
@@ -3061,14 +3061,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-treq
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1f2da6ef02b2e911bd9a2fa21a9ab218
-Size: 94228
-Filename: enigma2-plugin-systemplugins-softwaremanager_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 737b634aae2203191417c24496319b70
+Size: 94242
+Filename: enigma2-plugin-systemplugins-softwaremanager_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
 OE: enigma2
@@ -3077,14 +3077,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-transcodingsetup
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4957761477a2df1c71592b6b406cc877
+MD5Sum: db1ea1dc5ad7f6da4e2ff6ce3fb5a0bb
 Size: 21824
-Filename: enigma2-plugin-systemplugins-transcodingsetup_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+Filename: enigma2-plugin-systemplugins-transcodingsetup_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-transcodingsetup
 OE: enigma2-plugins
@@ -3093,14 +3093,14 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-vfdcontrol
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c88d259eee39cf4a732689916041f385
-Size: 19574
-Filename: enigma2-plugin-systemplugins-vfdcontrol_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 9f74ca93fc5c9a060189bc15fb0e1e09
+Size: 19576
+Filename: enigma2-plugin-systemplugins-vfdcontrol_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vfdcontrol
 OE: enigma2-plugins
@@ -3125,13 +3125,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f9ae0f3c509e6ebe1c886958e72142f8
-Size: 4934
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 5b6515e254c789059714bee2a6cf8bb0
+Size: 4932
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -3156,13 +3156,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2c343d9e305cfe1effaa5ccfcef80b1d
-Size: 16540
-Filename: enigma2-plugin-systemplugins-videoenhancement_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: c2e71c6c2252d75702334d56cebab447
+Size: 16538
+Filename: enigma2-plugin-systemplugins-videoenhancement_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -3202,13 +3202,13 @@ Priority: optional
 
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 3.14+git23794+61fb7490+61fb749970-r0
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7b154d6a092c71a22fe4f52ec78cdf09
-Size: 72000
-Filename: enigma2-plugin-systemplugins-videotune_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: c46c5533c70f208e0b6427fa2c3c6b56
+Size: 72424
+Filename: enigma2-plugin-systemplugins-videotune_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -3233,13 +3233,13 @@ Priority: optional
 
 
 Package: enigma2-plugins-meta
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6aaf470c72545473703893540281742d
-Size: 12092
-Filename: enigma2-plugins-meta_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: d18ff73f3a5ebd55b1edcd321a7036a4
+Size: 12094
+Filename: enigma2-plugins-meta_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: enigma2-plugins version y-git-r0
 OE: enigma2-plugins
@@ -3248,13 +3248,13 @@ Priority: optional
 
 
 Package: enigma2-plugins
-Version: y-git5907+e575a970+e575a973c6-r0
+Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 67fe25a0b2d9dcb1cb85380391b336c0
-Size: 530
-Filename: enigma2-plugins_y-git5907+e575a970+e575a973c6-r0_sf8008.ipk
+MD5Sum: 30ba6a40d1e7063c55e943fa41c9550c
+Size: 526
+Filename: enigma2-plugins_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 Source: enigma2-plugins.bb
 Description: enigma2-plugins version y-git-r0
 OE: enigma2-plugins
@@ -3278,17 +3278,17 @@ Priority: optional
 
 
 Package: enigma2
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-zd1211rw, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.7), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+5c479454d1), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.0.2), libcurl4 (>= 8.22.0), libdreamdvd0 (>= 1.1+git228+6a2043e0+6a2043e2ae), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.88.3), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.7), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.58), libpython3.14-1.0 (>= 3.14.7), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.0.2), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.4), oe-alliance-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-wifi, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink, wireless-tools, wpa-supplicant
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-zd1211rw, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+5c479454d1), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.0.3), libcurl4 (>= 8.22.0), libdreamdvd0 (>= 1.1+git233+975333a0+975333a755), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.88.3), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.58), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.4), oe-alliance-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-wifi, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink, wireless-tools, wpa-supplicant
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
 Recommends: glibc-gconv-utf-16, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, python3-sendfile
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 461fe9166927eb6056a1943c7434fbb7
-Size: 11347802
-Filename: enigma2_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 4d778c97862d361d33402c21e29331ed
+Size: 12871226
+Filename: enigma2_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -3448,8 +3448,8 @@ Provides: kernel-image
 Section: kernel
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac266980cdb1cc7ee8b8b937c2cd73ea
-Size: 5851010
+MD5Sum: e0d5be82d11d88c07c95df2b914da409
+Size: 5846688
 Filename: kernel-image-4.4.35_4.4.35-r1_sf8008.ipk
 Source: linux-octagon_4.4.35.bb
 Description: linux-octagon version 4.4.35-r1
@@ -3464,8 +3464,8 @@ Provides: kernel-image-uimage
 Section: kernel
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c33204c560af61886aafff317542a63e
-Size: 5851128
+MD5Sum: ce00f7cf944f3f61541e853bffdbdece
+Size: 5846804
 Filename: kernel-image-uimage-4.4.35_4.4.35-r1_sf8008.ipk
 Source: linux-octagon_4.4.35.bb
 Description: linux-octagon version 4.4.35-r1
@@ -12633,8 +12633,8 @@ Version: 4.4.35-r1
 Section: kernel
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd1568670419bb8fe07ea5ce663498a9
-Size: 6189356
+MD5Sum: 36e63c83f9b61a294fec840974e088ab
+Size: 6189360
 Filename: kernel-vmlinux_4.4.35-r1_sf8008.ipk
 Source: linux-octagon_4.4.35.bb
 Description: linux-octagon version 4.4.35-r1
@@ -12862,8 +12862,8 @@ Version: 4.4.35-20240104-r0
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b888030020b4cc8dab7e2127e9f6115f
-Size: 3860508
+MD5Sum: fa063bf80d6a14ee3517eb50daad09de
+Size: 3869432
 Filename: octagon-dvb-modules-sf8008_4.4.35-20240104-r0_sf8008.ipk
 Source: octagon-dvb-modules-sf8008.bb
 Description: Hardware drivers for sf8008
@@ -12946,8 +12946,8 @@ Recommends: update-rc.d
 Section: base
 Architecture: sf8008
 Maintainer: octagon
-MD5Sum: b21337991959ca031a12505c2825e8a6
-Size: 902
+MD5Sum: d498517b58c929f3cc7fc81c91cb2fd6
+Size: 988
 Filename: octagon-loadmodules-hisi3798mv200_1.0-r0_sf8008.ipk
 Source: octagon-loadmodules-hisi3798mv200.bb
 Description: kernel modules load helper
@@ -13039,14 +13039,14 @@ Priority: optional
 
 
 Package: oe-alliance-branding
-Version: git1169+67d2e4d0+67d2e4d3d3-r0
+Version: git1171+84e88a30+84e88a388f-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1)
 Section: base
 Architecture: sf8008
 Maintainer: oe-alliance team
-MD5Sum: ec90a76335153b766b2a0a025545c06d
-Size: 570766
-Filename: oe-alliance-branding_git1169+67d2e4d0+67d2e4d3d3-r0_sf8008.ipk
+MD5Sum: 83c70c5b5dd9d246a0c3013db41b5988
+Size: 570772
+Filename: oe-alliance-branding_git1171+84e88a30+84e88a388f-r0_sf8008.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version git-r0
 OE: oe-alliance-branding
