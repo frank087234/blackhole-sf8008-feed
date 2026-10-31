@@ -1908,3 +1908,70 @@ Source: enigma2-plugin-skins-pli-hd.bb
 MD5Sum: 7a1007fadd7340acea47ae9ba78238af
 Size: 3321454
 Filename: enigma2-plugin-skins-pli-hd_0.1+git104+1d701ab0+1d701ab989-r0_all.ipk
+
+Package: enigma2-plugin-extensions-mediaplayer3
+Version: 1.0+git18+c0bef7f0+c0bef7fb3c-r0
+Description: MediaPlayer3 - A modern audio player for Enigma2 receivers
+ A feature-rich media player for Enigma2 receivers, supporting local audio
+ files, internet radio, podcasts, playlists, and Finnish radio EPG.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: all
+OE: enigma2-plugin-extensions-mediaplayer3
+Homepage: https://github.com/onni-k/mediaplayer3
+Source: enigma2-plugin-extensions-mediaplayer3.bb
+MD5Sum: 0a413a3e7f61508bdc6deb08df7333b2
+Size: 6586852
+Filename: enigma2-plugin-extensions-mediaplayer3_1.0+git18+c0bef7f0+c0bef7fb3c-r0_all.ipk
+
+Package: enigma2-plugin-skins-bundesligafhd
+Version: 1.4+git1508+e56a3e20+e56a3e2688-r0
+Description: BundesligaFHD skin for Enigma2
+ Full HD Bundesliga skin and configuration plugin.
+Section: skins
+Priority: optional
+Maintainer: stein17
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-skins-bundesligafhd
+Homepage: https://github.com/stein17/Skins-for-openATV
+Depends: enigma2-plugin-extensions-oaweather
+Source: enigma2-plugin-skins-bundesligafhd.bb
+MD5Sum: cbf3cea2f54d92ea7f2945b750821b7d
+Size: 4688864
+Filename: enigma2-plugin-skins-bundesligafhd_1.4+git1508+e56a3e20+e56a3e2688-r0_all.ipk
+
+Package: enigma2-plugin-skins-bundesligawqhd
+Version: 1.4+git1508+e56a3e20+e56a3e2688-r0
+Description: BundesligaWQHD skin for Enigma2
+ WQHD Bundesliga skin and configuration plugin.
+Section: skins
+Priority: optional
+Maintainer: stein17
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-skins-bundesligawqhd
+Homepage: https://github.com/stein17/Skins-for-openATV
+Depends: enigma2-plugin-extensions-oaweather
+Source: enigma2-plugin-skins-bundesligawqhd.bb
+MD5Sum: 9388fe77d33a33832f87ee16686ba4ac
+Size: 10551598
+Filename: enigma2-plugin-skins-bundesligawqhd_1.4+git1508+e56a3e20+e56a3e2688-r0_all.ipk
+
+Package: enigma2-plugin-skins-overlayhd
+Version: 2.03-git654+3b1c4320+3b1c432b7e-r0
+Description: OverlayHD skin and management plugin for Enigma2
+ OverlayHD skin and skin management plugin for Enigma2 receivers.
+Section: skins
+Priority: optional
+Maintainer: IanSav
+License: GPL-2.0-only
+Architecture: all
+OE: enigma2-plugin-skins-overlayhd
+Homepage: https://github.com/IanSav/OverlayHD
+Source: enigma2-plugin-skins-overlayhd.bb
+MD5Sum: 63d655cdcb289ef33291b5a0c0fa0fb4
+Size: 8110488
+Filename: enigma2-plugin-skins-overlayhd_2.03-git654+3b1c4320+3b1c432b7e-r0_all.ipk
