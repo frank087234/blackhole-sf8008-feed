@@ -1975,3 +1975,486 @@ Source: enigma2-plugin-skins-overlayhd.bb
 MD5Sum: 63d655cdcb289ef33291b5a0c0fa0fb4
 Size: 8110488
 Filename: enigma2-plugin-skins-overlayhd_2.03-git654+3b1c4320+3b1c432b7e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+git-r0
+ Hans 13E,19E,23E,28E
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+Depends: xz
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+MD5Sum: 08321dab1b184735cd185e1816ba9113
+Size: 887128
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-19e-23e
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+git-r0
+ Hans 19E,23E
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-19e-23e
+Depends: xz
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+MD5Sum: e7ae051cff98ffa4630d65685eded85e
+Size: 849378
+Filename: enigma2-plugin-settings-hans-19e-23e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+git-r0
+ Hans 19E,23E,28E
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+Depends: xz
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+MD5Sum: 2c62fd749b8dac0e5121fcbd6345089a
+Size: 860114
+Filename: enigma2-plugin-settings-hans-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+git-r0
+ Hans 19E,23E basis
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+Depends: xz
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+MD5Sum: 7503186c1660cec70eec69a7a7235dd7
+Size: 35606
+Filename: enigma2-plugin-settings-hans-19e-23e-basis_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+git-r0
+ Hans 9E 13E,19E,23E,28E
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Depends: xz
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+MD5Sum: b7768838346f53a5d8f492f510e99fa4
+Size: 899296
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+git-r0
+ Hans 9E,13E,19E,23E,28E and rotating
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+Depends: xz
+Provides: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Replaces: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Conflicts: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+MD5Sum: 9e6ad6e910c1fb7203caa3caa537356f
+Size: 1045582
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-hans-kabelnl
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+git-r0
+ Hans Cable-settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-hans-kabelnl
+Depends: xz
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+MD5Sum: de788195dd82b1144ecfbd590056ea18
+Size: 815156
+Filename: enigma2-plugin-settings-hans-kabelnl_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-0.8w-13e version 1.0+git-r0
+ Morph883 0.8W-13E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-0.8w-13e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-0.8w-13e.bb
+MD5Sum: 4ede52e7011310da3c2b5801b234e108
+Size: 61478
+Filename: enigma2-plugin-settings-morph883-0.8w-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e version 1.0+git-r0
+ Morph883 0.8W-13E-19.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e.bb
+MD5Sum: 3f6f61c209e6dac72a760bb620af5b61
+Size: 86516
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e version 1.0+git-r0
+ Morph883 0.8W-13E-19.2E-28.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e.bb
+MD5Sum: 81b972ef259c323ba0c45fe671487556
+Size: 101154
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-0.8w-4.8e-13e version 1.0+git-r0
+ Morph883 0.8W-4.8E-13E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-0.8w-4.8e-13e.bb
+MD5Sum: 2e6999874efbfdd85940467b32d8e73a
+Size: 67538
+Filename: enigma2-plugin-settings-morph883-0.8w-4.8e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e version 1.0+git-r0
+ Morph883 13E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e.bb
+MD5Sum: 99f459a910c9428118d200c17265f1d7
+Size: 39556
+Filename: enigma2-plugin-settings-morph883-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-16e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-16e version 1.0+git-r0
+ Morph883 13E-16E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-16e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-16e.bb
+MD5Sum: a62f5f0a21753cd735557138dc408c5f
+Size: 59784
+Filename: enigma2-plugin-settings-morph883-13e-16e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e version 1.0+git-r0
+ Morph883 13E-16E-19.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e.bb
+MD5Sum: 6b3b47095ecc8bec52c82bf20252d1a4
+Size: 84544
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e version 1.0+git-r0
+ Morph883 13E-16E-19.2E-23.5E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e.bb
+MD5Sum: e36ea7abeb2644bec05cefbbd86aa019
+Size: 99900
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-19.2e version 1.0+git-r0
+ Morph883 13E-19.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-19.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-19.2e.bb
+MD5Sum: d4d056d9109737d838f996d761abcb30
+Size: 65216
+Filename: enigma2-plugin-settings-morph883-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e version 1.0+git-r0
+ Morph883 13E-19.2E-23.5E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e.bb
+MD5Sum: 4718ce5fa0b3bb75e2811f092aeb2f14
+Size: 80460
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e version 1.0+git-r0
+ Morph883 13E-19.2E-23.5E-28.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e.bb
+MD5Sum: f29214370b07d53b161fe948d248174d
+Size: 95332
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-19.2e-28.2e version 1.0+git-r0
+ Morph883 13E-19.2E-28.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-19.2e-28.2e.bb
+MD5Sum: 2631798d17eb5a85825b36dd9c9769b7
+Size: 79826
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-42e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-19.2e-42e version 1.0+git-r0
+ Morph883 13E-19.2E-42E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-19.2e-42e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-19.2e-42e.bb
+MD5Sum: 8991001c90dc725eef93ee200e0b0b7a
+Size: 84464
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-42e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-23.5e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-23.5e version 1.0+git-r0
+ Morph883 13E-23.5E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-23.5e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-23.5e.bb
+MD5Sum: f9efdf91225d1d1541774f6af33898d3
+Size: 55468
+Filename: enigma2-plugin-settings-morph883-13e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-28.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-28.2e version 1.0+git-r0
+ Morph883 13E-28.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-28.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-28.2e.bb
+MD5Sum: 0c3f7adce36d8d272408593b40919c27
+Size: 54568
+Filename: enigma2-plugin-settings-morph883-13e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-13e-42e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-13e-42e version 1.0+git-r0
+ Morph883 13E-42E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-13e-42e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-13e-42e.bb
+MD5Sum: 635980b076f3c09a326868bd321e4e05
+Size: 59596
+Filename: enigma2-plugin-settings-morph883-13e-42e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-30w-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-30w-13e version 1.0+git-r0
+ Morph883 30W-13E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-30w-13e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-30w-13e.bb
+MD5Sum: d70f6192abe33efe04e6b4fca8cb9a48
+Size: 52040
+Filename: enigma2-plugin-settings-morph883-30w-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-30w-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-30w-13e-19.2e version 1.0+git-r0
+ Morph883 30W-13E-19.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-30w-13e-19.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-30w-13e-19.2e.bb
+MD5Sum: bc4013424a41c8e012b3879a3ec9df08
+Size: 77288
+Filename: enigma2-plugin-settings-morph883-30w-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-4.8e-13e version 1.0+git-r0
+ Morph883 4.8E-13E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-4.8e-13e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-4.8e-13e.bb
+MD5Sum: 8c9c24335075f6d4e22e614fd4404515
+Size: 45900
+Filename: enigma2-plugin-settings-morph883-4.8e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-4.8e-13e-19.2e version 1.0+git-r0
+ Morph883 4.8E-13E-19.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-4.8e-13e-19.2e.bb
+MD5Sum: 5f979f2f9a37c969f4234748446a3718
+Size: 71618
+Filename: enigma2-plugin-settings-morph883-4.8e-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-9e-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-9e-13e version 1.0+git-r0
+ Morph883 9E-13E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-9e-13e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-9e-13e.bb
+MD5Sum: dcbe6c1d4aa0afbf1e951a8d2933f22e
+Size: 54198
+Filename: enigma2-plugin-settings-morph883-9e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-9e-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-9e-13e-19.2e version 1.0+git-r0
+ Morph883 9E-13E-19.2E channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-9e-13e-19.2e
+Depends: xz
+Source: enigma2-plugin-settings-morph883-9e-13e-19.2e.bb
+MD5Sum: 383e986f7b75846859004b34fbc4f38c
+Size: 79242
+Filename: enigma2-plugin-settings-morph883-9e-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
+Package: enigma2-plugin-settings-morph883-motor
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Description: enigma2-plugin-settings-morph883-motor version 1.0+git-r0
+ Morph883 Motor channel settings
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-Proprietary
+Architecture: all
+OE: enigma2-plugin-settings-morph883-motor
+Depends: xz
+Source: enigma2-plugin-settings-morph883-motor.bb
+MD5Sum: 431e6f4eb6f746c9ad9080f56505acd9
+Size: 337544
+Filename: enigma2-plugin-settings-morph883-motor_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk

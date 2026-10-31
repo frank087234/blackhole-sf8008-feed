@@ -97296,3 +97296,20 @@ Source: enigma2-plugin-systemplugins-wirelessaccesspoint.bb
 MD5Sum: ac70c9ad2c75c93d02a37a386951e6f1
 Size: 27028
 Filename: enigma2-plugin-systemplugins-wirelessaccesspoint_V1.0-git51+b94cbeb0+b94cbeb03e-r0_cortexa15hf-neon-vfpv4.ipk
+
+Package: enigma2-plugin-security-firewall
+Version: 1.0-r0
+Description: enigma2-plugin-security-firewall version 1.0-r0
+ Firewall
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-security-firewall
+Depends: iptables, kernel-module-ip-tables, kernel-module-ipt-reject, kernel-module-iptable-filter, kernel-module-nf-conntrack, kernel-module-xt-state
+Recommends: update-rc.d
+Source: enigma2-plugin-security-firewall.bb
+MD5Sum: 4e7a99e0f8fb6c36d40dc14a9a3f60f1
+Size: 1962
+Filename: enigma2-plugin-security-firewall_1.0-r0_cortexa15hf-neon-vfpv4.ipk
