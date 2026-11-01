@@ -850,6 +850,174 @@ OE: enigma2-plugin-extensions-youtubetv
 License: CLOSED
 Priority: optional
 
+Package: enigma2-plugin-picons-ziggo-black-button-100x60
+Version: 1.0+git131+ffc1f780+ffc1f789b2-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 6aa7791feed5df2fccaceddd7e90d06a
+Size: 933440
+Filename: enigma2-plugin-picons-ziggo-black-button-100x60_1.0+git131+ffc1f780+ffc1f789b2-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-black-button-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo-black-button-100x60 version 1.0+git-r0
+ Ziggo Black Button 100x60 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-black-button-100x60
+
+Package: enigma2-plugin-picons-ziggo-black-button-220x132
+Version: 1.0+git131+31ccb380+31ccb38325-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 19e912aadf98e491f408a2d854f57b87
+Size: 2077798
+Filename: enigma2-plugin-picons-ziggo-black-button-220x132_1.0+git131+31ccb380+31ccb38325-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-black-button-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-black-button-220x132 version 1.0+git-r0
+ Ziggo Black Button 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-black-button-220x132
+
+Package: enigma2-plugin-picons-ziggo-black-white-220x132
+Version: 1.0+git128+755b9750+755b9752ea-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 551ea0c24f4e9cbf97e220761b820208
+Size: 1983970
+Filename: enigma2-plugin-picons-ziggo-black-white-220x132_1.0+git128+755b9750+755b9752ea-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-black-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-black-white-220x132 version 1.0+git-r0
+ Ziggo Black white 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-black-white-220x132
+
+Package: enigma2-plugin-picons-ziggo-blue-black-220x132
+Version: 1.0+git120+2682f9f0+2682f9f729-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 221e52c4254f5f9cd44d09422b9a612f
+Size: 1915748
+Filename: enigma2-plugin-picons-ziggo-blue-black-220x132_1.0+git120+2682f9f0+2682f9f729-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-blue-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-blue-black-220x132 version 1.0+git-r0
+ Ziggo Blue Black 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-blue-black-220x132
+
+Package: enigma2-plugin-picons-ziggo-dia-220x132
+Version: 1.0+git128+3c3b8740+3c3b874f89-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 2c4d6a8bbd9c3e51e492ac4f173cb305
+Size: 6747318
+Filename: enigma2-plugin-picons-ziggo-dia-220x132_1.0+git128+3c3b8740+3c3b874f89-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-dia-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-dia-220x132 version 1.0+git-r0
+ Ziggo Dia 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-dia-220x132
+
+Package: enigma2-plugin-picons-ziggo-metal-220x132
+Version: 1.0+git128+2b7e4470+2b7e447aa1-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 918f1df93d236f1b8095ca1440651fe3
+Size: 5842846
+Filename: enigma2-plugin-picons-ziggo-metal-220x132_1.0+git128+2b7e4470+2b7e447aa1-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-metal-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-metal-220x132 version 1.0+git-r0
+ Ziggo Metal 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-metal-220x132
+
+Package: enigma2-plugin-picons-ziggo-metal-look-100x60
+Version: 1.0+git128+be138c00+be138c08f2-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 92900669a4d8e4e53adf505ba8070020
+Size: 1994476
+Filename: enigma2-plugin-picons-ziggo-metal-look-100x60_1.0+git128+be138c00+be138c08f2-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-metal-look-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo-metal-look-100x60 version 1.0+git-r0
+ Ziggo Metal look 100x60 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-metal-look-100x60
+
+Package: enigma2-plugin-picons-ziggo-metal-look-220x132
+Version: 1.0+git128+f3ef1ac0+f3ef1ac3fc-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 8ec775267980946c8c978ea85e418be8
+Size: 6318170
+Filename: enigma2-plugin-picons-ziggo-metal-look-220x132_1.0+git128+f3ef1ac0+f3ef1ac3fc-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-metal-look-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-metal-look-220x132 version 1.0+git-r0
+ Ziggo Metal look 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-metal-look-220x132
+
+Package: enigma2-plugin-picons-ziggo-metal-stamp-220x132
+Version: 1.0+git128+68f44e70+68f44e7cdb-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 93968d1b6c16f23fa96457f5ec7c0c0f
+Size: 6065386
+Filename: enigma2-plugin-picons-ziggo-metal-stamp-220x132_1.0+git128+68f44e70+68f44e7cdb-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-metal-stamp-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-metal-stamp-220x132 version 1.0+git-r0
+ Ziggo Metal stamp 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-metal-stamp-220x132
+
+Package: enigma2-plugin-picons-ziggo-reflection-black-220x132
+Version: 1.0+git128+fc48d4b0+fc48d4b086-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: b5874bd5a4765044b61c3d865f932670
+Size: 2259974
+Filename: enigma2-plugin-picons-ziggo-reflection-black-220x132_1.0+git128+fc48d4b0+fc48d4b086-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-reflection-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-reflection-black-220x132 version 1.0+git-r0
+ Ziggo Reflection black 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-reflection-black-220x132
+
+Package: enigma2-plugin-picons-ziggo-transparent-black-220x132
+Version: 1.0+git133+94c1d850+94c1d852f5-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 6f1b82f2651ca63a2003d2b26ff4572d
+Size: 1511826
+Filename: enigma2-plugin-picons-ziggo-transparent-black-220x132_1.0+git133+94c1d850+94c1d852f5-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-transparent-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-transparent-black-220x132 version 1.0+git-r0
+ Ziggo Transparent black 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-transparent-black-220x132
+
+Package: enigma2-plugin-picons-ziggo-transparent-white-220x132
+Version: 1.0+git135+be4a28d0+be4a28d4e5-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: baa97500936b2142952c38ba1b356da6
+Size: 1605830
+Filename: enigma2-plugin-picons-ziggo-transparent-white-220x132_1.0+git135+be4a28d0+be4a28d4e5-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo-transparent-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo-transparent-white-220x132 version 1.0+git-r0
+ Ziggo Transparent white 220x132 picons
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-picons-ziggo-transparent-white-220x132
+
 Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
 Version: 1.0+git86+cb7daf30+cb7daf372e-r0
 Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+git-r0
