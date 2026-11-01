@@ -11994,6 +11994,21 @@ Priority: optional
 License: GPL-2.0-or-later
 OE: kodi-addon-pvr-dvbviewer
 
+Package: kodi-addon-pvr-filmon
+Version: 22.2.4+git0+95117a8026-r0
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 05802ff4de3041844d012d28860d9af2
+Size: 1358106
+Filename: kodi-addon-pvr-filmon_22.2.4+git0+95117a8026-r0_sf8008.ipk
+Source: kodi-addon-pvr-filmon.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-filmon
+
 Package: kodi-addon-pvr-hdhomerun
 Version: 22.2.5+git0+aa1c7589bb-r0
 Architecture: sf8008
@@ -12137,6 +12152,21 @@ Section: base
 Priority: optional
 License: GPL-2.0-or-later
 OE: kodi-addon-pvr-plutotv
+
+Package: kodi-addon-pvr-stalker
+Version: 22.2.5+git0+ef9a5726fe-r0
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 638a963de034021bcc81bf0fb98d41bf
+Size: 6890478
+Filename: kodi-addon-pvr-stalker_22.2.5+git0+ef9a5726fe-r0_sf8008.ipk
+Source: kodi-addon-pvr-stalker.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0), libxml2 (>= 2.15.4)
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-stalker
 
 Package: kodi-addon-pvr-vbox
 Version: 22.2.4+git0+0a4b5c15f8-r0

@@ -36868,6 +36868,23 @@ HomePage: http://kernel.org/pub/linux/utils/kernel/kmod/
 License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
+Package: kodi-addon-inputstream-ffmpegdirect-piers
+Version: 22.2.7+gitr0+6c02cd986d-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e157f708c380d86ee8306be9ebbbd9a
+Size: 12270430
+Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.2.7+gitr0+6c02cd986d-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
+Description: Kodi inputstream add-on using FFmpeg or Kodi cURL
+ Provides TS, HLS and non-DRM DASH input plus archive, catch-up and live
+ timeshift support.
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+License: GPL-2.0-or-later
+OE: kodi-addon-inputstream-ffmpegdirect-piers
+HomePage: https://github.com/xbmc/inputstream.ffmpegdirect
+
 Package: kodi-addon-inputstream-rtmp-piers
 Version: 22.1.2+gitr0+1b995db747-r0
 Architecture: cortexa15hf-neon-vfpv4
