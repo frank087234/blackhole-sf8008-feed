@@ -1,3 +1,4 @@
+Lost field Python-Support, 3.12, 3.13, 3.14, 3.15
 Package: alsa-topology-conf
 Version: 1.2.5.1-r0
 Section: base
@@ -12,6 +13,7 @@ OE: alsa-topology-conf
 HomePage: https://alsa-project.org
 License: BSD-3-Clause
 Priority: optional
+
 
 Package: alsa-ucm-conf
 Version: 1.2.16.1-r0
@@ -28,20 +30,6 @@ HomePage: https://alsa-project.org
 License: BSD-3-Clause
 Priority: optional
 
-Package: autoconf-archive
-Version: 2024.10.16-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aeb2606b5eb2781ed1a4aa52852b71cf
-Size: 406994
-Filename: autoconf-archive_2024.10.16-r0_all.ipk
-Source: autoconf-archive_2024.10.16.bb
-Description: a collection of freely re-usable Autoconf macros
-OE: autoconf-archive
-HomePage: http://www.gnu.org/software/autoconf-archive/
-License: GPL-3.0-or-later WITH Autoconf-exception-3.0
-Priority: optional
 
 Package: autoconf-archive-doc
 Version: 2024.10.16-r0
@@ -58,6 +46,23 @@ HomePage: http://www.gnu.org/software/autoconf-archive/
 License: GPL-3.0-or-later WITH Autoconf-exception-3.0
 Priority: optional
 
+
+Package: autoconf-archive
+Version: 2024.10.16-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aeb2606b5eb2781ed1a4aa52852b71cf
+Size: 406994
+Filename: autoconf-archive_2024.10.16-r0_all.ipk
+Source: autoconf-archive_2024.10.16.bb
+Description: a collection of freely re-usable Autoconf macros
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-or-later WITH Autoconf-exception-3.0
+Priority: optional
+
+
 Package: bhepgbackup
 Version: 13.0-r0
 Depends: blackhole-pyc-userland, enigma2, python3-core
@@ -73,6 +78,7 @@ OE: bhepgbackup
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: bhweather
 Version: V0.9
 Section: base
@@ -84,6 +90,23 @@ Filename: bhweather_V0.9_all.ipk
 Description: bhweather version 2.0 By meo, Mod By RAED Support FULL HD Skin + Python3
 License: CLOSED
 Priority: optional
+
+
+Package: ca-certificates-doc
+Version: 20260816-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6df499f27e5311a457650a5ecb8caf5a
+Size: 2338
+Filename: ca-certificates-doc_20260816-r0_all.ipk
+Source: ca-certificates_20260816.bb
+Description: Common CA certificates - Documentation files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later AND MPL-2.0
+Priority: optional
+
 
 Package: ca-certificates
 Version: 20260816-r0
@@ -101,20 +124,6 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0-or-later AND MPL-2.0
 Priority: optional
 
-Package: ca-certificates-doc
-Version: 20260816-r0
-Section: doc
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6df499f27e5311a457650a5ecb8caf5a
-Size: 2338
-Filename: ca-certificates-doc_20260816-r0_all.ipk
-Source: ca-certificates_20260816.bb
-Description: Common CA certificates - Documentation files
-OE: ca-certificates
-HomePage: http://packages.debian.org/sid/ca-certificates
-License: GPL-2.0-or-later AND MPL-2.0
-Priority: optional
 
 Package: enigma2-plugin-drivers-network-usb-carl9170
 Version: 1.0-r0
@@ -131,6 +140,7 @@ OE: enigma2-plugin-drivers-network-usb-carl9170
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-lan78xx
 Version: 1.0-r0
 Recommends: kernel-module-lan78xx, kernel-module-usbnet
@@ -145,6 +155,7 @@ Description: Microchip LAN78XX based USB 2/3 10/100/1000 Ethernet adapters
 OE: enigma2-plugin-drivers-network-usb-lan78xx
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-mt7601u
 Version: 1.0-r3
@@ -161,6 +172,7 @@ OE: enigma2-plugin-drivers-network-usb-mt7601u
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-r8188eu
 Version: 1.0-r0
 Recommends: firmware-rtl8188eu, kernel-module-r8188eu
@@ -175,6 +187,7 @@ Description: Single-Chip IEEE 802.11b/g/n 2T2R WLAN Controller with USB 2.0 Inte
 OE: enigma2-plugin-drivers-network-usb-r8188eu
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-r8712u
 Version: 1.0-r1
@@ -191,6 +204,7 @@ OE: enigma2-plugin-drivers-network-usb-r8712u
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rt2500
 Version: 1.0-r0
 Recommends: kernel-module-rt2500usb
@@ -205,6 +219,7 @@ Description: WiFi devices for Ralink RT2500USB/RT2571 devices.
 OE: enigma2-plugin-drivers-network-usb-rt2500
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rt2800
 Version: 1.0-r0
@@ -221,6 +236,7 @@ OE: enigma2-plugin-drivers-network-usb-rt2800
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rt73
 Version: 1.0-r0
 Recommends: firmware-rt73, kernel-module-rt73usb
@@ -235,6 +251,7 @@ Description: Driver for Ralink USB devices RT2571W, RT2573 & RT2671
 OE: enigma2-plugin-drivers-network-usb-rt73
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8152
 Version: 1.0-r0
@@ -251,6 +268,7 @@ OE: enigma2-plugin-drivers-network-usb-rtl8152
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rtl8187
 Version: 1.0-r0
 Recommends: kernel-module-rtl8187
@@ -265,6 +283,7 @@ Description: WiFi devices for Realtek 802.11a/bg chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8187
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
 Version: 1.0-r0
@@ -281,6 +300,7 @@ OE: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rtl8812au
 Version: 1.0-r1
 Recommends: rtl8821au, rtl88xxau
@@ -295,6 +315,7 @@ Description: WiFi devices for Realtek 8812AU/8821AU chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8812au
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8821cu
 Version: 1.0-r2
@@ -311,6 +332,7 @@ OE: enigma2-plugin-drivers-network-usb-rtl8821cu
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-rtl8822cu
 Version: 1.0-r1
 Recommends: firmware-rtk8822cbtusb, rt8822cu
@@ -325,6 +347,7 @@ Description: WiFi devices for Realtek 88x2CU chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8822cu
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: enigma2-plugin-drivers-network-usb-rtl8852cu
 Version: 1.0-r0
@@ -341,6 +364,7 @@ OE: enigma2-plugin-drivers-network-usb-rtl8852cu
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-drivers-network-usb-zd1211rw
 Version: 1.0-r0
 Recommends: firmware-zd1211, kernel-module-zd1211rw
@@ -356,6 +380,7 @@ OE: enigma2-plugin-drivers-network-usb-zd1211rw
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-accuweather
 Version: 1.3
 Section: base
@@ -370,6 +395,7 @@ HomePage: https://tvfaq.net
 License: PD
 Priority: required
 
+
 Package: enigma2-plugin-extensions-ajpanel
 Version: v10.8.6
 Recommends: xz (>= 5), zip, p7zip, unrar, bzip2, ffmpeg, python-requests | python3-requests, python-imaging | python3-pillow, ar (>= 2) | enigma2-plugin-extensions-opkg-tools | binutils
@@ -383,21 +409,21 @@ Description: Enigma2 Tools
 HomePage: https://github.com/AMAJamry/AJPanel
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-bouquetcleanup
 Version: 1.0+git6+7fa71da0+7fa71da598-r0
-Description: enigma2-plugin-extensions-bouquetcleanup version 1.0+git-r0
- BouquetCleanup cleans oversize bouquets of services on not configured
- satellites.
 Section: base
-Priority: optional
-Maintainer: Huevos
-License: GPL-2.0-or-later
 Architecture: all
-OE: enigma2-plugin-extensions-bouquetcleanup
-Source: enigma2-plugin-extensions-bouquetcleanup.bb
+Maintainer: Huevos
 MD5Sum: 192b3d4ded15e543db0f37c44132eebe
 Size: 11066
 Filename: enigma2-plugin-extensions-bouquetcleanup_1.0+git6+7fa71da0+7fa71da598-r0_all.ipk
+Source: enigma2-plugin-extensions-bouquetcleanup.bb
+Description: enigma2-plugin-extensions-bouquetcleanup version 1.0+git-r0
+OE: enigma2-plugin-extensions-bouquetcleanup
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
 Version: 230+6fff9400+6fff9406bc-r0
@@ -415,6 +441,7 @@ HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-e2iplayer
 Version: 2026.06.18.01-r0
 Depends: python3-core, python3-requests, python3-pillow, python3-websocket-client, ffmpeg, rtmpdump, wget, exteplayer3, gstplayer
@@ -428,6 +455,7 @@ Filename: enigma2-plugin-extensions-e2iplayer_2026.06.18.01-r0_all.ipk
 Description: E2iPlayer / IPTVPlayer plugin for Enigma2
 HomePage: https://github.com/oe-mirrors/e2iplayer
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-e2piconizer
 Version: 1.28-20250517-git64+50022390+50022393f1-r0
@@ -444,6 +472,7 @@ HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-enigmawelt
 Version: 1.4.5-r0
 Section: base
@@ -458,6 +487,7 @@ OE: enigma2-plugin-extensions-enigmawelt
 HomePage: https://enigmawelt.de
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-epgimport-sources
 Version: git173+19debe50+19debe56f4-r0
@@ -475,6 +505,7 @@ OE: enigma2-plugin-extensions-epgimport-sources
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-estalker
 Version: 1.38.20260429
 Section: misc
@@ -485,6 +516,7 @@ Size: 3255560
 Filename: enigma2-plugin-extensions-estalker_1.38_all.ipk
 Description: IPTV Ministra stalker player by KiddaC
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-evgquicksignal
 Version: 1.2
@@ -499,6 +531,7 @@ OE: enigma2-plugin-extensions-evgquicksignal
 HomePage: gisclub.tv
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-footonsat
 Version: 1.9-r0
 Section: base
@@ -510,6 +543,7 @@ Filename: enigma2-plugin-extensions-footonsat_1.9-r0_all.ipk
 Source: https://github.com/ziko-ZR1/FootOnsat
 Description: enigma2 plugin OE2.0 OE2.5
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-gioppygio
 Version: 10.3
@@ -525,6 +559,7 @@ OE: Enigma2 Plugin
 HomePage: www.gioppygio.it
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-historyzap
 Version: 1.0.46
 Section: base
@@ -539,6 +574,7 @@ HomePage: https://github.com/pepsik-kiev
 License: proprietary software
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-infobarweather
 Version: 0.17
 Architecture: all
@@ -549,6 +585,7 @@ Filename: enigma2-plugin-extensions-infobarweather_0.17_all.ipk
 Description: Show current weather in infobar
 License: GPLv2
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-iptosat
 Version: 1.8
@@ -562,6 +599,7 @@ Filename: enigma2-plugin-extensions-iptosat_1.8_all.ipk
 Source: https://github.com/ziko-ZR1/IPtoSAT
 Description: enigma2 plugin OE2.0
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-iptv-org-playlists
 Version: 1.0+git10+4d0456a0+4d0456a218-r0
@@ -579,6 +617,7 @@ HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-jediepgxtream
 Version: git25+7cf0d7d0+7cf0d7db6c-r0
 Depends: python3-difflib, python3-requests, python3-thefuzz
@@ -595,6 +634,7 @@ HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-jedimakerxtream
 Version: git173+5d2218a0+5d2218ae6f-r0
 Section: base
@@ -610,6 +650,7 @@ HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-kiddac-skin-e2sentials
 Version: 1.00.20250126
 Section: misc
@@ -620,6 +661,7 @@ Size: 1241450
 Filename: enigma2-plugin-extensions-kiddac-skin-e2sentials_1.00_all.ipk
 Description: Skin additions - Top Picks, Movie Planner Mods, Screen Names
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-lamedbmerger
 Version: 1.0+git7+16be3870+16be387903-r0
@@ -635,6 +677,7 @@ OE: enigma2-plugin-extensions-lamedbmerger
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-levi45-freeserver
 Version: 2.4
 Depends: enigma2
@@ -649,22 +692,22 @@ Description: Levi45 freeserver
 HomePage: https://satellite-forum.com
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-mediaplayer3
 Version: 1.0+git18+c0bef7f0+c0bef7fb3c-r0
-Description: MediaPlayer3 - A modern audio player for Enigma2 receivers
- A feature-rich media player for Enigma2 receivers, supporting local audio
- files, internet radio, podcasts, playlists, and Finnish radio EPG.
 Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: GPL-3.0-or-later
 Architecture: all
-OE: enigma2-plugin-extensions-mediaplayer3
-Homepage: https://github.com/onni-k/mediaplayer3
-Source: enigma2-plugin-extensions-mediaplayer3.bb
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 0a413a3e7f61508bdc6deb08df7333b2
 Size: 6586852
 Filename: enigma2-plugin-extensions-mediaplayer3_1.0+git18+c0bef7f0+c0bef7fb3c-r0_all.ipk
+Source: enigma2-plugin-extensions-mediaplayer3.bb
+Description: MediaPlayer3 - A modern audio player for Enigma2 receivers
+OE: enigma2-plugin-extensions-mediaplayer3
+HomePage: https://github.com/onni-k/mediaplayer3
+License: GPL-3.0-or-later
+Priority: optional
+
 
 Package: enigma2-plugin-extensions-merlinmusicplayer
 Version: 7.4
@@ -682,6 +725,7 @@ HomePage: https:\\www.opena.tv
 License: Proprietary
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-mmpicons
 Version: 1.2
 Section: base
@@ -696,6 +740,7 @@ OE: 2.0 - 2.2 - 2.5 -2.6
 HomePage: https://e2skin.blogspot.com/
 License: *
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-movieorganisor
 Version: V3.99-git15+e24a88c0+e24a88cd25-r0
@@ -712,6 +757,7 @@ OE: enigma2-plugin-extensions-movieorganisor
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-multiboot-flashonline
 Version: 6.4
 Section: enigma2
@@ -724,6 +770,7 @@ Source: https://github.com/m4dhouse
 Description: Multiboot FlashOnline by Madhouse
 OE: Enigma2 Plugin
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-oscamsmartcard
 Version: 2.4+git113+cb6b4c20+cb6b4c2f78-r0
@@ -739,6 +786,7 @@ OE: enigma2-plugin-extensions-oscamsmartcard
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-piconsmissing
 Version: 1.0+git25+d0a984b0+d0a984b6f1-r0
 Section: base
@@ -753,6 +801,7 @@ OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-plutotv
 Version: 20220409
 Recommends: enigma2-plugin-systemplugins-serviceapp
@@ -766,6 +815,7 @@ Description: pluto.tv for VTI
 License: GPLv2+
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-ultrastalker
 Version: 9.2.2
 Section: extra
@@ -776,6 +826,22 @@ Size: 9264724
 Filename: enigma2-plugin-extensions-ultrastalker_9.2.2_all.ipk
 Description: Ultra Stalker Final V9.2.2 - Player New / New 2, Next Episode card, episode names, folder export to Bouquet, premium web cards, Arabic-first description
 Priority: optional
+
+
+Package: enigma2-plugin-extensions-vavoo-src
+Version: 1.0+git867+69984d90+69984d9a57-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: ff1b83bdce0e9da25b3848d2173e8b7d
+Size: 123780
+Filename: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all.ipk
+Source: enigma2-plugin-extensions-vavoo.bb
+Description: Lululla - Source files
+OE: enigma2-plugin-extensions-vavoo
+License: GPL-2.0-only
+Priority: required
+
 
 Package: enigma2-plugin-extensions-vavoo
 Version: 1.0+git867+69984d90+69984d9a57-r0
@@ -792,19 +858,6 @@ OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-only
 Priority: required
 
-Package: enigma2-plugin-extensions-vavoo-src
-Version: 1.0+git867+69984d90+69984d9a57-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: ff1b83bdce0e9da25b3848d2173e8b7d
-Size: 123780
-Filename: enigma2-plugin-extensions-vavoo-src_1.0+git867+69984d90+69984d9a57-r0_all.ipk
-Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla - Source files
-OE: enigma2-plugin-extensions-vavoo
-License: GPL-2.0-only
-Priority: required
 
 Package: enigma2-plugin-extensions-weather_msn
 Version: 1.3-r3
@@ -818,6 +871,7 @@ Filename: enigma2-plugin-extensions-weather_msn_1.3-r3_all.ipk
 Description: Weather forecast, astronomical calculations
 HomePage: https://github.com/Sirius0103/enigma2-plugins/tree/master/python/Plugins/Extensions/WeatherMSN
 Priority: optional
+
 
 Package: enigma2-plugin-extensions-xklass
 Version: 1.80-20260325-r1
@@ -835,6 +889,7 @@ HomePage: https://www.linuxsat-support.com
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-extensions-youtubetv
 Version: 1.0-r0
 Depends: enigma2
@@ -850,6 +905,7 @@ OE: enigma2-plugin-extensions-youtubetv
 License: CLOSED
 Priority: optional
 
+
 Package: enigma2-plugin-picons-ziggo-black-button-100x60
 Version: 1.0+git131+ffc1f780+ffc1f789b2-r0
 Section: base
@@ -860,9 +916,10 @@ Size: 933440
 Filename: enigma2-plugin-picons-ziggo-black-button-100x60_1.0+git131+ffc1f780+ffc1f789b2-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-black-button-100x60_git.bb
 Description: enigma2-plugin-picons-ziggo-black-button-100x60 version 1.0+git-r0
- Ziggo Black Button 100x60 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-black-button-100x60
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-black-button-220x132
 Version: 1.0+git131+31ccb380+31ccb38325-r0
@@ -874,9 +931,10 @@ Size: 2077798
 Filename: enigma2-plugin-picons-ziggo-black-button-220x132_1.0+git131+31ccb380+31ccb38325-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-black-button-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-black-button-220x132 version 1.0+git-r0
- Ziggo Black Button 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-black-button-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-black-white-220x132
 Version: 1.0+git128+755b9750+755b9752ea-r0
@@ -888,9 +946,10 @@ Size: 1983970
 Filename: enigma2-plugin-picons-ziggo-black-white-220x132_1.0+git128+755b9750+755b9752ea-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-black-white-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-black-white-220x132 version 1.0+git-r0
- Ziggo Black white 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-black-white-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-blue-black-220x132
 Version: 1.0+git120+2682f9f0+2682f9f729-r0
@@ -902,9 +961,10 @@ Size: 1915748
 Filename: enigma2-plugin-picons-ziggo-blue-black-220x132_1.0+git120+2682f9f0+2682f9f729-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-blue-black-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-blue-black-220x132 version 1.0+git-r0
- Ziggo Blue Black 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-blue-black-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-dia-220x132
 Version: 1.0+git128+3c3b8740+3c3b874f89-r0
@@ -916,9 +976,10 @@ Size: 6747318
 Filename: enigma2-plugin-picons-ziggo-dia-220x132_1.0+git128+3c3b8740+3c3b874f89-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-dia-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-dia-220x132 version 1.0+git-r0
- Ziggo Dia 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-dia-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-metal-220x132
 Version: 1.0+git128+2b7e4470+2b7e447aa1-r0
@@ -930,9 +991,10 @@ Size: 5842846
 Filename: enigma2-plugin-picons-ziggo-metal-220x132_1.0+git128+2b7e4470+2b7e447aa1-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-metal-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-metal-220x132 version 1.0+git-r0
- Ziggo Metal 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-metal-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-metal-look-100x60
 Version: 1.0+git128+be138c00+be138c08f2-r0
@@ -944,9 +1006,10 @@ Size: 1994476
 Filename: enigma2-plugin-picons-ziggo-metal-look-100x60_1.0+git128+be138c00+be138c08f2-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-metal-look-100x60_git.bb
 Description: enigma2-plugin-picons-ziggo-metal-look-100x60 version 1.0+git-r0
- Ziggo Metal look 100x60 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-metal-look-100x60
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-metal-look-220x132
 Version: 1.0+git128+f3ef1ac0+f3ef1ac3fc-r0
@@ -958,9 +1021,10 @@ Size: 6318170
 Filename: enigma2-plugin-picons-ziggo-metal-look-220x132_1.0+git128+f3ef1ac0+f3ef1ac3fc-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-metal-look-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-metal-look-220x132 version 1.0+git-r0
- Ziggo Metal look 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-metal-look-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-metal-stamp-220x132
 Version: 1.0+git128+68f44e70+68f44e7cdb-r0
@@ -972,9 +1036,10 @@ Size: 6065386
 Filename: enigma2-plugin-picons-ziggo-metal-stamp-220x132_1.0+git128+68f44e70+68f44e7cdb-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-metal-stamp-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-metal-stamp-220x132 version 1.0+git-r0
- Ziggo Metal stamp 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-metal-stamp-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-reflection-black-220x132
 Version: 1.0+git128+fc48d4b0+fc48d4b086-r0
@@ -986,9 +1051,10 @@ Size: 2259974
 Filename: enigma2-plugin-picons-ziggo-reflection-black-220x132_1.0+git128+fc48d4b0+fc48d4b086-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-reflection-black-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-reflection-black-220x132 version 1.0+git-r0
- Ziggo Reflection black 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-reflection-black-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-transparent-black-220x132
 Version: 1.0+git133+94c1d850+94c1d852f5-r0
@@ -1000,9 +1066,10 @@ Size: 1511826
 Filename: enigma2-plugin-picons-ziggo-transparent-black-220x132_1.0+git133+94c1d850+94c1d852f5-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-transparent-black-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-transparent-black-220x132 version 1.0+git-r0
- Ziggo Transparent black 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-transparent-black-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-picons-ziggo-transparent-white-220x132
 Version: 1.0+git135+be4a28d0+be4a28d4e5-r0
@@ -1014,492 +1081,493 @@ Size: 1605830
 Filename: enigma2-plugin-picons-ziggo-transparent-white-220x132_1.0+git135+be4a28d0+be4a28d4e5-r0_all.ipk
 Source: enigma2-plugin-picons-ziggo-transparent-white-220x132_git.bb
 Description: enigma2-plugin-picons-ziggo-transparent-white-220x132 version 1.0+git-r0
- Ziggo Transparent white 220x132 picons
-License: LicenseRef-Proprietary
 OE: enigma2-plugin-picons-ziggo-transparent-white-220x132
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
 Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+git-r0
- Hans 13E,19E,23E,28E
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
 Depends: xz
-Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 08321dab1b184735cd185e1816ba9113
 Size: 887128
 Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
-
-Package: enigma2-plugin-settings-hans-19e-23e
-Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-19e-23e version 1.0+git-r0
- Hans 19E,23E
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-19e-23e
-Depends: xz
-Source: enigma2-plugin-settings-hans-19e-23e.bb
-MD5Sum: e7ae051cff98ffa4630d65685eded85e
-Size: 849378
-Filename: enigma2-plugin-settings-hans-19e-23e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+Priority: optional
+
 
 Package: enigma2-plugin-settings-hans-19e-23e-28e
 Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+git-r0
- Hans 19E,23E,28E
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-19e-23e-28e
 Depends: xz
-Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2c62fd749b8dac0e5121fcbd6345089a
 Size: 860114
 Filename: enigma2-plugin-settings-hans-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-hans-19e-23e-basis
 Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+git-r0
- Hans 19E,23E basis
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-19e-23e-basis
 Depends: xz
-Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 7503186c1660cec70eec69a7a7235dd7
 Size: 35606
 Filename: enigma2-plugin-settings-hans-19e-23e-basis_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
-
-Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
-Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+git-r0
- Hans 9E 13E,19E,23E,28E
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-19e-23e-basis
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Priority: optional
+
+
+Package: enigma2-plugin-settings-hans-19e-23e
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
 Depends: xz
-Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
-MD5Sum: b7768838346f53a5d8f492f510e99fa4
-Size: 899296
-Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7ae051cff98ffa4630d65685eded85e
+Size: 849378
+Filename: enigma2-plugin-settings-hans-19e-23e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-19e-23e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
 Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+git-r0
- Hans 9E,13E,19E,23E,28E and rotating
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
 Depends: xz
 Provides: e2_hanssettings_13e_19e_23e_28e_AND_rotating
 Replaces: e2_hanssettings_13e_19e_23e_28e_AND_rotating
 Conflicts: e2_hanssettings_13e_19e_23e_28e_AND_rotating
-Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 9e6ad6e910c1fb7203caa3caa537356f
 Size: 1045582
 Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Version: 1.0+git86+cb7daf30+cb7daf372e-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7768838346f53a5d8f492f510e99fa4
+Size: 899296
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-hans-kabelnl
 Version: 1.0+git86+cb7daf30+cb7daf372e-r0
-Description: enigma2-plugin-settings-hans-kabelnl version 1.0+git-r0
- Hans Cable-settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-hans-kabelnl
 Depends: xz
-Source: enigma2-plugin-settings-hans-kabelnl.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: de788195dd82b1144ecfbd590056ea18
 Size: 815156
 Filename: enigma2-plugin-settings-hans-kabelnl_1.0+git86+cb7daf30+cb7daf372e-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-0.8w-13e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-0.8w-13e version 1.0+git-r0
- Morph883 0.8W-13E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+git-r0
+OE: enigma2-plugin-settings-hans-kabelnl
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-0.8w-13e
-Depends: xz
-Source: enigma2-plugin-settings-morph883-0.8w-13e.bb
-MD5Sum: 4ede52e7011310da3c2b5801b234e108
-Size: 61478
-Filename: enigma2-plugin-settings-morph883-0.8w-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e version 1.0+git-r0
- Morph883 0.8W-13E-19.2E channel settings
-Section: base
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
-Depends: xz
-Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e.bb
-MD5Sum: 3f6f61c209e6dac72a760bb620af5b61
-Size: 86516
-Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+
 
 Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e version 1.0+git-r0
- Morph883 0.8W-13E-19.2E-28.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 81b972ef259c323ba0c45fe671487556
 Size: 101154
 Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e-28.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f6f61c209e6dac72a760bb620af5b61
+Size: 86516
+Filename: enigma2-plugin-settings-morph883-0.8w-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e-19.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-0.8w-13e-19.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-0.8w-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ede52e7011310da3c2b5801b234e108
+Size: 61478
+Filename: enigma2-plugin-settings-morph883-0.8w-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-0.8w-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-13e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-0.8w-13e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-0.8w-4.8e-13e version 1.0+git-r0
- Morph883 0.8W-4.8E-13E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-0.8w-4.8e-13e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2e6999874efbfdd85940467b32d8e73a
 Size: 67538
 Filename: enigma2-plugin-settings-morph883-0.8w-4.8e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-13e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e version 1.0+git-r0
- Morph883 13E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-morph883-0.8w-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-0.8w-4.8e-13e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-0.8w-4.8e-13e
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e
-Depends: xz
-Source: enigma2-plugin-settings-morph883-13e.bb
-MD5Sum: 99f459a910c9428118d200c17265f1d7
-Size: 39556
-Filename: enigma2-plugin-settings-morph883-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-13e-16e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-16e version 1.0+git-r0
- Morph883 13E-16E channel settings
-Section: base
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-16e
-Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-16e.bb
-MD5Sum: a62f5f0a21753cd735557138dc408c5f
-Size: 59784
-Filename: enigma2-plugin-settings-morph883-13e-16e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
 
-Package: enigma2-plugin-settings-morph883-13e-16e-19.2e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-16e-19.2e version 1.0+git-r0
- Morph883 13E-16E-19.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-16e-19.2e
-Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-16e-19.2e.bb
-MD5Sum: 6b3b47095ecc8bec52c82bf20252d1a4
-Size: 84544
-Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
 
 Package: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e version 1.0+git-r0
- Morph883 13E-16E-19.2E-23.5E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: e36ea7abeb2644bec05cefbbd86aa019
 Size: 99900
 Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-13e-19.2e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-19.2e version 1.0+git-r0
- Morph883 13E-19.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e-23.5e
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-19.2e
-Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-19.2e.bb
-MD5Sum: d4d056d9109737d838f996d761abcb30
-Size: 65216
-Filename: enigma2-plugin-settings-morph883-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e version 1.0+git-r0
- Morph883 13E-19.2E-23.5E channel settings
-Section: base
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+
+
+Package: enigma2-plugin-settings-morph883-13e-16e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e.bb
-MD5Sum: 4718ce5fa0b3bb75e2811f092aeb2f14
-Size: 80460
-Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b3b47095ecc8bec52c82bf20252d1a4
+Size: 84544
+Filename: enigma2-plugin-settings-morph883-13e-16e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e-19.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-16e-19.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-13e-16e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a62f5f0a21753cd735557138dc408c5f
+Size: 59784
+Filename: enigma2-plugin-settings-morph883-13e-16e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-16e.bb
+Description: enigma2-plugin-settings-morph883-13e-16e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-16e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e version 1.0+git-r0
- Morph883 13E-19.2E-23.5E-28.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: f29214370b07d53b161fe948d248174d
 Size: 95332
 Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e-28.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4718ce5fa0b3bb75e2811f092aeb2f14
+Size: 80460
+Filename: enigma2-plugin-settings-morph883-13e-19.2e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-23.5e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-23.5e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-19.2e-28.2e version 1.0+git-r0
- Morph883 13E-19.2E-28.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-19.2e-28.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2631798d17eb5a85825b36dd9c9769b7
 Size: 79826
 Filename: enigma2-plugin-settings-morph883-13e-19.2e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-28.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-28.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-13e-19.2e-42e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-19.2e-42e version 1.0+git-r0
- Morph883 13E-19.2E-42E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-19.2e-42e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-19.2e-42e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 8991001c90dc725eef93ee200e0b0b7a
 Size: 84464
 Filename: enigma2-plugin-settings-morph883-13e-19.2e-42e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e-42e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e-42e
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-13e-19.2e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d4d056d9109737d838f996d761abcb30
+Size: 65216
+Filename: enigma2-plugin-settings-morph883-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-19.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-19.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-13e-23.5e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-23.5e version 1.0+git-r0
- Morph883 13E-23.5E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-23.5e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-23.5e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: f9efdf91225d1d1541774f6af33898d3
 Size: 55468
 Filename: enigma2-plugin-settings-morph883-13e-23.5e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-23.5e.bb
+Description: enigma2-plugin-settings-morph883-13e-23.5e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-23.5e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-13e-28.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-28.2e version 1.0+git-r0
- Morph883 13E-28.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-28.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-28.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 0c3f7adce36d8d272408593b40919c27
 Size: 54568
 Filename: enigma2-plugin-settings-morph883-13e-28.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e-28.2e.bb
+Description: enigma2-plugin-settings-morph883-13e-28.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-28.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-13e-42e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-13e-42e version 1.0+git-r0
- Morph883 13E-42E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-13e-42e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-13e-42e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 635980b076f3c09a326868bd321e4e05
 Size: 59596
 Filename: enigma2-plugin-settings-morph883-13e-42e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-30w-13e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-30w-13e version 1.0+git-r0
- Morph883 30W-13E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-morph883-13e-42e.bb
+Description: enigma2-plugin-settings-morph883-13e-42e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e-42e
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-30w-13e
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
 Depends: xz
-Source: enigma2-plugin-settings-morph883-30w-13e.bb
-MD5Sum: d70f6192abe33efe04e6b4fca8cb9a48
-Size: 52040
-Filename: enigma2-plugin-settings-morph883-30w-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99f459a910c9428118d200c17265f1d7
+Size: 39556
+Filename: enigma2-plugin-settings-morph883-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-13e.bb
+Description: enigma2-plugin-settings-morph883-13e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-13e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-30w-13e-19.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-30w-13e-19.2e version 1.0+git-r0
- Morph883 30W-13E-19.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-30w-13e-19.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-30w-13e-19.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: bc4013424a41c8e012b3879a3ec9df08
 Size: 77288
 Filename: enigma2-plugin-settings-morph883-30w-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-4.8e-13e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-4.8e-13e version 1.0+git-r0
- Morph883 4.8E-13E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-morph883-30w-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e-19.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-30w-13e-19.2e
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-4.8e-13e
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-30w-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
 Depends: xz
-Source: enigma2-plugin-settings-morph883-4.8e-13e.bb
-MD5Sum: 8c9c24335075f6d4e22e614fd4404515
-Size: 45900
-Filename: enigma2-plugin-settings-morph883-4.8e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d70f6192abe33efe04e6b4fca8cb9a48
+Size: 52040
+Filename: enigma2-plugin-settings-morph883-30w-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-30w-13e.bb
+Description: enigma2-plugin-settings-morph883-30w-13e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-30w-13e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-4.8e-13e-19.2e version 1.0+git-r0
- Morph883 4.8E-13E-19.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-4.8e-13e-19.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 5f979f2f9a37c969f4234748446a3718
 Size: 71618
 Filename: enigma2-plugin-settings-morph883-4.8e-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
-
-Package: enigma2-plugin-settings-morph883-9e-13e
-Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-9e-13e version 1.0+git-r0
- Morph883 9E-13E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Source: enigma2-plugin-settings-morph883-4.8e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e-19.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-4.8e-13e-19.2e
 License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-9e-13e
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-4.8e-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
 Depends: xz
-Source: enigma2-plugin-settings-morph883-9e-13e.bb
-MD5Sum: dcbe6c1d4aa0afbf1e951a8d2933f22e
-Size: 54198
-Filename: enigma2-plugin-settings-morph883-9e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c9c24335075f6d4e22e614fd4404515
+Size: 45900
+Filename: enigma2-plugin-settings-morph883-4.8e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-4.8e-13e.bb
+Description: enigma2-plugin-settings-morph883-4.8e-13e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-4.8e-13e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-9e-13e-19.2e
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-9e-13e-19.2e version 1.0+git-r0
- Morph883 9E-13E-19.2E channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-9e-13e-19.2e
 Depends: xz
-Source: enigma2-plugin-settings-morph883-9e-13e-19.2e.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 383e986f7b75846859004b34fbc4f38c
 Size: 79242
 Filename: enigma2-plugin-settings-morph883-9e-13e-19.2e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e-19.2e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e-19.2e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-9e-13e-19.2e
+License: LicenseRef-Proprietary
+Priority: optional
+
+
+Package: enigma2-plugin-settings-morph883-9e-13e
+Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dcbe6c1d4aa0afbf1e951a8d2933f22e
+Size: 54198
+Filename: enigma2-plugin-settings-morph883-9e-13e_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-9e-13e.bb
+Description: enigma2-plugin-settings-morph883-9e-13e version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-9e-13e
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-settings-morph883-motor
 Version: 1.0+git507+5ac5fc00+5ac5fc03d9-r0
-Description: enigma2-plugin-settings-morph883-motor version 1.0+git-r0
- Morph883 Motor channel settings
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-settings-morph883-motor
 Depends: xz
-Source: enigma2-plugin-settings-morph883-motor.bb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 431e6f4eb6f746c9ad9080f56505acd9
 Size: 337544
 Filename: enigma2-plugin-settings-morph883-motor_1.0+git507+5ac5fc00+5ac5fc03d9-r0_all.ipk
+Source: enigma2-plugin-settings-morph883-motor.bb
+Description: enigma2-plugin-settings-morph883-motor version 1.0+git-r0
+OE: enigma2-plugin-settings-morph883-motor
+License: LicenseRef-Proprietary
+Priority: optional
+
 
 Package: enigma2-plugin-skincomponents-extcomponents
 Version: 1.1
@@ -1513,6 +1581,7 @@ Description: extendedSkinComponents
 OE: oe2.0
 License: GPL
 Priority: optional
+
 
 Package: enigma2-plugin-skincomponents-weathercomponent
 Version: 1.0-r0
@@ -1528,20 +1597,21 @@ OE: enigma2-plugin-skincomponents-weathercomponent
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: enigma2-plugin-skins-aglare
 Version: 1.2+git334+ce5b2750+ce5b275e98-r0
-Description: enigma2-plugin-skins-aglare version 1.2+git-r0
- Aglare-skin
 Section: base
-Priority: required
-Maintainer: lululla
-License: GPL-2.0-or-later
 Architecture: all
-OE: enigma2-plugin-skins-aglare
-Source: enigma2-plugin-skins-aglare.bb
+Maintainer: lululla
 MD5Sum: cf5782def2f1340619b4dafb99951af3
 Size: 21376548
 Filename: enigma2-plugin-skins-aglare_1.2+git334+ce5b2750+ce5b275e98-r0_all.ipk
+Source: enigma2-plugin-skins-aglare.bb
+Description: enigma2-plugin-skins-aglare version 1.2+git-r0
+OE: enigma2-plugin-skins-aglare
+License: GPL-2.0-or-later
+Priority: required
+
 
 Package: enigma2-plugin-skins-brio-classic-fhd
 Version: 1.0-r0
@@ -1558,6 +1628,7 @@ OE: enigma2-plugin-skins-brio-classic-fhd
 License: CLOSED
 Priority: optional
 
+
 Package: enigma2-plugin-skins-brio-std-fhd
 Version: 1.4-r0
 Depends: enigma2
@@ -1573,39 +1644,40 @@ OE: enigma2-plugin-skins-brio-std-fhd
 License: CLOSED
 Priority: optional
 
+
 Package: enigma2-plugin-skins-bundesligafhd
 Version: 1.4+git1508+e56a3e20+e56a3e2688-r0
-Description: BundesligaFHD skin for Enigma2
- Full HD Bundesliga skin and configuration plugin.
-Section: skins
-Priority: optional
-Maintainer: stein17
-License: GPL-2.0-or-later
-Architecture: all
-OE: enigma2-plugin-skins-bundesligafhd
-Homepage: https://github.com/stein17/Skins-for-openATV
 Depends: enigma2-plugin-extensions-oaweather
-Source: enigma2-plugin-skins-bundesligafhd.bb
+Section: skins
+Architecture: all
+Maintainer: stein17
 MD5Sum: cbf3cea2f54d92ea7f2945b750821b7d
 Size: 4688864
 Filename: enigma2-plugin-skins-bundesligafhd_1.4+git1508+e56a3e20+e56a3e2688-r0_all.ipk
+Source: enigma2-plugin-skins-bundesligafhd.bb
+Description: BundesligaFHD skin for Enigma2
+OE: enigma2-plugin-skins-bundesligafhd
+HomePage: https://github.com/stein17/Skins-for-openATV
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: enigma2-plugin-skins-bundesligawqhd
 Version: 1.4+git1508+e56a3e20+e56a3e2688-r0
-Description: BundesligaWQHD skin for Enigma2
- WQHD Bundesliga skin and configuration plugin.
-Section: skins
-Priority: optional
-Maintainer: stein17
-License: GPL-2.0-or-later
-Architecture: all
-OE: enigma2-plugin-skins-bundesligawqhd
-Homepage: https://github.com/stein17/Skins-for-openATV
 Depends: enigma2-plugin-extensions-oaweather
-Source: enigma2-plugin-skins-bundesligawqhd.bb
+Section: skins
+Architecture: all
+Maintainer: stein17
 MD5Sum: 9388fe77d33a33832f87ee16686ba4ac
 Size: 10551598
 Filename: enigma2-plugin-skins-bundesligawqhd_1.4+git1508+e56a3e20+e56a3e2688-r0_all.ipk
+Source: enigma2-plugin-skins-bundesligawqhd.bb
+Description: BundesligaWQHD skin for Enigma2
+OE: enigma2-plugin-skins-bundesligawqhd
+HomePage: https://github.com/stein17/Skins-for-openATV
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: enigma2-plugin-skins-e2darkos
 Version: 1.1+git294+db1cdec0+db1cdec969-r0
@@ -1622,6 +1694,7 @@ OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-skins-glamouraurafhd
 Version: 14.x+git616+f3275170+f3275170be-r0
 Recommends: enigma2-plugin-extensions-bitrate, enigma2-plugin-extensions-weathermsn
@@ -1637,22 +1710,23 @@ OE: enigma2-plugin-skins-glamouraurafhd
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-skins-gradientwqhd
 Version: 1.1+git1508+e56a3e20+e56a3e2688-r0
-Description: GradientWQHD skin for Enigma2
- WQHD Gradient skin and configuration plugin
-Section: skins
-Priority: optional
-Maintainer: stein17
-License: GPL-2.0-or-later
-Architecture: all
-OE: enigma2-plugin-skins-gradientwqhd
-Homepage: https://github.com/stein17/Skins-for-openATV
 Depends: enigma2-plugin-extensions-oaweather, python3-pillow, python3-requests, python3-six, python3-twisted
-Source: enigma2-plugin-skins-gradientwqhd.bb
+Section: skins
+Architecture: all
+Maintainer: stein17
 MD5Sum: 16cd85513c16ee20833324c1c8156bc2
 Size: 14405152
 Filename: enigma2-plugin-skins-gradientwqhd_1.1+git1508+e56a3e20+e56a3e2688-r0_all.ipk
+Source: enigma2-plugin-skins-gradientwqhd.bb
+Description: GradientWQHD skin for Enigma2
+OE: enigma2-plugin-skins-gradientwqhd
+HomePage: https://github.com/stein17/Skins-for-openATV
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: enigma2-plugin-skins-magic
 Version: 1.0+git331+8b5fb840+8b5fb84750-r0
@@ -1669,6 +1743,7 @@ OE: enigma2-plugin-skins-magic
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-skins-octetfhd
 Version: git690+725677d0+725677d88a-r0
 Recommends: enigma2-plugin-extensions-weatherplugin
@@ -1684,21 +1759,22 @@ OE: enigma2-plugin-skins-octetfhd
 License: GPL-2.0-only
 Priority: required
 
+
 Package: enigma2-plugin-skins-overlayhd
 Version: 2.03-git654+3b1c4320+3b1c432b7e-r0
-Description: OverlayHD skin and management plugin for Enigma2
- OverlayHD skin and skin management plugin for Enigma2 receivers.
 Section: skins
-Priority: optional
-Maintainer: IanSav
-License: GPL-2.0-only
 Architecture: all
-OE: enigma2-plugin-skins-overlayhd
-Homepage: https://github.com/IanSav/OverlayHD
-Source: enigma2-plugin-skins-overlayhd.bb
+Maintainer: IanSav
 MD5Sum: 63d655cdcb289ef33291b5a0c0fa0fb4
 Size: 8110488
 Filename: enigma2-plugin-skins-overlayhd_2.03-git654+3b1c4320+3b1c432b7e-r0_all.ipk
+Source: enigma2-plugin-skins-overlayhd.bb
+Description: OverlayHD skin and management plugin for Enigma2
+OE: enigma2-plugin-skins-overlayhd
+HomePage: https://github.com/IanSav/OverlayHD
+License: GPL-2.0-only
+Priority: optional
+
 
 Package: enigma2-plugin-skins-pd1loi-hd-night
 Version: 2.6.1+git616+02dec4f0+02dec4f9ae-r0
@@ -1714,20 +1790,6 @@ OE: enigma2-plugin-skins-pd1loi-hd-night
 License: GPL-3.0-only
 Priority: optional
 
-Package: enigma2-plugin-skins-pli-hd
-Version: 0.1+git104+1d701ab0+1d701ab989-r0
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
- PLi HD skin
-Section: base
-Priority: optional
-Maintainer: littlesat
-License: LicenseRef-Proprietary
-Architecture: all
-OE: enigma2-plugin-skins-pli-hd
-Source: enigma2-plugin-skins-pli-hd.bb
-MD5Sum: 7a1007fadd7340acea47ae9ba78238af
-Size: 3321454
-Filename: enigma2-plugin-skins-pli-hd_0.1+git104+1d701ab0+1d701ab989-r0_all.ipk
 
 Package: enigma2-plugin-skins-pli-hd-fullnight
 Version: 0.1+git109+99adc650+99adc658e4-r0
@@ -1743,6 +1805,22 @@ OE: enigma2-plugin-skins-pli-hd-fullnight
 License: Proprietary
 Priority: optional
 
+
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git104+1d701ab0+1d701ab989-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 7a1007fadd7340acea47ae9ba78238af
+Size: 3321454
+Filename: enigma2-plugin-skins-pli-hd_0.1+git104+1d701ab0+1d701ab989-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
+OE: enigma2-plugin-skins-pli-hd
+License: LicenseRef-Proprietary
+Priority: optional
+
+
 Package: enigma2-plugin-skins-simple-gray
 Version: 1.0+git289+80b15880+80b158870a-r0
 Section: base
@@ -1757,6 +1835,7 @@ OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-softcams-ncam
 Version: V15.8-r0
 Depends: libcurl4
@@ -1769,6 +1848,7 @@ Description: ncam to all images OE2.0 (Patched and Build by RAED)
 HomePage: www.tunisia-sat.com
 License: Proprietary
 Priority: optional
+
 
 Package: enigma2-plugin-softcams-oscam-whitelist
 Version: 2.0+git17+2ebb8b30+2ebb8b3589-r0
@@ -1784,8 +1864,11 @@ OE: enigma2-plugin-softcams-oscam-whitelist
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: enigma2-plugin-subscription-ai-powered-subtitle-translation
 Version: 1.0-r0
+Depends: libcurl4
+Recommends: update-rc.d
 Section: extra
 Architecture: all
 Maintainer: STBZone <info@stbzone.com>
@@ -1794,13 +1877,11 @@ Size: 6580
 Filename: enigma2-plugin-subscription-ai-powered-subtitle-translation_1.0-r0_all.ipk
 Source: enigma2-plugin-subscription-ai-powered-subtitle-translation_1.0.bb
 Description: Enable AI-Powered translation for all teletext and DVB subtitles.
- Enjoy 15 days of free use. For more information, visit
- https://stbzone.com
-Depends: libcurl4
-Recommends: update-rc.d
-License: CLOSED
 OE: enigma2-plugin-subscription-ai-powered-subtitle-translation
 HomePage: https://stbzone.com
+License: CLOSED
+Priority: optional
+
 
 Package: enigma2-plugin-systemplugins-m3uiptv
 Version: 1.0+git490+5bc4edf0+5bc4edf706-r0
@@ -1819,6 +1900,7 @@ HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-systemplugins-remotecontrolselection
 Version: 1.0+git22+2bb40440+2bb40447d6-r0
 Section: base
@@ -1832,6 +1914,7 @@ Description: enigma2-plugin-systemplugins-remotecontrolselection version 1.0+git
 OE: enigma2-plugin-systemplugins-remotecontrolselection
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: enigma2-plugin-systemplugins-terrestrialbouquet
 Version: 1.0+git11+564df070+564df07777-r0
@@ -1848,6 +1931,7 @@ HomePage: https://github.com/Huevos/TerrestrialBouquet
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-plugin-systemplugins-wanip
 Version: 1.0+git4+e4902be0+e4902befe9-r0
 Depends: python3-requests
@@ -1863,6 +1947,7 @@ OE: enigma2-plugin-systemplugins-wanip
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: enigma2-timezones
 Version: git1034+8153ef90+8153ef9c8d-r0
 Section: base
@@ -1876,6 +1961,7 @@ Description: timezone.xml for enigma2
 OE: enigma2-timezones
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-carl9170
 Version: 1.9.5-r0
@@ -1891,6 +1977,7 @@ OE: firmware-carl9170
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: firmware-htc7010
 Version: 1.0-r0
 Section: base
@@ -1904,6 +1991,7 @@ Description: Firmware for HTC7010
 OE: firmware-htc7010
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-htc9271
 Version: 1.0-r0
@@ -1919,6 +2007,7 @@ OE: firmware-htc9271
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: firmware-mt7601u
 Version: 1.0-r0
 Section: base
@@ -1932,6 +2021,7 @@ Description: Firmware for mt7601u
 OE: firmware-mt7601u
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rt2870
 Version: 1.0-r0
@@ -1947,6 +2037,7 @@ OE: firmware-rt2870
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: firmware-rt73
 Version: 1.0-r0
 Section: base
@@ -1960,6 +2051,7 @@ Description: Firmware for RT73
 OE: firmware-rt73
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8188eu
 Version: 1.0-r0
@@ -1975,6 +2067,7 @@ OE: firmware-rtl8188eu
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: firmware-rtl8192cu
 Version: 1.0-r0
 Section: base
@@ -1988,6 +2081,7 @@ Description: Firmware for RTL8192CU
 OE: firmware-rtl8192cu
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8192cufw
 Version: 1.0-r0
@@ -2006,6 +2100,7 @@ OE: firmware-rtl8192cufw
 License: CLOSED
 Priority: optional
 
+
 Package: firmware-rtl8192eu
 Version: 1.0-r0
 Section: base
@@ -2019,6 +2114,7 @@ Description: firmware-rtl8192eu version 1.0-r0
 OE: firmware-rtl8192eu
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-rtl8712u
 Version: 1.0-r0
@@ -2034,6 +2130,7 @@ OE: firmware-rtl8712u
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: firmware-rtl8xxxu
 Version: 1.0-r0
 Section: base
@@ -2047,6 +2144,7 @@ Description: firmware-rtl8xxxu version 1.0-r0
 OE: firmware-rtl8xxxu
 License: LicenseRef-Proprietary
 Priority: optional
+
 
 Package: firmware-zd1211
 Version: 1.0-r0
@@ -2062,6 +2160,7 @@ OE: firmware-zd1211
 License: LicenseRef-Proprietary
 Priority: optional
 
+
 Package: font-valis-enigma
 Version: 1.0+git331+8b5fb84-r0
 Section: base
@@ -2075,6 +2174,7 @@ Description: enigma2-plugin-skins-magic version 1.0+git-r0
 OE: enigma2-plugin-skins-magic
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: fstrim-cron
 Version: 1.0-r0
@@ -2090,20 +2190,6 @@ OE: fstrim-cron
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: iso-codes
-Version: 4.20.1-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e29ddd2034c67a690897b15751188bb
-Size: 368480
-Filename: iso-codes_4.20.1-r0_all.ipk
-Source: iso-codes_4.20.1.bb
-Description: ISO language, territory, currency, script codes and their translations
-OE: iso-codes
-HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
-License: LGPL-2.1-or-later
-Priority: optional
 
 Package: iso-codes-locale
 Version: 4.20.1-r0
@@ -2120,6 +2206,23 @@ HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-or-later
 Priority: optional
 
+
+Package: iso-codes
+Version: 4.20.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e29ddd2034c67a690897b15751188bb
+Size: 368480
+Filename: iso-codes_4.20.1-r0_all.ipk
+Source: iso-codes_4.20.1.bb
+Description: ISO language, territory, currency, script codes and their translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-or-later
+Priority: optional
+
+
 Package: kernel-module-88x2cu
 Version: 1.0-r0
 Provides: kernel-module-88x2cu
@@ -2135,40 +2238,39 @@ OE: sf8008-wifi-dummies
 License: CLOSED
 Priority: optional
 
+
 Package: kodi-addon-repository-kus-allinone
 Version: 3.8-r0
+Section: base
 Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: 2b09702eb8e0c7f1ccd2a955c7716fb3
 Size: 1927610
 Filename: kodi-addon-repository-kus-allinone_3.8-r0_all.ipk
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Source: kodi-addon-repository-kus-allinone_3.8.bb
 Description: K.U.S AllInOne Kodi add-on repository
- Repository descriptor for the Kodi Unlimited Support AllInOne add-on
- repository.
-Section: base
-Priority: optional
-License: GPL-2.0-or-later
 OE: kodi-addon-repository-kus-allinone
 HomePage: https://kodi-unlimited-support.de/
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: kodi-addon-script-xbmc-lcdproc
 Version: 4.1.1-r1
+Depends: python3-core, stb-lcdd
+Section: base
 Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 MD5Sum: a4c1c62d352d524d904c4b13cbdbc2c0
 Size: 122936
 Filename: kodi-addon-script-xbmc-lcdproc_4.1.1-r1_all.ipk
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Source: kodi-addon-script-xbmc-lcdproc_4.1.1.bb
 Description: Kodi LCDproc information service
- Official Kodi service which publishes player, media and navigation
- information through the LCDproc protocol.
-Depends: python3-core, stb-lcdd
-Section: base
-Priority: optional
-License: GPL-2.0-or-later
 OE: kodi-addon-script-xbmc-lcdproc
 HomePage: https://github.com/herrnst/script.xbmc.lcdproc
+License: GPL-2.0-or-later
+Priority: optional
+
 
 Package: linux-firmware-8821cu
 Version: 1.0-r0.1
@@ -2185,6 +2287,7 @@ HomePage: https://www.realtek.com/
 License: Proprietary
 Priority: optional
 
+
 Package: mm-common-doc
 Version: 1.0.8-r0
 Section: doc
@@ -2198,6 +2301,7 @@ Description: Common GNOME build files for C++ bindings - Documentation files
 OE: mm-common
 License: GPL-2.0-only
 Priority: optional
+
 
 Package: netbase
 Version: 1:6.6-r0.3
@@ -2214,6 +2318,7 @@ HomePage: http://packages.debian.org/netbase
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: network-usb-drivers-meta
 Version: 1.0-r0
 Depends: enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-rtl8852cu, enigma2-plugin-drivers-network-usb-rtl88xxau, enigma2-plugin-drivers-network-usb-zd1211rw
@@ -2229,6 +2334,7 @@ OE: network-usb-drivers-meta
 License: GPL-2.0-only
 Priority: optional
 
+
 Package: p7zip
 Version: 1.0-r0
 Depends: 7zip
@@ -2240,6 +2346,7 @@ Size: 512
 Filename: p7zip_1.0-r0_all.ipk
 Description: Compatibility package for p7zip recommendation; provided by 7zip.
 Priority: optional
+
 
 Package: packagegroup-bh-sf8008-python-feed
 Version: 1.0-r0
@@ -2256,6 +2363,7 @@ OE: packagegroup-bh-sf8008-python-feed
 License: MIT
 Priority: optional
 
+
 Package: python3-imaging
 Version: 1.0-r0
 Depends: python3-pillow
@@ -2270,6 +2378,7 @@ Description: Compatibility aliases for old Python package names
 OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
+
 
 Package: python3-pkg-resources
 Version: 1.0-r0
@@ -2286,6 +2395,7 @@ OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
 
+
 Package: python3-pycrypto
 Version: 1.0-r0
 Depends: python3-pycryptodome
@@ -2300,6 +2410,7 @@ Description: Compatibility aliases for old Python package names
 OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
+
 
 Package: python3-subprocess
 Version: 1.0-r0
@@ -2316,6 +2427,7 @@ OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
 
+
 Package: python3-zlib
 Version: 1.0-r0
 Depends: python3-compression
@@ -2330,6 +2442,7 @@ Description: Compatibility aliases for old Python package names
 OE: packagegroup-bh-python-compat-aliases
 License: MIT
 Priority: optional
+
 
 Package: run-postinsts
 Version: 1.0-r0
@@ -2347,6 +2460,7 @@ OE: run-postinsts
 License: MIT
 Priority: optional
 
+
 Package: settings-autorestore
 Version: 2021081701-r0
 Section: base
@@ -2360,6 +2474,7 @@ Description: settings-autorestore version 2021081701-r0
 OE: settings-autorestore
 License: GPL-2.0-or-later
 Priority: optional
+
 
 Package: sf8008-wifi-dummies
 Version: 1.0-r0
@@ -2378,6 +2493,7 @@ OE: sf8008-wifi-dummies
 License: CLOSED
 Priority: optional
 
+
 Package: softcam-support
 Version: 2-r0
 Recommends: update-rc.d
@@ -2393,6 +2509,7 @@ OE: softcam-support
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: tuxbox-common
 Version: 2+git1570+b73e0780+b73e078b95-3
 Depends: xz
@@ -2407,6 +2524,215 @@ Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
 License: GPL-2.0-or-later
 Priority: optional
+
+
+Package: tzdata-africa
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 96af62de6ce1e79ccf5b1daa7a177862
+Size: 3962
+Filename: tzdata-africa_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-americas
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d08c05840bb6b07c18c8b5cd99d7f58
+Size: 21884
+Filename: tzdata-americas_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-antarctica
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9cdd1a68bb4fafd666ebc66997864a55
+Size: 2836
+Filename: tzdata-antarctica_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-arctic
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3455766630de37536c9058264b2404bd
+Size: 1152
+Filename: tzdata-arctic_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-asia
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac032eb5cdf3ef4e1faebbe748ed895d
+Size: 14050
+Filename: tzdata-asia_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-atlantic
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a71471e2241612644ee3958e8631630
+Size: 3564
+Filename: tzdata-atlantic_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-australia
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4dd1ce6dd0574ea291b8bb70bbaf66c3
+Size: 2710
+Filename: tzdata-australia_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-core
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 15019cf5ec26ad61991bce5178595e7a
+Size: 57362
+Filename: tzdata-core_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-europe
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f7036f18d649c46930108782e89e48c2
+Size: 8560
+Filename: tzdata-europe_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-misc
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9caccb125fd5a452239594db9101350
+Size: 6894
+Filename: tzdata-misc_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-pacific
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d4f9c77f42b7a0819f77e961850130a5
+Size: 4682
+Filename: tzdata-pacific_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-posix
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70276c8fd97dfceb3106b176300c0a9c
+Size: 56628
+Filename: tzdata-posix_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
+
+Package: tzdata-right
+Version: 2026c-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ad5ef05ef2b64128ca3c0c7e5b0b25e1
+Size: 58048
+Filename: tzdata-right_2026c-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: BSD-3-Clause AND LicenseRef-PD
+Priority: optional
+
 
 Package: tzdata
 Version: 2026c-r0
@@ -2424,200 +2750,6 @@ HomePage: http://www.iana.org/time-zones
 License: BSD-3-Clause AND LicenseRef-PD
 Priority: optional
 
-Package: tzdata-africa
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96af62de6ce1e79ccf5b1daa7a177862
-Size: 3962
-Filename: tzdata-africa_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-americas
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d08c05840bb6b07c18c8b5cd99d7f58
-Size: 21884
-Filename: tzdata-americas_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-antarctica
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9cdd1a68bb4fafd666ebc66997864a55
-Size: 2836
-Filename: tzdata-antarctica_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-arctic
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3455766630de37536c9058264b2404bd
-Size: 1152
-Filename: tzdata-arctic_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-asia
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac032eb5cdf3ef4e1faebbe748ed895d
-Size: 14050
-Filename: tzdata-asia_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-atlantic
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a71471e2241612644ee3958e8631630
-Size: 3564
-Filename: tzdata-atlantic_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-australia
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4dd1ce6dd0574ea291b8bb70bbaf66c3
-Size: 2710
-Filename: tzdata-australia_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-core
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15019cf5ec26ad61991bce5178595e7a
-Size: 57362
-Filename: tzdata-core_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-europe
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7036f18d649c46930108782e89e48c2
-Size: 8560
-Filename: tzdata-europe_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-misc
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9caccb125fd5a452239594db9101350
-Size: 6894
-Filename: tzdata-misc_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-pacific
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4f9c77f42b7a0819f77e961850130a5
-Size: 4682
-Filename: tzdata-pacific_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-posix
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70276c8fd97dfceb3106b176300c0a9c
-Size: 56628
-Filename: tzdata-posix_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
-
-Package: tzdata-right
-Version: 2026c-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad5ef05ef2b64128ca3c0c7e5b0b25e1
-Size: 58048
-Filename: tzdata-right_2026c-r0_all.ipk
-Source: tzdata.bb
-Description: Timezone data
-OE: tzdata
-HomePage: http://www.iana.org/time-zones
-License: BSD-3-Clause AND LicenseRef-PD
-Priority: optional
 
 Package: update-rc.d
 Version: 0.8+git0+b8f9501050-r0
@@ -2634,6 +2766,7 @@ HomePage: http://github.com/philb/update-rc.d/
 License: GPL-2.0-or-later
 Priority: optional
 
+
 Package: volatile-media
 Version: 3-r0
 Section: base
@@ -2647,6 +2780,23 @@ Description: volatile-media version 3-r0
 OE: volatile-media
 License: GPL-2.0-or-later
 Priority: optional
+
+
+Package: wireless-regdb-static
+Version: 2026.09.03-r0
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1946bdfdb84f6806ffe8e90fd52b83bf
+Size: 4474
+Filename: wireless-regdb-static_2026.09.03-r0_all.ipk
+Source: wireless-regdb_2026.09.03.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
+License: ISC
+Priority: optional
+
 
 Package: wireless-regdb
 Version: 2026.09.03-r0
@@ -2665,17 +2815,4 @@ HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
 License: ISC
 Priority: optional
 
-Package: wireless-regdb-static
-Version: 2026.09.03-r0
-Section: net
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1946bdfdb84f6806ffe8e90fd52b83bf
-Size: 4474
-Filename: wireless-regdb-static_2026.09.03-r0_all.ipk
-Source: wireless-regdb_2026.09.03.bb
-Description: Wireless Central Regulatory Domain Database
-OE: wireless-regdb
-HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
-License: ISC
-Priority: optional
+
