@@ -5697,6 +5697,21 @@ MD5Sum: 69bdcba254bb7dc25aa3770a8719ce52
 Size: 8786728
 Filename: enigma2-plugin-skins-gradient-fhd_1.5+git1508+e56a3e20+e56a3e2688-r0_cortexa15hf-neon-vfpv4.ipk
 
+Package: enigma2-plugin-skins-madmax-impossible
+Version: V.3.4-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: madhouse
+MD5Sum: 4a95bae181dc8a6785559b04ae3b15a6
+Size: 5179650
+Filename: enigma2-plugin-skins-madmax-impossible_V.3.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-skins-madmax-impossible.bb
+Description: MadMax Fhd Poster by Madhouse & StixMax
+ MadMax Fhd Poster by Madhouse & StixMax.
+Depends: enigma2-plugin-extensions-oaweather
+License: GPL-2.0-or-later
+OE: enigma2-plugin-skins-madmax-impossible
+
 Package: enigma2-plugin-skins-steampunk
 Version: 1.1+git1508+e56a3e20+e56a3e2688-r0
 Description: Steampunk Skin
