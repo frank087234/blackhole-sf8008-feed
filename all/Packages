@@ -1784,6 +1784,24 @@ OE: enigma2-plugin-softcams-oscam-whitelist
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-subscription-ai-powered-subtitle-translation
+Version: 1.0-r0
+Section: extra
+Architecture: all
+Maintainer: STBZone <info@stbzone.com>
+MD5Sum: f9d6dd897bf950169c9a3cef51ae406d
+Size: 6580
+Filename: enigma2-plugin-subscription-ai-powered-subtitle-translation_1.0-r0_all.ipk
+Source: enigma2-plugin-subscription-ai-powered-subtitle-translation_1.0.bb
+Description: Enable AI-Powered translation for all teletext and DVB subtitles.
+ Enjoy 15 days of free use. For more information, visit
+ https://stbzone.com
+Depends: libcurl4
+Recommends: update-rc.d
+License: CLOSED
+OE: enigma2-plugin-subscription-ai-powered-subtitle-translation
+HomePage: https://stbzone.com
+
 Package: enigma2-plugin-systemplugins-m3uiptv
 Version: 1.0+git490+5bc4edf0+5bc4edf706-r0
 Depends: python3-core, python3-multiprocessing, python3-requests, python3-zoneinfo
