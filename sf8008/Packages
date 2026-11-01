@@ -1209,6 +1209,24 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-e2mdb
+Version: 1.4+git0+eeab25994d-r0
+Depends: python3-compression, python3-core, python3-json, python3-netclient, python3-pillow, python3-requests, python3-sqlite3, python3-twisted-core, python3-twisted-web, python3-xml
+Recommends: update-rc.d
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CLOSED
+Source: enigma2-plugin-extensions-e2mdb_git.bb
+Description: e2MDB metadata and artwork plugin for Enigma2
+ Enigma2 plugin and backend service for recording, media, and EPG metadata
+OE: enigma2-plugin-extensions-e2mdb
+Priority: optional
+MD5Sum: d0297aa0256dd113bb2f0cdb57b4fde1
+SHA256sum: e3ac15f7967da8360a32f34d9058a7a0715eb713d8d7800db6186c3099cca4f5
+Size: 1562794
+Filename: enigma2-plugin-extensions-e2mdb_1.4+git0+eeab25994d-r0_sf8008.ipk
+
 Package: enigma2-plugin-extensions-easyinfo
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
