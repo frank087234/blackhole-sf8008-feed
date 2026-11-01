@@ -6052,6 +6052,24 @@ License: LGPL-2.1-only
 OE: enigma2-plugin-systemplugins-radiotimesemulator
 HomePage: https://github.com/LraiZer/RadiotimesXmltvEmulator
 
+Package: enigma2-plugin-systemplugins-satipserver
+Version: 1+git6+146216b0+146216b849-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LicenseRef-PD
+Source: enigma2-plugin-systemplugins-satipserver.bb
+Description: enigma2-plugin-systemplugins-satipserver version 1+git-r0
+ Install/Unistall SAT>IP servers for enigma2
+OE: enigma2-plugin-systemplugins-satipserver
+Homepage: https://github.com/Dima73/enigma2-plugin-systemplugins-satipserver
+Priority: optional
+MD5Sum: fbc416f4f25a42637b6fd456bb7a630a
+SHA256sum: e252564e21175a52dfa2fc0db56b7338516bb43d97e58e4a3ae259a92faf966b
+Size: 6310
+Filename: enigma2-plugin-systemplugins-satipserver_1+git6+146216b0+146216b849-r0_cortexa15hf-neon-vfpv4.ipk
+
 Package: enigma2-plugin-systemplugins-serviceapp
 Version: 0.5+git224+505bee00+505bee0bce-r1
 Depends: enigma2, exteplayer3, gstplayer, gstplayer2, libc6 (>= 2.44+git0+5c479454d1), libcrypto4 (>= 4.0.3), libgcc1 (>= 16.2.0), libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), openssl, python3-json, uchardet (>= 0.0.8)
