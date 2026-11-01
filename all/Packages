@@ -636,18 +636,18 @@ Priority: optional
 
 
 Package: enigma2-plugin-extensions-jedimakerxtream
-Version: git173+5d2218a0+5d2218ae6f-r0
+Version: 1:6.37.20240530-r0
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 197e611c8b5e803a0727a2a8101969e5
-Size: 2983426
-Filename: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all.ipk
+MD5Sum: 8b4c40f767517d4caa302b171e235c3e
+Size: 2988212
+Filename: enigma2-plugin-extensions-jedimakerxtream_6.37.20240530-r0_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version git-r0
+Description: enigma2-plugin-extensions-jedimakerxtream version 6.37.20240530-r0
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Priority: optional
 
 
