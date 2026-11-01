@@ -12273,6 +12273,23 @@ HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause AND IJG AND Zlib
 Priority: optional
 
+Package: libkodiplatform22
+Version: 22.0.0-r0
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 68a28e10031d6b1fa76bec974a380969
+Size: 25296
+Filename: libkodiplatform22_22.0.0-r0_sf8008.ipk
+Source: kodi-platform_22.0.0.bb
+Description: Platform support library used by libCEC and binary add-ons for Kodi
+ Platform support library used by libCEC and binary add-ons for Kodi.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Provides: libkodiplatform
+License: GPL-2.0-or-later
+OE: kodi-platform
+HomePage: http://libcec.pulse-eight.com/
+
 Package: libssl1.0.2
 Version: 1.0.2u-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libcrypto1.0.2 (>= 1.0.2u)
@@ -13231,6 +13248,23 @@ Section: base
 Priority: optional
 License: GPL-2.0-only
 OE: stb-kodi-sf8008
+
+Package: stb-lcdd
+Version: 1.0-r11
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b876c3e33ab8da2c149158227249037
+Size: 19346
+Filename: stb-lcdd_1.0-r11_sf8008.ipk
+Source: stb-lcdd_1.0.bb
+Description: LCDproc-compatible front panel bridge for Enigma2 receivers
+ Minimal LCDd protocol server which renders Kodi information directly to
+ STB color, monochrome, text and seven-segment front panels while Enigma2
+ is stopped.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libfreetype6 (>= 2.14.3), libharfbuzz0 (>= 14.4.0), libpng16-16 (>= 1.6.58)
+License: GPL-2.0-only
+OE: stb-lcdd
 
 Package: sysvinit
 Version: 3.14-r0.3
