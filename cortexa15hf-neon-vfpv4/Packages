@@ -5084,6 +5084,22 @@ MD5Sum: bd1fa1854dc1d3a5125854b69445e319
 Size: 79298
 Filename: enigma2-plugin-extensions-mediaplayer2_0.8+git34+60908f50+60908f5e17-r0_cortexa15hf-neon-vfpv4.ipk
 
+Package: enigma2-plugin-extensions-mediaplayer2-po
+Version: 0.8+git34+60908f50+60908f5e17-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db57c8d3cabba735bbfe55f3332dc0bb
+Size: 21510
+Filename: enigma2-plugin-extensions-mediaplayer2-po_0.8+git34+60908f50+60908f5e17-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-mediaplayer2.bb
+Description: extensions-mediaplayer2 (translations)
+ extensions-mediaplayer2 (translations)
+Depends: enigma2-plugin-extensions-mediaplayer2
+License: GPL-2.0-or-later
+OE: enigma2-plugin-extensions-mediaplayer2
+HomePage: https://github.com/oe-mirrors/mediaplayer2.git
+
 Package: enigma2-plugin-extensions-moviecut
 Version: git125+8391cb60+8391cb6696-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
@@ -5130,6 +5146,21 @@ Source: enigma2-plugin-extensions-multiquickbutton.bb
 MD5Sum: 85c8adb04ae4cb69d2ad4ee6d44fd618
 Size: 142000
 Filename: enigma2-plugin-extensions-multiquickbutton_2.8.4+git85+e86839c0+e86839cf16-r0_cortexa15hf-neon-vfpv4.ipk
+
+Package: enigma2-plugin-extensions-multiquickbutton-po
+Version: 2.8.4+git85+e86839c0+e86839cf16-r0
+Section: extra
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2b90c4cf1807653637809b5748179c31
+Size: 13822
+Filename: enigma2-plugin-extensions-multiquickbutton-po_2.8.4+git85+e86839c0+e86839cf16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-multiquickbutton.bb
+Description: Multi Quickbutton editor/wizard/code interpreter for keyboard and RC ViX Version
+ Multi Quickbutton editor/wizard/code interpreter for keyboard and RC ViX
+ Version.
+License: GPL-2.0-only
+OE: enigma2-plugin-extensions-multiquickbutton
 
 Package: enigma2-plugin-extensions-myhybridiptv
 Version: 3.0-r1
@@ -5289,6 +5320,21 @@ Source: enigma2-plugin-extensions-picturecenterfs.bb
 MD5Sum: 821fcbacd02dca1727a615249ab4b4a2
 Size: 197990
 Filename: enigma2-plugin-extensions-picturecenterfs_1.0+git19+938dd9e0+938dd9e1fc-r0_cortexa15hf-neon-vfpv4.ipk
+
+Package: enigma2-plugin-extensions-picturecenterfs-po
+Version: 1.0+git19+938dd9e0+938dd9e1fc-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: jbleyel
+MD5Sum: 436cefe3b5a8213751ca97099a291131
+Size: 8938
+Filename: enigma2-plugin-extensions-picturecenterfs-po_1.0+git19+938dd9e0+938dd9e1fc-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-picturecenterfs.bb
+Description: extensions-picturecenterfs (translations)
+ extensions-picturecenterfs (translations)
+Depends: enigma2-plugin-extensions-picturecenterfs
+License: MIT
+OE: enigma2-plugin-extensions-picturecenterfs
 
 Package: enigma2-plugin-extensions-refreshbouquet
 Version: 2.0+git217+3a583f80+3a583f8e49-r0
@@ -5524,6 +5570,20 @@ Source: enigma2-plugin-extensions-yahooweather.bb
 MD5Sum: f1c9b08dfc0f59ac88d67c1c00bc19ba
 Size: 762482
 Filename: enigma2-plugin-extensions-yahooweather_1.2.+git39+66d9fe60+66d9fe639e-r0_cortexa15hf-neon-vfpv4.ipk
+
+Package: enigma2-plugin-extensions-yahooweather-po
+Version: 1.2.+git39+66d9fe60+66d9fe639e-r0
+Section: extra
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: original by m43c0 and mmark and mod by mogli123
+MD5Sum: 627d7e030b0243bee952d6fb392343ad
+Size: 5060
+Filename: enigma2-plugin-extensions-yahooweather-po_1.2.+git39+66d9fe60+66d9fe639e-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-yahooweather.bb
+Description: enigma2-plugin-extensions-yahooweather version 1.2.+git-r0
+ enigma2-plugin-extensions-yahooweather
+License: GPL-2.0-or-later
+OE: enigma2-plugin-extensions-yahooweather
 
 Package: enigma2-plugin-extensions-youtube
 Version: 1+git1330+87440b50+87440b5731-r0
@@ -5793,6 +5853,21 @@ MD5Sum: 346898233f7087c86bd3a685253136fd
 Size: 361720
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.5-git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
 
+Package: enigma2-plugin-systemplugins-autobouquetsmaker-po
+Version: 3.5-git1204+ac206ec0+ac206eca78-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: oe-alliance team
+MD5Sum: 5d7372a927e4af12f00f496a38603109
+Size: 65246
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.5-git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
+Description: systemplugins-autobouquetsmaker (translations)
+ systemplugins-autobouquetsmaker (translations)
+Depends: enigma2-plugin-systemplugins-autobouquetsmaker
+License: LicenseRef-Proprietary
+OE: enigma2-plugin-systemplugins-autobouquetsmaker
+
 Package: enigma2-plugin-systemplugins-channelsimporter
 Version: V1.0-git89+52071d80+52071d800e-r0
 Description: enigma2-plugin-systemplugins-channelsimporter version git-r0
@@ -5907,6 +5982,22 @@ Source: enigma2-plugin-systemplugins-radiotimesemulator.bb
 MD5Sum: d0f415bb3818985953dbae260230579f
 Size: 454772
 Filename: enigma2-plugin-systemplugins-radiotimesemulator_1.0.0+gitr106+1b1d3980+1b1d398ccd-r0_cortexa15hf-neon-vfpv4.ipk
+
+Package: enigma2-plugin-systemplugins-radiotimesemulator-po
+Version: 1.0.0+gitr106+1b1d3980+1b1d398ccd-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afac4e70f829477da48352aa5406fbb9
+Size: 4068
+Filename: enigma2-plugin-systemplugins-radiotimesemulator-po_1.0.0+gitr106+1b1d3980+1b1d398ccd-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-radiotimesemulator.bb
+Description: systemplugins-radiotimesemulator (translations)
+ systemplugins-radiotimesemulator (translations)
+Depends: enigma2-plugin-systemplugins-radiotimesemulator
+License: LGPL-2.1-only
+OE: enigma2-plugin-systemplugins-radiotimesemulator
+HomePage: https://github.com/LraiZer/RadiotimesXmltvEmulator
 
 Package: enigma2-plugin-systemplugins-serviceapp
 Version: 0.5+git224+505bee00+505bee0bce-r1
