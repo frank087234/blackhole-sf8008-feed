@@ -2985,14 +2985,16 @@ Depends: enigma2-plugins
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9f74ca93fc5c9a060189bc15fb0e1e09
-Size: 19576
-Filename: enigma2-plugin-systemplugins-vfdcontrol_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
+License: LicenseRef-Proprietary
 Source: enigma2-plugins.bb
 Description: systemplugins-vfdcontrol
+ systemplugins-vfdcontrol
 OE: enigma2-plugins
-License: LicenseRef-Proprietary
 Priority: optional
+MD5Sum: 9f74ca93fc5c9a060189bc15fb0e1e09
+SHA256sum: 0bb6811b156da08cb69f4dc2d61a232b773640c554e7b3f31764ecc62c60e7d0
+Size: 19576
+Filename: enigma2-plugin-systemplugins-vfdcontrol_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
