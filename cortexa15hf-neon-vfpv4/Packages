@@ -5386,6 +5386,27 @@ MD5Sum: f5c3eac7bf1fe72278567f3070d44ca7
 Size: 813226
 Filename: enigma2-plugin-extensions-serienrecorder_1+git608+961de430+961de43001-r1_cortexa15hf-neon-vfpv4.ipk
 
+Package: enigma2-plugin-extensions-stbkodilauncher
+Version: V1.0-git3+162539a0+162539a17d-r0
+Depends: python3-core, virtual-kodi
+Provides: enigma2-plugin-extensions-kodi
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Source: enigma2-plugin-extensions-stbkodilauncher.bb
+Description: Minimal Enigma2 launcher for standalone STB Kodi
+ Adds Kodi entries to the Enigma2 plugin and extensions menus and exits
+ Enigma2 through the existing QUIT_KODI session path.
+OE: enigma2-plugin-extensions-stbkodilauncher
+Priority: optional
+Replaces: enigma2-plugin-extensions-kodi
+Conflicts: enigma2-plugin-extensions-kodi
+MD5Sum: d66be0fef06f484bb83856d426a8bd19
+SHA256sum: 9cd78e5f608f77effb37fd78917935235a1fc8c0ea5e5b111befdb3494d3f0fe
+Size: 7360
+Filename: enigma2-plugin-extensions-stbkodilauncher_V1.0-git3+162539a0+162539a17d-r0_cortexa15hf-neon-vfpv4.ipk
+
 Package: enigma2-plugin-extensions-subssupport
 Version: 1.7.0-r17
 Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-json, python3-requests, python3-xmlrpc, unrar
