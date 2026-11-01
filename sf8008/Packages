@@ -47,20 +47,6 @@ OE: android-tools-conf
 License: MIT
 Priority: optional
 
-Package: base-files-doc
-Version: 3.0.14-r0
-Section: doc
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9403dd2203c72c5c33ef621908b7a6b2
-Size: 768
-Filename: base-files-doc_3.0.14-r0_sf8008.ipk
-Source: base-files_3.0.14.bb
-Description: Miscellaneous files for the base system - Documentation files
-OE: base-files
-License: GPL-2.0-only
-Priority: optional
-
 Package: base-files
 Version: 3.0.14-r0
 Section: base
@@ -71,6 +57,20 @@ Size: 3676
 Filename: base-files_3.0.14-r0_sf8008.ipk
 Source: base-files_3.0.14.bb
 Description: Miscellaneous files for the base system
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r0
+Section: doc
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9403dd2203c72c5c33ef621908b7a6b2
+Size: 768
+Filename: base-files-doc_3.0.14-r0_sf8008.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
 OE: base-files
 License: GPL-2.0-only
 Priority: optional
@@ -191,6 +191,24 @@ Description: enigma.info used by BoxInfo
 OE: enigma-info
 License: GPL-2.0-or-later
 Priority: required
+
+Package: enigma2
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-zd1211rw, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+5c479454d1), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.0.3), libcurl4 (>= 8.22.0), libdreamdvd0 (>= 1.1+git233+975333a0+975333a755), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.88.3), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.58), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.4), oe-alliance-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-wifi, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink, wireless-tools, wpa-supplicant
+Replaces: enigma2-plugin-pli-softcamsetup
+Conflicts: enigma2-plugin-pli-softcamsetup
+Recommends: glibc-gconv-utf-16, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, python3-sendfile
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4d778c97862d361d33402c21e29331ed
+Size: 12871226
+Filename: enigma2_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
 
 Package: enigma2-fonts
 Version: 2020.10.17-r0
@@ -656,21 +674,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-locale-pt-br
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ce8a86b7e12db908b2b9995e37a652ec
-Size: 57338
-Filename: enigma2-locale-pt-br_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: pt-br
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-locale-pt
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -682,6 +685,21 @@ Size: 53502
 Filename: enigma2-locale-pt_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: pt
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ce8a86b7e12db908b2b9995e37a652ec
+Size: 57338
+Filename: enigma2-locale-pt-br_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: pt-br
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1028,21 +1046,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-cutlisteditor-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4eba2e81dc5b6e7ff0cba6a8a1be6a4e
-Size: 8812
-Filename: enigma2-plugin-extensions-cutlisteditor-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-cutlisteditor (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-cutlisteditor
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: aio-grab
@@ -1054,6 +1057,21 @@ Size: 20834
 Filename: enigma2-plugin-extensions-cutlisteditor_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4eba2e81dc5b6e7ff0cba6a8a1be6a4e
+Size: 8812
+Filename: enigma2-plugin-extensions-cutlisteditor-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1118,21 +1136,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-dvdburn-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b069022b06274b9b831e2ca262e46d50
-Size: 25848
-Filename: enigma2-plugin-extensions-dvdburn-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-dvdburn (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-dvdburn
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, replex
@@ -1148,17 +1151,17 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-extensions-dvdplayer-src
+Package: enigma2-plugin-extensions-dvdburn-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 600e48670db9ae16b000ba6be291e99d
-Size: 1966
-Filename: enigma2-plugin-extensions-dvdplayer-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: b069022b06274b9b831e2ca262e46d50
+Size: 25848
+Filename: enigma2-plugin-extensions-dvdburn-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
-Description: extensions-dvdplayer (source files)
+Description: extensions-dvdburn (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1173,6 +1176,21 @@ Size: 3846
 Filename: enigma2-plugin-extensions-dvdplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 600e48670db9ae16b000ba6be291e99d
+Size: 1966
+Filename: enigma2-plugin-extensions-dvdplayer-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1322,21 +1340,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-filecommander-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6990095c83ad98859d457efa971fbf0c
-Size: 30768
-Filename: enigma2-plugin-extensions-filecommander-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-filecommander (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-filecommander
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-puremagic
@@ -1348,6 +1351,21 @@ Size: 91250
 Filename: enigma2-plugin-extensions-filecommander_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-filecommander
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6990095c83ad98859d457efa971fbf0c
+Size: 30768
+Filename: enigma2-plugin-extensions-filecommander-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-filecommander (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1381,6 +1399,20 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a9dbb3114cc1fa9152f2445da0be0865
+Size: 46888
+Filename: enigma2-plugin-extensions-graphmultiepg_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-graphmultiepg-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -1392,20 +1424,6 @@ Size: 17226
 Filename: enigma2-plugin-extensions-graphmultiepg-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugin-extensions-graphmultiepg
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a9dbb3114cc1fa9152f2445da0be0865
-Size: 46888
-Filename: enigma2-plugin-extensions-graphmultiepg_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-graphmultiepg
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1513,6 +1531,20 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 26394c2bb43f1ede935a8097fc337fc7
+Size: 39112
+Filename: enigma2-plugin-extensions-mediaplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-mediaplayer-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -1528,16 +1560,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-extensions-mediaplayer
+Package: enigma2-plugin-extensions-mediascanner
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 26394c2bb43f1ede935a8097fc337fc7
-Size: 39112
-Filename: enigma2-plugin-extensions-mediaplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 84862ea3e63503414a75536d2e42ecab
+Size: 6122
+Filename: enigma2-plugin-extensions-mediascanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: extensions-mediaplayer
+Description: extensions-mediascanner
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1553,20 +1585,6 @@ Size: 1750
 Filename: enigma2-plugin-extensions-mediascanner-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugin-extensions-mediascanner
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 84862ea3e63503414a75536d2e42ecab
-Size: 6122
-Filename: enigma2-plugin-extensions-mediascanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-mediascanner
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1746,20 +1764,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-openwebif-src
-Version: 0.0-364-g49eb4aa-r0
-Section: devel
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c5b148749db5c60715066de2c9b9eb7
-Size: 124880
-Filename: enigma2-plugin-extensions-openwebif-src_0.0-364-g49eb4aa-r0_sf8008.ipk
-Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version git-r0 - Source files
-OE: enigma2-plugin-extensions-openwebif
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-openwebif
 Version: 0.0-371-gdf3b348-r0
 Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-twisted-web, python3-unixadmin
@@ -1772,6 +1776,20 @@ Size: 2335506
 Filename: enigma2-plugin-extensions-openwebif_0.0-371-gdf3b348-r0_sf8008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 0.0-364-g49eb4aa-r0
+Section: devel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c5b148749db5c60715066de2c9b9eb7
+Size: 124880
+Filename: enigma2-plugin-extensions-openwebif-src_0.0-364-g49eb4aa-r0_sf8008.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version git-r0 - Source files
 OE: enigma2-plugin-extensions-openwebif
 License: GPL-2.0-only
 Priority: optional
@@ -1834,6 +1852,20 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: e4f872ce487bb6df84b92b6503c8b9de
+Size: 32018
+Filename: enigma2-plugin-extensions-pictureplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-pictureplayer-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -1845,20 +1877,6 @@ Size: 6660
 Filename: enigma2-plugin-extensions-pictureplayer-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugin-extensions-pictureplayer
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e4f872ce487bb6df84b92b6503c8b9de
-Size: 32018
-Filename: enigma2-plugin-extensions-pictureplayer_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-pictureplayer
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -1906,6 +1924,22 @@ Description: extensions-reconstructapsc
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
+Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0
+ Adjust the screen position
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: sf8008
+OE: enigma2-plugin-extensions-screenposition
+Depends: python3-core
+Source: enigma2-plugin-extensions-screenposition.bb
+MD5Sum: 84fbc0af6e05faf3156bb7220b169315
+Size: 5884
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b0+0b2e06b258-r0_sf8008.ipk
 
 Package: enigma2-plugin-extensions-seekbar
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1965,21 +1999,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-socketmmi-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d69832ed059b9d4e1d41b8261916486c
-Size: 1524
-Filename: enigma2-plugin-extensions-socketmmi-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-socketmmi (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-socketmmi
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), libxml2 (>= 2.15.4)
@@ -1991,6 +2010,21 @@ Size: 17054
 Filename: enigma2-plugin-extensions-socketmmi_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d69832ed059b9d4e1d41b8261916486c
+Size: 1524
+Filename: enigma2-plugin-extensions-socketmmi-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2010,21 +2044,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-streamlinkwrapper-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e1edf8e000254948fc604da9cda097ce
-Size: 1294
-Filename: enigma2-plugin-extensions-streamlinkwrapper-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-streamlinkwrapper (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-streamlinkwrapper
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: streamlink
@@ -2036,6 +2055,21 @@ Size: 2194
 Filename: enigma2-plugin-extensions-streamlinkwrapper_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for streamlink url scheme in bouquet list.
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-streamlinkwrapper-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: e1edf8e000254948fc604da9cda097ce
+Size: 1294
+Filename: enigma2-plugin-extensions-streamlinkwrapper-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-streamlinkwrapper (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2202,21 +2236,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-ytdlpwrapper-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 24c3845dc0443dfe93167970e86cb195
-Size: 1536
-Filename: enigma2-plugin-extensions-ytdlpwrapper-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: extensions-ytdlpwrapper (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-ytdlpwrapper
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-yt-dlp
@@ -2232,17 +2251,17 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-extensions-ytdlwrapper-src
+Package: enigma2-plugin-extensions-ytdlpwrapper-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a548c8ca1204cc66ad34fe7249bd410c
-Size: 1342
-Filename: enigma2-plugin-extensions-ytdlwrapper-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+MD5Sum: 24c3845dc0443dfe93167970e86cb195
+Size: 1536
+Filename: enigma2-plugin-extensions-ytdlpwrapper-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
-Description: extensions-ytdlwrapper (source files)
+Description: extensions-ytdlpwrapper (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2258,6 +2277,21 @@ Size: 2280
 Filename: enigma2-plugin-extensions-ytdlwrapper_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: Enables support for Youtube-DL url scheme in bouquet list.
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-ytdlwrapper-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a548c8ca1204cc66ad34fe7249bd410c
+Size: 1342
+Filename: enigma2-plugin-extensions-ytdlwrapper-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: extensions-ytdlwrapper (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2336,6 +2370,21 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git41+16525340+1652534fc4-r0
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0
+ automated power off for STB
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: sf8008
+OE: enigma2-plugin-systemplugins-autoshutdown
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+MD5Sum: e56a0ad8348074b3bf80a98265d7e8c8
+Size: 22294
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git41+16525340+1652534fc4-r0_sf8008.ipk
+
 Package: enigma2-plugin-systemplugins-blindscan
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -2350,6 +2399,20 @@ Source: enigma2-plugins.bb
 Description: systemplugins-blindscan
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 347a7dc51178dac8a2291d5fbe1f93bc
+Size: 9828
+Filename: enigma2-plugin-systemplugins-cablescan_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan-src
@@ -2367,16 +2430,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-cablescan
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 347a7dc51178dac8a2291d5fbe1f93bc
-Size: 9828
-Filename: enigma2-plugin-systemplugins-cablescan_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 480c6810edea7f94baaf4f17354f2702
+Size: 18142
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-cablescan
+Description: systemplugins-commoninterfaceassignment
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2396,18 +2459,20 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Package: enigma2-plugin-systemplugins-crossepg
+Version: 0.9.1+gitr563+bf4e3330+bf4e333af0-r4
+Depends: enigma2, libc6 (>= 2.44+git0+5c479454d1), libcurl4 (>= 8.22.0), libxml2 (>= 2.15.4), libz1 (>= 1.3.2), python3-compression, python3-core, xz
 Section: base
 Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 480c6810edea7f94baaf4f17354f2702
-Size: 18142
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-commoninterfaceassignment
-OE: enigma2
-License: GPL-2.0-only
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bda309a2eeded1453785c4480b51f025
+Size: 437990
+Filename: enigma2-plugin-systemplugins-crossepg_0.9.1+gitr563+bf4e3330+bf4e333af0-r4_sf8008.ipk
+Source: enigma2-plugin-systemplugins-crossepg.bb
+Description: systemplugins-crossepg
+OE: enigma2-plugin-systemplugins-crossepg
+HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
+License: LGPL-2.1-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-crossepg-src
@@ -2426,20 +2491,18 @@ HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
 License: LGPL-2.1-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-crossepg
-Version: 0.9.1+gitr563+bf4e3330+bf4e333af0-r4
-Depends: enigma2, libc6 (>= 2.44+git0+5c479454d1), libcurl4 (>= 8.22.0), libxml2 (>= 2.15.4), libz1 (>= 1.3.2), python3-compression, python3-core, xz
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bda309a2eeded1453785c4480b51f025
-Size: 437990
-Filename: enigma2-plugin-systemplugins-crossepg_0.9.1+gitr563+bf4e3330+bf4e333af0-r4_sf8008.ipk
-Source: enigma2-plugin-systemplugins-crossepg.bb
-Description: systemplugins-crossepg
-OE: enigma2-plugin-systemplugins-crossepg
-HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
-License: LGPL-2.1-only
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3b2127d0433c27c03045ab903cc7eb4d
+Size: 4944
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
@@ -2457,16 +2520,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Package: enigma2-plugin-systemplugins-diseqctester
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3b2127d0433c27c03045ab903cc7eb4d
-Size: 4944
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: e9893af92958b7879e8bc6e81e732715
+Size: 16420
+Filename: enigma2-plugin-systemplugins-diseqctester_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-defaultservicesscanner
+Description: systemplugins-diseqctester
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2486,16 +2549,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-diseqctester
+Package: enigma2-plugin-systemplugins-fastchannelchange
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e9893af92958b7879e8bc6e81e732715
-Size: 16420
-Filename: enigma2-plugin-systemplugins-diseqctester_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 5ef5e6efaff233adb8b31c1771ef2b88
+Size: 13110
+Filename: enigma2-plugin-systemplugins-fastchannelchange_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-diseqctester
+Description: systemplugins-fastchannelchange
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2515,16 +2578,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-fastchannelchange
+Package: enigma2-plugin-systemplugins-fastscan
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5ef5e6efaff233adb8b31c1771ef2b88
-Size: 13110
-Filename: enigma2-plugin-systemplugins-fastchannelchange_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 0005cf3c09f244e762b639a598f8a7be
+Size: 13820
+Filename: enigma2-plugin-systemplugins-fastscan_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-fastchannelchange
+Description: systemplugins-fastscan
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2544,20 +2607,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-fastscan
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0005cf3c09f244e762b639a598f8a7be
-Size: 13820
-Filename: enigma2-plugin-systemplugins-fastscan_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-fastscan
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-systemplugins-hdmicec
 Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
@@ -2568,6 +2617,20 @@ Size: 8374
 Filename: enigma2-plugin-systemplugins-hdmicec_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1774a569955274d16a1b7ac8fcc0be14
+Size: 9478
+Filename: enigma2-plugin-systemplugins-hotplug_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2587,16 +2650,18 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-hotplug
+Package: enigma2-plugin-systemplugins-lcnscanner
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Replaces: enigma2-plugin-systemplugins-terrestrialscan
+Conflicts: enigma2-plugin-systemplugins-terrestrialscan
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1774a569955274d16a1b7ac8fcc0be14
-Size: 9478
-Filename: enigma2-plugin-systemplugins-hotplug_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: d2d2e74f98532aadb6c75384ba1aef52
+Size: 22576
+Filename: enigma2-plugin-systemplugins-lcnscanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-hotplug
+Description: systemplugins-lcnscanner
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2612,22 +2677,6 @@ Size: 7094
 Filename: enigma2-plugin-systemplugins-lcnscanner-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugin-systemplugins-lcnscanner
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Replaces: enigma2-plugin-systemplugins-terrestrialscan
-Conflicts: enigma2-plugin-systemplugins-terrestrialscan
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d2d2e74f98532aadb6c75384ba1aef52
-Size: 22576
-Filename: enigma2-plugin-systemplugins-lcnscanner_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-lcnscanner
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2661,6 +2710,20 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6a6b69e1303c89bbb29723d33c6aeef6
+Size: 5808
+Filename: enigma2-plugin-systemplugins-osd3dsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-osd3dsetup-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -2676,16 +2739,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-osd3dsetup
+Package: enigma2-plugin-systemplugins-osdpositionsetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6a6b69e1303c89bbb29723d33c6aeef6
-Size: 5808
-Filename: enigma2-plugin-systemplugins-osd3dsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 786c1e21895d7f28d868feaca298cf0e
+Size: 11590
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-osd3dsetup
+Description: systemplugins-osdpositionsetup
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2705,16 +2768,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-osdpositionsetup
+Package: enigma2-plugin-systemplugins-positionersetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 786c1e21895d7f28d868feaca298cf0e
-Size: 11590
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 97f6a2c3bfa07641e9e93444dfa66c44
+Size: 38320
+Filename: enigma2-plugin-systemplugins-positionersetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-osdpositionsetup
+Description: systemplugins-positionersetup
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2734,20 +2797,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-positionersetup
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 97f6a2c3bfa07641e9e93444dfa66c44
-Size: 38320
-Filename: enigma2-plugin-systemplugins-positionersetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-positionersetup
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-systemplugins-recinfobar
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -2761,6 +2810,20 @@ Source: enigma2-plugins.bb
 Description: systemplugins-recinfobar
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6418129a953a9d6b10a204ab837586e6
+Size: 2950
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
@@ -2778,16 +2841,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Package: enigma2-plugin-systemplugins-satfinder
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6418129a953a9d6b10a204ab837586e6
-Size: 2950
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: 67eb5ed98c45c879e785c53536612006
+Size: 17558
+Filename: enigma2-plugin-systemplugins-satfinder_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-satelliteequipmentcontrol
+Description: systemplugins-satfinder
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2803,20 +2866,6 @@ Size: 6924
 Filename: enigma2-plugin-systemplugins-satfinder-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugin-systemplugins-satfinder
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 67eb5ed98c45c879e785c53536612006
-Size: 17558
-Filename: enigma2-plugin-systemplugins-satfinder_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-satfinder
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2851,21 +2900,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-softwaremanager-src
-Version: 3.14+git23794+61fb7490+61fb749970-r0
-Depends: enigma2
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4fd804e2c49e53e6ffb4d799a6402759
-Size: 30160
-Filename: enigma2-plugin-systemplugins-softwaremanager-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-softwaremanager (source files)
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-systemplugins-softwaremanager
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-treq
@@ -2877,6 +2911,21 @@ Size: 94242
 Filename: enigma2-plugin-systemplugins-softwaremanager_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 3.14+git23794+61fb7490+61fb749970-r0
+Depends: enigma2
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4fd804e2c49e53e6ffb4d799a6402759
+Size: 30160
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2911,6 +2960,20 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 5b6515e254c789059714bee2a6cf8bb0
+Size: 4932
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -2926,16 +2989,16 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-videoclippingsetup
+Package: enigma2-plugin-systemplugins-videoenhancement
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5b6515e254c789059714bee2a6cf8bb0
-Size: 4932
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+MD5Sum: c2e71c6c2252d75702334d56cebab447
+Size: 16538
+Filename: enigma2-plugin-systemplugins-videoenhancement_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
 Source: enigma2.bb
-Description: systemplugins-videoclippingsetup
+Description: systemplugins-videoenhancement
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2955,20 +3018,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c2e71c6c2252d75702334d56cebab447
-Size: 16538
-Filename: enigma2-plugin-systemplugins-videoenhancement_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-videoenhancement
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-systemplugins-videomode
 Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
@@ -2979,6 +3028,20 @@ Size: 36080
 Filename: enigma2-plugin-systemplugins-videomode_3.14+git23189+e222f910+e222f91749-r0_sf8008.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c46c5533c70f208e0b6427fa2c3c6b56
+Size: 72424
+Filename: enigma2-plugin-systemplugins-videotune_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -2998,20 +3061,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-videotune
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c46c5533c70f208e0b6427fa2c3c6b56
-Size: 72424
-Filename: enigma2-plugin-systemplugins-videotune_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: systemplugins-videotune
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-systemplugins-wirelesslan
 Version: 3.14+git23189+e222f910+e222f91749-r0
 Depends: python3-wifi, wireless-tools, wpa-supplicant
@@ -3025,20 +3074,6 @@ Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
 License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugins-meta
-Version: y-git5929+0826da80+0826da8c64-r0
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d18ff73f3a5ebd55b1edcd321a7036a4
-Size: 12094
-Filename: enigma2-plugins-meta_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
-Source: enigma2-plugins.bb
-Description: enigma2-plugins version y-git-r0
-OE: enigma2-plugins
-License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugins
@@ -3055,6 +3090,20 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugins-meta
+Version: y-git5929+0826da80+0826da8c64-r0
+Section: base
+Architecture: sf8008
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d18ff73f3a5ebd55b1edcd321a7036a4
+Size: 12094
+Filename: enigma2-plugins-meta_y-git5929+0826da80+0826da8c64-r0_sf8008.ipk
+Source: enigma2-plugins.bb
+Description: enigma2-plugins version y-git-r0
+OE: enigma2-plugins
+License: LicenseRef-Proprietary
+Priority: optional
+
 Package: enigma2-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Section: devel
@@ -3065,24 +3114,6 @@ Size: 1099418
 Filename: enigma2-src_3.14+git23794+61fb7490+61fb749970-r0_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Source files
-OE: enigma2
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2
-Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
-Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-zd1211rw, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+5c479454d1), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.0.3), libcurl4 (>= 8.22.0), libdreamdvd0 (>= 1.1+git233+975333a0+975333a755), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.88.3), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.58), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.4), oe-alliance-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-wifi, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink, wireless-tools, wpa-supplicant
-Replaces: enigma2-plugin-pli-softcamsetup
-Conflicts: enigma2-plugin-pli-softcamsetup
-Recommends: glibc-gconv-utf-16, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, python3-sendfile
-Section: base
-Architecture: sf8008
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4d778c97862d361d33402c21e29331ed
-Size: 12871226
-Filename: enigma2_3.14+git23894+bb39b1a0+bb39b1a28d-r0_sf8008.ipk
-Source: enigma2.bb
-Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
@@ -3137,6 +3168,21 @@ HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause AND IJG AND Zlib
 Priority: optional
 
+Package: kernel
+Version: 4.4.35-r1
+Depends: kernel-4.4.35 (= 4.4.35-r1)
+Section: kernel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd928e3afb2e897e991cd1c2f84a670d
+Size: 540
+Filename: kernel_4.4.35-r1_sf8008.ipk
+Source: linux-octagon_4.4.35.bb
+Description: linux-octagon version 4.4.35-r1
+OE: linux-octagon
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-4.4.35
 Version: 4.4.35-r1
 Provides: kernel-4.4.35, kernel-base
@@ -3167,20 +3213,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-Package: kernel-firmware-new-code-fix
-Version: 4.4.35-r1
-Section: kernel
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0346903b51c42954ac423a0a8d94d37d
-Size: 1244
-Filename: kernel-firmware-new-code-fix_4.4.35-r1_sf8008.ipk
-Source: linux-octagon_4.4.35.bb
-Description: Firmware for new-code-fix
-OE: linux-octagon
-License: GPL-2.0-only
-Priority: optional
-
 Package: kernel-firmware-new-code
 Version: 4.4.35-r1
 Section: kernel
@@ -3195,16 +3227,16 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-Package: kernel-firmware-trigger-code-fix
+Package: kernel-firmware-new-code-fix
 Version: 4.4.35-r1
 Section: kernel
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 096fe71da538432ce10d44858416b845
-Size: 698
-Filename: kernel-firmware-trigger-code-fix_4.4.35-r1_sf8008.ipk
+MD5Sum: 0346903b51c42954ac423a0a8d94d37d
+Size: 1244
+Filename: kernel-firmware-new-code-fix_4.4.35-r1_sf8008.ipk
 Source: linux-octagon_4.4.35.bb
-Description: Firmware for trigger-code-fix
+Description: Firmware for new-code-fix
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
@@ -3219,6 +3251,20 @@ Size: 830
 Filename: kernel-firmware-trigger-code_4.4.35-r1_sf8008.ipk
 Source: linux-octagon_4.4.35.bb
 Description: Firmware for trigger-code
+OE: linux-octagon
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-firmware-trigger-code-fix
+Version: 4.4.35-r1
+Section: kernel
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 096fe71da538432ce10d44858416b845
+Size: 698
+Filename: kernel-firmware-trigger-code-fix_4.4.35-r1_sf8008.ipk
+Source: linux-octagon_4.4.35.bb
+Description: Firmware for trigger-code-fix
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
@@ -11884,20 +11930,277 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-Package: kernel
-Version: 4.4.35-r1
-Depends: kernel-4.4.35 (= 4.4.35-r1)
-Section: kernel
+Package: kodi-addon-pvr-argustv
+Version: 22.3.4+git0+07f86b66f5-r0
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd928e3afb2e897e991cd1c2f84a670d
-Size: 540
-Filename: kernel_4.4.35-r1_sf8008.ipk
-Source: linux-octagon_4.4.35.bb
-Description: linux-octagon version 4.4.35-r1
-OE: linux-octagon
-License: GPL-2.0-only
+MD5Sum: 953313d1ad78fc9621f0b3bf6c601644
+Size: 7372310
+Filename: kodi-addon-pvr-argustv_22.3.4+git0+07f86b66f5-r0_sf8008.ipk
+Source: kodi-addon-pvr-argustv.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
 Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-argustv
+
+Package: kodi-addon-pvr-demo
+Version: 22.4.4+git0+b627775d56-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35dde26548a2c7abfb86daf2a2503118
+Size: 1026434
+Filename: kodi-addon-pvr-demo_22.4.4+git0+b627775d56-r0_sf8008.ipk
+Source: kodi-addon-pvr-demo.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2-11 (>= 11.0.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-demo
+
+Package: kodi-addon-pvr-dvblink
+Version: 22.3.1+git0+eb2dfe3a56-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5ddffb66e75dfd3503f500ad02c23ea6
+Size: 10810182
+Filename: kodi-addon-pvr-dvblink_22.3.1+git0+eb2dfe3a56-r0_sf8008.ipk
+Source: kodi-addon-pvr-dvblink.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2-11 (>= 11.0.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-dvblink
+
+Package: kodi-addon-pvr-dvbviewer
+Version: 22.3.1+git0+8f00a394c7-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d295a7cec4d26a35754be5661f88f4cb
+Size: 6984536
+Filename: kodi-addon-pvr-dvbviewer_22.3.1+git0+8f00a394c7-r0_sf8008.ipk
+Source: kodi-addon-pvr-dvbviewer.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-dvbviewer
+
+Package: kodi-addon-pvr-hdhomerun
+Version: 22.2.5+git0+aa1c7589bb-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e5690491bfd92bacb8ec0e947e66f9e6
+Size: 821486
+Filename: kodi-addon-pvr-hdhomerun_22.2.5+git0+aa1c7589bb-r0_sf8008.ipk
+Source: kodi-addon-pvr-hdhomerun.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libhdhomerun (>= 20201023+git0+7c54382fb6), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-hdhomerun
+
+Package: kodi-addon-pvr-hts
+Version: 22.9.1+git0+d908dd8b20-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6f7b4a600619e5e61921799a42d09847
+Size: 13623430
+Filename: kodi-addon-pvr-hts_22.9.1+git0+d908dd8b20-r0_sf8008.ipk
+Source: kodi-addon-pvr-hts.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-hts
+
+Package: kodi-addon-pvr-iptvsimple
+Version: 22.6.4+git0+78a023cb31-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4550f090f0c738bbf1ab5ae565f3eee
+Size: 29964726
+Filename: kodi-addon-pvr-iptvsimple_22.6.4+git0+78a023cb31-r0_sf8008.ipk
+Source: kodi-addon-pvr-iptvsimple.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, liblzma5 (>= 5.8.3), libpugixml1 (>= 1.16), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-iptvsimple
+
+Package: kodi-addon-pvr-mediaportal.tvserver
+Version: 22.2.4+git0+dbbbd518d4-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5a6723706b2ade2eb29ad4dca93f4c2
+Size: 10393142
+Filename: kodi-addon-pvr-mediaportal.tvserver_22.2.4+git0+dbbbd518d4-r0_sf8008.ipk
+Source: kodi-addon-pvr-mediaportal.tvserver.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-mediaportal.tvserver
+
+Package: kodi-addon-pvr-mythtv
+Version: 22.3.11+git0+48995faf97-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 77ce4bbd156e99b83c42c8cd94c6fa11
+Size: 27292144
+Filename: kodi-addon-pvr-mythtv_22.3.11+git0+48995faf97-r0_sf8008.ipk
+Source: kodi-addon-pvr-mythtv.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-mythtv
+
+Package: kodi-addon-pvr-nextpvr
+Version: 22.6.1+git0+d77827a0fe-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c3820e364a51dd9408636f201f6b4997
+Size: 17093634
+Filename: kodi-addon-pvr-nextpvr_22.6.1+git0+d77827a0fe-r0_sf8008.ipk
+Source: kodi-addon-pvr-nextpvr.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2-11 (>= 11.0.0), libz1 (>= 1.3.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-nextpvr
+
+Package: kodi-addon-pvr-njoy
+Version: 22.2.3+git0+7455b1a6f3-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4500603b475bb63806c96cb917c8d2cc
+Size: 607984
+Filename: kodi-addon-pvr-njoy_22.2.3+git0+7455b1a6f3-r0_sf8008.ipk
+Source: kodi-addon-pvr-njoy.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-njoy
+
+Package: kodi-addon-pvr-pctv
+Version: 22.2.4+git0+4e955c65aa-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f8c16e329f3a52fa94bfa6788cef2dc
+Size: 1186394
+Filename: kodi-addon-pvr-pctv_22.2.4+git0+4e955c65aa-r0_sf8008.ipk
+Source: kodi-addon-pvr-pctv.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-pctv
+
+Package: kodi-addon-pvr-plutotv
+Version: 22.3.1+git0+3328c7ce95-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fa4bb6b2fd869e19487f99ad79ff98ae
+Size: 3071882
+Filename: kodi-addon-pvr-plutotv_22.3.1+git0+3328c7ce95-r0_sf8008.ipk
+Source: kodi-addon-pvr-plutotv.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-plutotv
+
+Package: kodi-addon-pvr-vbox
+Version: 22.2.4+git0+0a4b5c15f8-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ec83831cc229a3617071e7b47eaddd2
+Size: 9192622
+Filename: kodi-addon-pvr-vbox_22.2.4+git0+0a4b5c15f8-r0_sf8008.ipk
+Source: kodi-addon-pvr-vbox.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2-11 (>= 11.0.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-vbox
+
+Package: kodi-addon-pvr-vdr.vnsi
+Version: 22.3.1+git0+767983f9e4-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6fb5685a63d8c2c256e2da5312421ed
+Size: 7185856
+Filename: kodi-addon-pvr-vdr.vnsi_22.3.1+git0+767983f9e4-r0_sf8008.ipk
+Source: kodi-addon-pvr-vdr.vnsi.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-vdr.vnsi
+
+Package: kodi-addon-pvr-vuplus
+Version: 22.3.6+git0+15093c0b83-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c3211c0275a2af421edd042244834d2
+Size: 41222964
+Filename: kodi-addon-pvr-vuplus_22.3.6+git0+15093c0b83-r0_sf8008.ipk
+Source: kodi-addon-pvr-vuplus.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-vuplus
+
+Package: kodi-addon-pvr-wmc
+Version: 22.2.4+git0+7221d640df-r0
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17479d83ab6a3869839edc0065d2d1fd
+Size: 1522380
+Filename: kodi-addon-pvr-wmc_22.2.4+git0+7221d640df-r0_sf8008.ipk
+Source: kodi-addon-pvr-wmc.bb
+Description: Kodi Media Center PVR plugins
+ Kodi Media Center PVR plugins.
+Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
+Section: base
+Priority: optional
+License: GPL-2.0-or-later
+OE: kodi-addon-pvr-wmc
 
 Package: libcrypto1.0.2
 Version: 1.0.2u-r0
@@ -12242,20 +12545,6 @@ OE: octagon-showiframe-hisi3798mv200
 License: CLOSED
 Priority: optional
 
-Package: oe-alliance-branding-src
-Version: git1169+67d2e4d0+67d2e4d3d3-r0
-Section: devel
-Architecture: sf8008
-Maintainer: oe-alliance team
-MD5Sum: fa6df2aebf21b164b16f564cfcfd2db8
-Size: 13858
-Filename: oe-alliance-branding-src_git1169+67d2e4d0+67d2e4d3d3-r0_sf8008.ipk
-Source: oe-alliance-branding.bb
-Description: oe-alliance-branding version git-r0 - Source files
-OE: oe-alliance-branding
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: oe-alliance-branding
 Version: git1171+84e88a30+84e88a388f-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1)
@@ -12267,6 +12556,20 @@ Size: 570772
 Filename: oe-alliance-branding_git1171+84e88a30+84e88a388f-r0_sf8008.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version git-r0
+OE: oe-alliance-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: git1169+67d2e4d0+67d2e4d3d3-r0
+Section: devel
+Architecture: sf8008
+Maintainer: oe-alliance team
+MD5Sum: fa6df2aebf21b164b16f564cfcfd2db8
+Size: 13858
+Filename: oe-alliance-branding-src_git1169+67d2e4d0+67d2e4d3d3-r0_sf8008.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version git-r0 - Source files
 OE: oe-alliance-branding
 License: GPL-2.0-or-later
 Priority: optional
@@ -12286,6 +12589,21 @@ Description: openpli-bootlogo version 4.1-r0
 OE: openpli-bootlogo
 License: CC-BY-NC-ND-4.0
 Priority: required
+
+Package: openssl
+Version: 4.0.0-r0
+Section: libs/network
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa5cadc1b946f6ce77672d1ae8dfe432
+Size: 1096
+Filename: openssl_4.0.0-r0_sf8008.ipk
+Source: openssl_3.5.6.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: Apache-2.0
+Priority: optional
 
 Package: openssl-bin
 Version: 4.0.0-r0
@@ -12332,6 +12650,23 @@ Description: Secure Socket Layer
 OE: openssl
 HomePage: http://www.openssl.org/
 License: Apache-2.0
+Priority: optional
+
+Package: openssl10
+Version: 1.0.2u-r0
+Depends: openssl10-conf
+Provides: openssl1.0.2
+Section: libs/network
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7c76deb19638979f663fdd5c7dae5fa
+Size: 802
+Filename: openssl10_1.0.2u-r0_sf8008.ipk
+Source: openssl10_1.0.2u.bb
+Description: Secure Socket Layer
+OE: openssl10
+HomePage: http://www.openssl.org/
+License: OpenSSL
 Priority: optional
 
 Package: openssl10-conf
@@ -12396,38 +12731,6 @@ HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
 
-Package: openssl10
-Version: 1.0.2u-r0
-Depends: openssl10-conf
-Provides: openssl1.0.2
-Section: libs/network
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7c76deb19638979f663fdd5c7dae5fa
-Size: 802
-Filename: openssl10_1.0.2u-r0_sf8008.ipk
-Source: openssl10_1.0.2u.bb
-Description: Secure Socket Layer
-OE: openssl10
-HomePage: http://www.openssl.org/
-License: OpenSSL
-Priority: optional
-
-Package: openssl
-Version: 4.0.0-r0
-Section: libs/network
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aa5cadc1b946f6ce77672d1ae8dfe432
-Size: 1096
-Filename: openssl_4.0.0-r0_sf8008.ipk
-Source: openssl_3.5.6.bb
-Description: Secure Socket Layer
-OE: openssl
-HomePage: http://www.openssl.org/
-License: Apache-2.0
-Priority: optional
-
 Package: opkg-arch-config
 Version: 1.0-r0
 Provides: opkg-config-base
@@ -12443,6 +12746,22 @@ Source: opkg-arch-config_1.0.bb
 Description: Architecture-dependent configuration for opkg
 OE: opkg-arch-config
 HomePage: https://git.yoctoproject.org/opkg/
+License: MIT
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r0
+Depends: coreutils-truefalse, fake-hwclock, module-init-tools, packagegroup-base-alsa, packagegroup-base-ipv6, packagegroup-base-usbhost, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base, stb-hwclock
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b35326aca6127066a08a3988e54190a6
+Size: 676
+Filename: packagegroup-base_1.0-r0_sf8008.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
 License: MIT
 Priority: optional
 
@@ -12571,6 +12890,22 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
+Package: packagegroup-base-smbfs
+Version: 1.0-r0
+Depends: cifs-utils
+Recommends: kernel-module-cifs, kernel-module-smbfs
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ff1a268a4dd9fc5b9559a3d9fe6654dd
+Size: 600
+Filename: packagegroup-base-smbfs_1.0-r0_sf8008.ipk
+Source: packagegroup-base.bb
+Description: SMB network filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
 Package: packagegroup-base-smbfs-client
 Version: 1.0-r0
 Depends: packagegroup-base-smbfs, smbclient
@@ -12612,22 +12947,6 @@ Size: 564
 Filename: packagegroup-base-smbfs-utils_1.0-r0_sf8008.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
-OE: packagegroup-base
-License: MIT
-Priority: optional
-
-Package: packagegroup-base-smbfs
-Version: 1.0-r0
-Depends: cifs-utils
-Recommends: kernel-module-cifs, kernel-module-smbfs
-Section: base
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff1a268a4dd9fc5b9559a3d9fe6654dd
-Size: 600
-Filename: packagegroup-base-smbfs_1.0-r0_sf8008.ipk
-Source: packagegroup-base.bb
-Description: SMB network filesystem support
 OE: packagegroup-base
 License: MIT
 Priority: optional
@@ -12675,22 +12994,6 @@ Size: 582
 Filename: packagegroup-base-zeroconf_1.0-r0_sf8008.ipk
 Source: packagegroup-base.bb
 Description: Zeroconf support
-OE: packagegroup-base
-License: MIT
-Priority: optional
-
-Package: packagegroup-base
-Version: 1.0-r0
-Depends: coreutils-truefalse, fake-hwclock, module-init-tools, packagegroup-base-alsa, packagegroup-base-ipv6, packagegroup-base-usbhost, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base, stb-hwclock
-Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
-Section: base
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b35326aca6127066a08a3988e54190a6
-Size: 676
-Filename: packagegroup-base_1.0-r0_sf8008.ipk
-Source: packagegroup-base.bb
-Description: Merge machine and distro options to create a basic machine task/package
 OE: packagegroup-base
 License: MIT
 Priority: optional
@@ -12913,6 +13216,38 @@ OE: shadow-securetty
 License: MIT
 Priority: optional
 
+Package: stb-kodi-sf8008
+Version: 22.0+git72578+2c7ed4e0+2c7ed4e159-r110
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 743db630a6b1cbecbc32fae81a698697
+Size: 29891550
+Filename: stb-kodi-sf8008_22.0+git72578+2c7ed4e0+2c7ed4e159-r110_sf8008.ipk
+Source: stb-kodi-sf8008_22.bb
+Description: Kodi Media Center
+ Kodi Media Center.
+Depends: bluez5 (>= 5.87), exiv2 (>= 0.28.2), fstrcmp (>= 0.7), glibc-gconv-unicode, glibc-gconv-utf-32, kodi-addon-script-xbmc-lcdproc, lcms (>= 2.19.1), libasound2 (>= 1.2.16.1), libass9 (>= 0.17.5), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libavcodec63 (>= 9.0.2), libavfilter12 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+5c479454d1), libcap (>= 2.78), libcdio21 (>= 2.4.0), libcec8 (>= 8.1.4), libcrypto4 (>= 4.0.3), libcurl4 (>= 8.22.0), libdbus-1-3 (>= 1.16.2), libfmt12 (>= 12.2.0), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.2.0), libharfbuzz0 (>= 14.4.0), libinput10 (>= 1.31.3), libiso9660-13 (>= 2.4.0), liblzo2-2 (>= 2.10), libmicrohttpd12 (>= 1.0.10), libnfs16.2.0 (>= 16.2.0+git0+20971deebd), libpcre2 (>= 10.48), libplist-2.0-4 (>= 2.7.0), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libpython3.14-1.0 (>= 3.14.9), libsmbclient0 (>= 1.0), libsqlite3-0 (>= 3.53.4), libstbplayer (>= 0.1.0), libstbplayer-backend-hisi-dvb, libstdc++6 (>= 16.2.0), libswresample7 (>= 9.0.2), libswscale10 (>= 9.0.2), libtag2 (>= 2.3.2), libtinyxml2-11 (>= 11.0.0), libtinyxml2.6.2 (>= 2.6.2), libudev1 (>= 3.2.14), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libuuid1 (>= 2.42.3), libxkbcommon0 (>= 1.13.2), libxml2 (>= 2.15.4), libxslt (>= 1.1.45), libz1 (>= 1.3.2), octagon-libs-sf8008, octagon-opengl-hisi3798mv200, stb-lcdd, xkeyboard-config
+Section: base
+Priority: optional
+License: GPL-2.0-only
+OE: stb-kodi-sf8008
+
+Package: sysvinit
+Version: 3.14-r0.3
+Depends: base-passwd, initd-functions, libc6 (>= 2.44+git0+5c479454d1), sysvinit-inittab, sysvinit-pidof, update-alternatives-opkg, util-linux-flock
+Section: base
+Architecture: sf8008
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cfe3cb28fdb1a9554b3edb4b603b7e70
+Size: 69254
+Filename: sysvinit_3.14-r0.3_sf8008.ipk
+Source: sysvinit_3.14.bb
+Description: System-V like init
+OE: sysvinit
+HomePage: http://savannah.nongnu.org/projects/sysvinit/
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: sysvinit-doc
 Version: 3.14-r0.3
 Depends: update-alternatives-opkg
@@ -12960,50 +13295,3 @@ OE: sysvinit
 HomePage: http://savannah.nongnu.org/projects/sysvinit/
 License: GPL-2.0-or-later
 Priority: optional
-
-Package: sysvinit
-Version: 3.14-r0.3
-Depends: base-passwd, initd-functions, libc6 (>= 2.44+git0+5c479454d1), sysvinit-inittab, sysvinit-pidof, update-alternatives-opkg, util-linux-flock
-Section: base
-Architecture: sf8008
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfe3cb28fdb1a9554b3edb4b603b7e70
-Size: 69254
-Filename: sysvinit_3.14-r0.3_sf8008.ipk
-Source: sysvinit_3.14.bb
-Description: System-V like init
-OE: sysvinit
-HomePage: http://savannah.nongnu.org/projects/sysvinit/
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-screenposition
-Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
-Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0
- Adjust the screen position
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: GPL-2.0-or-later
-Architecture: sf8008
-OE: enigma2-plugin-extensions-screenposition
-Depends: python3-core
-Source: enigma2-plugin-extensions-screenposition.bb
-MD5Sum: 84fbc0af6e05faf3156bb7220b169315
-Size: 5884
-Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b0+0b2e06b258-r0_sf8008.ipk
-
-Package: enigma2-plugin-systemplugins-autoshutdown
-Version: 0.6+git41+16525340+1652534fc4-r0
-Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0
- automated power off for STB
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: GPL-2.0-or-later
-Architecture: sf8008
-OE: enigma2-plugin-systemplugins-autoshutdown
-Source: enigma2-plugin-systemplugins-autoshutdown.bb
-MD5Sum: e56a0ad8348074b3bf80a98265d7e8c8
-Size: 22294
-Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git41+16525340+1652534fc4-r0_sf8008.ipk
