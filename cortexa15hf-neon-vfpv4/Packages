@@ -5255,6 +5255,23 @@ OE: enigma2-plugin-extensions-oscamstatus
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-permanentvfdclock
+Version: 2.0+git6+2a07a310+2a07a31b17-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Source: enigma2-plugin-extensions-permanentvfdclock.bb
+Description: enigma2-plugin-extensions-permanentvfdclock version 2.0+git-r0
+ Show clock in VFD permanently
+OE: enigma2-plugin-extensions-permanentvfdclock
+Priority: optional
+MD5Sum: 3de177eb2bcaa8b9ef88d23ebc431419
+SHA256sum: 6627a79c652dbe418eafa56f17c20b35a8bd46fc6ff59b0851efe7163492e61a
+Size: 6034
+Filename: enigma2-plugin-extensions-permanentvfdclock_2.0+git6+2a07a310+2a07a31b17-r0_cortexa15hf-neon-vfpv4.ipk
+
 Package: enigma2-plugin-extensions-piconbrowser
 Version: V1.0-git7+02aed060+02aed0673f-r0
 Description: enigma2-plugin-extensions-piconbrowser version git-r0

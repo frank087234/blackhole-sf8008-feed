@@ -210,6 +210,22 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-display-skins
+Version: git298+c6cb1490+c6cb1492df-r0
+Section: base
+Architecture: sf8008
+Maintainer: oe-aliance
+License: LicenseRef-Proprietary
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+ Display Skins for Enigma2.
+OE: enigma2-display-skins
+Priority: optional
+MD5Sum: 2a5f39033ea1819b885a8970e0697b17
+SHA256sum: 77ceb734ff11970b1490abf4f872df771f438c6571d9bafaef8a66096f992a93
+Size: 506
+Filename: enigma2-display-skins_git298+c6cb1490+c6cb1492df-r0_sf8008.ipk
+
 Package: enigma2-fonts
 Version: 2020.10.17-r0
 Section: base
