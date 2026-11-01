@@ -6070,6 +6070,23 @@ SHA256sum: e252564e21175a52dfa2fc0db56b7338516bb43d97e58e4a3ae259a92faf966b
 Size: 6310
 Filename: enigma2-plugin-systemplugins-satipserver_1+git6+146216b0+146216b849-r0_cortexa15hf-neon-vfpv4.ipk
 
+Package: enigma2-plugin-systemplugins-satscanlcn
+Version: 1.0+git108+9354ade0+9354ade69f-r0
+Depends: enigma2, libc6 (>= 2.44+git0+5c479454d1)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Huevos
+License: LicenseRef-Proprietary
+Source: enigma2-plugin-systemplugins-satscanlcn.bb
+Description: systemplugins-satscanlcn
+ systemplugins-satscanlcn
+OE: enigma2-plugin-systemplugins-satscanlcn
+Priority: optional
+MD5Sum: 39af35ccf08026343b649f96cac2f131
+SHA256sum: 21cda12ca006a616fc43406a23a1d4b3a16f4c6696d118b07ae1e5fb455923fb
+Size: 124434
+Filename: enigma2-plugin-systemplugins-satscanlcn_1.0+git108+9354ade0+9354ade69f-r0_cortexa15hf-neon-vfpv4.ipk
+
 Package: enigma2-plugin-systemplugins-serviceapp
 Version: 0.5+git224+505bee00+505bee0bce-r1
 Depends: enigma2, exteplayer3, gstplayer, gstplayer2, libc6 (>= 2.44+git0+5c479454d1), libcrypto4 (>= 4.0.3), libgcc1 (>= 16.2.0), libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), openssl, python3-json, uchardet (>= 0.0.8)
