@@ -3153,20 +3153,19 @@ Priority: optional
 
 
 Package: blackhole-components
-Version: 1.0-r0
+Version: 1.0-r1
 Depends: libc6 (>= 2.44+git0+5c479454d1)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 397de56440a77727d44b85b5987369de
-Size: 482978
-Filename: blackhole-components_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4f0bed87ec0f265262177d4c56483b86
+Size: 546874
+Filename: blackhole-components_1.0-r1_cortexa15hf-neon-vfpv4.ipk
 Source: blackhole-components.bb
 Description: BlackHole 13.5 components
 OE: blackhole-components
 License: CLOSED
 Priority: optional
-
 
 Package: blackhole-defaultskin
 Version: 13.2-r0
