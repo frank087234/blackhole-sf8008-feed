@@ -5547,24 +5547,6 @@ License: GPL-3.0-only
 Priority: optional
 
 
-Package: enigma2-plugin-extensions-openmultiboot
-Version: 1+git107+40f92170+40f921733c-r0
-Depends: python3-core
-Recommends: kernel-module-nandsim, mtd-utils, mtd-utils-ubifs, openmultiboot
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7960639d80c01da1af72d6fe01752afe
-Size: 70510
-Filename: enigma2-plugin-extensions-openmultiboot_1+git107+40f92170+40f921733c-r0_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-openmultiboot.bb
-Description: enigma2-plugin-extensions-openmultiboot version 1+git-r0
-OE: enigma2-plugin-extensions-openmultiboot
-HomePage: https://github.com/Dima73/pli-openmultibootmanager
-License: LicenseRef-PD
-Priority: optional
-
-
 Package: enigma2-plugin-extensions-oscamstatus
 Version: 1.0+git55+0004ed50+0004ed50f7-r0
 Depends: python3-core

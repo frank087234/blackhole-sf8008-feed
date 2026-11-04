@@ -13439,22 +13439,6 @@ License: GPL-2.0-or-later
 Priority: optional
 
 
-Package: openmultiboot
-Version: 1.0+git124+fd923630+fd92363885-r0
-Depends: libc6 (>= 2.44+git0+5c479454d1), libfreetype6 (>= 2.14.3), libjson-c5 (>= 0.19)
-Section: base
-Architecture: sf8008
-Maintainer: oe-alliance
-MD5Sum: cd49a4cd5a35490b62e01a9ceb66df79
-Size: 48910
-Filename: openmultiboot_1.0+git124+fd923630+fd92363885-r0_sf8008.ipk
-Source: openmultiboot.bb
-Description: Multi boot loader for enigma2
-OE: openmultiboot
-License: GPL-2.0-only
-Priority: optional
-
-
 Package: openpli-bootlogo
 Version: 4.1-r0
 Depends: showiframe
