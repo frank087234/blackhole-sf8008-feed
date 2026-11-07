@@ -15,7 +15,6 @@ HomePage: http://www.alsa-project.org/
 License: GPL-2.0-or-later AND MIT
 Priority: optional
 
-
 Package: alsa-states
 Version: 0.2.0-r0.9
 Section: base
@@ -30,7 +29,6 @@ OE: alsa-state
 HomePage: http://www.alsa-project.org/
 License: GPL-2.0-or-later AND MIT
 Priority: optional
-
 
 Package: android-tools-conf
 Version: 1.0-r0
@@ -49,7 +47,6 @@ OE: android-tools-conf
 License: MIT
 Priority: optional
 
-
 Package: base-files-doc
 Version: 3.0.14-r0
 Section: doc
@@ -64,7 +61,6 @@ OE: base-files
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: base-files
 Version: 3.0.14-r0
 Section: base
@@ -78,7 +74,6 @@ Description: Miscellaneous files for the base system
 OE: base-files
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: blackhole-bootlogo
 Version: 13.6-r0
@@ -96,7 +91,6 @@ OE: blackhole-bootlogo
 License: LicenseRef-blackhole-bootlogo-CLOSED
 Priority: required
 
-
 Package: blackhole-extra-tools
 Version: 0.8-r0
 Depends: octagon-grab-hisi3798mv200
@@ -112,7 +106,6 @@ OE: blackhole-extra-tools
 License: CLOSED
 Priority: optional
 
-
 Package: blackhole-feed-config
 Version: 1.0-r0
 Section: base
@@ -126,7 +119,6 @@ Description: BlackHole SF8008 opkg feed configuration
 OE: blackhole-feed-config
 License: MIT
 Priority: optional
-
 
 Package: blackhole-radio-logo
 Version: 0.8-r0
@@ -142,7 +134,6 @@ OE: blackhole-radio-logo
 License: CLOSED
 Priority: optional
 
-
 Package: blackhole-spinner-assets
 Version: 0.8-r1
 Section: base
@@ -156,7 +147,6 @@ Description: BlackHole v0.8 default spinner assets
 OE: blackhole-spinner-assets
 License: CLOSED
 Priority: optional
-
 
 Package: blackhole-startup-logo
 Version: 0.8-r0
@@ -172,7 +162,6 @@ OE: blackhole-startup-logo
 License: CLOSED
 Priority: optional
 
-
 Package: distro-feed-configs
 Version: 1.0-r0
 Section: base
@@ -186,7 +175,6 @@ Description: Configuration files for online package repositories aka feeds
 OE: distro-feed-configs
 License: MIT
 Priority: optional
-
 
 Package: enigma-info
 Version: 13.6-r1
@@ -218,7 +206,6 @@ OE: enigma2-display-skins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-fonts
 Version: 2020.10.17-r0
 Section: base
@@ -232,7 +219,6 @@ Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-ar
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -249,7 +235,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-bg
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -264,7 +249,6 @@ Description: bg
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-ca
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -281,7 +265,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-cs
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -296,7 +279,6 @@ Description: cs
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-da
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -313,7 +295,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-de
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -328,7 +309,6 @@ Description: de
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-el
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -345,7 +325,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-en
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -360,7 +339,6 @@ Description: en
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-es
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -377,7 +355,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-et
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -392,7 +369,6 @@ Description: et
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-fa
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -409,7 +385,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-fi
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -424,7 +399,6 @@ Description: fi
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-fr
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -441,7 +415,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-fy
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -456,7 +429,6 @@ Description: fy
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-gl
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -473,7 +445,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-he
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -488,7 +459,6 @@ Description: he
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-hr
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -505,7 +475,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-hu
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -520,7 +489,6 @@ Description: hu
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-id
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -537,7 +505,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-is
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -552,7 +519,6 @@ Description: is
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-it
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -569,7 +535,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-ku
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -584,7 +549,6 @@ Description: ku
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-lt
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -601,7 +565,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-lv
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -616,7 +579,6 @@ Description: lv
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-meta
 Version: 1.0-r2
@@ -633,7 +595,6 @@ OE: enigma2-locale-meta
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: enigma2-locale-mk
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -648,7 +609,6 @@ Description: mk
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-nb
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -665,7 +625,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-nl
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -680,7 +639,6 @@ Description: nl
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-nn
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -697,7 +655,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-pl
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -712,7 +669,6 @@ Description: pl
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-pt-br
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -729,7 +685,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-pt
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -744,7 +699,6 @@ Description: pt
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-ro
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -761,7 +715,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-ru
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -776,7 +729,6 @@ Description: ru
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-sk
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -793,7 +745,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-sl
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -808,7 +759,6 @@ Description: sl
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-sr
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -825,7 +775,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-sv
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -840,7 +789,6 @@ Description: sv
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-th
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -857,7 +805,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-tr
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -872,7 +819,6 @@ Description: tr
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-uk
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -889,7 +835,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-vi
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -904,7 +849,6 @@ Description: vi
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-locale-zh-cn
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -921,7 +865,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-locale-zh-hk
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: enigma2
@@ -937,7 +880,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-meta
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -951,7 +893,6 @@ Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-aihdcontroler
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -967,7 +908,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-antiscrollbar
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -981,7 +921,6 @@ Description: extensions-antiscrollbar
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-ardmediathek
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -997,7 +936,6 @@ Description: extensions-ardmediathek
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-audiosync
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1015,7 +953,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-autotimer
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-systemplugins-mphelp, python3-codecs, python3-difflib, python3-xml
@@ -1031,7 +968,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-babelzapper
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1045,7 +981,6 @@ Description: extensions-babelzapper
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-birthdayreminder
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1062,7 +997,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-bonjour
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: avahi-daemon
@@ -1077,7 +1011,6 @@ Description: extensions-bonjour
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-btdevicesmanager
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1094,7 +1027,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-cdinfo
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: libcddb (>= 1.3.0), libcdio21 (>= 0.80)
@@ -1109,7 +1041,6 @@ Description: extensions-cdinfo
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-cutlisteditor-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -1126,7 +1057,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-cutlisteditor
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: aio-grab
@@ -1141,7 +1071,6 @@ Description: extensions-cutlisteditor
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-dreamexplorer
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1159,7 +1088,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-dreamirc
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1173,7 +1101,6 @@ Description: extensions-dreamirc
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-dreammediathek
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1190,7 +1117,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-dvdbackup
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: dvdbackup, libdvdread
@@ -1205,7 +1131,6 @@ Description: extensions-dvdbackup
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-dvdburn-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -1222,7 +1147,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-dvdburn
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, replex
@@ -1237,7 +1161,6 @@ Description: extensions-dvdburn
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-dvdplayer-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -1254,7 +1177,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-dvdplayer
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -1269,7 +1191,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-dyndns
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1283,7 +1204,6 @@ Description: extensions-dyndns
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-e2mdb
 Version: 1.4+git0+eeab25994d-r0
@@ -1301,7 +1221,6 @@ OE: enigma2-plugin-extensions-e2mdb
 License: CLOSED
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-easyinfo
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1315,7 +1234,6 @@ Description: extensions-easyinfo
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-easymedia
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1331,7 +1249,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-eibox
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1345,7 +1262,6 @@ Description: extensions-eibox
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-emailclient
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1362,7 +1278,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-epgrefresh
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-systemplugins-mphelp, python3-codecs, python3-difflib, python3-xml
@@ -1378,7 +1293,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-epgsearch
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1392,7 +1306,6 @@ Description: extensions-epgsearch
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-exteplayer3-drm
 Version: 1.0-r0
@@ -1410,7 +1323,6 @@ OE: enigma2-plugin-extensions-exteplayer3-drm
 License: CLOSED
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-fancontrol2
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: hdparm, smartmontools
@@ -1426,7 +1338,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-filebrowser
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1440,7 +1351,6 @@ Description: extensions-filebrowser
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-filecommander-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -1457,7 +1367,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-filecommander
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-puremagic
@@ -1473,7 +1382,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-fstabeditor
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1487,7 +1395,6 @@ Description: extensions-fstabeditor
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-ftpbrowser
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1504,7 +1411,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-graphmultiepg-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -1520,7 +1426,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-graphmultiepg
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -1534,7 +1439,6 @@ Description: extensions-graphmultiepg
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-growlee
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1551,7 +1455,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-httpproxy
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
@@ -1566,7 +1469,6 @@ Description: extensions-httpproxy
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-imdb
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1583,7 +1485,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-kiddytimer
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1598,7 +1499,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-letterbox
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1612,7 +1512,6 @@ Description: extensions-letterbox
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-logomanager
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1629,7 +1528,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-mediadownloader
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-netclient, python3-shell, python3-twisted-web
@@ -1644,7 +1542,6 @@ Description: extensions-mediadownloader
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-mediaplayer-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -1661,7 +1558,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-mediaplayer
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -1675,7 +1571,6 @@ Description: extensions-mediaplayer
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-mediascanner-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -1692,7 +1587,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-mediascanner
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -1706,7 +1600,6 @@ Description: extensions-mediascanner
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-mediathekviewweb
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1723,7 +1616,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-merlinepg
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1737,7 +1629,6 @@ Description: extensions-merlinepg
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-merlinepgcenter
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1754,7 +1645,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-merlinmusicplayer
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
@@ -1769,7 +1659,6 @@ Description: extensions-merlinmusicplayer
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-mosaic
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1786,7 +1675,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-movieretitle
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1800,7 +1688,6 @@ Description: extensions-movieretitle
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-movietagger
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1816,7 +1703,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-multirc
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1830,7 +1716,6 @@ Description: extensions-multirc
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-ncidclient
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1847,7 +1732,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-netcaster
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1861,7 +1745,6 @@ Description: extensions-netcaster
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-netzkino
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1878,7 +1761,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-ofdb
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-twisted-web
@@ -1894,7 +1776,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-openwebif-src
 Version: 0.0-364-g49eb4aa-r0
 Section: devel
@@ -1908,7 +1789,6 @@ Description: enigma2-plugin-extensions-openwebif version git-r0 - Source files
 OE: enigma2-plugin-extensions-openwebif
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-openwebif
 Version: 0.0-371-gdf3b348-r0
@@ -1926,7 +1806,6 @@ OE: enigma2-plugin-extensions-openwebif
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-orfat
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugin-extensions-vlcplayer, python3-twisted-web
@@ -1942,7 +1821,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-orfteletext
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1956,7 +1834,6 @@ Description: extensions-orfteletext
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-partnerbox
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -1973,7 +1850,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-permanentclock
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -1987,7 +1863,6 @@ Description: extensions-permanentclock
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-pictureplayer-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2004,7 +1879,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-pictureplayer
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2018,7 +1892,6 @@ Description: extensions-pictureplayer
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-porncenter
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2035,7 +1908,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-primetimemanager
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -2051,7 +1923,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-reconstructapsc
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2065,7 +1936,6 @@ Description: extensions-reconstructapsc
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-screenposition
 Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
@@ -2082,7 +1952,6 @@ OE: enigma2-plugin-extensions-screenposition
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-seekbar
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2096,7 +1965,6 @@ Description: extensions-seekbar
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-shoutcast
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2113,7 +1981,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-showclock
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2127,7 +1994,6 @@ Description: extensions-showclock
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-simplerss
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2144,7 +2010,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-socketmmi-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -2159,7 +2024,6 @@ Description: extensions-socketmmi (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-socketmmi
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -2176,7 +2040,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-srfmediathek
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-html, python3-requests, python3-twisted-web
@@ -2191,7 +2054,6 @@ Description: extensions-srfmediathek
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-streamlinkwrapper-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2208,7 +2070,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-streamlinkwrapper
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: streamlink
@@ -2223,7 +2084,6 @@ Description: Enables support for streamlink url scheme in bouquet list.
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-svdrp
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2240,7 +2100,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-tageditor
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2254,7 +2113,6 @@ Description: extensions-tageditor
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-trafficinfo
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2270,7 +2128,6 @@ Description: extensions-trafficinfo
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-transmission
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2288,7 +2145,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-tvcharts
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: python3-twisted-web
@@ -2303,7 +2159,6 @@ Description: extensions-tvcharts
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-unwetterinfo
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2320,7 +2175,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-valixdcontrol
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2334,7 +2188,6 @@ Description: extensions-valixdcontrol
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-virtualzap
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2351,7 +2204,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-vlcplayer
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2365,7 +2217,6 @@ Description: extensions-vlcplayer
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-webcamviewer
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2382,7 +2233,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-werbezapper
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2396,7 +2246,6 @@ Description: extensions-werbezapper
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-ytdlpwrapper-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2413,7 +2262,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-ytdlpwrapper
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-yt-dlp
@@ -2428,7 +2276,6 @@ Description: Enables support for YT-DLP url scheme in bouquet list.
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-ytdlwrapper-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2445,7 +2292,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-ytdlwrapper
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-youtube-dl
@@ -2461,7 +2307,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-extensions-zapstatistic
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -2475,7 +2320,6 @@ Description: extensions-zapstatistic
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-extensions-zdfmediathek
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2492,7 +2336,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-automaticcleanup
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -2507,7 +2350,6 @@ Description: systemplugins-automaticcleanup
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-automaticvolumeadjustment
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2524,7 +2366,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-autoresolution
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -2540,7 +2381,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-autoshutdown
 Version: 0.6+git41+16525340+1652534fc4-r0
 Section: base
@@ -2554,7 +2394,6 @@ Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0
 OE: enigma2-plugin-systemplugins-autoshutdown
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-blindscan
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -2572,7 +2411,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-cablescan-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -2588,7 +2426,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-cablescan
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2602,7 +2439,6 @@ Description: systemplugins-cablescan
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2619,7 +2455,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2633,7 +2468,6 @@ Description: systemplugins-commoninterfaceassignment
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-crossepg-src
 Version: 0.9.1+gitr563+bf4e3330+bf4e333af0-r4
@@ -2651,7 +2485,6 @@ HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
 License: LGPL-2.1-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-crossepg
 Version: 0.9.1+gitr563+bf4e3330+bf4e333af0-r4
 Depends: enigma2, libc6 (>= 2.44+git0+5c479454d1), libcurl4 (>= 8.22.0), libxml2 (>= 2.15.4), libz1 (>= 1.3.2), python3-compression, python3-core, xz
@@ -2668,7 +2501,6 @@ HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
 License: LGPL-2.1-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -2684,7 +2516,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2698,7 +2529,6 @@ Description: systemplugins-defaultservicesscanner
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-diseqctester-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2715,7 +2545,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-diseqctester
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2729,7 +2558,6 @@ Description: systemplugins-diseqctester
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-fastchannelchange-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2746,7 +2574,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-fastchannelchange
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2760,7 +2587,6 @@ Description: systemplugins-fastchannelchange
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-fastscan-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2777,7 +2603,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-fastscan
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2792,7 +2617,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-hdmicec
 Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
@@ -2806,7 +2630,6 @@ Description: systemplugins-hdmicec
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-hotplug-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2823,7 +2646,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-hotplug
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2837,7 +2659,6 @@ Description: systemplugins-hotplug
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-lcnscanner-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2853,7 +2674,6 @@ Description: systemplugins-lcnscanner (source files)
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-lcnscanner
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
@@ -2871,7 +2691,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-mphelp
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -2887,7 +2706,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-networkwizard
 Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
@@ -2901,7 +2719,6 @@ Description: systemplugins-networkwizard
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-osd3dsetup-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2918,7 +2735,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-osd3dsetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2932,7 +2748,6 @@ Description: systemplugins-osd3dsetup
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2949,7 +2764,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-osdpositionsetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2963,7 +2777,6 @@ Description: systemplugins-osdpositionsetup
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-positionersetup-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -2980,7 +2793,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-positionersetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -2994,7 +2806,6 @@ Description: systemplugins-positionersetup
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-recinfobar
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -3011,7 +2822,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
 Depends: enigma2
@@ -3027,7 +2837,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -3041,7 +2850,6 @@ Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-satfinder-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -3058,7 +2866,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-satfinder
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -3072,7 +2879,6 @@ Description: systemplugins-satfinder
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-satipclient
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -3089,7 +2895,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-setpasswd
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -3104,7 +2909,6 @@ Description: systemplugins-setpasswd
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-softwaremanager-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -3121,7 +2925,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-softwaremanager
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Depends: python3-treq
@@ -3136,7 +2939,6 @@ Description: systemplugins-softwaremanager
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-transcodingsetup
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -3153,7 +2955,6 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-vfdcontrol
 Version: y-git5929+0826da80+0826da8c64-r0
 Depends: enigma2-plugins
@@ -3168,7 +2969,6 @@ Description: systemplugins-vfdcontrol
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -3185,7 +2985,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-videoclippingsetup
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -3199,7 +2998,6 @@ Description: systemplugins-videoclippingsetup
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -3216,7 +3014,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-videoenhancement
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -3231,7 +3028,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-videomode
 Version: 3.14+git23189+e222f910+e222f91749-r0
 Section: base
@@ -3245,7 +3041,6 @@ Description: systemplugins-videomode
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-videotune-src
 Version: 3.14+git23794+61fb7490+61fb749970-r0
@@ -3262,7 +3057,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugin-systemplugins-videotune
 Version: 3.14+git23894+bb39b1a0+bb39b1a28d-r0
 Section: base
@@ -3276,7 +3070,6 @@ Description: systemplugins-videotune
 OE: enigma2
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: enigma2-plugin-systemplugins-wirelesslan
 Version: 3.14+git23189+e222f910+e222f91749-r0
@@ -3293,7 +3086,6 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: enigma2-plugins-meta
 Version: y-git5929+0826da80+0826da8c64-r0
 Section: base
@@ -3307,7 +3099,6 @@ Description: enigma2-plugins version y-git-r0
 OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
-
 
 Package: enigma2-plugins
 Version: y-git5929+0826da80+0826da8c64-r0
@@ -3323,15 +3114,14 @@ OE: enigma2-plugins
 License: LicenseRef-Proprietary
 Priority: optional
 
-
 Package: enigma2-src
-Version: 3.14+git23919+377627f0+377627fbed-r2
+Version: 3.14+git23919+377627f0+377627fbed-r4
 Section: devel
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ede7f7ed0233c01537a692f70a5704a8
-Size: 1114590
-Filename: enigma2-src_3.14+git23919+377627f0+377627fbed-r2_sf8008.ipk
+MD5Sum: d5da1249afc9801b97fd16377e278dd1
+Size: 1114612
+Filename: enigma2-src_3.14+git23919+377627f0+377627fbed-r4_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Source files
 OE: enigma2
@@ -3339,7 +3129,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2
-Version: 3.14+git23919+377627f0+377627fbed-r2
+Version: 3.14+git23919+377627f0+377627fbed-r4
 Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-zd1211rw, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+5c479454d1), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.1.0), libcurl4 (>= 8.22.0), libdreamdvd0 (>= 1.1+git233+975333a0+975333a755), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.14.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.88.3), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.58), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.1.0), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.4), oe-alliance-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-wifi, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink, wireless-tools, wpa-supplicant
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
@@ -3347,9 +3137,9 @@ Recommends: glibc-gconv-utf-16, gstreamer1.0-plugins-bad-autoconvert, gstreamer1
 Section: base
 Architecture: sf8008
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c1a4f90a85fef27f01a1a2b0a8daf7cf
-Size: 12823226
-Filename: enigma2_3.14+git23919+377627f0+377627fbed-r2_sf8008.ipk
+MD5Sum: 8e849bf7fda7d3b5d788bac6aea6a6d6
+Size: 12823104
+Filename: enigma2_3.14+git23919+377627f0+377627fbed-r4_sf8008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -3372,7 +3162,6 @@ OE: gstreamer1.0-plugin-multibox-dvbmediasink
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: init-ifupdown
 Version: 1.0-r0
 Depends: netbase, util-linux-flock
@@ -3391,7 +3180,6 @@ HomePage: http://packages.debian.org/ifupdown
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: jpeg-tools
 Version: 1:3.2.0-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libjpeg62 (>= 3.2.0), libturbojpeg0 (>= 3.2.0), libz1 (>= 1.3.2)
@@ -3407,7 +3195,6 @@ OE: libjpeg-turbo
 HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause AND IJG AND Zlib
 Priority: optional
-
 
 Package: kernel-4.4.35
 Version: 4.4.35-r1
@@ -3425,7 +3212,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-firmware-dspbootcode
 Version: 4.4.35-r1
 Section: kernel
@@ -3439,7 +3225,6 @@ Description: Firmware for dspbootcode
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-firmware-new-code-fix
 Version: 4.4.35-r1
@@ -3455,7 +3240,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-firmware-new-code
 Version: 4.4.35-r1
 Section: kernel
@@ -3469,7 +3253,6 @@ Description: Firmware for new-code
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-firmware-trigger-code-fix
 Version: 4.4.35-r1
@@ -3485,7 +3268,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-firmware-trigger-code
 Version: 4.4.35-r1
 Section: kernel
@@ -3499,7 +3281,6 @@ Description: Firmware for trigger-code
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-image-4.4.35
 Version: 4.4.35-r1
@@ -3517,7 +3298,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-image-uimage-4.4.35
 Version: 4.4.35-r1
 Provides: kernel-image-uimage
@@ -3532,7 +3312,6 @@ Description: linux-octagon version 4.4.35-r1
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-8192cu-4.4.35
 Version: 4.0.2-r0
@@ -3551,7 +3330,6 @@ HomePage: http://www.realtek.com/
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-8192eu-4.4.35
 Version: 5.11.2.3+git48+f398c860+f398c8657b-r1.1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -3568,7 +3346,6 @@ OE: rtl8192eu
 HomePage: http://www.realtek.com/
 License: LGPL-3.0-only
 Priority: optional
-
 
 Package: kernel-module-8812au-4.4.35
 Version: 5.6.4.2+git76+e3189e40+e3189e40eb-r1.1
@@ -3587,7 +3364,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-8821au-4.4.35
 Version: 1.0+git265+c64d0520+c64d052e93-r0.1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -3604,7 +3380,6 @@ OE: rtl8821au
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-8821cu-4.4.35
 Version: 5.8.1-r0
@@ -3623,7 +3398,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-8822bu-4.4.35
 Version: 5.8.7-r0
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -3640,7 +3414,6 @@ OE: rtl88x2bu
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-8852cu-4.4.35
 Version: 1.0-r0
@@ -3659,7 +3432,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-88x2cu-4.4.35
 Version: 1.0+git3+327a8c60+327a8c691a-r1.1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -3677,7 +3449,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-a8293-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -3693,7 +3464,6 @@ Description: a8293 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-af9013-4.4.35
 Version: 4.4.35-r1
@@ -3711,7 +3481,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-af9033-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -3727,7 +3496,6 @@ Description: af9033 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ah4-4.4.35
 Version: 4.4.35-r1
@@ -3745,7 +3513,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ah6-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -3761,7 +3528,6 @@ Description: ah6 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ahci-platform-4.4.35
 Version: 4.4.35-r1
@@ -3779,7 +3545,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ar5523-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -3795,7 +3560,6 @@ Description: ar5523 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ark3116-4.4.35
 Version: 4.4.35-r1
@@ -3813,7 +3577,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-as102-fe-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -3829,7 +3592,6 @@ Description: as102-fe kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ascot2e-4.4.35
 Version: 4.4.35-r1
@@ -3847,7 +3609,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-asix-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -3863,7 +3624,6 @@ Description: asix kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-at76c50x-usb-4.4.35
 Version: 4.4.35-r1
@@ -3881,7 +3641,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-atbm8830-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -3897,7 +3656,6 @@ Description: atbm8830 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ath-4.4.35
 Version: 4.4.35-r1
@@ -3915,7 +3673,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ath10k-core-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ath-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -3931,7 +3688,6 @@ Description: ath10k-core kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ath6kl-core-4.4.35
 Version: 4.4.35-r1
@@ -3949,7 +3705,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ath6kl-usb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ath6kl-core-4.4.35
@@ -3965,7 +3720,6 @@ Description: ath6kl-usb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ath9k-4.4.35
 Version: 4.4.35-r1
@@ -3983,7 +3737,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ath9k-common-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ath-4.4.35, kernel-module-ath9k-hw-4.4.35, kernel-module-cfg80211-4.4.35
@@ -3999,7 +3752,6 @@ Description: ath9k-common kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ath9k-htc-4.4.35
 Version: 4.4.35-r1
@@ -4017,7 +3769,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ath9k-hw-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ath-4.4.35
@@ -4033,7 +3784,6 @@ Description: ath9k-hw kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ati-remote2-4.4.35
 Version: 4.4.35-r1
@@ -4051,7 +3801,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-au0828-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-tveeprom-4.4.35
@@ -4067,7 +3816,6 @@ Description: au0828 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-au8522-common-4.4.35
 Version: 4.4.35-r1
@@ -4085,7 +3833,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-au8522-decoder-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-au8522-common-4.4.35
@@ -4101,7 +3848,6 @@ Description: au8522-decoder kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-au8522-dig-4.4.35
 Version: 4.4.35-r1
@@ -4119,7 +3865,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-authenc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4135,7 +3880,6 @@ Description: authenc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-authencesn-4.4.35
 Version: 4.4.35-r1
@@ -4153,7 +3897,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-b2c2-flexcop-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cx24113-4.4.35, kernel-module-cx24123-4.4.35, kernel-module-s5h1420-4.4.35
@@ -4169,7 +3912,6 @@ Description: b2c2-flexcop kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-b2c2-flexcop-usb-4.4.35
 Version: 4.4.35-r1
@@ -4187,7 +3929,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-backlight-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4203,7 +3944,6 @@ Description: backlight kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-bcm3510-4.4.35
 Version: 4.4.35-r1
@@ -4221,7 +3961,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-belkin-sa-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-usbserial-4.4.35
@@ -4237,7 +3976,6 @@ Description: belkin-sa kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-bnep-4.4.35
 Version: 4.4.35-r1
@@ -4255,7 +3993,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-brcmfmac-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-brcmutil-4.4.35, kernel-module-cfg80211-4.4.35
@@ -4271,7 +4008,6 @@ Description: brcmfmac kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-brcmutil-4.4.35
 Version: 4.4.35-r1
@@ -4289,7 +4025,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-bsd-comp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ppp-generic-4.4.35
@@ -4305,7 +4040,6 @@ Description: bsd-comp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-btbcm-4.4.35
 Version: 4.4.35-r1
@@ -4323,7 +4057,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-btintel-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4339,7 +4072,6 @@ Description: btintel kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-btmrvl-4.4.35
 Version: 4.4.35-r1
@@ -4357,7 +4089,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-btmrvl-sdio-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-btmrvl-4.4.35
@@ -4373,7 +4104,6 @@ Description: btmrvl-sdio kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-btrtl-4.4.35
 Version: 4.4.35-r1
@@ -4391,7 +4121,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-btsdio-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4407,7 +4136,6 @@ Description: btsdio kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-btusb-4.4.35
 Version: 4.4.35-r1
@@ -4425,7 +4153,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-carl9170-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ath-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -4441,7 +4168,6 @@ Description: carl9170 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-catc-4.4.35
 Version: 4.4.35-r1
@@ -4459,7 +4185,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cdc-acm-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4475,7 +4200,6 @@ Description: cdc-acm kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cdc-eem-4.4.35
 Version: 4.4.35-r1
@@ -4493,7 +4217,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cdc-ether-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4509,7 +4232,6 @@ Description: cdc-ether kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cdc-mbim-4.4.35
 Version: 4.4.35-r1
@@ -4527,7 +4249,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cdc-ncm-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4543,7 +4264,6 @@ Description: cdc-ncm kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cdc-subset-4.4.35
 Version: 4.4.35-r1
@@ -4561,7 +4281,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cdc-wdm-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4577,7 +4296,6 @@ Description: cdc-wdm kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cdrom-4.4.35
 Version: 4.4.35-r1
@@ -4595,7 +4313,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cfg80211-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4611,7 +4328,6 @@ Description: cfg80211 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ch341-4.4.35
 Version: 4.4.35-r1
@@ -4629,7 +4345,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-coda-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4645,7 +4360,6 @@ Description: coda kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cp210x-4.4.35
 Version: 4.4.35-r1
@@ -4663,7 +4377,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-crc32-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4679,7 +4392,6 @@ Description: crc32 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cs53l32a-4.4.35
 Version: 4.4.35-r1
@@ -4697,7 +4409,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cw1200-core-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -4713,7 +4424,6 @@ Description: cw1200-core kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx22700-4.4.35
 Version: 4.4.35-r1
@@ -4731,7 +4441,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cx22702-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4747,7 +4456,6 @@ Description: cx22702 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx231xx-4.4.35
 Version: 4.4.35-r1
@@ -4765,7 +4473,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cx231xx-dvb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cx231xx-4.4.35
@@ -4781,7 +4488,6 @@ Description: cx231xx-dvb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx2341x-4.4.35
 Version: 4.4.35-r1
@@ -4799,7 +4505,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cx24110-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4815,7 +4520,6 @@ Description: cx24110 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx24113-4.4.35
 Version: 4.4.35-r1
@@ -4833,7 +4537,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cx24116-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4849,7 +4552,6 @@ Description: cx24116 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx24117-4.4.35
 Version: 4.4.35-r1
@@ -4867,7 +4569,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cx24120-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4883,7 +4584,6 @@ Description: cx24120 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx24123-4.4.35
 Version: 4.4.35-r1
@@ -4901,7 +4601,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cx25840-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4917,7 +4616,6 @@ Description: cx25840 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cx82310-eth-4.4.35
 Version: 4.4.35-r1
@@ -4935,7 +4633,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cxd2820r-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4951,7 +4648,6 @@ Description: cxd2820r kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-cxd2841er-4.4.35
 Version: 4.4.35-r1
@@ -4969,7 +4665,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-cypress-firmware-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -4985,7 +4680,6 @@ Description: cypress-firmware kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dib0070-4.4.35
 Version: 4.4.35-r1
@@ -5003,7 +4697,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dib0090-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5019,7 +4712,6 @@ Description: dib0090 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dib3000mb-4.4.35
 Version: 4.4.35-r1
@@ -5037,7 +4729,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dib3000mc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dibx000-common-4.4.35
@@ -5053,7 +4744,6 @@ Description: dib3000mc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dib7000m-4.4.35
 Version: 4.4.35-r1
@@ -5071,7 +4761,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dib7000p-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dibx000-common-4.4.35
@@ -5087,7 +4776,6 @@ Description: dib7000p kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dib8000-4.4.35
 Version: 4.4.35-r1
@@ -5105,7 +4793,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dib9000-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dibx000-common-4.4.35
@@ -5121,7 +4808,6 @@ Description: dib9000 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dibx000-common-4.4.35
 Version: 4.4.35-r1
@@ -5139,7 +4825,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dm9601-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5155,7 +4840,6 @@ Description: dm9601 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-drx39xyj-4.4.35
 Version: 4.4.35-r1
@@ -5173,7 +4857,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-drxd-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5189,7 +4872,6 @@ Description: drxd kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-drxk-4.4.35
 Version: 4.4.35-r1
@@ -5207,7 +4889,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ds3000-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5223,7 +4904,6 @@ Description: ds3000 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-as102-4.4.35
 Version: 4.4.35-r1
@@ -5241,7 +4921,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-pll-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5257,7 +4936,6 @@ Description: dvb-pll kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-ttusb-budget-4.4.35
 Version: 4.4.35-r1
@@ -5275,7 +4953,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-a800-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-dibusb-common-4.4.35
@@ -5291,7 +4968,6 @@ Description: dvb-usb-a800 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-af9005-4.4.35
 Version: 4.4.35-r1
@@ -5309,7 +4985,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-af9015-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5325,7 +5000,6 @@ Description: dvb-usb-af9015 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-af9035-4.4.35
 Version: 4.4.35-r1
@@ -5343,7 +5017,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-anysee-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5359,7 +5032,6 @@ Description: dvb-usb-anysee kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-au6610-4.4.35
 Version: 4.4.35-r1
@@ -5377,7 +5049,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-az6007-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cypress-firmware-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5393,7 +5064,6 @@ Description: dvb-usb-az6007 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-az6027-4.4.35
 Version: 4.4.35-r1
@@ -5411,7 +5081,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-ce6230-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5427,7 +5096,6 @@ Description: dvb-usb-ce6230 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-cinergyt2-4.4.35
 Version: 4.4.35-r1
@@ -5445,7 +5113,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-cxusb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dib0070-4.4.35
@@ -5461,7 +5128,6 @@ Description: dvb-usb-cxusb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-dib0700-4.4.35
 Version: 4.4.35-r1
@@ -5479,7 +5145,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-dibusb-common-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dib3000mc-4.4.35
@@ -5495,7 +5160,6 @@ Description: dvb-usb-dibusb-common kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-dibusb-mb-4.4.35
 Version: 4.4.35-r1
@@ -5513,7 +5177,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-dibusb-mc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-dibusb-common-4.4.35
@@ -5529,7 +5192,6 @@ Description: dvb-usb-dibusb-mc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-digitv-4.4.35
 Version: 4.4.35-r1
@@ -5547,7 +5209,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-dtt200u-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5563,7 +5224,6 @@ Description: dvb-usb-dtt200u kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-dtv5100-4.4.35
 Version: 4.4.35-r1
@@ -5581,7 +5241,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-dvbsky-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35, kernel-module-m88ds3103-4.4.35
@@ -5597,7 +5256,6 @@ Description: dvb-usb-dvbsky kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-dw2102-4.4.35
 Version: 4.4.35-r1
@@ -5615,7 +5273,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-ec168-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5631,7 +5288,6 @@ Description: dvb-usb-ec168 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-friio-4.4.35
 Version: 4.4.35-r1
@@ -5649,7 +5305,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-gl861-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5665,7 +5320,6 @@ Description: dvb-usb-gl861 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-gp8psk-4.4.35
 Version: 4.4.35-r1
@@ -5683,7 +5337,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-lmedm04-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5699,7 +5352,6 @@ Description: dvb-usb-lmedm04 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-m920x-4.4.35
 Version: 4.4.35-r1
@@ -5717,7 +5369,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-mxl111sf-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35, kernel-module-tveeprom-4.4.35
@@ -5733,7 +5384,6 @@ Description: dvb-usb-mxl111sf kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-nova-t-usb2-4.4.35
 Version: 4.4.35-r1
@@ -5751,7 +5401,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-opera-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5767,7 +5416,6 @@ Description: dvb-usb-opera kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-pctv452e-4.4.35
 Version: 4.4.35-r1
@@ -5785,7 +5433,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-rtl28xxu-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-dvb-usb-v2-4.4.35
@@ -5801,7 +5448,6 @@ Description: dvb-usb-rtl28xxu kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-technisat-usb2-4.4.35
 Version: 4.4.35-r1
@@ -5819,7 +5465,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-ttusb2-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5835,7 +5480,6 @@ Description: dvb-usb-ttusb2 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-umt-010-4.4.35
 Version: 4.4.35-r1
@@ -5853,7 +5497,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-v2-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5869,7 +5512,6 @@ Description: dvb-usb-v2 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-dvb-usb-vp702x-4.4.35
 Version: 4.4.35-r1
@@ -5887,7 +5529,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-dvb-usb-vp7045-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5903,7 +5544,6 @@ Description: dvb-usb-vp7045 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-e4000-4.4.35
 Version: 4.4.35-r1
@@ -5921,7 +5561,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ec100-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5937,7 +5576,6 @@ Description: ec100 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-echainiv-4.4.35
 Version: 4.4.35-r1
@@ -5955,7 +5593,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-eeprom-93cx6-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -5971,7 +5608,6 @@ Description: eeprom-93cx6 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-em28xx-4.4.35
 Version: 4.4.35-r1
@@ -5989,7 +5625,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-em28xx-alsa-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-em28xx-4.4.35
@@ -6005,7 +5640,6 @@ Description: em28xx-alsa kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-em28xx-dvb-4.4.35
 Version: 4.4.35-r1
@@ -6023,7 +5657,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-em28xx-rc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-em28xx-4.4.35
@@ -6039,7 +5672,6 @@ Description: em28xx-rc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-esp4-4.4.35
 Version: 4.4.35-r1
@@ -6057,7 +5689,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-esp6-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6073,7 +5704,6 @@ Description: esp6 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ezusb-4.4.35
 Version: 4.4.35-r1
@@ -6091,7 +5721,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-f2fs-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6107,7 +5736,6 @@ Description: f2fs kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-f81232-4.4.35
 Version: 4.4.35-r1
@@ -6125,7 +5753,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-fc0011-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6141,7 +5768,6 @@ Description: fc0011 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-fc0012-4.4.35
 Version: 4.4.35-r1
@@ -6159,7 +5785,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-fc0013-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6175,7 +5800,6 @@ Description: fc0013 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-fc2580-4.4.35
 Version: 4.4.35-r1
@@ -6193,7 +5817,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-fou-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip6-udp-tunnel-4.4.35, kernel-module-udp-tunnel-4.4.35
@@ -6209,7 +5832,6 @@ Description: fou kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ftdi-sio-4.4.35
 Version: 4.4.35-r1
@@ -6227,7 +5849,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-gcm-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6243,7 +5864,6 @@ Description: gcm kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-generic-bl-4.4.35
 Version: 4.4.35-r1
@@ -6261,7 +5881,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-gf128mul-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6277,7 +5896,6 @@ Description: gf128mul kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ghash-generic-4.4.35
 Version: 4.4.35-r1
@@ -6295,7 +5913,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-gl620a-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6311,7 +5928,6 @@ Description: gl620a kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-gspca-main-4.4.35
 Version: 4.4.35-r1
@@ -6329,7 +5945,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-hci-uart-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-btbcm-4.4.35, kernel-module-btintel-4.4.35
@@ -6345,7 +5960,6 @@ Description: hci-uart kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-hci-vhci-4.4.35
 Version: 4.4.35-r1
@@ -6363,7 +5977,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-hd29l2-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6379,7 +5992,6 @@ Description: hd29l2 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-hdpvr-4.4.35
 Version: 4.4.35-r1
@@ -6397,7 +6009,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-hidp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6413,7 +6024,6 @@ Description: hidp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-horus3a-4.4.35
 Version: 4.4.35-r1
@@ -6431,7 +6041,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-hostap-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-lib80211-4.4.35
@@ -6447,7 +6056,6 @@ Description: hostap kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-hrtimer-test-4.4.35
 Version: 4.4.35-r1
@@ -6465,7 +6073,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-huawei-cdc-ncm-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cdc-ncm-4.4.35, kernel-module-cdc-wdm-4.4.35
@@ -6481,7 +6088,6 @@ Description: huawei-cdc-ncm kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-i2c-algo-bit-4.4.35
 Version: 4.4.35-r1
@@ -6499,7 +6105,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-int51x1-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6515,7 +6120,6 @@ Description: int51x1 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-4.4.35
 Version: 4.4.35-r1
@@ -6533,7 +6137,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-bitmap-ip-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6549,7 +6152,6 @@ Description: ip-set-bitmap-ip kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-bitmap-ipmac-4.4.35
 Version: 4.4.35-r1
@@ -6567,7 +6169,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-bitmap-port-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6583,7 +6184,6 @@ Description: ip-set-bitmap-port kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-hash-ip-4.4.35
 Version: 4.4.35-r1
@@ -6601,7 +6201,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-hash-ipmark-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6617,7 +6216,6 @@ Description: ip-set-hash-ipmark kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-hash-ipport-4.4.35
 Version: 4.4.35-r1
@@ -6635,7 +6233,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-hash-ipportip-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6651,7 +6248,6 @@ Description: ip-set-hash-ipportip kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-hash-ipportnet-4.4.35
 Version: 4.4.35-r1
@@ -6669,7 +6265,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-hash-mac-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6685,7 +6280,6 @@ Description: ip-set-hash-mac kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-hash-net-4.4.35
 Version: 4.4.35-r1
@@ -6703,7 +6297,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-hash-netiface-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6719,7 +6312,6 @@ Description: ip-set-hash-netiface kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-hash-netnet-4.4.35
 Version: 4.4.35-r1
@@ -6737,7 +6329,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-hash-netport-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6753,7 +6344,6 @@ Description: ip-set-hash-netport kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-set-hash-netportnet-4.4.35
 Version: 4.4.35-r1
@@ -6771,7 +6361,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-set-list-set-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35
@@ -6787,7 +6376,6 @@ Description: ip-set-list-set kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip-tables-4.4.35
 Version: 4.4.35-r1
@@ -6805,7 +6393,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip-tunnel-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6821,7 +6408,6 @@ Description: ip-tunnel kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip6-tables-4.4.35
 Version: 4.4.35-r1
@@ -6839,7 +6425,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip6-udp-tunnel-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -6855,7 +6440,6 @@ Description: ip6-udp-tunnel kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip6t-ah-4.4.35
 Version: 4.4.35-r1
@@ -6873,7 +6457,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip6t-masquerade-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-nat-masquerade-ipv6-4.4.35, kernel-module-x-tables-4.4.35
@@ -6889,7 +6472,6 @@ Description: ip6t-masquerade kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip6t-npt-4.4.35
 Version: 4.4.35-r1
@@ -6907,7 +6489,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip6t-reject-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-reject-ipv6-4.4.35, kernel-module-x-tables-4.4.35
@@ -6923,7 +6504,6 @@ Description: ip6t-reject kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip6table-filter-4.4.35
 Version: 4.4.35-r1
@@ -6941,7 +6521,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ip6table-mangle-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip6-tables-4.4.35, kernel-module-x-tables-4.4.35
@@ -6957,7 +6536,6 @@ Description: ip6table-mangle kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ip6table-nat-4.4.35
 Version: 4.4.35-r1
@@ -6975,7 +6553,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ipcomp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-xfrm-ipcomp-4.4.35
@@ -6991,7 +6568,6 @@ Description: ipcomp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ipcomp6-4.4.35
 Version: 4.4.35-r1
@@ -7009,7 +6585,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ipheth-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7025,7 +6600,6 @@ Description: ipheth kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ipt-ah-4.4.35
 Version: 4.4.35-r1
@@ -7043,7 +6617,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ipt-ecn-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -7059,7 +6632,6 @@ Description: ipt-ecn kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ipt-masquerade-4.4.35
 Version: 4.4.35-r1
@@ -7077,7 +6649,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ipt-reject-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-reject-ipv4-4.4.35, kernel-module-x-tables-4.4.35
@@ -7093,7 +6664,6 @@ Description: ipt-reject kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-iptable-filter-4.4.35
 Version: 4.4.35-r1
@@ -7111,7 +6681,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-iptable-mangle-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-tables-4.4.35, kernel-module-x-tables-4.4.35
@@ -7127,7 +6696,6 @@ Description: iptable-mangle kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-iptable-nat-4.4.35
 Version: 4.4.35-r1
@@ -7145,7 +6713,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-isl6405-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7161,7 +6728,6 @@ Description: isl6405 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-isl6421-4.4.35
 Version: 4.4.35-r1
@@ -7179,7 +6745,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-isl6423-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7195,7 +6760,6 @@ Description: isl6423 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-it913x-4.4.35
 Version: 4.4.35-r1
@@ -7213,7 +6777,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-itd1000-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7229,7 +6792,6 @@ Description: itd1000 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ix2505v-4.4.35
 Version: 4.4.35-r1
@@ -7247,7 +6809,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-jfs-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7263,7 +6824,6 @@ Description: jfs kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-kalmia-4.4.35
 Version: 4.4.35-r1
@@ -7281,7 +6841,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-kaweth-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7297,7 +6856,6 @@ Description: kaweth kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-keyspan-4.4.35
 Version: 4.4.35-r1
@@ -7315,7 +6873,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-l64781-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7331,7 +6888,6 @@ Description: l64781 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lan78xx-4.4.35
 Version: 4.4.35-r1
@@ -7349,7 +6905,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lcd-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7365,7 +6920,6 @@ Description: lcd kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lg-vl600-4.4.35
 Version: 4.4.35-r1
@@ -7383,7 +6937,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lg2160-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7399,7 +6952,6 @@ Description: lg2160 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lgdt3305-4.4.35
 Version: 4.4.35-r1
@@ -7417,7 +6969,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lgdt3306a-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7433,7 +6984,6 @@ Description: lgdt3306a kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lgdt330x-4.4.35
 Version: 4.4.35-r1
@@ -7451,7 +7001,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lgs8gl5-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7467,7 +7016,6 @@ Description: lgs8gl5 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lgs8gxx-4.4.35
 Version: 4.4.35-r1
@@ -7485,7 +7033,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lib80211-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7501,7 +7048,6 @@ Description: lib80211 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lib80211-crypt-ccmp-4.4.35
 Version: 4.4.35-r1
@@ -7519,7 +7065,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lib80211-crypt-tkip-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-lib80211-4.4.35
@@ -7535,7 +7080,6 @@ Description: lib80211-crypt-tkip kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lib80211-crypt-wep-4.4.35
 Version: 4.4.35-r1
@@ -7553,7 +7097,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-libahci-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7569,7 +7112,6 @@ Description: libahci kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-libahci-platform-4.4.35
 Version: 4.4.35-r1
@@ -7587,7 +7129,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-libcrc32c-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7603,7 +7144,6 @@ Description: libcrc32c kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-libertas-4.4.35
 Version: 4.4.35-r1
@@ -7621,7 +7161,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-libertas-tf-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-mac80211-4.4.35
@@ -7637,7 +7176,6 @@ Description: libertas-tf kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-libertas-tf-usb-4.4.35
 Version: 4.4.35-r1
@@ -7655,7 +7193,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lnbh25-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7671,7 +7208,6 @@ Description: lnbh25 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-lnbp21-4.4.35
 Version: 4.4.35-r1
@@ -7689,7 +7225,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-lnbp22-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7705,7 +7240,6 @@ Description: lnbp22 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-m88ds3103-4.4.35
 Version: 4.4.35-r1
@@ -7723,7 +7257,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-m88rs2000-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7739,7 +7272,6 @@ Description: m88rs2000 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-m88rs6000t-4.4.35
 Version: 4.4.35-r1
@@ -7757,7 +7289,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mac80211-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -7773,7 +7304,6 @@ Description: mac80211 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-max2165-4.4.35
 Version: 4.4.35-r1
@@ -7791,7 +7321,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mb86a16-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7807,7 +7336,6 @@ Description: mb86a16 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mb86a20s-4.4.35
 Version: 4.4.35-r1
@@ -7825,7 +7353,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mcs7830-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7841,7 +7368,6 @@ Description: mcs7830 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-michael-mic-4.4.35
 Version: 4.4.35-r1
@@ -7859,7 +7385,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-microchip-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7875,7 +7400,6 @@ Description: microchip kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-msi001-4.4.35
 Version: 4.4.35-r1
@@ -7893,7 +7417,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-msp3400-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7909,7 +7432,6 @@ Description: msp3400 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mt2060-4.4.35
 Version: 4.4.35-r1
@@ -7927,7 +7449,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mt2063-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7943,7 +7464,6 @@ Description: mt2063 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mt2131-4.4.35
 Version: 4.4.35-r1
@@ -7961,7 +7481,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mt2266-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -7977,7 +7496,6 @@ Description: mt2266 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mt312-4.4.35
 Version: 4.4.35-r1
@@ -7995,7 +7513,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mt352-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8012,7 +7529,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mt7601u-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -8028,7 +7544,6 @@ Description: mt7601u kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mt7601usta-4.4.35
 Version: 3.0.0.4-r0
@@ -8047,7 +7562,6 @@ HomePage: www.mediatek.com
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mwifiex-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -8063,7 +7577,6 @@ Description: mwifiex kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mwifiex-usb-4.4.35
 Version: 4.4.35-r1
@@ -8081,7 +7594,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mxl111sf-demod-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8097,7 +7609,6 @@ Description: mxl111sf-demod kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mxl111sf-tuner-4.4.35
 Version: 4.4.35-r1
@@ -8115,7 +7626,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mxl301rf-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8131,7 +7641,6 @@ Description: mxl301rf kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-mxl5005s-4.4.35
 Version: 4.4.35-r1
@@ -8149,7 +7658,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-mxl5007t-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8165,7 +7673,6 @@ Description: mxl5007t kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nandsim-4.4.35
 Version: 4.4.35-r1
@@ -8183,7 +7690,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-net1080-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8199,7 +7705,6 @@ Description: net1080 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-conntrack-4.4.35
 Version: 4.4.35-r1
@@ -8217,7 +7722,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-conntrack-broadcast-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35
@@ -8233,7 +7737,6 @@ Description: nf-conntrack-broadcast kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-conntrack-ftp-4.4.35
 Version: 4.4.35-r1
@@ -8251,7 +7754,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-conntrack-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nf-defrag-ipv4-4.4.35
@@ -8267,7 +7769,6 @@ Description: nf-conntrack-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-conntrack-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8285,7 +7786,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-conntrack-irc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35
@@ -8301,7 +7801,6 @@ Description: nf-conntrack-irc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-conntrack-netbios-ns-4.4.35
 Version: 4.4.35-r1
@@ -8319,7 +7818,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-conntrack-netlink-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nfnetlink-4.4.35
@@ -8335,7 +7833,6 @@ Description: nf-conntrack-netlink kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-conntrack-sip-4.4.35
 Version: 4.4.35-r1
@@ -8353,7 +7850,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-defrag-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8369,7 +7865,6 @@ Description: nf-defrag-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-defrag-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8387,7 +7882,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-log-common-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8403,7 +7897,6 @@ Description: nf-log-common kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-log-ipv4-4.4.35
 Version: 4.4.35-r1
@@ -8421,7 +7914,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-log-ipv6-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-log-common-4.4.35
@@ -8437,7 +7929,6 @@ Description: nf-log-ipv6 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-nat-4.4.35
 Version: 4.4.35-r1
@@ -8455,7 +7946,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-nat-ftp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nf-conntrack-ftp-4.4.35, kernel-module-nf-nat-4.4.35
@@ -8471,7 +7961,6 @@ Description: nf-nat-ftp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-nat-ipv4-4.4.35
 Version: 4.4.35-r1
@@ -8489,7 +7978,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-nat-ipv6-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nf-nat-4.4.35
@@ -8505,7 +7993,6 @@ Description: nf-nat-ipv6 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-nat-irc-4.4.35
 Version: 4.4.35-r1
@@ -8523,7 +8010,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-nat-masquerade-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nf-nat-4.4.35
@@ -8539,7 +8025,6 @@ Description: nf-nat-masquerade-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-nat-masquerade-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8557,7 +8042,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-nat-redirect-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-nat-4.4.35
@@ -8573,7 +8057,6 @@ Description: nf-nat-redirect kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-nat-sip-4.4.35
 Version: 4.4.35-r1
@@ -8591,7 +8074,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-reject-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8607,7 +8089,6 @@ Description: nf-reject-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-reject-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8625,7 +8106,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-tables-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nfnetlink-4.4.35
@@ -8641,7 +8121,6 @@ Description: nf-tables kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-tables-inet-4.4.35
 Version: 4.4.35-r1
@@ -8659,7 +8138,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nf-tables-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8675,7 +8153,6 @@ Description: nf-tables-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nf-tables-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8693,7 +8170,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nfnetlink-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -8709,7 +8185,6 @@ Description: nfnetlink kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nfs-layout-flexfiles-4.4.35
 Version: 4.4.35-r1
@@ -8727,7 +8202,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-chain-nat-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-nat-ipv4-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8743,7 +8217,6 @@ Description: nft-chain-nat-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-chain-nat-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8761,7 +8234,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-compat-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-tables-4.4.35, kernel-module-nfnetlink-4.4.35, kernel-module-x-tables-4.4.35
@@ -8777,7 +8249,6 @@ Description: nft-compat kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-counter-4.4.35
 Version: 4.4.35-r1
@@ -8795,7 +8266,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-ct-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8811,7 +8281,6 @@ Description: nft-ct kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-exthdr-4.4.35
 Version: 4.4.35-r1
@@ -8829,7 +8298,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-hash-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8845,7 +8313,6 @@ Description: nft-hash kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-limit-4.4.35
 Version: 4.4.35-r1
@@ -8863,7 +8330,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-log-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8879,7 +8345,6 @@ Description: nft-log kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-masq-4.4.35
 Version: 4.4.35-r1
@@ -8897,7 +8362,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-masq-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-nat-masquerade-ipv4-4.4.35, kernel-module-nf-tables-4.4.35, kernel-module-nft-masq-4.4.35
@@ -8913,7 +8377,6 @@ Description: nft-masq-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-masq-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -8931,7 +8394,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-meta-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8947,7 +8409,6 @@ Description: nft-meta kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-nat-4.4.35
 Version: 4.4.35-r1
@@ -8965,7 +8426,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-rbtree-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-tables-4.4.35
@@ -8981,7 +8441,6 @@ Description: nft-rbtree kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-redir-4.4.35
 Version: 4.4.35-r1
@@ -8999,7 +8458,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-redir-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-nat-redirect-4.4.35, kernel-module-nf-tables-4.4.35, kernel-module-nft-redir-4.4.35
@@ -9015,7 +8473,6 @@ Description: nft-redir-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-redir-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -9033,7 +8490,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-reject-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9049,7 +8505,6 @@ Description: nft-reject kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-reject-inet-4.4.35
 Version: 4.4.35-r1
@@ -9067,7 +8522,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nft-reject-ipv4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-reject-ipv4-4.4.35, kernel-module-nf-tables-4.4.35, kernel-module-nft-reject-4.4.35
@@ -9083,7 +8537,6 @@ Description: nft-reject-ipv4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nft-reject-ipv6-4.4.35
 Version: 4.4.35-r1
@@ -9101,7 +8554,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp1250-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9117,7 +8569,6 @@ Description: nls-cp1250 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp1251-4.4.35
 Version: 4.4.35-r1
@@ -9135,7 +8586,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp1255-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9151,7 +8601,6 @@ Description: nls-cp1255 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp737-4.4.35
 Version: 4.4.35-r1
@@ -9169,7 +8618,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp775-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9185,7 +8633,6 @@ Description: nls-cp775 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp850-4.4.35
 Version: 4.4.35-r1
@@ -9203,7 +8650,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp852-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9219,7 +8665,6 @@ Description: nls-cp852 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp855-4.4.35
 Version: 4.4.35-r1
@@ -9237,7 +8682,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp857-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9253,7 +8697,6 @@ Description: nls-cp857 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp860-4.4.35
 Version: 4.4.35-r1
@@ -9271,7 +8714,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp861-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9287,7 +8729,6 @@ Description: nls-cp861 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp862-4.4.35
 Version: 4.4.35-r1
@@ -9305,7 +8746,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp863-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9321,7 +8761,6 @@ Description: nls-cp863 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp864-4.4.35
 Version: 4.4.35-r1
@@ -9339,7 +8778,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp865-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9355,7 +8793,6 @@ Description: nls-cp865 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp866-4.4.35
 Version: 4.4.35-r1
@@ -9373,7 +8810,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp869-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9389,7 +8825,6 @@ Description: nls-cp869 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp874-4.4.35
 Version: 4.4.35-r1
@@ -9407,7 +8842,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp932-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9423,7 +8857,6 @@ Description: nls-cp932 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-cp949-4.4.35
 Version: 4.4.35-r1
@@ -9441,7 +8874,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-cp950-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9457,7 +8889,6 @@ Description: nls-cp950 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-euc-jp-4.4.35
 Version: 4.4.35-r1
@@ -9475,7 +8906,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-iso8859-13-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9491,7 +8921,6 @@ Description: nls-iso8859-13 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-iso8859-14-4.4.35
 Version: 4.4.35-r1
@@ -9509,7 +8938,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-iso8859-15-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9525,7 +8953,6 @@ Description: nls-iso8859-15 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-iso8859-2-4.4.35
 Version: 4.4.35-r1
@@ -9543,7 +8970,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-iso8859-3-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9559,7 +8985,6 @@ Description: nls-iso8859-3 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-iso8859-4-4.4.35
 Version: 4.4.35-r1
@@ -9577,7 +9002,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-iso8859-5-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9593,7 +9017,6 @@ Description: nls-iso8859-5 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-iso8859-6-4.4.35
 Version: 4.4.35-r1
@@ -9611,7 +9034,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-iso8859-7-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9627,7 +9049,6 @@ Description: nls-iso8859-7 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-iso8859-9-4.4.35
 Version: 4.4.35-r1
@@ -9645,7 +9066,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-koi8-r-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9661,7 +9081,6 @@ Description: nls-koi8-r kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nls-koi8-ru-4.4.35
 Version: 4.4.35-r1
@@ -9679,7 +9098,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nls-koi8-u-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9695,7 +9113,6 @@ Description: nls-koi8-u kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ntfs-4.4.35
 Version: 4.4.35-r1
@@ -9713,7 +9130,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-nxt200x-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9729,7 +9145,6 @@ Description: nxt200x kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-nxt6000-4.4.35
 Version: 4.4.35-r1
@@ -9747,7 +9162,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-option-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-usb-wwan-4.4.35, kernel-module-usbserial-4.4.35
@@ -9763,7 +9177,6 @@ Description: option kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-or51132-4.4.35
 Version: 4.4.35-r1
@@ -9781,7 +9194,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-or51211-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9797,7 +9209,6 @@ Description: or51211 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-overlay-4.4.35
 Version: 4.4.35-r1
@@ -9815,7 +9226,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-p54common-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -9831,7 +9241,6 @@ Description: p54common kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-pegasus-4.4.35
 Version: 4.4.35-r1
@@ -9849,7 +9258,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-pktcdvd-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cdrom-4.4.35
@@ -9865,7 +9273,6 @@ Description: pktcdvd kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-pl2303-4.4.35
 Version: 4.4.35-r1
@@ -9883,7 +9290,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-plusb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -9899,7 +9305,6 @@ Description: plusb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ppp-async-4.4.35
 Version: 4.4.35-r1
@@ -9917,7 +9322,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ppp-deflate-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ppp-generic-4.4.35
@@ -9933,7 +9337,6 @@ Description: ppp-deflate kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ppp-generic-4.4.35
 Version: 4.4.35-r1
@@ -9951,7 +9354,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ppp-mppe-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ppp-generic-4.4.35
@@ -9967,7 +9369,6 @@ Description: ppp-mppe kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ppp-synctty-4.4.35
 Version: 4.4.35-r1
@@ -9985,7 +9386,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-pppoe-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ppp-generic-4.4.35, kernel-module-pppox-4.4.35
@@ -10001,7 +9401,6 @@ Description: pppoe kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-pppox-4.4.35
 Version: 4.4.35-r1
@@ -10019,7 +9418,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-prism2-usb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -10035,7 +9433,6 @@ Description: prism2-usb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-pvrusb2-4.4.35
 Version: 4.4.35-r1
@@ -10053,7 +9450,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-qm1d1c0042-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10069,7 +9465,6 @@ Description: qm1d1c0042 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-qmi-wwan-4.4.35
 Version: 4.4.35-r1
@@ -10087,7 +9482,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-qt1010-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10103,7 +9497,6 @@ Description: qt1010 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-r8152-4.4.35
 Version: 4.4.35-r1
@@ -10121,7 +9514,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-r8188eu-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35
@@ -10137,7 +9529,6 @@ Description: r8188eu kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-r820t-4.4.35
 Version: 4.4.35-r1
@@ -10155,7 +9546,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-r8712u-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10171,7 +9561,6 @@ Description: r8712u kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-r8723au-4.4.35
 Version: 4.4.35-r1
@@ -10189,7 +9578,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-reiserfs-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10205,7 +9593,6 @@ Description: reiserfs kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rfcomm-4.4.35
 Version: 4.4.35-r1
@@ -10223,7 +9610,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rndis-host-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cdc-ether-4.4.35
@@ -10239,7 +9625,6 @@ Description: rndis-host kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rsi-91x-4.4.35
 Version: 4.4.35-r1
@@ -10257,7 +9642,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rsi-usb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-rsi-91x-4.4.35
@@ -10273,7 +9657,6 @@ Description: rsi-usb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rt2500usb-4.4.35
 Version: 4.4.35-r1
@@ -10291,7 +9674,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rt2800lib-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-mac80211-4.4.35, kernel-module-rt2x00lib-4.4.35
@@ -10307,7 +9689,6 @@ Description: rt2800lib kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rt2800usb-4.4.35
 Version: 4.4.35-r1
@@ -10325,7 +9706,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rt2x00lib-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -10341,7 +9721,6 @@ Description: rt2x00lib kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rt2x00usb-4.4.35
 Version: 4.4.35-r1
@@ -10359,7 +9738,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rt73usb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-rt2x00lib-4.4.35, kernel-module-rt2x00usb-4.4.35
@@ -10375,7 +9753,6 @@ Description: rt73usb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rtl-usb-4.4.35
 Version: 4.4.35-r1
@@ -10393,7 +9770,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rtl2830-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10409,7 +9785,6 @@ Description: rtl2830 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rtl2832-4.4.35
 Version: 4.4.35-r1
@@ -10427,7 +9802,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rtl8150-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10443,7 +9817,6 @@ Description: rtl8150 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rtl8187-4.4.35
 Version: 4.4.35-r1
@@ -10461,7 +9834,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rtl8192c-common-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-rtlwifi-4.4.35
@@ -10477,7 +9849,6 @@ Description: rtl8192c-common kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rtl8192cu-4.4.35
 Version: 4.4.35-r1
@@ -10495,7 +9866,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-rtl8xxxu-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-mac80211-4.4.35
@@ -10511,7 +9881,6 @@ Description: rtl8xxxu kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-rtlwifi-4.4.35
 Version: 4.4.35-r1
@@ -10529,7 +9898,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-s5h1409-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10545,7 +9913,6 @@ Description: s5h1409 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-s5h1411-4.4.35
 Version: 4.4.35-r1
@@ -10563,7 +9930,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-s5h1420-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10579,7 +9945,6 @@ Description: s5h1420 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-s5h1432-4.4.35
 Version: 4.4.35-r1
@@ -10597,7 +9962,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-s921-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10613,7 +9977,6 @@ Description: s921 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-saa7115-4.4.35
 Version: 4.4.35-r1
@@ -10631,7 +9994,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-si2157-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10647,7 +10009,6 @@ Description: si2157 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-si2165-4.4.35
 Version: 4.4.35-r1
@@ -10665,7 +10026,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-si2168-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10681,7 +10041,6 @@ Description: si2168 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-si21xx-4.4.35
 Version: 4.4.35-r1
@@ -10699,7 +10058,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-sierra-net-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10715,7 +10073,6 @@ Description: sierra-net kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-sit-4.4.35
 Version: 4.4.35-r1
@@ -10733,7 +10090,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-slhc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10749,7 +10105,6 @@ Description: slhc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-smsc75xx-4.4.35
 Version: 4.4.35-r1
@@ -10767,7 +10122,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-smsc95xx-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10783,7 +10137,6 @@ Description: smsc95xx kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-smsdvb-4.4.35
 Version: 4.4.35-r1
@@ -10801,7 +10154,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-smsmdtv-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10817,7 +10169,6 @@ Description: smsmdtv kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-smssdio-4.4.35
 Version: 4.4.35-r1
@@ -10835,7 +10186,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-smsusb-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-smsmdtv-4.4.35
@@ -10851,7 +10201,6 @@ Description: smsusb kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-sp2-4.4.35
 Version: 4.4.35-r1
@@ -10869,7 +10218,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-sp8870-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10885,7 +10233,6 @@ Description: sp8870 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-sp887x-4.4.35
 Version: 4.4.35-r1
@@ -10903,7 +10250,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-sr-mod-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cdrom-4.4.35
@@ -10919,7 +10265,6 @@ Description: sr-mod kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-sr9700-4.4.35
 Version: 4.4.35-r1
@@ -10937,7 +10282,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-sr9800-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10953,7 +10297,6 @@ Description: sr9800 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-stb0899-4.4.35
 Version: 4.4.35-r1
@@ -10971,7 +10314,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-stb6000-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -10987,7 +10329,6 @@ Description: stb6000 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-stb6100-4.4.35
 Version: 4.4.35-r1
@@ -11005,7 +10346,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-stv0288-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11021,7 +10361,6 @@ Description: stv0288 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-stv0297-4.4.35
 Version: 4.4.35-r1
@@ -11039,7 +10378,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-stv0299-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11055,7 +10393,6 @@ Description: stv0299 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-stv0367-4.4.35
 Version: 4.4.35-r1
@@ -11073,7 +10410,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-stv0900-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11089,7 +10425,6 @@ Description: stv0900 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-stv090x-4.4.35
 Version: 4.4.35-r1
@@ -11107,7 +10442,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-stv6110-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11123,7 +10457,6 @@ Description: stv6110 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-stv6110x-4.4.35
 Version: 4.4.35-r1
@@ -11141,7 +10474,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tc90522-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11157,7 +10489,6 @@ Description: tc90522 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda10021-4.4.35
 Version: 4.4.35-r1
@@ -11175,7 +10506,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tda10023-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11191,7 +10521,6 @@ Description: tda10023 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda10048-4.4.35
 Version: 4.4.35-r1
@@ -11209,7 +10538,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tda1004x-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11225,7 +10553,6 @@ Description: tda1004x kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda10071-4.4.35
 Version: 4.4.35-r1
@@ -11243,7 +10570,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tda10086-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11259,7 +10585,6 @@ Description: tda10086 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda18212-4.4.35
 Version: 4.4.35-r1
@@ -11277,7 +10602,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tda18218-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11293,7 +10617,6 @@ Description: tda18218 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda18271c2dd-4.4.35
 Version: 4.4.35-r1
@@ -11311,7 +10634,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tda665x-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11327,7 +10649,6 @@ Description: tda665x kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda8083-4.4.35
 Version: 4.4.35-r1
@@ -11345,7 +10666,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tda8261-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11361,7 +10681,6 @@ Description: tda8261 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tda826x-4.4.35
 Version: 4.4.35-r1
@@ -11379,7 +10698,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tea5761-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11395,7 +10713,6 @@ Description: tea5761 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tea5767-4.4.35
 Version: 4.4.35-r1
@@ -11413,7 +10730,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tm6000-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-videobuf-core-4.4.35, kernel-module-videobuf-vmalloc-4.4.35
@@ -11429,7 +10745,6 @@ Description: tm6000 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tm6000-dvb-4.4.35
 Version: 4.4.35-r1
@@ -11447,7 +10762,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ts2020-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11463,7 +10777,6 @@ Description: ts2020 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ttpci-eeprom-4.4.35
 Version: 4.4.35-r1
@@ -11481,7 +10794,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ttusb-dec-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ttusbdecfe-4.4.35
@@ -11497,7 +10809,6 @@ Description: ttusb-dec kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ttusbdecfe-4.4.35
 Version: 4.4.35-r1
@@ -11515,7 +10826,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tua6100-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11531,7 +10841,6 @@ Description: tua6100 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tua9001-4.4.35
 Version: 4.4.35-r1
@@ -11549,7 +10858,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tun-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11565,7 +10873,6 @@ Description: tun kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tuner-4.4.35
 Version: 4.4.35-r1
@@ -11583,7 +10890,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tunnel4-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11599,7 +10905,6 @@ Description: tunnel4 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-tunnel6-4.4.35
 Version: 4.4.35-r1
@@ -11617,7 +10922,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-tveeprom-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11633,7 +10937,6 @@ Description: tveeprom kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-udp-diag-4.4.35
 Version: 4.4.35-r1
@@ -11651,7 +10954,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-udp-tunnel-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11667,7 +10969,6 @@ Description: udp-tunnel kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-usb-wwan-4.4.35
 Version: 4.4.35-r1
@@ -11685,7 +10986,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-usbserial-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11701,7 +11001,6 @@ Description: usbserial kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-usbvision-4.4.35
 Version: 4.4.35-r1
@@ -11719,7 +11018,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-ves1820-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11735,7 +11033,6 @@ Description: ves1820 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-ves1x93-4.4.35
 Version: 4.4.35-r1
@@ -11753,7 +11050,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-videobuf-core-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11769,7 +11065,6 @@ Description: videobuf-core kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-videobuf-dvb-4.4.35
 Version: 4.4.35-r1
@@ -11787,7 +11082,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-videobuf-vmalloc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-videobuf-core-4.4.35
@@ -11803,7 +11097,6 @@ Description: videobuf-vmalloc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-videobuf2-core-4.4.35
 Version: 4.4.35-r1
@@ -11821,7 +11114,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-videobuf2-memops-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11837,7 +11129,6 @@ Description: videobuf2-memops kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-videobuf2-v4l2-4.4.35
 Version: 4.4.35-r1
@@ -11855,7 +11146,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-videobuf2-vmalloc-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-videobuf2-memops-4.4.35
@@ -11871,7 +11161,6 @@ Description: videobuf2-vmalloc kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-wimax-4.4.35
 Version: 4.4.35-r1
@@ -11889,7 +11178,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-wm8775-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11905,7 +11193,6 @@ Description: wm8775 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-x-tables-4.4.35
 Version: 4.4.35-r1
@@ -11923,7 +11210,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xfrm-ipcomp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11939,7 +11225,6 @@ Description: xfrm-ipcomp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xfrm4-mode-beet-4.4.35
 Version: 4.4.35-r1
@@ -11957,7 +11242,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xfrm4-mode-transport-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -11973,7 +11257,6 @@ Description: xfrm4-mode-transport kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xfrm4-mode-tunnel-4.4.35
 Version: 4.4.35-r1
@@ -11991,7 +11274,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xfrm4-tunnel-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-tunnel4-4.4.35
@@ -12007,7 +11289,6 @@ Description: xfrm4-tunnel kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xfrm6-mode-beet-4.4.35
 Version: 4.4.35-r1
@@ -12025,7 +11306,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xfrm6-mode-transport-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -12041,7 +11321,6 @@ Description: xfrm6-mode-transport kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xfrm6-mode-tunnel-4.4.35
 Version: 4.4.35-r1
@@ -12059,7 +11338,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xfrm6-tunnel-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-tunnel6-4.4.35
@@ -12075,7 +11353,6 @@ Description: xfrm6-tunnel kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xfs-4.4.35
 Version: 4.4.35-r1
@@ -12093,7 +11370,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-classify-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12109,7 +11385,6 @@ Description: xt-classify kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-comment-4.4.35
 Version: 4.4.35-r1
@@ -12127,7 +11402,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-connbytes-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-x-tables-4.4.35
@@ -12143,7 +11417,6 @@ Description: xt-connbytes kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-connlimit-4.4.35
 Version: 4.4.35-r1
@@ -12161,7 +11434,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-connmark-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-x-tables-4.4.35
@@ -12177,7 +11449,6 @@ Description: xt-connmark kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-conntrack-4.4.35
 Version: 4.4.35-r1
@@ -12195,7 +11466,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-dscp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12211,7 +11481,6 @@ Description: xt-dscp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-ecn-4.4.35
 Version: 4.4.35-r1
@@ -12229,7 +11498,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-esp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12245,7 +11513,6 @@ Description: xt-esp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-helper-4.4.35
 Version: 4.4.35-r1
@@ -12263,7 +11530,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-hl-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12279,7 +11545,6 @@ Description: xt-hl kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-length-4.4.35
 Version: 4.4.35-r1
@@ -12297,7 +11562,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-limit-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12313,7 +11577,6 @@ Description: xt-limit kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-log-4.4.35
 Version: 4.4.35-r1
@@ -12331,7 +11594,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-mac-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12347,7 +11609,6 @@ Description: xt-mac kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-mark-4.4.35
 Version: 4.4.35-r1
@@ -12365,7 +11626,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-multiport-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12381,7 +11641,6 @@ Description: xt-multiport kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-nat-4.4.35
 Version: 4.4.35-r1
@@ -12399,7 +11658,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-netmap-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-nf-nat-4.4.35, kernel-module-x-tables-4.4.35
@@ -12415,7 +11673,6 @@ Description: xt-netmap kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-policy-4.4.35
 Version: 4.4.35-r1
@@ -12433,7 +11690,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-recent-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12449,7 +11705,6 @@ Description: xt-recent kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-redirect-4.4.35
 Version: 4.4.35-r1
@@ -12467,7 +11722,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-set-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-ip-set-4.4.35, kernel-module-x-tables-4.4.35
@@ -12483,7 +11737,6 @@ Description: xt-set kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-state-4.4.35
 Version: 4.4.35-r1
@@ -12501,7 +11754,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-statistic-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12517,7 +11769,6 @@ Description: xt-statistic kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-tcpmss-4.4.35
 Version: 4.4.35-r1
@@ -12535,7 +11786,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-xt-tcpudp-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-x-tables-4.4.35
@@ -12551,7 +11801,6 @@ Description: xt-tcpudp kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-xt-time-4.4.35
 Version: 4.4.35-r1
@@ -12569,7 +11818,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-zaurus-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cdc-ether-4.4.35
@@ -12585,7 +11833,6 @@ Description: zaurus kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-zd1201-4.4.35
 Version: 4.4.35-r1
@@ -12603,7 +11850,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-zd1211rw-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-mac80211-4.4.35
@@ -12619,7 +11865,6 @@ Description: zd1211rw kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-zl10036-4.4.35
 Version: 4.4.35-r1
@@ -12637,7 +11882,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-module-zl10039-4.4.35
 Version: 4.4.35-r1
 Depends: kernel-4.4.35
@@ -12653,7 +11897,6 @@ Description: zl10039 kernel module
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel-module-zl10353-4.4.35
 Version: 4.4.35-r1
@@ -12671,7 +11914,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-modules
 Version: 4.4.35-r1
 Depends: kernel-module-a8293-4.4.35, kernel-module-af9013-4.4.35, kernel-module-af9033-4.4.35, kernel-module-ah4-4.4.35, kernel-module-ah6-4.4.35, kernel-module-ahci-platform-4.4.35, kernel-module-ar5523-4.4.35, kernel-module-ark3116-4.4.35, kernel-module-as102-fe-4.4.35, kernel-module-ascot2e-4.4.35, kernel-module-asix-4.4.35, kernel-module-at76c50x-usb-4.4.35, kernel-module-atbm8830-4.4.35, kernel-module-ath-4.4.35, kernel-module-ath10k-core-4.4.35, kernel-module-ath6kl-core-4.4.35, kernel-module-ath6kl-usb-4.4.35, kernel-module-ath9k-4.4.35, kernel-module-ath9k-common-4.4.35, kernel-module-ath9k-htc-4.4.35, kernel-module-ath9k-hw-4.4.35, kernel-module-ati-remote2-4.4.35, kernel-module-au0828-4.4.35, kernel-module-au8522-common-4.4.35, kernel-module-au8522-decoder-4.4.35, kernel-module-au8522-dig-4.4.35, kernel-module-authenc-4.4.35, kernel-module-authencesn-4.4.35, kernel-module-b2c2-flexcop-4.4.35, kernel-module-b2c2-flexcop-usb-4.4.35, kernel-module-backlight-4.4.35, kernel-module-bcm3510-4.4.35, kernel-module-belkin-sa-4.4.35, kernel-module-bnep-4.4.35, kernel-module-brcmfmac-4.4.35, kernel-module-brcmutil-4.4.35, kernel-module-bsd-comp-4.4.35, kernel-module-btbcm-4.4.35, kernel-module-btintel-4.4.35, kernel-module-btmrvl-4.4.35, kernel-module-btmrvl-sdio-4.4.35, kernel-module-btrtl-4.4.35, kernel-module-btsdio-4.4.35, kernel-module-btusb-4.4.35, kernel-module-carl9170-4.4.35, kernel-module-catc-4.4.35, kernel-module-cdc-acm-4.4.35, kernel-module-cdc-eem-4.4.35, kernel-module-cdc-ether-4.4.35, kernel-module-cdc-mbim-4.4.35, kernel-module-cdc-ncm-4.4.35, kernel-module-cdc-subset-4.4.35, kernel-module-cdc-wdm-4.4.35, kernel-module-cdrom-4.4.35, kernel-module-cfg80211-4.4.35, kernel-module-ch341-4.4.35, kernel-module-coda-4.4.35, kernel-module-cp210x-4.4.35, kernel-module-crc32-4.4.35, kernel-module-cs53l32a-4.4.35, kernel-module-cw1200-core-4.4.35, kernel-module-cx22700-4.4.35, kernel-module-cx22702-4.4.35, kernel-module-cx231xx-4.4.35, kernel-module-cx231xx-dvb-4.4.35, kernel-module-cx2341x-4.4.35, kernel-module-cx24110-4.4.35, kernel-module-cx24113-4.4.35, kernel-module-cx24116-4.4.35, kernel-module-cx24117-4.4.35, kernel-module-cx24120-4.4.35, kernel-module-cx24123-4.4.35, kernel-module-cx25840-4.4.35, kernel-module-cx82310-eth-4.4.35, kernel-module-cxd2820r-4.4.35, kernel-module-cxd2841er-4.4.35, kernel-module-cypress-firmware-4.4.35, kernel-module-dib0070-4.4.35, kernel-module-dib0090-4.4.35, kernel-module-dib3000mb-4.4.35, kernel-module-dib3000mc-4.4.35, kernel-module-dib7000m-4.4.35, kernel-module-dib7000p-4.4.35, kernel-module-dib8000-4.4.35, kernel-module-dib9000-4.4.35, kernel-module-dibx000-common-4.4.35, kernel-module-dm9601-4.4.35, kernel-module-drx39xyj-4.4.35, kernel-module-drxd-4.4.35, kernel-module-drxk-4.4.35, kernel-module-ds3000-4.4.35, kernel-module-dvb-as102-4.4.35, kernel-module-dvb-pll-4.4.35, kernel-module-dvb-ttusb-budget-4.4.35, kernel-module-dvb-usb-a800-4.4.35, kernel-module-dvb-usb-af9005-4.4.35, kernel-module-dvb-usb-af9015-4.4.35, kernel-module-dvb-usb-af9035-4.4.35, kernel-module-dvb-usb-anysee-4.4.35, kernel-module-dvb-usb-au6610-4.4.35, kernel-module-dvb-usb-az6007-4.4.35, kernel-module-dvb-usb-az6027-4.4.35, kernel-module-dvb-usb-ce6230-4.4.35, kernel-module-dvb-usb-cinergyt2-4.4.35, kernel-module-dvb-usb-cxusb-4.4.35, kernel-module-dvb-usb-dib0700-4.4.35, kernel-module-dvb-usb-dibusb-common-4.4.35, kernel-module-dvb-usb-dibusb-mb-4.4.35, kernel-module-dvb-usb-dibusb-mc-4.4.35, kernel-module-dvb-usb-digitv-4.4.35, kernel-module-dvb-usb-dtt200u-4.4.35, kernel-module-dvb-usb-dtv5100-4.4.35, kernel-module-dvb-usb-dvbsky-4.4.35, kernel-module-dvb-usb-dw2102-4.4.35, kernel-module-dvb-usb-ec168-4.4.35, kernel-module-dvb-usb-friio-4.4.35, kernel-module-dvb-usb-gl861-4.4.35, kernel-module-dvb-usb-gp8psk-4.4.35, kernel-module-dvb-usb-lmedm04-4.4.35, kernel-module-dvb-usb-m920x-4.4.35, kernel-module-dvb-usb-mxl111sf-4.4.35, kernel-module-dvb-usb-nova-t-usb2-4.4.35, kernel-module-dvb-usb-opera-4.4.35, kernel-module-dvb-usb-pctv452e-4.4.35, kernel-module-dvb-usb-rtl28xxu-4.4.35, kernel-module-dvb-usb-technisat-usb2-4.4.35, kernel-module-dvb-usb-ttusb2-4.4.35, kernel-module-dvb-usb-umt-010-4.4.35, kernel-module-dvb-usb-v2-4.4.35, kernel-module-dvb-usb-vp702x-4.4.35, kernel-module-dvb-usb-vp7045-4.4.35, kernel-module-e4000-4.4.35, kernel-module-ec100-4.4.35, kernel-module-echainiv-4.4.35, kernel-module-eeprom-93cx6-4.4.35, kernel-module-em28xx-4.4.35, kernel-module-em28xx-alsa-4.4.35, kernel-module-em28xx-dvb-4.4.35, kernel-module-em28xx-rc-4.4.35, kernel-module-esp4-4.4.35, kernel-module-esp6-4.4.35, kernel-module-ezusb-4.4.35, kernel-module-f2fs-4.4.35, kernel-module-f81232-4.4.35, kernel-module-fc0011-4.4.35, kernel-module-fc0012-4.4.35, kernel-module-fc0013-4.4.35, kernel-module-fc2580-4.4.35, kernel-module-fou-4.4.35, kernel-module-ftdi-sio-4.4.35, kernel-module-gcm-4.4.35, kernel-module-generic-bl-4.4.35, kernel-module-gf128mul-4.4.35, kernel-module-ghash-generic-4.4.35, kernel-module-gl620a-4.4.35, kernel-module-gspca-main-4.4.35, kernel-module-hci-uart-4.4.35, kernel-module-hci-vhci-4.4.35, kernel-module-hd29l2-4.4.35, kernel-module-hdpvr-4.4.35, kernel-module-hidp-4.4.35, kernel-module-horus3a-4.4.35, kernel-module-hostap-4.4.35, kernel-module-hrtimer-test-4.4.35, kernel-module-huawei-cdc-ncm-4.4.35, kernel-module-i2c-algo-bit-4.4.35, kernel-module-int51x1-4.4.35, kernel-module-ip-set-4.4.35, kernel-module-ip-set-bitmap-ip-4.4.35, kernel-module-ip-set-bitmap-ipmac-4.4.35, kernel-module-ip-set-bitmap-port-4.4.35, kernel-module-ip-set-hash-ip-4.4.35, kernel-module-ip-set-hash-ipmark-4.4.35, kernel-module-ip-set-hash-ipport-4.4.35, kernel-module-ip-set-hash-ipportip-4.4.35, kernel-module-ip-set-hash-ipportnet-4.4.35, kernel-module-ip-set-hash-mac-4.4.35, kernel-module-ip-set-hash-net-4.4.35, kernel-module-ip-set-hash-netiface-4.4.35, kernel-module-ip-set-hash-netnet-4.4.35, kernel-module-ip-set-hash-netport-4.4.35, kernel-module-ip-set-hash-netportnet-4.4.35, kernel-module-ip-set-list-set-4.4.35, kernel-module-ip-tables-4.4.35, kernel-module-ip-tunnel-4.4.35, kernel-module-ip6-tables-4.4.35, kernel-module-ip6-udp-tunnel-4.4.35, kernel-module-ip6t-ah-4.4.35, kernel-module-ip6t-masquerade-4.4.35, kernel-module-ip6t-npt-4.4.35, kernel-module-ip6t-reject-4.4.35, kernel-module-ip6table-filter-4.4.35, kernel-module-ip6table-mangle-4.4.35, kernel-module-ip6table-nat-4.4.35, kernel-module-ipcomp-4.4.35, kernel-module-ipcomp6-4.4.35, kernel-module-ipheth-4.4.35, kernel-module-ipt-ah-4.4.35, kernel-module-ipt-ecn-4.4.35, kernel-module-ipt-masquerade-4.4.35, kernel-module-ipt-reject-4.4.35, kernel-module-iptable-filter-4.4.35, kernel-module-iptable-mangle-4.4.35, kernel-module-iptable-nat-4.4.35, kernel-module-isl6405-4.4.35, kernel-module-isl6421-4.4.35, kernel-module-isl6423-4.4.35, kernel-module-it913x-4.4.35, kernel-module-itd1000-4.4.35, kernel-module-ix2505v-4.4.35, kernel-module-jfs-4.4.35, kernel-module-kalmia-4.4.35, kernel-module-kaweth-4.4.35, kernel-module-keyspan-4.4.35, kernel-module-l64781-4.4.35, kernel-module-lan78xx-4.4.35, kernel-module-lcd-4.4.35, kernel-module-lg-vl600-4.4.35, kernel-module-lg2160-4.4.35, kernel-module-lgdt3305-4.4.35, kernel-module-lgdt3306a-4.4.35, kernel-module-lgdt330x-4.4.35, kernel-module-lgs8gl5-4.4.35, kernel-module-lgs8gxx-4.4.35, kernel-module-lib80211-4.4.35, kernel-module-lib80211-crypt-ccmp-4.4.35, kernel-module-lib80211-crypt-tkip-4.4.35, kernel-module-lib80211-crypt-wep-4.4.35, kernel-module-libahci-4.4.35, kernel-module-libahci-platform-4.4.35, kernel-module-libcrc32c-4.4.35, kernel-module-libertas-4.4.35, kernel-module-libertas-tf-4.4.35, kernel-module-libertas-tf-usb-4.4.35, kernel-module-lnbh25-4.4.35, kernel-module-lnbp21-4.4.35, kernel-module-lnbp22-4.4.35, kernel-module-m88ds3103-4.4.35, kernel-module-m88rs2000-4.4.35, kernel-module-m88rs6000t-4.4.35, kernel-module-mac80211-4.4.35, kernel-module-max2165-4.4.35, kernel-module-mb86a16-4.4.35, kernel-module-mb86a20s-4.4.35, kernel-module-mcs7830-4.4.35, kernel-module-michael-mic-4.4.35, kernel-module-microchip-4.4.35, kernel-module-msi001-4.4.35, kernel-module-msp3400-4.4.35, kernel-module-mt2060-4.4.35, kernel-module-mt2063-4.4.35, kernel-module-mt2131-4.4.35, kernel-module-mt2266-4.4.35, kernel-module-mt312-4.4.35, kernel-module-mt352-4.4.35, kernel-module-mt7601u-4.4.35, kernel-module-mwifiex-4.4.35, kernel-module-mwifiex-usb-4.4.35, kernel-module-mxl111sf-demod-4.4.35, kernel-module-mxl111sf-tuner-4.4.35, kernel-module-mxl301rf-4.4.35, kernel-module-mxl5005s-4.4.35, kernel-module-mxl5007t-4.4.35, kernel-module-nandsim-4.4.35, kernel-module-net1080-4.4.35, kernel-module-nf-conntrack-4.4.35, kernel-module-nf-conntrack-broadcast-4.4.35, kernel-module-nf-conntrack-ftp-4.4.35, kernel-module-nf-conntrack-ipv4-4.4.35, kernel-module-nf-conntrack-ipv6-4.4.35, kernel-module-nf-conntrack-irc-4.4.35, kernel-module-nf-conntrack-netbios-ns-4.4.35, kernel-module-nf-conntrack-netlink-4.4.35, kernel-module-nf-conntrack-sip-4.4.35, kernel-module-nf-defrag-ipv4-4.4.35, kernel-module-nf-defrag-ipv6-4.4.35, kernel-module-nf-log-common-4.4.35, kernel-module-nf-log-ipv4-4.4.35, kernel-module-nf-log-ipv6-4.4.35, kernel-module-nf-nat-4.4.35, kernel-module-nf-nat-ftp-4.4.35, kernel-module-nf-nat-ipv4-4.4.35, kernel-module-nf-nat-ipv6-4.4.35, kernel-module-nf-nat-irc-4.4.35, kernel-module-nf-nat-masquerade-ipv4-4.4.35, kernel-module-nf-nat-masquerade-ipv6-4.4.35, kernel-module-nf-nat-redirect-4.4.35, kernel-module-nf-nat-sip-4.4.35, kernel-module-nf-reject-ipv4-4.4.35, kernel-module-nf-reject-ipv6-4.4.35, kernel-module-nf-tables-4.4.35, kernel-module-nf-tables-inet-4.4.35, kernel-module-nf-tables-ipv4-4.4.35, kernel-module-nf-tables-ipv6-4.4.35, kernel-module-nfnetlink-4.4.35, kernel-module-nfs-layout-flexfiles-4.4.35, kernel-module-nft-chain-nat-ipv4-4.4.35, kernel-module-nft-chain-nat-ipv6-4.4.35, kernel-module-nft-compat-4.4.35, kernel-module-nft-counter-4.4.35, kernel-module-nft-ct-4.4.35, kernel-module-nft-exthdr-4.4.35, kernel-module-nft-hash-4.4.35, kernel-module-nft-limit-4.4.35, kernel-module-nft-log-4.4.35, kernel-module-nft-masq-4.4.35, kernel-module-nft-masq-ipv4-4.4.35, kernel-module-nft-masq-ipv6-4.4.35, kernel-module-nft-meta-4.4.35, kernel-module-nft-nat-4.4.35, kernel-module-nft-rbtree-4.4.35, kernel-module-nft-redir-4.4.35, kernel-module-nft-redir-ipv4-4.4.35, kernel-module-nft-redir-ipv6-4.4.35, kernel-module-nft-reject-4.4.35, kernel-module-nft-reject-inet-4.4.35, kernel-module-nft-reject-ipv4-4.4.35, kernel-module-nft-reject-ipv6-4.4.35, kernel-module-nls-cp1250-4.4.35, kernel-module-nls-cp1251-4.4.35, kernel-module-nls-cp1255-4.4.35, kernel-module-nls-cp737-4.4.35, kernel-module-nls-cp775-4.4.35, kernel-module-nls-cp850-4.4.35, kernel-module-nls-cp852-4.4.35, kernel-module-nls-cp855-4.4.35, kernel-module-nls-cp857-4.4.35, kernel-module-nls-cp860-4.4.35, kernel-module-nls-cp861-4.4.35, kernel-module-nls-cp862-4.4.35, kernel-module-nls-cp863-4.4.35, kernel-module-nls-cp864-4.4.35, kernel-module-nls-cp865-4.4.35, kernel-module-nls-cp866-4.4.35, kernel-module-nls-cp869-4.4.35, kernel-module-nls-cp874-4.4.35, kernel-module-nls-cp932-4.4.35, kernel-module-nls-cp949-4.4.35, kernel-module-nls-cp950-4.4.35, kernel-module-nls-euc-jp-4.4.35, kernel-module-nls-iso8859-13-4.4.35, kernel-module-nls-iso8859-14-4.4.35, kernel-module-nls-iso8859-15-4.4.35, kernel-module-nls-iso8859-2-4.4.35, kernel-module-nls-iso8859-3-4.4.35, kernel-module-nls-iso8859-4-4.4.35, kernel-module-nls-iso8859-5-4.4.35, kernel-module-nls-iso8859-6-4.4.35, kernel-module-nls-iso8859-7-4.4.35, kernel-module-nls-iso8859-9-4.4.35, kernel-module-nls-koi8-r-4.4.35, kernel-module-nls-koi8-ru-4.4.35, kernel-module-nls-koi8-u-4.4.35, kernel-module-ntfs-4.4.35, kernel-module-nxt200x-4.4.35, kernel-module-nxt6000-4.4.35, kernel-module-option-4.4.35, kernel-module-or51132-4.4.35, kernel-module-or51211-4.4.35, kernel-module-overlay-4.4.35, kernel-module-p54common-4.4.35, kernel-module-pegasus-4.4.35, kernel-module-pktcdvd-4.4.35, kernel-module-pl2303-4.4.35, kernel-module-plusb-4.4.35, kernel-module-ppp-async-4.4.35, kernel-module-ppp-deflate-4.4.35, kernel-module-ppp-generic-4.4.35, kernel-module-ppp-mppe-4.4.35, kernel-module-ppp-synctty-4.4.35, kernel-module-pppoe-4.4.35, kernel-module-pppox-4.4.35, kernel-module-prism2-usb-4.4.35, kernel-module-pvrusb2-4.4.35, kernel-module-qm1d1c0042-4.4.35, kernel-module-qmi-wwan-4.4.35, kernel-module-qt1010-4.4.35, kernel-module-r8152-4.4.35, kernel-module-r8188eu-4.4.35, kernel-module-r820t-4.4.35, kernel-module-r8712u-4.4.35, kernel-module-r8723au-4.4.35, kernel-module-reiserfs-4.4.35, kernel-module-rfcomm-4.4.35, kernel-module-rndis-host-4.4.35, kernel-module-rsi-91x-4.4.35, kernel-module-rsi-usb-4.4.35, kernel-module-rt2500usb-4.4.35, kernel-module-rt2800lib-4.4.35, kernel-module-rt2800usb-4.4.35, kernel-module-rt2x00lib-4.4.35, kernel-module-rt2x00usb-4.4.35, kernel-module-rt73usb-4.4.35, kernel-module-rtl-usb-4.4.35, kernel-module-rtl2830-4.4.35, kernel-module-rtl2832-4.4.35, kernel-module-rtl8150-4.4.35, kernel-module-rtl8187-4.4.35, kernel-module-rtl8192c-common-4.4.35, kernel-module-rtl8192cu-4.4.35, kernel-module-rtl8xxxu-4.4.35, kernel-module-rtlwifi-4.4.35, kernel-module-s5h1409-4.4.35, kernel-module-s5h1411-4.4.35, kernel-module-s5h1420-4.4.35, kernel-module-s5h1432-4.4.35, kernel-module-s921-4.4.35, kernel-module-saa7115-4.4.35, kernel-module-si2157-4.4.35, kernel-module-si2165-4.4.35, kernel-module-si2168-4.4.35, kernel-module-si21xx-4.4.35, kernel-module-sierra-net-4.4.35, kernel-module-sit-4.4.35, kernel-module-slhc-4.4.35, kernel-module-smsc75xx-4.4.35, kernel-module-smsc95xx-4.4.35, kernel-module-smsdvb-4.4.35, kernel-module-smsmdtv-4.4.35, kernel-module-smssdio-4.4.35, kernel-module-smsusb-4.4.35, kernel-module-sp2-4.4.35, kernel-module-sp8870-4.4.35, kernel-module-sp887x-4.4.35, kernel-module-sr-mod-4.4.35, kernel-module-sr9700-4.4.35, kernel-module-sr9800-4.4.35, kernel-module-stb0899-4.4.35, kernel-module-stb6000-4.4.35, kernel-module-stb6100-4.4.35, kernel-module-stv0288-4.4.35, kernel-module-stv0297-4.4.35, kernel-module-stv0299-4.4.35, kernel-module-stv0367-4.4.35, kernel-module-stv0900-4.4.35, kernel-module-stv090x-4.4.35, kernel-module-stv6110-4.4.35, kernel-module-stv6110x-4.4.35, kernel-module-tc90522-4.4.35, kernel-module-tda10021-4.4.35, kernel-module-tda10023-4.4.35, kernel-module-tda10048-4.4.35, kernel-module-tda1004x-4.4.35, kernel-module-tda10071-4.4.35, kernel-module-tda10086-4.4.35, kernel-module-tda18212-4.4.35, kernel-module-tda18218-4.4.35, kernel-module-tda18271c2dd-4.4.35, kernel-module-tda665x-4.4.35, kernel-module-tda8083-4.4.35, kernel-module-tda8261-4.4.35, kernel-module-tda826x-4.4.35, kernel-module-tea5761-4.4.35, kernel-module-tea5767-4.4.35, kernel-module-tm6000-4.4.35, kernel-module-tm6000-dvb-4.4.35, kernel-module-ts2020-4.4.35, kernel-module-ttpci-eeprom-4.4.35, kernel-module-ttusb-dec-4.4.35, kernel-module-ttusbdecfe-4.4.35, kernel-module-tua6100-4.4.35, kernel-module-tua9001-4.4.35, kernel-module-tun-4.4.35, kernel-module-tuner-4.4.35, kernel-module-tunnel4-4.4.35, kernel-module-tunnel6-4.4.35, kernel-module-tveeprom-4.4.35, kernel-module-udp-diag-4.4.35, kernel-module-udp-tunnel-4.4.35, kernel-module-usb-wwan-4.4.35, kernel-module-usbserial-4.4.35, kernel-module-usbvision-4.4.35, kernel-module-ves1820-4.4.35, kernel-module-ves1x93-4.4.35, kernel-module-videobuf-core-4.4.35, kernel-module-videobuf-dvb-4.4.35, kernel-module-videobuf-vmalloc-4.4.35, kernel-module-videobuf2-core-4.4.35, kernel-module-videobuf2-memops-4.4.35, kernel-module-videobuf2-v4l2-4.4.35, kernel-module-videobuf2-vmalloc-4.4.35, kernel-module-wimax-4.4.35, kernel-module-wm8775-4.4.35, kernel-module-x-tables-4.4.35, kernel-module-xfrm-ipcomp-4.4.35, kernel-module-xfrm4-mode-beet-4.4.35, kernel-module-xfrm4-mode-transport-4.4.35, kernel-module-xfrm4-mode-tunnel-4.4.35, kernel-module-xfrm4-tunnel-4.4.35, kernel-module-xfrm6-mode-beet-4.4.35, kernel-module-xfrm6-mode-transport-4.4.35, kernel-module-xfrm6-mode-tunnel-4.4.35, kernel-module-xfrm6-tunnel-4.4.35, kernel-module-xfs-4.4.35, kernel-module-xt-classify-4.4.35, kernel-module-xt-comment-4.4.35, kernel-module-xt-connbytes-4.4.35, kernel-module-xt-connlimit-4.4.35, kernel-module-xt-connmark-4.4.35, kernel-module-xt-conntrack-4.4.35, kernel-module-xt-dscp-4.4.35, kernel-module-xt-ecn-4.4.35, kernel-module-xt-esp-4.4.35, kernel-module-xt-helper-4.4.35, kernel-module-xt-hl-4.4.35, kernel-module-xt-length-4.4.35, kernel-module-xt-limit-4.4.35, kernel-module-xt-log-4.4.35, kernel-module-xt-mac-4.4.35, kernel-module-xt-mark-4.4.35, kernel-module-xt-multiport-4.4.35, kernel-module-xt-nat-4.4.35, kernel-module-xt-netmap-4.4.35, kernel-module-xt-policy-4.4.35, kernel-module-xt-recent-4.4.35, kernel-module-xt-redirect-4.4.35, kernel-module-xt-set-4.4.35, kernel-module-xt-state-4.4.35, kernel-module-xt-statistic-4.4.35, kernel-module-xt-tcpmss-4.4.35, kernel-module-xt-tcpudp-4.4.35, kernel-module-xt-time-4.4.35, kernel-module-zaurus-4.4.35, kernel-module-zd1201-4.4.35, kernel-module-zd1211rw-4.4.35, kernel-module-zl10036-4.4.35, kernel-module-zl10039-4.4.35, kernel-module-zl10353-4.4.35
@@ -12687,7 +11929,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kernel-vmlinux
 Version: 4.4.35-r1
 Section: kernel
@@ -12701,7 +11942,6 @@ Description: linux-octagon version 4.4.35-r1
 OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: kernel
 Version: 4.4.35-r1
@@ -12718,7 +11958,6 @@ OE: linux-octagon
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: kodi-addon-pvr-argustv
 Version: 22.3.4+git0+07f86b66f5-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
@@ -12733,7 +11972,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-argustv
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-demo
 Version: 22.4.4+git0+b627775d56-r0
@@ -12750,7 +11988,6 @@ OE: kodi-addon-pvr-demo
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-dvblink
 Version: 22.3.1+git0+eb2dfe3a56-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2-11 (>= 11.0.0)
@@ -12765,7 +12002,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-dvblink
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-dvbviewer
 Version: 22.3.1+git0+8f00a394c7-r0
@@ -12782,7 +12018,6 @@ OE: kodi-addon-pvr-dvbviewer
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-filmon
 Version: 22.2.4+git0+95117a8026-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
@@ -12797,7 +12032,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-filmon
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-hdhomerun
 Version: 22.2.5+git0+aa1c7589bb-r0
@@ -12814,7 +12048,6 @@ OE: kodi-addon-pvr-hdhomerun
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-hts
 Version: 22.9.1+git0+d908dd8b20-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
@@ -12829,7 +12062,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-hts
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-iptvsimple
 Version: 22.6.4+git0+78a023cb31-r0
@@ -12846,7 +12078,6 @@ OE: kodi-addon-pvr-iptvsimple
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-mediaportal.tvserver
 Version: 22.2.4+git0+dbbbd518d4-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
@@ -12861,7 +12092,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-mediaportal.tvserver
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-mythtv
 Version: 22.3.11+git0+48995faf97-r0
@@ -12878,7 +12108,6 @@ OE: kodi-addon-pvr-mythtv
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-nextpvr
 Version: 22.6.1+git0+d77827a0fe-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libtinyxml2-11 (>= 11.0.0), libz1 (>= 1.3.2)
@@ -12893,7 +12122,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-nextpvr
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-njoy
 Version: 22.2.3+git0+7455b1a6f3-r0
@@ -12910,7 +12138,6 @@ OE: kodi-addon-pvr-njoy
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-pctv
 Version: 22.2.4+git0+4e955c65aa-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0)
@@ -12925,7 +12152,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-pctv
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-plutotv
 Version: 22.3.1+git0+3328c7ce95-r0
@@ -12942,7 +12168,6 @@ OE: kodi-addon-pvr-plutotv
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-stalker
 Version: 22.2.5+git0+ef9a5726fe-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0), libxml2 (>= 2.15.4)
@@ -12957,7 +12182,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-stalker
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-vbox
 Version: 22.2.4+git0+0a4b5c15f8-r0
@@ -12974,7 +12198,6 @@ OE: kodi-addon-pvr-vbox
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-vdr.vnsi
 Version: 22.3.1+git0+767983f9e4-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
@@ -12989,7 +12212,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-vdr.vnsi
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: kodi-addon-pvr-vuplus
 Version: 22.3.6+git0+15093c0b83-r0
@@ -13006,7 +12228,6 @@ OE: kodi-addon-pvr-vuplus
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: kodi-addon-pvr-wmc
 Version: 22.2.4+git0+7221d640df-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0)
@@ -13021,7 +12242,6 @@ Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-wmc
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: libcrypto1.0.2
 Version: 1.0.2u-r0
@@ -13041,7 +12261,6 @@ HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
 
-
 Package: libcrypto4
 Version: 4.0.0-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac)
@@ -13060,7 +12279,6 @@ HomePage: http://www.openssl.org/
 License: Apache-2.0
 Priority: optional
 
-
 Package: libjpeg-doc
 Version: 1:3.2.0-r0
 Provides: libjpeg-turbo-doc
@@ -13076,7 +12294,6 @@ OE: libjpeg-turbo
 HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause AND IJG AND Zlib
 Priority: optional
-
 
 Package: libjpeg62
 Version: 1:3.2.0-r0
@@ -13097,7 +12314,6 @@ HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause AND IJG AND Zlib
 Priority: optional
 
-
 Package: libkodiplatform22
 Version: 22.0.0-r0
 Depends: libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), libtinyxml2.6.2 (>= 2.6.2)
@@ -13114,7 +12330,6 @@ OE: kodi-platform
 HomePage: http://libcec.pulse-eight.com/
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: libssl1.0.2
 Version: 1.0.2u-r0
@@ -13133,7 +12348,6 @@ HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
 
-
 Package: libssl4
 Version: 4.0.0-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0)
@@ -13150,7 +12364,6 @@ OE: openssl
 HomePage: http://www.openssl.org/
 License: Apache-2.0
 Priority: optional
-
 
 Package: libturbojpeg0
 Version: 1:3.2.0-r0
@@ -13169,7 +12382,6 @@ HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause AND IJG AND Zlib
 Priority: optional
 
-
 Package: libtuxtxt32bpp0
 Version: 2.0+git82+14027950+1402795d66-r3
 Depends: libc6 (>= 2.44+git0+5c479454d1), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66)
@@ -13185,7 +12397,6 @@ Description: tuxbox tuxtxt for 32bit framebuffer
 OE: tuxtxt-enigma2
 License: LGPL-2.1-only
 Priority: optional
-
 
 Package: libusb-1.0-0
 Version: 1.0.29-r0
@@ -13204,7 +12415,6 @@ HomePage: https://libusb.info
 License: LGPL-2.1-or-later
 Priority: optional
 
-
 Package: mt7601u
 Version: 3.0.0.4-r0
 Depends: kernel-module-mt7601usta-4.4.35
@@ -13220,7 +12430,6 @@ OE: mt7601u
 HomePage: www.mediatek.com
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: octagon-blindscan-hisi3798mv200
 Version: 20190305-r0
@@ -13238,21 +12447,19 @@ OE: octagon-blindscan-hisi3798mv200
 License: CLOSED
 Priority: optional
 
-
 Package: octagon-dvb-modules-sf8008
-Version: 4.4.35-20240104-r0
+Version: 4.4.35-20240104-r1
 Section: base
 Architecture: sf8008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa063bf80d6a14ee3517eb50daad09de
-Size: 3869432
-Filename: octagon-dvb-modules-sf8008_4.4.35-20240104-r0_sf8008.ipk
+MD5Sum: 529ad3d771f9f85c725b462c9e5df039
+Size: 3869440
+Filename: octagon-dvb-modules-sf8008_4.4.35-20240104-r1_sf8008.ipk
 Source: octagon-dvb-modules-sf8008.bb
 Description: Hardware drivers for sf8008
 OE: octagon-dvb-modules-sf8008
 License: CLOSED
 Priority: required
-
 
 Package: octagon-grab-hisi3798mv200
 Version: 20180301-r0
@@ -13272,7 +12479,6 @@ OE: octagon-grab-hisi3798mv200
 License: CLOSED
 Priority: optional
 
-
 Package: octagon-hihalt-sf8008
 Version: 20200601-r1
 Depends: harfbuzz, libc6 (>= 2.44+git0+5c479454d1), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
@@ -13289,7 +12495,6 @@ OE: octagon-hihalt-sf8008
 License: CLOSED
 Priority: optional
 
-
 Package: octagon-libreader-hisi3798mv200
 Version: 1.0-r1
 Recommends: update-rc.d
@@ -13304,7 +12509,6 @@ Description: player daemon helper
 OE: octagon-libreader-hisi3798mv200
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: octagon-libs-sf8008
 Version: 20191011-r1
@@ -13321,7 +12525,6 @@ OE: octagon-libs-sf8008
 License: CLOSED
 Priority: required
 
-
 Package: octagon-loadmodules-hisi3798mv200
 Version: 1.0-r0
 Recommends: update-rc.d
@@ -13336,7 +12539,6 @@ Description: kernel modules load helper
 OE: octagon-loadmodules-hisi3798mv200
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: octagon-opengl-hisi3798mv200
 Version: 1.0-20180301
@@ -13354,7 +12556,6 @@ OE: octagon-opengl-hisi3798mv200
 License: CLOSED
 Priority: required
 
-
 Package: octagon-partitions-sf8008
 Version: 1.0-20240104
 Section: base
@@ -13368,7 +12569,6 @@ Description: SF8008 partitions files
 OE: octagon-partitions-sf8008
 License: CLOSED
 Priority: required
-
 
 Package: octagon-reader-sf8008
 Version: 20200612-r0
@@ -13384,7 +12584,6 @@ Description: libreader for Octagon Model sf8008
 OE: octagon-reader-sf8008
 License: CLOSED
 Priority: optional
-
 
 Package: octagon-showiframe-hisi3798mv200
 Version: 20180301-r0
@@ -13404,7 +12603,6 @@ OE: octagon-showiframe-hisi3798mv200
 License: CLOSED
 Priority: optional
 
-
 Package: oe-alliance-branding-src
 Version: git1169+67d2e4d0+67d2e4d3d3-r0
 Section: devel
@@ -13418,7 +12616,6 @@ Description: oe-alliance-branding version git-r0 - Source files
 OE: oe-alliance-branding
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: oe-alliance-branding
 Version: git1171+84e88a30+84e88a388f-r0
@@ -13434,7 +12631,6 @@ Description: oe-alliance-branding version git-r0
 OE: oe-alliance-branding
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: openpli-bootlogo
 Version: 4.1-r0
@@ -13452,7 +12648,6 @@ OE: openpli-bootlogo
 License: CC-BY-NC-ND-4.0
 Priority: required
 
-
 Package: openssl-bin
 Version: 4.0.0-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto4 (>= 4.0.0), libssl4 (>= 4.0.0), openssl-conf
@@ -13469,7 +12664,6 @@ HomePage: http://www.openssl.org/
 License: Apache-2.0
 Priority: optional
 
-
 Package: openssl-conf
 Version: 4.0.0-r0
 Section: libs/network
@@ -13484,7 +12678,6 @@ OE: openssl
 HomePage: http://www.openssl.org/
 License: Apache-2.0
 Priority: optional
-
 
 Package: openssl-misc
 Version: 4.0.0-r0
@@ -13502,7 +12695,6 @@ HomePage: http://www.openssl.org/
 License: Apache-2.0
 Priority: optional
 
-
 Package: openssl10-conf
 Version: 1.0.2u-r0
 Section: libs/network
@@ -13517,7 +12709,6 @@ OE: openssl10
 HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
-
 
 Package: openssl10-engines
 Version: 1.0.2u-r0
@@ -13535,7 +12726,6 @@ HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
 
-
 Package: openssl10-misc
 Version: 1.0.2u-r0
 Section: libs/network
@@ -13550,7 +12740,6 @@ OE: openssl10
 HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
-
 
 Package: openssl10-staticdev
 Version: 1.0.2u-r0
@@ -13567,7 +12756,6 @@ OE: openssl10
 HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
-
 
 Package: openssl10
 Version: 1.0.2u-r0
@@ -13586,7 +12774,6 @@ HomePage: http://www.openssl.org/
 License: OpenSSL
 Priority: optional
 
-
 Package: openssl
 Version: 4.0.0-r0
 Section: libs/network
@@ -13601,7 +12788,6 @@ OE: openssl
 HomePage: http://www.openssl.org/
 License: Apache-2.0
 Priority: optional
-
 
 Package: opkg-arch-config
 Version: 1.0-r0
@@ -13621,7 +12807,6 @@ HomePage: https://git.yoctoproject.org/opkg/
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-3g
 Version: 1.0-r0
 Depends: ofono
@@ -13637,7 +12822,6 @@ Description: Cellular data support
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-base-alsa
 Version: 1.0-r0
@@ -13655,7 +12839,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-bluetooth
 Version: 1.0-r0
 Depends: bluez5
@@ -13672,7 +12855,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-extended
 Version: 1.0-r0
 Depends: packagegroup-base, packagegroup-base-3g, packagegroup-base-bluetooth, packagegroup-base-nfc, packagegroup-base-wifi
@@ -13688,7 +12870,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-ipv6
 Version: 1.0-r0
 Recommends: kernel-module-ipv6
@@ -13703,7 +12884,6 @@ Description: IPv6 support
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-base-nfc
 Version: 1.0-r0
@@ -13721,7 +12901,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-nfs
 Version: 1.0-r0
 Depends: nfs-utils, nfs-utils-client, rpcbind
@@ -13738,7 +12917,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-samba
 Version: 1.0-r0
 Recommends: packagegroup-base-smbfs-client, packagegroup-base-smbfs-server, packagegroup-base-smbfs-utils
@@ -13753,7 +12931,6 @@ Description: Merge machine and distro options to create a basic machine task/pac
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-base-smbfs-client
 Version: 1.0-r0
@@ -13770,7 +12947,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-smbfs-server
 Version: 1.0-r0
 Depends: samba
@@ -13786,7 +12962,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-smbfs-utils
 Version: 1.0-r0
 Depends: samba-admin, samba-utils
@@ -13801,7 +12976,6 @@ Description: Merge machine and distro options to create a basic machine task/pac
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-base-smbfs
 Version: 1.0-r0
@@ -13819,7 +12993,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-usbhost
 Version: 1.0-r0
 Depends: usbutils
@@ -13835,7 +13008,6 @@ Description: USB host support
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-base-wifi
 Version: 1.0-r0
@@ -13853,7 +13025,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-base-zeroconf
 Version: 1.0-r0
 Depends: avahi-daemon, libnss-llmnr, libnss-mdns
@@ -13868,7 +13039,6 @@ Description: Zeroconf support
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-base
 Version: 1.0-r0
@@ -13886,7 +13056,6 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-core-boot
 Version: 1.0-r0
 Depends: base-files, base-passwd, busybox, e2fsprogs-resize2fs, eudev, gptfdisk, initscripts, kernel-module-88x2cu-4.4.35, modutils-initscripts, netbase, octagon-buildimage, octagon-dvb-modules-sf8008, octagon-hihalt-sf8008, octagon-libreader-hisi3798mv200, octagon-libs-sf8008, octagon-loadmodules-hisi3798mv200, octagon-opengl-hisi3798mv200, octagon-partitions-sf8008, octagon-reader-sf8008, sysvinit, update-alternatives-opkg
@@ -13903,7 +13072,6 @@ OE: packagegroup-core-boot
 License: MIT
 Priority: optional
 
-
 Package: packagegroup-distro-base
 Version: 1.0-r0
 Section: base
@@ -13917,7 +13085,6 @@ Description: blackhole extras
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: packagegroup-machine-base
 Version: 1.0-r0
@@ -13933,7 +13100,6 @@ Description: Extra packages required to fully support sf8008 hardware
 OE: packagegroup-base
 License: MIT
 Priority: optional
-
 
 Package: rt8812au
 Version: 4.3.14-r0
@@ -13951,7 +13117,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: rt8821cu
 Version: 5.8.1-r0
 Depends: kernel-module-8821cu-4.4.35
@@ -13967,7 +13132,6 @@ OE: rt8821cu
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: rt8822cu
 Version: 1.0+git3+327a8c60+327a8c691a-r1.1
@@ -13985,7 +13149,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: rtl8192cu
 Version: 4.0.2-r0
 Depends: kernel-module-8192cu-4.4.35
@@ -14001,7 +13164,6 @@ OE: rtl8192cu
 HomePage: http://www.realtek.com/
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: rtl8192eu
 Version: 5.11.2.3+git48+f398c860+f398c8657b-r1.1
@@ -14019,7 +13181,6 @@ HomePage: http://www.realtek.com/
 License: LGPL-3.0-only
 Priority: optional
 
-
 Package: rtl8821au
 Version: 1.0+git265+c64d0520+c64d052e93-r0.1
 Depends: kernel-module-8821au-4.4.35
@@ -14035,7 +13196,6 @@ OE: rtl8821au
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: rtl8852cu
 Version: 1.0-r0
@@ -14053,7 +13213,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: rtl88x2bu
 Version: 5.8.7-r0
 Depends: kernel-module-8822bu-4.4.35
@@ -14069,7 +13228,6 @@ OE: rtl88x2bu
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: rtl88xxau
 Version: 5.6.4.2+git76+e3189e40+e3189e40eb-r1.1
@@ -14087,7 +13245,6 @@ HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: sf8008-youtubetv-chromium-runtime
 Version: 20250102-r0
 Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 16.1.0), octagon-opengl-hisi3798mv200
@@ -14103,7 +13260,6 @@ OE: sf8008-youtubetv-chromium-runtime
 License: CLOSED
 Priority: optional
 
-
 Package: shadow-securetty
 Version: 4.6-r0
 Section: base utils
@@ -14117,7 +13273,6 @@ Description: Provider of the machine specific securetty file
 OE: shadow-securetty
 License: MIT
 Priority: optional
-
 
 Package: stb-kodi-sf8008
 Version: 22.0+git72578+2c7ed4e0+2c7ed4e159-r110
@@ -14136,7 +13291,6 @@ OE: stb-kodi-sf8008
 License: GPL-2.0-only
 Priority: optional
 
-
 Package: stb-lcdd
 Version: 1.0-r11
 Depends: libc6 (>= 2.44+git0+5c479454d1), libfreetype6 (>= 2.14.3), libharfbuzz0 (>= 14.4.0), libpng16-16 (>= 1.6.58)
@@ -14151,7 +13305,6 @@ Description: LCDproc-compatible front panel bridge for Enigma2 receivers
 OE: stb-lcdd
 License: GPL-2.0-only
 Priority: optional
-
 
 Package: sysvinit-doc
 Version: 3.14-r0.3
@@ -14169,7 +13322,6 @@ HomePage: http://savannah.nongnu.org/projects/sysvinit/
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: sysvinit-pidof
 Version: 3.14-r0.3
 Depends: libc6 (>= 2.44+git0+5c479454d1), update-alternatives-opkg
@@ -14186,7 +13338,6 @@ HomePage: http://savannah.nongnu.org/projects/sysvinit/
 License: GPL-2.0-or-later
 Priority: optional
 
-
 Package: sysvinit-sulogin
 Version: 3.14-r0.3
 Depends: libc6 (>= 2.44+git0+5c479454d1), libcrypt2 (>= 4.5.2), update-alternatives-opkg
@@ -14202,7 +13353,6 @@ OE: sysvinit
 HomePage: http://savannah.nongnu.org/projects/sysvinit/
 License: GPL-2.0-or-later
 Priority: optional
-
 
 Package: sysvinit
 Version: 3.14-r0.3
